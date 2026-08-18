@@ -13,7 +13,7 @@ Laser speckled background oriented schlieren opens the possibility of novel and 
 \label{subsection: standard BOS geometry}
 \par A positive defocus setup is the standard BOS configuration, where the in-focus plane is on the background reference behind the refractive object, as shown in Figure \ref{fig: Geometry BOS}. The Figure displays relevant distances for the design of the setup: $d_f$ corresponds to the distance of the in-focus plane to the camera lens, $m$ is the distance between the lens and the refractive object and $l$ is the distance between the test section and the in-focus plane, also called defocus distance. $Z$ is the distance between the lens and the formed image, following the ideal lens relationship. The latter is important if a single converging lens is used to collect light, however it is not so relevant when compound lenses such as the ones present on modern cameras are used. Other parameters to be defined are: the magnification $M$ of the object in the image plane, the lens focal length $f$ and the camera f-stop number $f_\#$. All these variables will be defined by the equations below.
 
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[width=0.6\textwidth]{figures/BOS setup.png}
     \caption{Geometry of a standard BOS Setup (positive defocus) }
@@ -75,7 +75,7 @@ Equation \ref{equation: M obj} relates the field of view of the object and the c
     f = \frac{L_{sens}m}{L_{FoV_{obj}}+L_{sens}}
 \end{equation}
 
-%\par If the field of view of the object is small, blur plays a bigger role. The refractive object size differs from the one obtained before, which risks setting up a field of view that is too small than the one desired, consequently, losing information. In order to compute the $L_{FoV_{obj}}$ for small field of views, the same rationale used by Gojani et al. \cite{Gojani&Obayashi} can be used to derive equation \ref{equation:  LFoVobj BOS}. Using this method, the test subject dimension is defined through the expanded cone of light that reaches the sensor screen. This way, the field of view of the captured object is more accurately estimated as it considers all the light that comes from the test section and reaches the sensor. The derivation of this equation can be found in the appendix.
+%\par If the field of view of the object is small, blur plays a bigger role. The refractive object size differs from the one obtained before, which risks setting up a field of view that is too small than the one desired, consequently, losing information. In order to compute the $L_{FoV_{obj}}$ for small field of views, the same rationale used by Gojani et al. \cite{Gojani&Obayashi} can be used to derive equation \ref{equation: LFoVobj BOS}. Using this method, the test subject dimension is defined through the expanded cone of light that reaches the sensor screen. This way, the field of view of the captured object is more accurately estimated as it considers all the light that comes from the test section and reaches the sensor. The derivation of this equation can be found in the appendix.
 
 \begin{equation}
     \label{equation: LFoVobj BOS}
@@ -88,7 +88,7 @@ Equation \ref{equation: M obj} relates the field of view of the object and the c
 \label{subsection: Negative defocus geometry}
 Figure \ref{fig: SBOS with negative l} describes the geometry of a SBOS setting with negative defocus distance, which means that the in-focus plane is in front of the test subject. All the equations from the previous section remain valid in this case, that is, equations \ref{equation: df}, \ref{equation: Thin Lens equation}, \ref{equation: M}, \ref{equation: S BOS}, \ref{equation: CoC BOS}, \ref{equation: smin} and \ref{equation: LFoVobj BOS}. The single difference is that $l$ is now negative, so that equation \ref{equation: df} places the in-focus plane in front of the refractive object, as shown in Figure \ref{fig: SBOS with negative l}.
  
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[width=0.6\textwidth]{figures/SBOS with negative l.png}
     \caption{Geometry of a SBOS setup with in-focus plane before the test subject (negative defocus) }
@@ -143,9 +143,9 @@ It is also interesting to follow the inverted direction of the solution and asse
 
 \subsection{Surface Maps for negative defocus setup}
 \label{subsection: Surface Maps for SBOS}
-\par Surface Maps for each variable in X were obtained to better understand the system at hand. This section will show and discuss the main trends in sensitivity, spatial resolution, $M, m, d_f$ and speckle size $\Delta s$, aiming to obtain a better preliminary insight on how to build an optimal negative defocus SBOS setup. For the sake of convenience, the maps presented here only deal with the absolute value of $l$. Moreover, $Z$ and $CoC$ have been omitted because the concept of $s_{min}$ encapsulates $CoC$, and $Z$ is not relevant for a setup with compound camera lenses. The pixel density and $L_{FoV}$ for the in-focus plane have also been computed and will be helpful for the validation of the design strategy during the first experimental campaign, information on them can be found on Appendix \ref{} . For this first iteration, $L_{FoV_{obj}}$ was set to 2cm, $\lambda = 632.8$nm, pixel size equal 6.5 $\mu$m and the camera sensor has 2560x2160 pixels, resulting in $L_{sens} = 1.4$ cm. Figure \ref{fig: S and dav design surfmap SBOS} shows surface maps of Sensitivity and $s_{min}$ given a range of P. The colored isolines are illustrative reference contours and do not correspond to a selected design point: the red isoline marks $s_{min} = 0.0004$ m and the white one $S = 0.02$ m.
+\par Surface Maps for each variable in X were obtained to better understand the system at hand. This section will show and discuss the main trends in sensitivity, spatial resolution, $M, m, d_f$ and speckle size $\Delta s$, aiming to obtain a better preliminary insight on how to build an optimal negative defocus SBOS setup. For the sake of convenience, the maps presented here only deal with the absolute value of $l$. Moreover, $Z$ and $CoC$ have been omitted because the concept of $s_{min}$ encapsulates $CoC$, and $Z$ is not relevant for a setup with compound camera lenses. The pixel density and $L_{FoV}$ for the in-focus plane have also been computed and will be helpful for the validation of the design strategy during the first experimental campaign, information on them can be found in Appendix \ref{Appendix: Pixel density and FoV maps}. For this first iteration, $L_{FoV_{obj}}$ was set to 2cm, $\lambda = 632.8$nm, pixel size equal 6.5 $\mu$m and the camera sensor has 2560x2160 pixels, resulting in $L_{sens} = 1.4$ cm. Figure \ref{fig: S and dav design surfmap SBOS} shows surface maps of Sensitivity and $s_{min}$ given a range of P. The colored isolines are illustrative reference contours and do not correspond to a selected design point: the red isoline marks $s_{min} = 0.0004$ m and the white one $S = 0.02$ m.
 
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[width=1\textwidth]{figures/Sensitivity and dav SBOS surf map.jpg}
     \caption{Surface maps of $S$ and $s_{min}$ for $f_\# \in $ [11,16,22],  $f \in $ (0.035,0.200) and $l \in$ (0.005,0.15) for a negative defocus setup, with the red isoline representing the points where $s_{min}$ =0.0004 m and the white line showing $S=0.02$.}
@@ -158,7 +158,7 @@ It is also interesting to follow the inverted direction of the solution and asse
 
 \par Other important parameters to analyze are the optical magnification $M$ and the distances $m$ and $d_f$, defined in Figure \ref{fig: SBOS with negative l}. The magnification describes how amplified the image is related to the real object and, as previously determined, it influences the sensitivity-resolution. The distances define how close the test section and in-focus plane are from the camera and directly influence $M$, which makes them important practical parameters that define the setup size. Figure \ref{fig: M,m and df design surfmap SBOS} presents the surface maps of these quantities for a given range of P.
 
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[width=1\textwidth]{figures/M,m,df surfmaps SBOS.jpg}
     \caption{Surface maps of $M$, $m$ and $d_f$ for $f_\# \in $ [11,16,22],  $f \in $ (0.035,0.200), $l \in$ (0.005,0.15) and $L_{FoV_{obj}}=$ 2cm of a negative defocus setup, with the red isoline representing the points where $s_{min}$ =0.0004 m and the white line showing $S=0.02$.}
@@ -173,7 +173,7 @@ From Figure \ref{fig: M,m and df design surfmap SBOS}, the distance $m$ only inc
 
 \par As discussed in chapter \ref{chapter: LiteratureReview}, the minimum speckle size is also an important parameter as it limits the spatial resolution by restricting the allowable interrogation window size on the cross-correlation software. Figure \ref{fig: Delta s design surfmap SBOS} shows how the speckle size changes for a given range of P. Since $\Delta s$ is directly dependent on the magnification through equation \ref{equation: Rayleigh Limit}, it has the same trends as $M$. However, the f-stop number has a much bigger effect in $\Delta s$. It is recommended in the literature to limit the speckle size to 2-5 pixels to ensure optimal cross-correlation and avoid peak locking errors \cite{KahlerEtAl}, which essentially also limits the usable f-stop numbers of the setup. In this studied case, this means that $f_\#$ shouldn't be bigger than 22 nor smaller than 11.
 
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[width=1\textwidth]{figures/Speckle size surf map SBOS.jpg}
     \caption{Surface maps of $\Delta s$ for $f_\# \in $ [11,16,22],  $f \in $ (0.035,0.200), $l \in$ (0.005,0.15) and $L_{FoV_{obj}}=$ 2cm for a negative defocus setup, with the red isoline representing the points where $s_{min}$ =0.0004 m and the white line showing $S=0.02$.}
@@ -187,23 +187,23 @@ From Figure \ref{fig: M,m and df design surfmap SBOS}, the distance $m$ only inc
 
 \par Surface maps for a standard BOS setup were also obtained. These maps allow for a comparison of the trends permeating the design space of a positive defocus to the negative defocus present in the last section. Similarly to subsection \ref{subsection: Surface Maps for SBOS}, this subsection will show and discuss the main trends in sensitivity, spatial resolution, $M, m, d_f$ and speckle size $\Delta s$, given $L_{FoV_{obj}}=$ 2cm, $\lambda = 632.8$nm, pixel size equal 6.5 $\mu$m, sensor dimension of 2560x2160 pixels, resulting in $L_{sens}$ = 1.4cm. Figure \ref{fig: S and smin surfmap BOS} contains surface maps of Sensitivity and $s_{min}$ given a range of P.
 
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[width=1\textwidth]{figures/Sensitivity and smin BOS surf map.jpg}
     \caption{Surface maps of $S$ and $s_{min}$ for $f_\# \in $ [11,16,22],  $f \in $ (0.035,0.200), $l \in$ (0.005,0.15) and $L_{FoV_{obj}}=$ 2cm of a positive defocus setup, with the red isoline representing the points where $s_{min}$ =0.0004 m and the white line showing $S=0.02$.}
     \label{fig: S and smin surfmap BOS}
 \end{figure}
 
-\par Through Figure \ref{fig: S and smin surfmap BOS}, the main trends on sensitivity and spatial resolution for a positive defocus setup can be analyzed. Both parameters seem to reach an asymptote for higher $l$. The higher the $f$, the higher the asymptote value. Moreover, it seems that the sensitivity is unaffected by $f_\#$, while the $s_{min}$ asymptotes moves up and right for an increasing f-stop, meaning that a higher f-stop allows for a better spatial resolution for the same sensitivity, as demonstrated by equation \ref{equation: S over smin}. Recall the discussion from section \ref{section: Background Oriented Schlieren} where a fundamental limit of the sensitivity was obtained by taking the limit for $l \to \infty$. This means that the sensitivity asymptotes shown in Figure \ref{fig: S and smin surfmap BOS} will lead to $S$ converging to $f$, which is summarized in equation \ref{equation: BOS Sensitivity limit}. Consequently, no matter how far away the background is positioned in a positive defocus configuration, the sensitivity will ultimately be limited by the focal length of the camera, whereas with the begative defocus, sensitivity is unbounded. Nevertheless, while designing the setup, the same recommendation reached for SBOS also applies for BOS, a higher focal length and f-stop is the most desirable.
+\par Through Figure \ref{fig: S and smin surfmap BOS}, the main trends on sensitivity and spatial resolution for a positive defocus setup can be analyzed. Both parameters seem to reach an asymptote for higher $l$. The higher the $f$, the higher the asymptote value. Moreover, it seems that the sensitivity is unaffected by $f_\#$, while the $s_{min}$ asymptotes moves up and right for an increasing f-stop, meaning that a higher f-stop allows for a better spatial resolution for the same sensitivity, as demonstrated by equation \ref{equation: S over smin}. Recall the discussion from section \ref{section: Background Oriented Schlieren} where a fundamental limit of the sensitivity was obtained by taking the limit for $l \to \infty$. This means that the sensitivity asymptotes shown in Figure \ref{fig: S and smin surfmap BOS} will lead to $S$ converging to $f$, which is summarized in equation \ref{equation: BOS Sensitivity limit}. Consequently, no matter how far away the background is positioned in a positive defocus configuration, the sensitivity will ultimately be limited by the focal length of the camera, whereas with the negative defocus, sensitivity is unbounded. Nevertheless, while designing the setup, the same recommendation reached for SBOS also applies for BOS, a higher focal length and f-stop is the most desirable.
 
 \begin{equation}
     \label{equation: BOS Sensitivity limit}
     \lim_{l \to \infty}S = f
 \end{equation}
 
-Regarding $M,m$ and $d_f$, Figure \ref{fig: M,m and df design surfmap BOS} shows that the positive defocus setup variables have different trends compared to a negative one. Variables $m$ and $d_f$ seem to have switched behaviors if compared to their trends in section \ref{subsection: Surface Maps for SBOS}, with $m$ increasing slightly with $l$, while $d_f$ decreases little with $l$, and both increasing considerably with $f$. Due to the large gradient of both distances in the $f$ axis and the nature of the $S$ and $s_{min}$, similarly to the negative defocus case, it is possible to obtain a more compact setup using a smaller focal length if needed, with little loss in sensitivity and spatial resolution. Comparing $M$ from positive $l$ to negative $l$, it is worth noting that the absolute values are smaller and the trend is inverted, which strengthens the argument that SBOS presents a higher $S$ for the same $s_{min}$ due to an increase in $M$. The decrease in $M$ also reflects in a smaller speckle size for the BOS case through equation \ref{equation: Rayleigh Limit}, this can be seen in Figure ... on Appendix ... .
+Regarding $M,m$ and $d_f$, Figure \ref{fig: M,m and df design surfmap BOS} shows that the positive defocus setup variables have different trends compared to a negative one. Variables $m$ and $d_f$ seem to have switched behaviors if compared to their trends in section \ref{subsection: Surface Maps for SBOS}, with $m$ increasing slightly with $l$, while $d_f$ decreases little with $l$, and both increasing considerably with $f$. Due to the large gradient of both distances in the $f$ axis and the nature of the $S$ and $s_{min}$, similarly to the negative defocus case, it is possible to obtain a more compact setup using a smaller focal length if needed, with little loss in sensitivity and spatial resolution. Comparing $M$ from positive $l$ to negative $l$, it is worth noting that the absolute values are smaller and the trend is inverted, which strengthens the argument that SBOS presents a higher $S$ for the same $s_{min}$ due to an increase in $M$. The decrease in $M$ also reflects in a smaller speckle size for the BOS case through equation \ref{equation: Rayleigh Limit}, this can be seen in Appendix \ref{Appendix: Speckle size BOS map}.
 
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[width=1\textwidth]{figures/M,m,df surfmaps BOS.jpg}
     \caption{Surface maps of $M$, $m$ and $d_f$ for $f_\# \in $ [11,16,22],  $f \in $ (0.035,0.200), $l \in$ (0.005,0.15) and $L_{FoV_{obj}}=$ 2cm of a positive defocus setup, with the red isoline representing the points where $s_{min}$ =0.0004 m and the white line showing $S=0.02$.}
@@ -212,9 +212,9 @@ Regarding $M,m$ and $d_f$, Figure \ref{fig: M,m and df design surfmap BOS} shows
 
 \subsection{Effect of FoV}
 \label{subsection: Effets of FoV}
-\par Since the final goal of this thesis is to implement the SBOS method to a wind-tunnel application, it is also worth investigating the effect of altering the size of the field of view. Surface maps will be used to compare the trends in sensitivity and spatial resolution of negative and positive defocus setups when the $L_{FoV_{obj}}$ is changed from 2cm to 7cm. Figure \ref{fig: Surface maps altering FoV} shows these graphs, surface maps for other parameters can be found in appendix \ref{}. For this case, the red isoline value has been slightly modified to $s_{min}$ =0.00035 m. However it still allows the comparison with previous images given the very small difference between them.
+\par Since the final goal of this thesis is to implement the SBOS method to a wind-tunnel application, it is also worth investigating the effect of altering the size of the field of view. Surface maps will be used to compare the trends in sensitivity and spatial resolution of negative and positive defocus setups when the $L_{FoV_{obj}}$ is changed from 2cm to 7cm. Figure \ref{fig: Surface maps altering FoV} shows these graphs, surface maps for other parameters can be found in Appendix \ref{Appendix: FoV 70mm maps}. For this case, the red isoline value has been slightly modified to $s_{min}$ =0.00035 m. However it still allows the comparison with previous images given the very small difference between them.
 
-\begin{figure}[h]
+\begin{figure}[htbp]
   \centering
   \begin{subfigure}{0.9\textwidth}
     \includegraphics[width=\textwidth]{figures/Sensitivity and smin SBOS surf map 70cm.jpg}
@@ -231,7 +231,7 @@ Regarding $M,m$ and $d_f$, Figure \ref{fig: M,m and df design surfmap BOS} shows
 
 \par From Figure \ref{fig: Surface maps altering FoV} some differences from the surface maps presented at subsections \ref{subsection: Surface Maps for SBOS} and \ref{subsection: Surface maps for BOS} can be highlighted. Generally, a higher field of view results in smaller $S$ and $s_{min}$ due to the smaller optical magnifications needed to achieve the desirable window size, as per equation \ref{equation: M} and \ref{equation: S over smin}. This results in a much higher defocus distance needed to achieve the same $S$. It also translates in less susceptibility to obtain blurred images, which is signaled by the generally smaller $s_{min}$. This is evident from the position of the red and white isolines, which are both located at much higher $l$'s than their smaller $L_{FoV_{obj}}$ counterparts. This characteristic makes the advantage of SBOS even more prominent: with negative defocus a higher sensitivity can be achieved at lower $l$'s while maintaining a low $s_{min}$.
 
-\par Up until now, the surface maps have been useful to visualize the equations displayed in section \ref{section: Geometries of a SBOS optical setup}, \ref{section: Sensitivity-Resolution Ratio} and understand better the trends that exist between variables. However, a definitive criterion to choose the best optical setup is still missing. This is will be done by solving a problem mentioned in subsection \ref{subsection: Surface maps for BOS}, to match the optical spatial resolution and software spatial resolution so the experimenter can more efficiently use the its resources. The solution is presented in the next section.
+\par Up until now, the surface maps have been useful to visualize the equations displayed in section \ref{section: Geometries of a SBOS optical setup}, \ref{section: Sensitivity-Resolution Ratio} and understand better the trends that exist between variables. However, a definitive criterion to choose the best optical setup is still missing. This will be done by solving a problem mentioned in subsection \ref{subsection: Surface maps for BOS}, to match the optical spatial resolution and software spatial resolution so the experimenter can more efficiently use the its resources. The solution is presented in the next section.
 
 \section{SR criterion}
 \label{section: SR criteria}

@@ -6,7 +6,7 @@
 
 \section{Compressibility and Density}
 
-\par The ability of fluid to change its density is called compressibility. Air is a gas mixture, so its molecules are distanced enough that they are able to move closer together when some pressure is applied. Due to this, air is classified as having high compressibility. When objects move slowly through it, changes in pressure throughout the flow field are small enough that the effect can be neglected as an engineering approximation, and density can be assumed constant. That’s The incompressible assumption and it can be expressed through the relation between density $\rho$ and pressure p via the compressibility coefficient $\tau$, as shown in the equation: $d \rho =\rho \tau dp$.
+\par The ability of fluid to change its density is called compressibility. Air is a gas mixture, so its molecules are distanced enough that they are able to move closer together when some pressure is applied. Due to this, air is classified as having high compressibility. When objects move slowly through it, changes in pressure throughout the flow field are small enough that the effect can be neglected as an engineering approximation, and density can be assumed constant. This is the incompressible assumption, and it can be expressed through the relation between density $\rho$ and pressure p via the compressibility coefficient $\tau$, as shown in the equation: $d \rho =\rho \tau dp$.
 
 \par When high speeds are achieved, the pressure gradients through the flow field become larger, leading to a significant change in density that needs to be accounted for. A normal threshold for compressible flows is when the Mach Number ($M$) surpasses 0.3, which marks the point where density changes are higher than $5\%$ \cite{TheBookOfAnderson}. The Mach number is a non-dimensional quantity, defined by Eq. \ref{equation:Mach Number}, that governs the behavior of waves traveling faster than the speed of sound. This behavior was discovered in 1885 by Ernst Mach and Wentzel when working on such structures with schlieren imaging \cite{Settles2001}.
 
@@ -17,7 +17,7 @@
 
 These supersonic waves were described before by Riemann, and they form when an object moves faster than the sound waves emitted by it. This makes the sound waves pile up and coalesce, forming a standing wave in front of the body \cite{TheBookOfAnderson}, as illustrated in Figure \ref{fig: Moving sound wave}. 
 
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[width=0.5\textwidth]{figures/Moving sound waves.png}
     \caption{Propagation of information by an object moving at (a) subsonic speeds and (b) supersonic speeds, credit to Anderson \cite{TheBookOfAnderson}}
@@ -31,9 +31,9 @@ Figure \ref{fig: Moving sound wave} shows an object leaving point A at a speed f
 \mu = \arcsin\!\left(\frac{1}{M}\right)
 \end{equation}
 
-\par The coalescence of the emitted waves creates an extremely thin region (of around $10^{-7}$m of magnitude) where the flow properties change drastically, in an almost explosive compression process that originates a seemingly discontinuous pressure increase across it \cite{TheBookOfAnderson}. When the emitted sound from the object becomes stronger, an oblique shock wave with an angle $\beta$ from the freestream air is formed, where $\beta > \mu$. Through this oblique shock wave, the pressure, density, temperature and entropy of the flow increases, while the total pressure, Mach number and velocity decreases. These relationships are described by the continuity, momentum and energy equations for oblique shocks, summarized by the equations \ref{equation: Mass, Momentum and energy}, 2.4 and 2.5 respectively, given the geometry of Figure \ref{fig: Oblique shock geometry}.
+\par The coalescence of the emitted waves creates an extremely thin region (of around $10^{-7}$m of magnitude) where the flow properties change drastically, in an almost explosive compression process that originates a seemingly discontinuous pressure increase across it \cite{TheBookOfAnderson}. When the emitted sound from the object becomes stronger, an oblique shock wave with an angle $\beta$ from the freestream air is formed, where $\beta > \mu$. Through this oblique shock wave, the pressure, density, temperature and entropy of the flow increases, while the total pressure, Mach number and velocity decreases. These relationships are described by the continuity, momentum and energy equations for oblique shocks, summarized by Eq. \ref{equation: oblique continuity}, \ref{equation: oblique momentum} and \ref{equation: oblique energy} respectively, given the geometry of Figure \ref{fig: Oblique shock geometry}.
 
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[width=0.5\textwidth]{figures/Oblique shock geometry.png}
     \caption{Oblique shock geometry, credit to Anderson\cite{TheBookOfAnderson}}
@@ -41,10 +41,9 @@ Figure \ref{fig: Moving sound wave} shows an object leaving point A at a speed f
 \end{figure}
 
 \begin{align}
-\label{equation: Mass, Momentum and energy}
-\rho_1u_1 &= \rho_2u_2 \\
-p_1 + \rho_1 u_1^2 &= p_2 + \rho_2 u_2^2 \\
-h_1 + \frac{u_1^2}{2} &= h_2 + \frac{u_2^2}{2}
+\rho_1u_1 &= \rho_2u_2 \label{equation: oblique continuity} \\
+p_1 + \rho_1 u_1^2 &= p_2 + \rho_2 u_2^2 \label{equation: oblique momentum} \\
+h_1 + \frac{u_1^2}{2} &= h_2 + \frac{u_2^2}{2} \label{equation: oblique energy}
 \end{align}
 
 \par These equations relate the flow properties before and after the shock. It is important to note that these changes only depend on the velocity component normal to the shock, with the tangential component maintaining constant. Considering a calorically perfect gas and adiabatic flow across the shock, it is possible to obtain the following relationships for $M_2, \rho_2$ and $p_2$ that rely only on $M_1$ and $\beta$.
@@ -108,7 +107,7 @@ Equation \ref{equation:theta-beta-M} shows how strong density gradients naturall
     n_1 \sin{\epsilon_1} = n_2 \sin{\epsilon_2} 
 \end{equation}
 
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[width=0.8\textwidth]{figures/Diagrams of light refraction.png}
     \caption{Diagrams of Light refraction: (a) Change in the beam's direction between two homogeneous media as described by Snell's Law and (b) light refraction through an irregularly distributed refractive index environment. Credit to Schmidt et al. \cite{Schmidt2025}}
