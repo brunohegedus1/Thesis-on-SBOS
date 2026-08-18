@@ -78,6 +78,8 @@ The second experimental campaign was intended to investigate further the speckle
     \label{fig: Directed speckles investigation setup}
 \end{figure}
 
+%%Modify this Picture ^^^ to show dgg and df
+
 The main difference between the setup in Figure \ref{fig: Angled glass setup} and Figure \ref{fig: Directed speckles investigation setup} is the presence of a larger ground glass diffuser and a lens to expand the laser beam. The new ground glass diffuser has 88 mm of length and 61 mm of width, which makes it capable of imaging larger fields of view. The beam expander consists of a convergent lens with focal length of $f = 80$ mm, positioned at a distance $d_{GG}$ behind the ground glass that was varied to see the effects in the speckle creation. The camera and laser are the same from the last experiment, only the camera lens with $f=200$mm was used.
 
 A series of pictures were taken where $d_{GG}, M$ and $f_\#$ were varied. Table \ref{tab: speckle investigation matrix} summarizes the experimental condition of each picture. The average speckle size was then computed using LaVision's DaVis 11 software processing function \emph{particle/speckle size over time} which computes the spatial averaged particle size through a defined sliding average length and subtracting the sliding minimum \cite{Pan2010}. For this application, both quantities were set to 16 pixels. These pictures will enable the selection of a ground glass distance capable of producing the desired speckle pattern, it will also quantify the effect of the magnification and f-stop number in the speckle production.
@@ -112,6 +114,8 @@ A series of pictures were taken where $d_{GG}, M$ and $f_\#$ were varied. Table 
     \end{tabular}
 \end{table}
 
+% This table is missing the experiments where we varied the zoom based on the lens indications, worth adding here (??)
+
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.5\textwidth]{figures/projected speckle schematic.png}
@@ -119,7 +123,7 @@ A series of pictures were taken where $d_{GG}, M$ and $f_\#$ were varied. Table 
     \label{fig: projected speckle setup diagram}
 \end{figure}
 
-The previous setup was modified to also test the creation of speckles by projecting the laser in a blank canvas, similar to what was done by Meier \& Rösgen and Bühlmann \cite{Meier&Roesgen2013,Buhlmann2020}. As shown by the schematic in Figure \ref{fig: projected speckle setup diagram}, a blank surface angled 45º has been placed in the beam path and the camera assembly has been moved to a perpendicular beam. The laser is expanded by the same $f=80$ mm lens. When it hits the surface, its light diffuses and creates an interference pattern captured by the camera. Figure \ref{fig: projected speckle experiment} shows a picture of the speckle pattern being generated in the projection plane, there it is also possible to see the camera assembly and the beam expander.
+The previous setup was modified to also test the creation of speckles by projecting the laser in a blank canvas, similar to what was done by Meier \& Rösgen and Bühlmann \cite{Meier&Roesgen2013,Buhlmann2020}. As shown by the schematic in Figure \ref{fig: projected speckle setup diagram}, a blank surface angled 45º has been placed in the beam path and the camera assembly has been moved to a perpendicular beam. The laser is expanded by the same $f=80$ mm lens. When it hits the surface, its light diffuses and creates an interference pattern captured by the camera. Figure \ref{fig: projected speckle experiment} shows a picture of the speckle pattern being generated in the projection plane, there it is also possible to see the camera assembly and the beam expander. Table \ref{} shows the points captured using this setup.
 
 \begin{figure}[h]
     \centering
@@ -128,8 +132,13 @@ The previous setup was modified to also test the creation of speckles by project
     \label{fig: projected speckle experiment}
 \end{figure}
 
+Up until now, the designed setup made it known how to create an appropriate speckle pattern and how to set the optical distances so a desirable sensitivity and spatial resolution is achieved. This knowledge now can be applied in a proof of concept case that enables the visualization of a true density gradient and even its integration into a density field. The next experiment will be build on that basis to visualize a compressible jet,which will serve as proof of concept and allow for the reconstruction of a density field using SBOS.
 
 \section{Compressible Jet Experiment}
+
+A similar setup to the one shown in Figure \ref{fig: Directed speckles investigation setup} was used to image a compressible jet. Figure \ref{} Shows the jet in position. For this experiment, $l = 3$ cm, $d_{GG} = 83$ cm $d_f = 74$ cm and $f_\# = 11$, which gives $M = 0.417$, $S = 0.0125$ and $s_{min} = 0,369$ mm. The jet was achieved by connecting a standard air gun with a nozzle diameter $d_N = 3,5$ mm to a wall air tap with a hose. This setup allowed to adjust the pressure coming out of the air tap, however, one limitation was the lack of a loss quantification through the hose, quick-disconnect couplings and the air gun itself, meaning that the actual pressure right before the nozzle exit was unknown.
+
+
 
 
 \section{Aerospike Experiment}
