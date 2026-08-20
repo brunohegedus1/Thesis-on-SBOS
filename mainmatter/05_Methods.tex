@@ -1,7 +1,7 @@
 \chapter{Experimental Setups}
 \label{chapter: Experimental Setups}
 
-\par A small experimental setup using a simple object of study was built as proof of concept to validate the design strategy, compare multiple optical configurations, assess their performance and investigate the underlying uncertainty sources. Later, a second experiment was conducted to improve the speckle pattern quality and image a compressible jet. All the information gathered was then applied to the visualization of the flow through an aerospike nozzle in a supersonic wind tunnel. The description of each setup follows below.
+\par A small experimental setup using a simple object as a case study was built to prove the presented concepts and validate the design strategy. Moreover, this "proof of concept" experimental campaign was used to compare multiple optical configurations, assess their performance and investigate the underlying uncertainty sources. Later, a second experiment was conducted to improve the speckle pattern quality and image a compressible jet. All the information gathered was then applied to the visualization of the flow through an aerospike nozzle in a supersonic wind tunnel. The description of each setup follows below.
 
 \par Each campaign is described by the same structure: the objective and the research question it addresses, the object of study, the optical layout and hardware, definition of the design points, the acquisition and processing settings, the sources of uncertainty specific to that setup, and the test matrix.
 
@@ -11,7 +11,7 @@
 
 \par The first experimental campaign was envisioned to validate the surface maps presented in the last section and effectively compare a negative and positive defocus configuration in terms of its performance parameters for the same object field of view. In order to achieve that, an experimental setup was built  where the optical distances could be easily set and modified. The setup was assembled in a beam close to the ground to avoid vibrations and followed the same structure as the schematic shown in Figure \ref{fig: SBOS with negative l}. 
 
-\par Regarding hardware, Figure \ref{fig: Angled glass setup} shows the assembled setup. The laser used was a LIMAB model RC 0.5, a class 2 continuous red light laser ($\lambda = 632.8$ nm) with 0.5mW of power. Given the class of the laser, safety concerns were low. Nevertheless,  simple procedures were made to make sure that the laser paths were contained and terminated. To diffuse the laser and create the speckle pattern, a small ground glass was used with only 1.27cm of diameter. As it can be seen in the picture, the ground glass was positioned close to laser collimator, which was adjusted to fill the whole diameter of the ground glass. To image the displacements, LaVision's Imager sCMOS CLHS was used, it has a pixel size of 6.5 $\mu$m and a sensor dimension of 2560x2160 pixels. The camera was equipped mainly with a 200mm camera lens. Two images with a 105mm lens were taken, however, it was quickly changed back to the 200mm one, as it provided a more stable and robust assembly.
+\par Regarding hardware, Figure \ref{fig: Angled glass setup} shows the assembled setup. The laser used was a LIMAB model RC 0.5, a class 2 continuous red light laser ($\lambda = 632.8$ nm) with 0.5mW of power. Given the class of the laser, safety was inherently guaranteed. Nevertheless,  simple procedures were made to make sure that the laser paths were contained and terminated. To diffuse the laser and create the speckle pattern, a small ground glass was used with only 1.27cm of diameter. As it can be seen in the picture, the ground glass was positioned close to laser collimator, which was adjusted to fill the whole diameter of the ground glass. To image the displacements, LaVision's Imager sCMOS CLHS was used, it has a pixel size of 6.5 \si{\micro \meter} and a sensor dimension of 2560x2160 pixels. The camera was equipped mainly with a 200mm camera lens. Two images with a 105mm lens were taken, however, it was quickly changed back to the 200mm one, as it provided a more stable and robust assembly.
 
 \begin{figure}[h]
     \centering
@@ -61,10 +61,43 @@
     \end{tabular}
 \end{table}
 
-Table describes the optical arrangement of a different configuration to the other points in Table \ref{tab: angled glass test matrix}. By Modifying slightly the setup presented in Figure \ref{fig: Angled glass setup}, an experiment intended to demonstrate the SBOS capacity of achieving different defocus configurations was envisioned. The experiment consisted in keeping the in-focus plane fixed and moving the refractive object in steps with a linear slider, shown in Figure \ref{}. This kept the optical magnification constant, while permitting the exploration of a range of defocusing distances. Therefore the experiment can prove that the advantage of the negative defocus configuration in achieving a higher sensitivity comes only from the $M$ or also some other mechanism related to $l$.
+Table \ref{tab: linear slider test matrix} describes the optical arrangement of a different configuration to the other points in Table \ref{tab: angled glass test matrix}. By Modifying slightly the setup presented in Figure \ref{fig: Angled glass setup}, an experiment intended to demonstrate the SBOS capacity of achieving different defocus configurations was envisioned. The experiment consisted in keeping the in-focus plane fixed and moving the refractive object in steps with a linear slider, shown in Figure \ref{fig: Angled Glass Slider}. This kept the optical magnification constant, while permitting the exploration of a range of defocusing distances. Therefore the experiment can prove that the advantage of the negative defocus configuration in achieving a higher sensitivity comes only from the $M$ or also some other mechanism related to $l$.
+
+\begin{table}[h]
+    \centering
+    \caption{Optical configurations acquired during the linear slider experiment. The in-focus plane was held fixed at $d_f = 470$ mm while the refractive object was displaced in 10 mm steps, so the optical magnification stays constant and only the defocus distance $l$ changes. $\theta$ is the angle at which the glass plate was set and $\varepsilon$ the deflection it induces, obtained from Eq. \ref{equation: Displacement of angled glass} with $T = 2$ mm and $n = 1.52$. In point 10 the refractive object is coincident with the in-focus plane, so neither a defocus type nor a deflection is defined. ``Negative'' and ``Positive'' denote the in-focus plane lying respectively in front of or behind the test section, following the convention of Chapter \ref{chapter: methodology}.}
+    \label{tab: linear slider test matrix}
+    \begin{tabular}{lrrrrrrrrl}
+        \toprule
+        Point & $f_\#$ & $f$ & $l$ & $d_f$ & $M$ & $S$ & $\theta$ & $\varepsilon$ & Type of Defocus \\
+              &         & [mm] & [mm] & [mm] & [--] & [mm] & [$^{\circ}$] & [mrad] & \\
+        \midrule
+        10 & 8 & 200 &  0 & 470.0 & 0.741 &  0.00 & 20 & --    & --       \\
+        11 & 8 & 200 & 10 & 470.0 & 0.741 &  7.41 & 20 & 25.00 & Positive \\
+        12 & 8 & 200 & 20 & 470.0 & 0.741 & 14.81 & 20 & 12.50 & Positive \\
+        13 & 8 & 200 & 30 & 470.0 & 0.741 & 22.22 & 20 &  8.33 & Positive \\
+        14 & 8 & 200 & 40 & 470.0 & 0.741 & 29.63 & 20 &  6.25 & Positive \\
+        15 & 8 & 200 & 50 & 470.0 & 0.741 & 37.04 & 20 &  5.00 & Positive \\
+        16 & 8 & 200 & 10 & 470.0 & 0.741 &  7.41 & 20 & 25.00 & Negative \\
+        17 & 8 & 200 & 20 & 470.0 & 0.741 & 14.81 & 20 & 12.50 & Negative \\
+        18 & 8 & 200 & 30 & 470.0 & 0.741 & 22.22 & 20 &  8.33 & Negative \\
+        19 & 8 & 200 & 40 & 470.0 & 0.741 & 29.63 & 20 &  6.25 & Negative \\
+        20 & 8 & 200 & 50 & 470.0 & 0.741 & 37.04 & 20 &  5.00 & Negative \\
+        \bottomrule
+    \end{tabular}
+\end{table}
 
 
-The data acquisition followed standard BOS procedure using LaVision's DaVis software. First, a calibration plate was used to define the in-focus plane, it can be seen in Figure \ref{fig: Angled glass setup}. From the calibration, DaVis computed the magnification and the pixel density of the setup. Then, The laser is turned on and a reference image is taken. The laser is turned back off and the refractive object is put into position following the distances presented in the surface maps of chapter \ref{chapter: methodology}. With the laser back on, a displaced image is taken. Post-processing was done using DaVis CC software. The images were processed with multipass and overlap. Due to an unexpected large average speckle size, the smallest interrogation window had a size of 64x64 with 4 multipass and 75\% of overlap, while the biggest had 256x256 pixels with 1 pass and 0\% overlap.
+The data acquisition followed standard BOS procedure using LaVision's DaVis 8.4 software. First, a calibration plate was used to define the in-focus plane, it can be seen in Figure \ref{fig: Angled glass setup}. From the calibration, DaVis computed the magnification and the pixel density of the setup. Then, The laser is turned on and a reference image is taken. The laser is turned back off and the refractive object is put into position following the distances presented in the surface maps of chapter \ref{chapter: methodology}. With the laser back on, a displaced image is taken. Post-processing was done using LaVision DaVis 11 software. The images were first pre-processed to obtain a 2 frame sequence. Then the cross-correlation (CC) algorithm was used to reconstruct the displacement. Due to an unexpected large average speckle size, the smallest interrogation window had a size of 64x64 with 4 multipass and 75\% of overlap, while the biggest had 256x256 pixels with 1 pass and 0\% overlap.
+
+
+
+ \begin{figure}[h]
+   \centering
+\includegraphics[width=0.5\textwidth]{figures/angled glass slider.jpeg}
+    \caption{Picture of the angled glass in a linear slider, used to investigate the effect of $M$ in the sensitivity}
+    \label{fig: Angled Glass Slider}
+\end{figure}
 
 \par No beam expander was used during the first experimental campaign. Since no specification in the literature was found to size the laser diffuser and given the small field of view of 2cm, it was believed that the scattering and diffusion alone from the ground glass would be sufficient to fill the whole field of view. However that belief was proven wrong. Moreover, the small size of the diffuser made the laser beam diffraction limited at the ground glass and not at the camera aperture, this meant that changing the f-stop of the camera had no effect in the average speckle pattern size and the average speckles were a lot bigger than expected, probably due to the reduced aperture of the diffuser. Another effect was the vignetting of the speckle pattern diameter, meaning that the pattern size would change with the aperture diameter and magnification ($D_{\Delta s} \approx D \cdot M$), which limited the usable $f_\#$. Faced with these limitations, another experimental campaign was envisioned with a bigger ground glass and a beam expander to try and produce a finer speckle pattern.
 
@@ -139,12 +172,18 @@ Up until now, the designed setup made it known how to create an appropriate spec
 \section{Compressible Jet Experiment}
 \label{section: Compressible jet experiment}
 
-A similar setup to the one shown in Figure \ref{fig: Directed speckles investigation setup} was used to image a compressible jet. For this experiment, $l = 3$ cm, $d_{GG} = 83$ cm, $d_f = 74$ cm and $f_\# = 11$, which gives $M = 0.417$, $S = 0.0125$ and $s_{min} = 0.369$ mm. The jet was achieved by connecting a standard air gun with a nozzle diameter $d_N = 3.5$ mm to a wall air tap with a hose. This setup allowed to adjust the pressure coming out of the air tap, however, a big limitation was the lack of a quantified loss through the hose, quick-disconnect couplings and the air gun itself, meaning that the actual pressure right before the nozzle exit was unknown.
+A similar setup to the one shown in Figure \ref{fig: Directed speckles investigation setup} was used to image a compressible jet. For this experiment, $l = 3$ cm, $d_{GG} = 83$ cm, $d_f = 74$ cm and $f_\# = 11$, which gives $M = 0.417$, $S = 0.0125$ and $s_{min} = 0.369$ mm. Figure \ref{fig: Compressible Jet experiment} shows a picture of the assembled setup. The jet was achieved by connecting a standard air gun with a nozzle diameter $d_N = 3.5$ mm to a wall air tap with a hose. This setup allowed to adjust the pressure coming out of the air tap, however, a big limitation was the lack of loss quantification through the hose, quick-disconnect couplings and the air gun itself, meaning that the actual pressure right before the nozzle exit was unknown.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{figures/compressible jet setup.jpeg}
+    \caption{Real footage of the compressible jet experimental setup.}
+    \label{fig: Compressible Jet experiment}
+\end{figure}
 
 The data acquisition followed a similar procedure than the one explained at section \ref{section: Angled Glass Experiment}. A target plate was put at the in-focus position and a picture was captured to calibrate laVision's DaVis software. Then, the laser was turned on and a reference picture was taken. The pressure was set at the air tap valve and the air gun was triggered, while the camera captured 100 images with an exposure time of 300 $\mu$s. In total, 6 cases were captured with pressures at the air tap valve ranging from 3 bar to 8 bar with 1 bar step. The speckle size obtained was checked following the procedure of section \ref{section: Speckle Pattern Investigation}. The 100 images for each case were averaged and cross-correlated with an interrogation window of 12, 75\% of overlap and 4 multipasses.
 
 %Should I talk about the post-processing code here or in Results? Probably here.
-
-\subsection{Density Field Computation}
+%Maybe write this after writing the sections on compressible jet theory, Abel Inversion and density intergration in chapter 2
 
 \section{Aerospike Experiment}
