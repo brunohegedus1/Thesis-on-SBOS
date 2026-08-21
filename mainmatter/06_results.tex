@@ -10,7 +10,7 @@
 
 \begin{table}[htbp]
     \centering
-    \caption{Displacements measured in the angled glass campaigns. $\Delta$ is the mean displacement returned by the cross-correlation and $\sigma_\Delta$ its standard deviation over the vector field. $\Delta x_{BOS}$ is that displacement referred to the object plane, and $\Delta x_{glass}$ the value predicted by Eq. \ref{equation: Displacement of angled glass} for a plate of thickness $T = 2$ mm and refractive index $n = 1.52$ set at the angle $\theta$. The last column is the relative difference between the two. Points 1 to 9 follow the optical configurations of Table \ref{tab: angled glass test matrix}; points 10 to 20 follow the linear slider configurations of Table \ref{tab: linear slider test matrix}.}
+    \caption{Displacements measured in the angled glass campaigns. $\Delta$ is the mean displacement returned by the cross-correlation and $\sigma_\Delta$ its standard deviation over the vector field. $\Delta x_{BOS}$ is that displacement referred to the object plane, and $\Delta x_{glass}$ the value predicted by Eq. \ref{equation: Displacement of angled glass} for a plate of thickness $T = 2$ mm and refractive index $n = 1.52$ set at the angle $\theta$. The last column is the relative difference between the two. Points 1 to 9 follow the fixed field of view configurations of Table \ref{tab: angled glass test matrix}; points 10 to 20 follow the linear slider configurations of the same table.}
     \label{tab: angled glass displacement results}
     \begin{tabular}{lrrrrrr}
         \toprule
@@ -42,17 +42,17 @@
     \end{tabular}
 \end{table}
 
-\par The design strategy of Chapter \ref{chapter: methodology} can be assessed directly by comparing the optical distances and magnifications it prescribes with those realised on the bench. Table \ref{tab: design validation} makes that comparison for the nine configurations of the setup matrix. The in-focus distance $d_{f,th}$ and the magnification $M_{th}$ are the design values listed in Table \ref{tab: angled glass test matrix}, while $d_{f,exp}$ and $M_{exp}$ were obtained from the calibration plate placed in the in-focus plane.
+\par The design strategy of Chapter \ref{chapter: methodology} can be assessed directly by comparing the optical distances and magnifications it prescribes with those realised on the bench. Table \ref{tab: design validation} makes that comparison for the nine configurations of the setup matrix. The in-focus distance $d_{f,th}$ and the magnification $Mag_{th}$ are the design values listed in Table \ref{tab: angled glass test matrix}, while $d_{f,exp}$ and $Mag_{exp}$ were obtained from the calibration plate placed in the in-focus plane.
 
-\par Agreement is within 2.9\% in $d_f$ and 5.0\% in $M$ for every configuration except point 7. That point was the only one requiring an in-focus distance shorter than the 105 mm lens could reach, so the plane had to be set 15.6 mm further away than the design called for. The resulting 8.25\% deviation in $d_f$ propagates to 15.66\% in $M$, which is consistent with the thin lens relation: a relative change in $d_f$ is amplified in $M$ by the factor $d_f/(d_f-f)$, equal to 2.05 for this configuration.
+\par Agreement is within 2.9\% in $d_f$ and 5.0\% in $Mag$ for every configuration except point 7. That point was the only one requiring an in-focus distance shorter than the 105 mm lens could reach, so the plane had to be set 15.6 mm further away than the design called for. The resulting 8.25\% deviation in $d_f$ propagates to 15.66\% in $Mag$, which is consistent with the thin lens relation: a relative change in $d_f$ is amplified in $Mag$ by the factor $d_f/(d_f-f)$, equal to 2.05 for this configuration.
 
 \begin{table}[htbp]
     \centering
-    \caption{Design values against measured values for the setup matrix. $d_{f,th}$ and $M_{th}$ are the in-focus distance and optical magnification prescribed by the design space exploration of Chapter \ref{chapter: methodology} and listed in Table \ref{tab: angled glass test matrix}. $d_{f,exp}$ and $M_{exp}$ were measured with a calibration plate in the in-focus plane. Each deviation column is the relative difference with respect to the design value.}
+    \caption{Design values against measured values for the setup matrix. $d_{f,th}$ and $Mag_{th}$ are the in-focus distance and optical magnification prescribed by the design space exploration of Chapter \ref{chapter: methodology} and listed in Table \ref{tab: angled glass test matrix}. $d_{f,exp}$ and $Mag_{exp}$ were measured with a calibration plate in the in-focus plane. Each deviation column is the relative difference with respect to the design value.}
     \label{tab: design validation}
     \begin{tabular}{lrrrrrr}
         \toprule
-        Point & $d_{f,th}$ & $d_{f,exp}$ & Deviation & $M_{th}$ & $M_{exp}$ & Deviation \\
+        Point & $d_{f,th}$ & $d_{f,exp}$ & Deviation & $Mag_{th}$ & $Mag_{exp}$ & Deviation \\
               & [mm] & [mm] & [\%] & [--] & [--] & [\%] \\
         \midrule
         1 & 409.0 & 399.5 & 2.32 & 0.9561 & 1.0025 &  4.85 \\
@@ -72,7 +72,7 @@
 
 \begin{table}[htbp]
     \centering
-    \caption{Sensitivity obtained by three routes. $S_{th} = l M_{th}$ uses the design magnification of Table \ref{tab: angled glass test matrix}. $S_{geom} = l M_{exp}$ uses the magnification measured with the calibration plate, so it carries the magnification deviation of Table \ref{tab: design validation} but none of the measurement error. $S_{\Delta} = \Delta y / \varepsilon$ follows from the displacement actually measured. The last two columns give the deviation of $S_{geom}$ and $S_{\Delta}$ from $S_{th}$. Point 10 has $l = 0$, so the design sensitivity vanishes and no relative deviation is defined.}
+    \caption{Sensitivity obtained by three routes. $S_{th} = l Mag_{th}$ uses the design magnification of Table \ref{tab: angled glass test matrix}. $S_{geom} = l Mag_{exp}$ uses the magnification measured with the calibration plate, so it carries the magnification deviation of Table \ref{tab: design validation} but none of the measurement error. $S_{\Delta} = \Delta y / \varepsilon$ follows from the displacement actually measured. The last two columns give the deviation of $S_{geom}$ and $S_{\Delta}$ from $S_{th}$. Point 10 has $l = 0$, so the design sensitivity vanishes and no relative deviation is defined.}
     \label{tab: sensitivity comparison}
     \begin{tabular}{lrrrrr}
         \toprule
