@@ -6,22 +6,26 @@
 %
 %   Input files (relative to this script):
 %       ../data/angled_glass_experimental.csv
-%           Points, campaign, f#, f, l, df, S, M, type,
+%           Points, sheet_ref, campaign, f#, f, l, df, S, M, type,
 %           delta (px), StdDev (px)
 %       ../data/angled_glass_errors.csv
-%           Points, df/S/M/delta errors in %
+%           Points, sheet_ref, df/S/M/delta errors in %
+%
+%   Numbering. Points 1-20 follow the tables in Chapter 5. The sheet_ref
+%   column keeps the original workbook labels (P6-P14 and P16-P16.10) so a
+%   row can still be traced back to the spreadsheet.
 %
 %   Campaigns. Both used the angled glass plate, but they answer different
 %   questions and share f = 200 mm, so they must not be pooled:
 %
-%     'slider-sweep'   Points 16-16.10. The in-focus plane is fixed and
-%                      the object rides a linear slider, so M is constant
-%                      at 0.746 and only l changes. Point 16 sits in the
+%     'slider-sweep'   Points 10-20. The in-focus plane is fixed and the
+%                      object rides a linear slider, so M is constant at
+%                      0.746 and only l changes. Point 10 sits in the
 %                      in-focus plane (l = 0), where epsilon and therefore
 %                      S are undefined; its S field is empty and it is
 %                      dropped before plotting.
 %
-%     'setup-matrix'   Points 6-14. Each point is a different optical
+%     'setup-matrix'   Points 1-9. Each point is a different optical
 %                      layout, so M changes from point to point.
 %
 %   Sign convention. The CSV stores the magnitude of the defocus distance
@@ -57,7 +61,7 @@ clear; close all; clc
 %% Configuration
 scriptDir   = fileparts(mfilename('fullpath'));
 dataDir     = fullfile(scriptDir, '..', 'data');
-campaign    = 'slider-sweep';   % 'slider-sweep' (16-16.10) or 'setup-matrix' (6-14)
+campaign    = 'slider-sweep';   % 'slider-sweep' (points 10-20) or 'setup-matrix' (1-9)
 focalLength = 0.200;            % [m] lens to plot; use 0.105 for the short lens
 groupBy     = 'defocus';        % 'defocus' or 'fstop'
 errorSource = 'scatter';        % 'scatter' or 'bias'
@@ -66,11 +70,12 @@ outFile     = fullfile(scriptDir, ...
               sprintf('sensitivity_%s_f%03.0fmm.pdf', campaign, focalLength*1e3));
 
 %% Load and merge
-% Points must be read as text. The slider sweep labels 16.1 and 16.10 are
-% distinct measurements but identical as numbers, so a numeric key would
-% collide and innerjoin would silently produce a cross product.
 expData = loadCsv(fullfile(dataDir, 'angled_glass_experimental.csv'));
 errData = loadCsv(fullfile(dataDir, 'angled_glass_errors.csv'));
+
+% sheet_ref appears in both files. Drop the duplicate so the join does not
+% produce suffixed columns.
+errData.sheet_ref = [];
 
 T = innerjoin(expData, errData, 'Keys', 'Points');
 
@@ -110,9 +115,9 @@ end
 sErrAbs = T.S .* relErr;                                % [m] bar half-length
 
 % Console summary so the plotted numbers can be checked against the sheet.
-summary = table(T.Points, T.("f#"), lSigned, T.S, ...
+summary = table(T.Points, string(T.sheet_ref), T.("f#"), lSigned, T.S, ...
                 100*relScatter, 100*relBias, sErrAbs, ...
-    'VariableNames', {'Point','fStop','l_signed_m','S_m', ...
+    'VariableNames', {'Point','SheetRef','fStop','l_signed_m','S_m', ...
                       'scatter_pct','bias_pct','bar_half_m'});
 disp(summary);
 fprintf('Campaign: %s   bars: %s\n\n', campaign, errorSource);
@@ -187,11 +192,10 @@ end
 
 %% Helpers
 function T = loadCsv(file)
-% Reads a campaign CSV, keeping the header text verbatim and forcing the
-% Points column to string so that 16.1 and 16.10 stay distinct.
-    opts = detectImportOptions(file, 'VariableNamingRule', 'preserve');
-    opts = setvartype(opts, 'Points', 'string');
-    T = readtable(file, opts);
+% Reads a campaign CSV, keeping the header text verbatim so that columns
+% such as "delta (px)" and "S error (%)" can be addressed by their real
+% names.
+    T = readtable(file, 'VariableNamingRule', 'preserve');
 end
 
 function c = fstopColour(fStop)
