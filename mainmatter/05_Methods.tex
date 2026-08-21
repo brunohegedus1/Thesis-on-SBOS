@@ -39,54 +39,41 @@
 
 \par Table \ref{tab: angled glass test matrix} shows the information of each point tested during the first campaign. There you can inspect not only the camera, lens configuration and optical distances, but also the theoretical magnification, sensitivity, predicted displacement given the measured glass angle and whether the in-focus plane was behind or in front of the refractive object. The points vary the type of configuration, the f-stop number, the defocus distance and the focal length of the camera and all of them have been obtained by fixing the object field of view to 2cm and inspecting the surface maps obtained with the code described in chapter \ref{chapter: methodology}. In this instance then, the SR criterion has not been used, as the intention of the experiment was validate the methodology by testing various different setups. Therefore, by comparing the theoretical sensitivity, magnification and the displacement with the ones obtained experimentally at each of this points, the methodology presented in chapter \ref{chapter: methodology} can be validated. Moreover, Through the comparison of experimental sensitivities obtained with a negative defocus against a positive defocus configuration, the difference in performance of SBOS versus BOS is obtained.
 
-\begin{table}[htbp]
+\begin{table}[h]
     \centering
-    \caption{Optical configurations acquired during the angled glass campaign. $\theta$ is the angle at which the glass plate was set and $\varepsilon$ the deflection it induces, obtained from Eq. \ref{equation: Displacement of angled glass} with $T = 2$ mm and $n = 1.52$. ``Negative'' and ``Positive'' denote the in-focus plane lying respectively in front of or behind the test section, following the convention of Chapter \ref{chapter: methodology}.}
+    \caption{Optical configurations acquired during the angled glass campaign. $\theta$ is the angle at which the glass plate was set and $\varepsilon$ the deflection it induces, obtained from Eq. \ref{equation: Displacement of angled glass} with $T = 2$ mm and $n = 1.52$. ``Negative'' and ``Positive'' denote the in-focus plane lying respectively in front of or behind the test section, following the convention of Chapter \ref{chapter: methodology}. Points 1-9 correspond to the experiment with a fixed $L_{FoV}$, whereas points 10-20 correspond to the linear slider experiment. In point 10 the refractive object is coincident with the in-focus plane, so neither a defocus type nor a deflection is defined.}
     \label{tab: angled glass test matrix}
     \begin{tabular}{lrrrrrrrrl}
         \toprule
-        Point & $f_\#$ & $f$ & $l$ & $d_f$ & $M$ & $S$ & $\theta$ & $\varepsilon$ & Type of Defocus \\
-              &         & [mm] & [mm] & [mm] & [--] & [mm] & [$^{\circ}$] & [mrad] & \\
+        Point & $f_\#$ & $f$ & $l$ & $d_f$ & $M$ & $S$ & $\theta$  & Type of Defocus \\
+              &         & [mm] & [mm] & [mm] & [--] & [mm] & [$^{\circ}$] & \\
         \midrule
-        1    & 16 & 200 &  80 & 409.0 & 0.956 &  76.50 & 17 & 2.620 & Negative \\
-        2    & 16 & 200 &  80 & 505.0 & 0.656 &  52.50 & 17 & 2.620 & Positive \\
-        3    & 16 & 200 & 100 & 391.0 & 1.050 & 105.00 & 17 & 2.100 & Negative \\
-        4    & 16 & 200 & 100 & 511.0 & 0.643 &  64.30 & 17 & 2.100 & Positive \\
-        5   & 11 & 200 &  80 & 393.0 & 1.037 &  83.00 & 17 & 2.620 & Negative \\
-        6   & 11 & 200 &  80 & 490.0 & 0.690 &  55.20 & 17 & 2.620 & Positive \\
-        7   & 11 & 105 &  80 & 189.0 & 1.250 & 100.00 & 20 & 3.130 & Negative \\
-        8   &  4 & 105 &  80 & 285.0 & 0.583 &  46.60 & 20 & 3.130 & Positive \\
-        9   & 16 & 200 & 150 & 527.0 & 0.611 &  91.60 & 20 & 1.667 & Positive \\
+        1    & 16 & 200 &  80 & 409.0 & 0.956 &  76.50 & 17 & Negative \\
+        2    & 16 & 200 &  80 & 505.0 & 0.656 &  52.50 & 17  & Positive \\
+        3    & 16 & 200 & 100 & 391.0 & 1.050 & 105.00 & 17  & Negative \\
+        4    & 16 & 200 & 100 & 511.0 & 0.643 &  64.30 & 17  & Positive \\
+        5   & 11 & 200 &  80 & 393.0 & 1.037 &  83.00 & 17  & Negative \\
+        6   & 11 & 200 &  80 & 490.0 & 0.690 &  55.20 & 17  & Positive \\
+        7   & 11 & 105 &  80 & 189.0 & 1.250 & 100.00 & 20  & Negative \\
+        8   &  4 & 105 &  80 & 285.0 & 0.583 &  46.60 & 20  & Positive \\
+        9   & 16 & 200 & 150 & 527.0 & 0.611 &  91.60 & 20  & Positive \\
+        \midrule
+        10 & 8 & 200 &  0 & 470.0 & 0.741 &  0.00 & 20    & --       \\
+        11 & 8 & 200 & 10 & 470.0 & 0.741 &  7.41 & 20 & Positive \\
+        12 & 8 & 200 & 20 & 470.0 & 0.741 & 14.81 & 20  & Positive \\
+        13 & 8 & 200 & 30 & 470.0 & 0.741 & 22.22 & 20  & Positive \\
+        14 & 8 & 200 & 40 & 470.0 & 0.741 & 29.63 & 20  & Positive \\
+        15 & 8 & 200 & 50 & 470.0 & 0.741 & 37.04 & 20  & Positive \\
+        16 & 8 & 200 & 10 & 470.0 & 0.741 &  7.41 & 20  & Negative \\
+        17 & 8 & 200 & 20 & 470.0 & 0.741 & 14.81 & 20  & Negative \\
+        18 & 8 & 200 & 30 & 470.0 & 0.741 & 22.22 & 20  & Negative \\
+        19 & 8 & 200 & 40 & 470.0 & 0.741 & 29.63 & 20 & Negative \\
+        20 & 8 & 200 & 50 & 470.0 & 0.741 & 37.04 & 20 & Negative \\
         \bottomrule
     \end{tabular}
 \end{table}
 
-Table \ref{tab: linear slider test matrix} describes the optical arrangement of a different configuration to the other points in Table \ref{tab: angled glass test matrix}. By Modifying slightly the setup presented in Figure \ref{fig: Angled glass setup}, an experiment intended to demonstrate the SBOS capacity of achieving different defocus configurations was envisioned. The experiment consisted in keeping the in-focus plane fixed and moving the refractive object in steps with a linear slider, shown in Figure \ref{fig: Angled Glass Slider}. This kept the optical magnification constant, while permitting the exploration of a range of defocusing distances. Therefore the experiment can prove that the advantage of the negative defocus configuration in achieving a higher sensitivity comes only from the $M$ or also some other mechanism related to $l$.
-
-\begin{table}[h]
-    \centering
-    \caption{Optical configurations acquired during the linear slider experiment. The in-focus plane was held fixed at $d_f = 470$ mm while the refractive object was displaced in 10 mm steps, so the optical magnification stays constant and only the defocus distance $l$ changes. $\theta$ is the angle at which the glass plate was set and $\varepsilon$ the deflection it induces, obtained from Eq. \ref{equation: Displacement of angled glass} with $T = 2$ mm and $n = 1.52$. In point 10 the refractive object is coincident with the in-focus plane, so neither a defocus type nor a deflection is defined. ``Negative'' and ``Positive'' denote the in-focus plane lying respectively in front of or behind the test section, following the convention of Chapter \ref{chapter: methodology}.}
-    \label{tab: linear slider test matrix}
-    \begin{tabular}{lrrrrrrrrl}
-        \toprule
-        Point & $f_\#$ & $f$ & $l$ & $d_f$ & $M$ & $S$ & $\theta$ & $\varepsilon$ & Type of Defocus \\
-              &         & [mm] & [mm] & [mm] & [--] & [mm] & [$^{\circ}$] & [mrad] & \\
-        \midrule
-        10 & 8 & 200 &  0 & 470.0 & 0.741 &  0.00 & 20 & --    & --       \\
-        11 & 8 & 200 & 10 & 470.0 & 0.741 &  7.41 & 20 & 25.00 & Positive \\
-        12 & 8 & 200 & 20 & 470.0 & 0.741 & 14.81 & 20 & 12.50 & Positive \\
-        13 & 8 & 200 & 30 & 470.0 & 0.741 & 22.22 & 20 &  8.33 & Positive \\
-        14 & 8 & 200 & 40 & 470.0 & 0.741 & 29.63 & 20 &  6.25 & Positive \\
-        15 & 8 & 200 & 50 & 470.0 & 0.741 & 37.04 & 20 &  5.00 & Positive \\
-        16 & 8 & 200 & 10 & 470.0 & 0.741 &  7.41 & 20 & 25.00 & Negative \\
-        17 & 8 & 200 & 20 & 470.0 & 0.741 & 14.81 & 20 & 12.50 & Negative \\
-        18 & 8 & 200 & 30 & 470.0 & 0.741 & 22.22 & 20 &  8.33 & Negative \\
-        19 & 8 & 200 & 40 & 470.0 & 0.741 & 29.63 & 20 &  6.25 & Negative \\
-        20 & 8 & 200 & 50 & 470.0 & 0.741 & 37.04 & 20 &  5.00 & Negative \\
-        \bottomrule
-    \end{tabular}
-\end{table}
-
+Points 10-20 of Table \ref{tab: angled glass test matrix} describes the optical arrangement of a different configuration to the previous points.The setup presented in Figure \ref{fig: Angled glass setup} was modified to run an experiment intended to demonstrate the SBOS capacity of achieving different defocus configurations. The experiment consisted in keeping the in-focus plane fixed and moving the refractive object in steps with a linear slider, shown in Figure \ref{fig: Angled Glass Slider}. This kept the optical magnification constant, while permitting the exploration of a range of defocusing distances. Therefore the experiment can prove that the advantage of the negative defocus configuration in achieving a higher sensitivity comes only from the $M$ or also some other mechanism related to $l$.
 
 The data acquisition followed standard BOS procedure using LaVision's DaVis 8.4 software. First, a calibration plate was used to define the in-focus plane, it can be seen in Figure \ref{fig: Angled glass setup}. From the calibration, DaVis computed the magnification and the pixel density of the setup. Then, The laser is turned on and a reference image is taken. The laser is turned back off and the refractive object is put into position following the distances presented in the surface maps of chapter \ref{chapter: methodology}. With the laser back on, a displaced image is taken. Post-processing was done using LaVision DaVis 11 software. The images were first pre-processed to obtain a 2 frame sequence. Then the cross-correlation (CC) algorithm was used to reconstruct the displacement. Due to an unexpected large average speckle size, the smallest interrogation window had a size of 64x64 with 4 multipass and 75\% of overlap, while the biggest had 256x256 pixels with 1 pass and 0\% overlap.
 
