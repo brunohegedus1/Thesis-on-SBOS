@@ -6,6 +6,41 @@
 
 \section{Angled Glass Experiment Results}
 
+\par Table \ref{tab: angled glass displacement results} collects the displacements measured in the two angled glass campaigns and compares them with the displacement the glass plate is predicted to induce. The measured value $\Delta$ is the mean of the cross-correlation vector field, and $\sigma_\Delta$ its standard deviation over that field, which quantifies the repeatability of each acquisition. Referring $\Delta$ to the object plane through the calibrated pixel density gives $\Delta x_{BOS}$, which is directly comparable with the prediction $\Delta x_{glass}$ obtained from Eq. \ref{equation: Displacement of angled glass}.
+
+\begin{table}[htbp]
+    \centering
+    \caption{Displacements measured in the angled glass campaigns. $\Delta$ is the mean displacement returned by the cross-correlation and $\sigma_\Delta$ its standard deviation over the vector field. $\Delta x_{BOS}$ is that displacement referred to the object plane, and $\Delta x_{glass}$ the value predicted by Eq. \ref{equation: Displacement of angled glass} for a plate of thickness $T = 2$ mm and refractive index $n = 1.52$ set at the angle $\theta$. The last column is the relative difference between the two. Points 1 to 9 follow the optical configurations of Table \ref{tab: angled glass test matrix}; points 10 to 20 follow the linear slider configurations of Table \ref{tab: linear slider test matrix}.}
+    \label{tab: angled glass displacement results}
+    \begin{tabular}{lrrrrrr}
+        \toprule
+        Point & $\theta$ & $\Delta$ & $\sigma_\Delta$ & $\Delta x_{BOS}$ & $\Delta x_{glass}$ & Deviation \\
+              & [$^{\circ}$] & [px] & [px] & [mm] & [mm] & [\%] \\
+        \midrule
+         1 & 17 & 29.818 & 0.6001 & 0.1933 & 0.2099 & 7.87 \\
+         2 & 17 & 22.613 & 1.3660 & 0.2136 & 0.2099 & 1.77 \\
+         3 & 17 & 34.355 & 0.8521 & 0.2137 & 0.2099 & 1.84 \\
+         4 & 17 & 21.368 & 0.5763 & 0.2071 & 0.2099 & 1.30 \\
+         5 & 17 & 33.414 & 0.7710 & 0.2082 & 0.2099 & 0.78 \\
+         6 & 17 & 23.067 & 1.0230 & 0.2088 & 0.2099 & 0.51 \\
+         7 & 20 & 41.386 & 1.8830 & 0.2552 & 0.2500 & 2.05 \\
+         8 & 20 & 22.306 & 0.6617 & 0.2537 & 0.2500 & 1.46 \\
+         9 & 20 & 25.238 & 0.7720 & 0.2565 & 0.2500 & 2.59 \\
+        \midrule
+        10 & 20 & 29.373 & 0.7733 & 0.2561 & 0.2500 & 2.42 \\
+        11 & 20 & 29.432 & 0.8055 & 0.2566 & 0.2500 & 2.63 \\
+        12 & 20 & 29.595 & 0.7575 & 0.2580 & 0.2500 & 3.20 \\
+        13 & 20 & 29.613 & 0.7711 & 0.2582 & 0.2500 & 3.26 \\
+        14 & 20 & 29.580 & 0.7661 & 0.2579 & 0.2500 & 3.15 \\
+        15 & 20 & 29.662 & 0.8175 & 0.2586 & 0.2500 & 3.43 \\
+        16 & 20 & 29.559 & 0.7815 & 0.2577 & 0.2500 & 3.07 \\
+        17 & 20 & 29.653 & 0.7694 & 0.2585 & 0.2500 & 3.40 \\
+        18 & 20 & 29.746 & 0.7815 & 0.2593 & 0.2500 & 3.73 \\
+        19 & 20 & 29.653 & 0.8264 & 0.2585 & 0.2500 & 3.40 \\
+        20 & 20 & 29.617 & 0.8570 & 0.2582 & 0.2500 & 3.28 \\
+        \bottomrule
+    \end{tabular}
+\end{table}
 
 
 \section{Speckle Pattern Investigation Results}
