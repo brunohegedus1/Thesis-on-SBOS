@@ -68,12 +68,12 @@ As discussed in chapter \ref{chapter: LiteratureReview}, Schwarz et al. \cite{Sc
     Mag_{obj} = \frac{L_{sens}}{L_{FoV_{obj}}}
 \end{equation}
 
-Equation \ref{equation: M obj} relates the field of view of the object and the camera sensor dimension. In the literature \cite{Schmidt2025, Schwarz&Braukmann}, many authors define the focal length $f$ by choosing a desired field of view of the object. They utilize equation \ref{equation: LFoVobj simplified} which is derived through the ideal lens equation and the definition of magnification. Thus it makes the fundamental assumption that the object is in focus as the ideal lens equation only applies to in-focus objects. Since the refractive object is out of focus, the assumption is fundamentally wrong and another equation must be derived to connect the lens' focal length to the blurred object's dimension. Geometry can be used to derive equation \ref{equation: LFoVobj BOS} without relying on the ideal lens relationship, the derivation can be found on Appendix \ref{Appendix: Blurred Object}.
+Equation \ref{equation: M obj} relates the field of view of the object and the camera sensor dimension. In the literature \cite{Schmidt2025, Schwarz&Braukmann}, many authors define the focal length $f$ by choosing a desired field of view of the object, which is derived through the ideal lens equation and the definition of magnification. Thus it makes the fundamental assumption that the object is in focus as the ideal lens equation only applies to in-focus objects. Since the refractive object is out of focus, the assumption is fundamentally wrong and another equation must be derived to connect the lens' focal length to the blurred object's dimension. Geometry can be used to derive equation \ref{equation: LFoVobj BOS} without relying on the ideal lens relationship, the derivation can be found on Appendix \ref{Appendix: Blurred Object}.
 
-\begin{equation}
-    \label{equation: LFoVobj simplified}
-    f = \frac{L_{sens}m}{L_{FoV_{obj}}+L_{sens}}
-\end{equation}
+% \begin{equation}
+%     \label{equation: LFoVobj simplified}
+%     f = \frac{L_{sens}m}{L_{FoV_{obj}}+L_{sens}}
+% \end{equation}
 
 %\par If the field of view of the object is small, blur plays a bigger role. The refractive object size differs from the one obtained before, which risks setting up a field of view that is too small than the one desired, consequently, losing information. In order to compute the $L_{FoV_{obj}}$ for small field of views, the same rationale used by Gojani et al. \cite{Gojani&Obayashi} can be used to derive equation \ref{equation: LFoVobj BOS}. Using this method, the test subject dimension is defined through the expanded cone of light that reaches the sensor screen. This way, the field of view of the captured object is more accurately estimated as it considers all the light that comes from the test section and reaches the sensor. The derivation of this equation can be found in the appendix.
 
@@ -139,7 +139,7 @@ The dilemma of increasing sensitivity through magnification but also increasing 
 \ref{equation: Thin Lens equation}, \ref{equation: M}, \ref{equation: S BOS}, \ref{equation: LFoVobj BOS} and \ref{equation: S over smin} form a system of six equations and six unknowns $Mag$, $l$, $d_f$, $m$, $f$ and $Z$, which admits a unique solution. The circle of confusion and the speckle size then
 follow from equations \ref{equation: smin} and \ref{equation: Rayleigh Limit}. The latter must be  verified at the end to ensure the speckle size is in the range of 2-5 pixel, to achieve optimal cross-correlation. 
 
-It is also interesting to follow the inverted direction of the solution and assess how the performance parameters change for different optical arrangements. A MATLAB script was written that would solve the system for a given combination of P = ($f_\#,l,f$) and compute X = ($S,s_{min},\Delta s,d_f,Z,Mag, m, CoC$). A design space exploration was conducted where the parameters P were varied within feasible ranges and the system solved for each combination. The data collected allowed the construction of surface maps that permitted the visualization of the main trends permeating the design space. With this script at hand, it is possible to select the design point that gives the sensitivity, field of view and spatial resolution desired for a given application. 
+It is also interesting to follow the opposite direction of the solution and assess how the performance parameters change for different optical arrangements. For that, the inputs were changed from sensitivity and spatial resolution to variables that are easier to define and modify when building the experimental setup such as the lens' focal length $f$ and the defocus distance $l$. A MATLAB script was written that would solve the system for a given combinations of P = ($f_\#,l,f$) and compute X = ($S,s_{min},\Delta s,d_f,Z,Mag, m, CoC$). A design space exploration was conducted where the parameters P were varied within feasible ranges and the system solved for each combination. The data collected allowed the construction of surface maps that permitted the visualization of the main trends permeating the design space. With this script at hand, it is possible to select the design point that gives the sensitivity, field of view and spatial resolution desired for a given application. 
 
 \subsection{Surface Maps for negative defocus setup}
 \label{subsection: Surface Maps for SBOS}
@@ -267,8 +267,9 @@ One way to make this trade-off is to express $s_{min}$ in pixels via Eq. \ref{eq
 \par Taken together, the geometric analysis of section \ref{section: Geometries of a SBOS optical setup}, the discussion of section \ref{section: Sensitivity-Resolution Ratio}, the design space exploration of section \ref{section: Design Strategy} and the SR design criterion of section \ref{section: SR criteria} establish a consistent set of guidelines for both BOS and SBOS setups: 
 
 \begin{itemize}
-    \item Higher focal lengths make the SBOS system more robust to position errors and increases the sensitivity limit for BOS. If size is a constraint, a lower $f$ can result in a more compact setup
+    \item Higher focal lengths make the SBOS system more robust to positional errors and increases the sensitivity limit for BOS. If size is a constraint, a lower $f$ can result in a more compact setup
     \item A higher f-stop number is generally desirable, subjected to the speckle-size constraint of 2–5 pixels
+    \item The ideal speckle-size is within 2-5 pixels, and this value is dependent on the fstop, this being said, its always recommended to use the possible highest value of fstop
     \item Negatively defocused configuration favors a lower defocus distance to exploit its inherent sensitivity advantage over standard BOS
     \item If $f$ and $f_\#$ are maximized, the $SR$ criterion can be used to select the setup that gives the best balance between the optical and CC spatial resolution
     \item SBOS allows for finer speckle sizes than printed BOS, making it possible to apply sBOS to highly magnified problem ($Mag\approx1$).

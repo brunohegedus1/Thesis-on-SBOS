@@ -37,7 +37,7 @@ By combining equations \ref{equation: CoC in M and S}, \ref{equation: Mobj in f 
     CoC_{obj} = \frac{lMag}{f_\#(1+Mag)}
 \end{equation}
 
-and rearranging equations \ref{equation: CoCobj transfer} and \ref{equation: Mobj definition}, following the geometry of Figure \ref{fig: Geometry BOS}:
+and rearranging equations \ref{equation: CoCobj transfer}, \ref{equation: Mobj definition} and \ref{equation: df}:
 
 \begin{equation}
     \label{equation: CoCobj expanded}
@@ -51,4 +51,4 @@ Given the spatial resolution $\delta_t$ derived by Gojani \& Obayashi, described
     \delta_t = \frac{lMag}{f_\#(1+Mag)} + \frac{\Delta_t}{Mag} \left( 1 - \frac{l}{m+l}\right)
 \end{equation}
 
-If $\Delta_t$ corresponds to the $CoC$ as it is mentioned in Gojani's paper, his blurred circle becomes $\delta_t = 2 \cdot CoC_{obj}$ through equations \ref{equation: CoCobj compact} and \ref{equation: CoCobj expanded}. It is thus proven that Gojani’s formulation predicts a blur circle twice the size of the one established experimentally by Schwarz and Braukmann \cite{Gojani&Obayashi, Schwarz&Braukmann}.
+If $\Delta_t$ corresponds to the $CoC$ as it is mentioned in Gojani's paper, his blurred circle becomes $\delta_t = 2 \cdot CoC_{obj}$ through equations \ref{equation: CoCobj compact} and \ref{equation: CoCobj expanded}. If the geometry of Gojani's cone of light is also investigated a bit further, it is possible to notice that it resembles the geometry of Figure \ref{fig: CoC geometry} but off the lens axis and mirrored around the lens' plane. This observation leads to the interpretation of Gojani's result as a calculation of the Circle of Confusion in the object plane of two points in the image plane that form the Circle of Confusion, or the object Circle of Confusion of the image Circle of Confusion, which is...a rather confusing result. Nevertheless, It is thus proven that Gojani’s formulation predicts a blur circle twice the size of the one established experimentally by Schwarz and Braukmann \cite{Gojani&Obayashi, Schwarz&Braukmann}.

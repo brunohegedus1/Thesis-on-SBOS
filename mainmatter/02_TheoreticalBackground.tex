@@ -1,7 +1,7 @@
 \chapter{From Compressibility to Light Refraction}
 \label{chapter: Theory}
 
-\par A brief theoretical background is needed to understand the relationship between compressibility and refraction, to make it clear how all these concepts culminate on optical flow visualization techniques. The next subsections will treat this, explaining the importance of the Mach Number, a description of shock waves and the relationship to density. Then on refraction, it will highlight the most important aspects that make Schlieren imaging possible.
+\par A brief theoretical background is needed to understand the relationship between compressibility and refraction, to make clear how all these concepts culminate on optical flow visualization techniques. The next subsections will treat this, explaining the importance of the Mach Number, a description of shock waves and the relationship to density. Then on refraction, it will highlight the most important aspects that make Schlieren imaging possible.
 % Finally, a detailed description of the schlieren-based methods is given, finishing with laser speckled BOS and the research gap. 
 
 \section{Compressibility and Density}
@@ -36,7 +36,7 @@ Figure \ref{fig: Moving sound wave} shows an object leaving point A at a speed f
 \begin{figure}[htbp]
     \centering
     \includegraphics[width=0.5\textwidth]{figures/Oblique shock geometry.png}
-    \caption{Oblique shock geometry, credit to Anderson\cite{TheBookOfAnderson}}
+    \caption{Oblique shock geometry, credit to Anderson \cite{TheBookOfAnderson}}
     \label{fig: Oblique shock geometry}
 \end{figure}
 
@@ -81,22 +81,32 @@ Equation \ref{equation:theta-beta-M} shows how strong density gradients naturall
 \section{Compressible Jets}
 
 %Talk about compressible jets
-%define underexpanded-perfectly expanded-overexpanded
+%define underexpanded- perfectly expanded -overexpanded
 %Characterize the flow through an underexpanded jet
 
-\par 
+\par One important study case of compressible aerodynamics is the flow structure of a high pressure jet. Jets are produced by a high pressure flow coming out of a nozzle outlet that meets a lower pressure environment. When the pressure between the nozzle and the ambient air surpasses a certain threshold, the critical pressure ratio $NPR_c$, the Mach number at the minimum cross-section of the nozzle becomes 1 and the mass flow through the nozzle hits its maximum. The pressure ratio can continue to increase, however the throat Mach number and mass flow will remain the same for that given geometry, this condition is called choked flow. If the geometry of the nozzle after the throat diverges, the flow expands, a favorable pressure gradient is established and the flow accelerates, increasing the Mach number. Depending on the pressure at the exit of the nozzle, a jet can be said: underexpanded, if $p_e > p_a$; perfectly expanded, if $p_e = p_a$ or overexpanded, if $p_e < p_a$. Figure \ref{} shows the visual difference between these different cases.
 
+%In this discussion we will focus in the flow structure of an underexpanded jet, as this will be used as a proof of concept in one of the experiments.
+
+%Add a picture of underexpanded, overexpanded and perfectly expanded jets
+
+\par Figure \ref{} shows that under-expanded jet is marked by periodic structures called shock cells. These cells form as a mechanism of pressure adaptation between the nozzle exit and the ambient air through alternating Prandtl-Meyer expansion and compression waves \cite{vanHinsberg2014}. Since the the pressure at the nozzle exit is greater than the ambient pressure, the flow needs to expand to match the outside pressure. The results is a Prandtl-Meyer expansion fan anchored at the lip of the nozzle. These expansion waves are reflected at the axis of symmetry into another expansion fan, which in turn reflect at the jet boundary into compression waves. These converge into one another and coalesce, forming a shock. This shock increases pressure, leading to another round of expansion waves. this process continues until, due to friction, the jet pressure equals the atmospheric pressure.
+
+%Add picture of the jet
+
+\subsection{Method Of Characteristics}
+\par A powerful numerical method to calculate the jet's properties is the Method of Characteristics (MOC). 
 
 \section{Refraction}
 \label{section: Refraction}
 \par As mentioned in chapter \ref{chapter: introduction}, refraction is the change in direction of a light ray as it propagates through a medium with spatially varying refractive index. This index is the ratio between the speed of light through vacuum, $c_0 \approx 3 \cdot 10^8$ m/s, and the speed of light through the medium, $c: n=c_0/c$.
 
-\par The refractive index is a function of the light’s wavelength $\lambda$, and the thermochemical state of the environment it passes through. If $n$ is known at a certain wavelength and thermochemical state, it can be extrapolated to other states through the Lorentz-Lorentz equation, where $A$ is the wavelength-dependent molar refractivity and $W$ the mean molecular weight \cite{Schmidt2025}.
+\par The refractive index is a function of the light’s wavelength $\lambda$, and the thermochemical state of the environment it passes through. If $n$ is known at a certain wavelength and thermochemical state, it can be extrapolated to other states through the Lorentz-Lorentz equation, where $A$ is the molar refractivity, dependent on the wavelength, and $W_M$ the mean molecular weight \cite{Schmidt2025}.
 
 \begin{equation}
     \frac{n^2 - 1}{\rho \left(n^2 + 2\right)}
 =
-\frac{A}{W}
+\frac{A}{W_M}
 =
 \text{constant}
 \end{equation}
@@ -107,7 +117,7 @@ Equation \ref{equation:theta-beta-M} shows how strong density gradients naturall
     n = 1 + G \rho
 \end{equation}
 
-\par This relationship directly links density with the refractive index, which in turn can be given by the distortion of light through the medium. $G$ is the Gladstone-Dale coefficient, which is fluid dependent and determined experimentally \cite{Head2021}.
+\par This relationship directly links density with the refractive index, which in turn can be given by the distortion of light through the medium. $G$ is the Gladstone-Dale coefficient \cite{Head2021} \cite{Settles2001}.
 
 \par As shown in Figure \ref{fig: Diagrams of light refraction}, when light passes from one medium to another it can behave differently depending on the refractive index field of the subsequent medium. The light’s interaction between two homogeneous media, shown in Figure \ref{fig: Diagrams of light refraction}a, is given by Snell’s Law of Refraction.
 
@@ -131,6 +141,7 @@ Equation \ref{equation:theta-beta-M} shows how strong density gradients naturall
 \par The total deflection is the integral of $d\varepsilon$ along the ray path, as is shown below. An analogous equation exists for $y$, by substituting it in $x$.
 
 \begin{equation}
+\label{equation: displacement integral}
     \varepsilon_x
 =
 \frac{1}{n_o}
@@ -144,8 +155,40 @@ Equation \ref{equation:theta-beta-M} shows how strong density gradients naturall
     \vec{\varepsilon}
 =
 \frac{G}{n_o}
-\int \nabla \rho \, ds
+\int \nabla \rho \, dz
 \end{equation}
 
-\par Equation \ref{equation:epsilon-nabla rho} links directly the light deviation vector to the density gradient through media. Thus, in order to obtain a quantitative measure of the density field through a test section, one could employ a method to measure the displacement of light after passing through it. The ability to quantitatively relate optical distortions to density gradients forms the foundation of schlieren-based diagnostic techniques.
+\par Equation \ref{equation:epsilon-nabla rho} links directly the light deviation vector to the density gradient through media. Thus, in order to obtain a quantitative measure of the density field through a test section, one could employ a method to measure the displacement of light after passing through it. If the transversal refractive gradients are independent to the line of sight direction, such as a 2D planar flow, equation \ref{equation:epsilon-nabla rho} can be simplified into equation \ref{equation: Displacement and Density Gradient} for $x$, where $W$ is the refractive object thickness \cite{RajendranDotTracking}.
 
+\begin{equation}
+    \label{equation: Displacement and Density Gradient}
+    \epsilon_x = \frac{G\cdot W}{n_0} \frac{\partial \rho}{\partial x}
+\end{equation}
+
+The equation shows that, if the light displacement passing through such refractive object is measured, its density gradient can be calculated, which in turn could be integrated to obtain the density. Another case worth mentioning is the refraction of light through an axisymmetric body, which allows for the tomographic reconstruction of its density by only measuring 2D displacements.
+
+\subsection{Axisymmetric Refractive Field}
+\label{subsection: Axisymmetric Refractive Field}
+
+When a refractive object is axially symmetric, it is possible to reconstruct it's whole density distribution with only a 2D snapshot of the light displacements through it. In such scenario, the image is a 2D projection of a 3D axissymetric body, and the inverse Abel transform can be used to obtain it's radial and axial profile. Consider the case in Figure \ref{fig: Abel transform} and equation \ref{equation: displacement integral} for y, it can be integrated in y in both sides into equation \ref{}, which removes the partial derivative through the fundamental theorem of calculus.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.3\textwidth]{figures/AbelTransform.png}
+    \caption{Diagram of the geometry of an axisymmetric body being seeing by an observer in I. If the body, in grey, is described by a function $f(r)$, the observer will see its projection $F(y)$, which is its Abel transform}
+    \label{fig: Abel transform}
+\end{figure}
+
+\begin{equation}
+\label{equation: integral of epsilon }
+    E_y = \frac{2}{n_0}\int_0^R [n(r) - n_0]dz
+\end{equation}
+
+Now, by changing $z$ for the radius $r$, $E_y$ becomes the plain Abel transform of the refractive index $n$ in equation \ref{equation: Abel transform of n}. This means that when the inverse Abel transformation is applied to $E_y$, a radial profile of $n$ is obtained, which can be translated to the density through the Gladstone-Dale relation.
+
+\begin{equation}
+    \label{equation: Abel transform of n}
+    E_y = \frac{2}{n_0} \int_0^R \frac{[n(r) - n_0]}{\sqrt{r^2-y^2}}r dr
+\end{equation}
+
+This chapter has shown how changes in density can emerge in different flow conditions and how these variations modify the flow refractive properties. It is the ability to relate optical distortions to density gradients that forms the foundation of schlieren-based diagnostic techniques. The next chapter will treat these methods by presenting a brief history of how researchers have been able to measure the bending of light and translate it into qualitative and quantitative thermodynamic measures over the years, culminating in the state of the art and the topic of this thesis, SBOS.
