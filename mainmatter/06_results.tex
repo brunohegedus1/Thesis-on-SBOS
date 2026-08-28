@@ -6,6 +6,9 @@
 
 \section{Angled Glass Experiment Results}
 
+The Angled Glass Experiment aimed to validate the methodology and compare the different defocus configurations treated in chapter \ref{chapter: methodology} . This section will display the data that has been collected, present how it was treated and discuss if these objectives have been achieved. the tables that follow give an overview of the results.
+
+Table \ref{tab: angled glass displacement results} compares the displacements measured through SBOS with the predicted shift induced by the angled glass. $\Delta_x$ is the mean of the cross-correlation vector field in pixels, $\Delta x_{SBOS}$ is the latter transferred to mm through $\rho_{px}$and $\Delta x_{glass}$ is the glass-induced ray shift, calculated through equation \ref{equation: Displacement of angled glass}. Since the glass piece produces an uniform displacement field, the standard deviation of the cross-correlation field $\sigma_\Delta$ quantifies the precision of the SBOS measurement, while the relative error quantifies the accuracy of the method.
 %\par Table \ref{tab: angled glass displacement results} collects the displacements measured in the two angled glass campaigns and compares them with the displacement the glass plate is predicted to induce. The measured value $\Delta$ is the mean of the cross-correlation vector field, and $\sigma_\Delta$ its standard deviation over that field, which quantifies the repeatability of each acquisition. Referring $\Delta$ to the object plane through the calibrated pixel density gives $\Delta x_{BOS}$, which is directly comparable with the prediction $\Delta x_{glass}$ obtained from Eq. \ref{equation: Displacement of angled glass}.
 
 \begin{table}[htbp]
@@ -14,7 +17,7 @@
     \label{tab: angled glass displacement results}
     \begin{tabular}{lrrrrrr}
         \toprule
-        Point & $\theta$ & $\Delta_x$ & $\sigma_\Delta$ & $\Delta x_{SBOS}$ & $\Delta x_{glass}$ & Deviation \\
+        Point & $\theta$ & $\Delta_x$ & $\sigma_\Delta$ & $\Delta x_{SBOS}$ & $\Delta x_{glass}$ & Relative Error \\
               & [$^{\circ}$] & [px] & [px] & [mm] & [mm] & [\%] \\
         \midrule
          1 & 17 & 29.818 & 0.6001 & 0.1933 & 0.2099 & 7.87 \\
