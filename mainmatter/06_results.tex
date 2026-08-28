@@ -2,22 +2,22 @@
 \chapter{Results}
 \label{chapter: Results}
 
-
+Write Introduction paragragh
 
 \section{Angled Glass Experiment Results}
 
 The Angled Glass Experiment aimed to validate the methodology and compare the different defocus configurations treated in chapter \ref{chapter: methodology} . This section will display the data that has been collected, present how it was treated and discuss if these objectives have been achieved. the tables that follow give an overview of the results.
 
-Table \ref{tab: angled glass displacement results} compares the displacements measured through SBOS with the predicted shift induced by the angled glass. $\Delta_x$ is the mean of the cross-correlation vector field in pixels, $\Delta x_{SBOS}$ is the latter transferred to mm through $\rho_{px}$and $\Delta x_{glass}$ is the glass-induced ray shift, calculated through equation \ref{equation: Displacement of angled glass}. Since the glass piece produces an uniform displacement field, the standard deviation of the cross-correlation field $\sigma_\Delta$ quantifies the precision of the SBOS measurement, while the relative error quantifies the accuracy of the method.
-%\par Table \ref{tab: angled glass displacement results} collects the displacements measured in the two angled glass campaigns and compares them with the displacement the glass plate is predicted to induce. The measured value $\Delta$ is the mean of the cross-correlation vector field, and $\sigma_\Delta$ its standard deviation over that field, which quantifies the repeatability of each acquisition. Referring $\Delta$ to the object plane through the calibrated pixel density gives $\Delta x_{BOS}$, which is directly comparable with the prediction $\Delta x_{glass}$ obtained from Eq. \ref{equation: Displacement of angled glass}.
+Table \ref{tab: angled glass displacement results} compares the displacements measured through SBOS with the predicted shift induced by the angled glass. $\Delta_x$ is the mean of the cross-correlation vector field in pixels, $\Delta x_{SBOS}$ is the latter transferred to mm through $\rho_{px}$ and $\Delta x_{glass}$ is the glass-induced ray shift, calculated through equation \ref{equation: Displacement of angled glass}. Since the glass piece produces an uniform displacement field, the standard deviation of the cross-correlation field $\sigma_\Delta$ quantifies the precision of the SBOS measurement, while the relative error quantifies the accuracy of the method. All errors are below 10\%, with most of them below 4\% and $\sigma_\Delta$ also shows small values. The only outlier was point 1 with a relative error of 7.87 \%. Given that the optical magnification and $d_f$ error shown in Table \ref{tab: df and Mag angled glass results} do not standout for point 1 compared to other points, most probably the source of the error was in the measurement of the glass angle for that point. Nevertheless, these metrics indicate that the technique has been well implemented and is capable of producing accurate and precise results.
 
-\begin{table}[htbp]
+
+\begin{table}[h]
     \centering
     \caption{Displacements measured in the angled glass campaigns. $\Delta$ is the mean displacement returned by the cross-correlation and $\sigma_\Delta$ its standard deviation over the vector field. $\Delta x_{BOS}$ is that displacement referred to the object plane, and $\Delta x_{glass}$ the value predicted by Eq. \ref{equation: Displacement of angled glass} for a plate of thickness $T = 2$ mm and refractive index $n = 1.52$ set at the angle $\theta$. The last column is the relative difference between the two. Points 1 to 9 follow the fixed field of view configurations of Table \ref{tab: angled glass test matrix}; points 10 to 20 follow the linear slider configurations of the same table.}
     \label{tab: angled glass displacement results}
     \begin{tabular}{lrrrrrr}
         \toprule
-        Point & $\theta$ & $\Delta_x$ & $\sigma_\Delta$ & $\Delta x_{SBOS}$ & $\Delta x_{glass}$ & Relative Error \\
+        Point & $\theta$ & $\Delta_x$ & $\sigma_\Delta$ & $\Delta x_{SBOS}$ & $\Delta x_{glass}$ & $\Delta x$ error \\
               & [$^{\circ}$] & [px] & [px] & [mm] & [mm] & [\%] \\
         \midrule
          1 & 17 & 29.818 & 0.6001 & 0.1933 & 0.2099 & 7.87 \\
@@ -45,17 +45,15 @@ Table \ref{tab: angled glass displacement results} compares the displacements me
     \end{tabular}
 \end{table}
 
-%\par The design strategy of Chapter \ref{chapter: methodology} can be assessed directly by comparing the optical distances and magnifications it prescribes with those realised on the bench. Table \ref{tab: design validation} makes that comparison for the nine configurations of the setup matrix. The in-focus distance $d_{f,th}$ and the magnification $Mag_{th}$ are the design values listed in Table \ref{tab: angled glass test matrix}, while $d_{f,exp}$ and $Mag_{exp}$ were obtained from the calibration plate placed in the in-focus plane.
+Through Table \ref{tab: df and Mag angled glass results}, the design strategy of chapter \ref{chapter: methodology} can be assessed by comparing the optical distances and magnifications it prescribes with the ones obtained through the in-focus plane calibration. The Table is restricted to the 9 points where a similar field of view was enforced and the methodology of chapter \ref{chapter: methodology} used to size the optical setup. The relative magnification errors are contained mostly below 5\% with point 7 as an outlier. Point 7 was obtained using the minimum distance which the calibration could be in focus when using an $f=105$mm lens. That distance was bigger than the one prescribed by the surface map, resulting in a large $d_f$ and $Mag$ error. The propagation of that error is also evident in the sensitivity showed in Table \ref{tab: sensitivity comparison}.
 
-%\par Agreement is within 2.9\% in $d_f$ and 5.0\% in $Mag$ for every configuration except point 7. That point was the only one requiring an in-focus distance shorter than the 105 mm lens could reach, so the plane had to be set 15.6 mm further away than the design called for. The resulting 8.25\% deviation in $d_f$ propagates to 15.66\% in $Mag$, which is consistent with the thin lens relation: a relative change in $d_f$ is amplified in $Mag$ by the factor $d_f/(d_f-f)$, equal to 2.05 for this configuration.
-
-\begin{table}[htbp]
+\begin{table}[h]
     \centering
-    \caption{Design values against measured values for the setup matrix. $d_{f,th}$ and $Mag_{th}$ are the in-focus distance and optical magnification prescribed by the design space exploration of Chapter \ref{chapter: methodology} and listed in Table \ref{tab: angled glass test matrix}. $d_{f,exp}$ and $Mag_{exp}$ were measured with a calibration plate in the in-focus plane. Each deviation column is the relative difference with respect to the design value.}
-    \label{tab: design validation}
+    \caption{Design values against measured values for the setup matrix. $d_{f,th}$ and $Mag_{th}$ are the in-focus distance and optical magnification prescribed by the design space exploration of Chapter \ref{chapter: methodology} and listed in Table \ref{tab: angled glass test matrix}.  $Mag_{exp}$ was measured with a calibration plate in the in-focus plane and $d_{f,exp}$ was calculated through $d_f = f(Mag+1)/Mag$. Each deviation column is the relative difference with respect to the design value.}
+    \label{tab: df and Mag angled glass results}
     \begin{tabular}{lrrrrrr}
         \toprule
-        Point & $d_{f,th}$ & $d_{f,exp}$ & Deviation & $Mag_{th}$ & $Mag_{exp}$ & Deviation \\
+        Point & $d_{f,th}$ & $d_{f,exp}$ & $d_f$ error & $Mag_{th}$ & $Mag_{exp}$ & $Mag$ error \\
               & [mm] & [mm] & [\%] & [--] & [--] & [\%] \\
         \midrule
         1 & 409.0 & 399.5 & 2.32 & 0.9561 & 1.0025 &  4.85 \\
@@ -71,9 +69,11 @@ Table \ref{tab: angled glass displacement results} compares the displacements me
     \end{tabular}
 \end{table}
 
+Through the data collected during the experimental campaign, it is possible to obtain sensitivity through two routes and each give a different insight on the error sources and validity of the experiment. Table \ref{tab: sensitivity comparison} compares the theoretical sensitivity given by the surface map of chapter \ref{chapter: methodology} to sensitivity obtained through the geometry $S_{geom} = l \cdot Mag_{exp}$ and the sensitivity obtained with the displacement data $S_\Delta = \Delta x_{SBOS}/\epsilon_{glass}$. With the exemption of point 7, which has already been treated, all data is within 8\% of agreement. Strangely point 2 and 9 show a larger error in this table compared to the previous ones. This larger deviation might come to a measurement error in the lever arm $l$ which was used to compute $\epsilon_{glass}$. The data also validates the methodology of chapter \ref{chapter: methodology} as it demonstrates that the physical setup reproduces the predicted performance.
+
 %\par The sensitivity itself can be reached by three routes, and comparing them separates the error introduced by the optical layout from the error present in the measurement. Table \ref{tab: sensitivity comparison} collects them. $S_{th}$ is the design value, $S_{geom}$ substitutes the magnification actually achieved, and $S_{\Delta}$ is recovered from the displacement measured in the image.
 
-\begin{table}[htbp]
+\begin{table}[h]
     \centering
     \caption{Sensitivity obtained by three routes. $S_{th} = l Mag_{th}$ uses the design magnification of Table \ref{tab: angled glass test matrix}. $S_{geom} = l Mag_{exp}$ uses the magnification measured with the calibration plate, so it carries the magnification deviation of Table \ref{tab: design validation} but none of the measurement error. $S_{\Delta} = \Delta y / \varepsilon$ follows from the displacement actually measured. The last two columns give the deviation of $S_{geom}$ and $S_{\Delta}$ from $S_{th}$. Point 10 has $l = 0$, so the design sensitivity vanishes and no relative deviation is defined.}
     \label{tab: sensitivity comparison}
@@ -106,6 +106,8 @@ Table \ref{tab: angled glass displacement results} compares the displacements me
         \bottomrule
     \end{tabular}
 \end{table}
+
+With the data at hand it is also possible to compare the performance of a setup that uses negative defocus to another with positive defocus, effectively comparing the new capacities of SBOS to a standard BOS configuration.
 
 
 \section{Speckle Pattern Investigation Results}
