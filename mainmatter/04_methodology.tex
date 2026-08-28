@@ -242,21 +242,21 @@ To reconcile the optical spatial resolution and the post-processing resolution, 
 
 \begin{equation}
     \label{equation: Px density}
-    Px_{density} = \frac{Mag}{Px_{Size}},
+    \rho_{px} = \frac{Mag}{l_{px}},
     \qquad
-    Px_{density_{obj}} = \frac{Mag_{obj}}{Px_{Size}}
+    \rho_{px_{obj}} = \frac{Mag_{obj}}{l_{px}}
 \end{equation}
 
 One way to make this trade-off is to express $s_{min}$ in pixels via Eq. \ref{equation: smin px}, which combines the pixel density with the spatial blur. Dividing the sensor dimension by this quantity gives the ratio $SR$ (Eq. \ref{equation: SR}), which is equivalent to $L_{FoV_{obj}}/s_{min}$ and therefore represents the number of resolvable features across the object field of view. Specifying $SR$ thus fixes how finely the flow is sampled, and with it the number of pixels available to image each feature. For example, $s_{min[px]} = 10$ px ($SR \approx 200$) could be selected: the feature is then spanned by 2–3 speckles and correlated with a 32 px interrogation window at 75\% overlap, giving a vector spacing of 8 px and ensuring the feature is resolved by the vector field.
 
 \begin{equation}
     \label{equation: smin px}
-    s_{min_{[px]}} = s_{min} \cdot Px_{density_{obj}}
+    s_{min_{[px]}} = s_{min} \cdot \rho_{px_{obj}}
 \end{equation}
 
 \begin{equation}
     \label{equation: SR}
-    SR = \frac{L_{sens}}{s_{min_{[px]}} \cdot Px_{Size}}
+    SR = \frac{L_{sens}}{s_{min_{[px]}} \cdot l_{px}}
 \end{equation}
 
 \par By defining $SR$, an isoline can be drawn in the surface maps where that condition is met. Together with the previous recommendations: select the highest $f$ for robustness, highest $f_\#$ to obtain the better $S/s_{min}$ trade-off, while keeping $\Delta s$ small enough; the physical distances $l$, $m$ and $d_f$ can be defined. This way, a design point can be selected that optimizes the performance parameters given the available resources.
