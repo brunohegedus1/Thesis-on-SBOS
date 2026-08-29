@@ -85,6 +85,40 @@ The data acquisition followed standard BOS procedure using LaVision's DaVis 8.4 
     \label{fig: Angled Glass Slider}
 \end{figure}
 
+\subsection{Uncertainty Sources}
+\label{subsection: angled glass uncertainty}
+
+\par The campaign compares a displacement predicted by Equation \ref{equation: Displacement of angled glass} against a displacement measured by cross-correlation. Each side carries its own uncertainty, so two budgets are required before any disagreement between them can be interpreted. The defocus distance $l$ enters neither budget, since it cancels from the ratio of the predicted to the measured displacement. An error in $l$ can therefore not account for a disagreement between the two, although it does propagate into the sensitivity $S$.
+
+\par Three quantities feed the prediction: the plate thickness $T$, the plate angle $\theta$ and the refractive index $n$. Thickness was measured with a calliper and the angle was set with a protractor. The refractive index was not measured and was taken from the value quoted for the glass, $n = 1.52 \pm 0.02$. Each input is treated as a rectangular distribution of half-width $a$, so its standard uncertainty is $u = a/\sqrt{3}$.
+
+\par Sensitivity coefficients were obtained numerically from Equation \ref{equation: Displacement of angled glass} at both glass angles of the campaign. Table \ref{tab: angled glass uncertainty} collects them. The plate angle dominates. A deviation of $0.1^{\circ}$ moves the predicted displacement by 0.63\% at $\theta = 17^{\circ}$ and by 0.55\% at $\theta = 20^{\circ}$, whereas thickness and refractive index together account for less than half of the combined figure.
+
+\begin{table}[h]
+    \centering
+    \caption{Uncertainty budget for the displacement predicted by Equation \ref{equation: Displacement of angled glass}. Each input is treated as a rectangular distribution of half-width $a$, so that $u = a/\sqrt{3}$. The last two columns give the relative contribution of each input to the predicted displacement at the two glass angles used in the campaign.}
+    \label{tab: angled glass uncertainty}
+    \begin{tabular}{llrrrr}
+        \toprule
+        Source & Instrument & $a$ & $u(x_i)$ & \multicolumn{2}{c}{Contribution [\%]} \\
+        \cmidrule(lr){5-6}
+               &            &     &          & $\theta = 17^{\circ}$ & $\theta = 20^{\circ}$ \\
+        \midrule
+        Plate thickness $T$  & Calliper   & 0.02 mm         & 0.012 mm         & 0.58 & 0.58 \\
+        Refractive index $n$ & Literature & 0.02            & 0.012            & 1.40 & 1.37 \\
+        Plate angle $\theta$ & Protractor & $0.50^{\circ}$  & $0.29^{\circ}$   & 1.82 & 1.59 \\
+        \midrule
+        Combined             &            &                 &                  & 2.37 & 2.18 \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+\par Two quantities feed the measurement. The first is the scatter of the cross-correlation vector field $\sigma_\Delta$, already listed in Table \ref{tab: angled glass displacement results}, which runs from 2.0\% to 6.0\% of the mean displacement with an average of 3.2\%. The standard deviation of the field is used here in place of the standard error of the mean, because a 75\% window overlap leaves neighbouring vectors strongly correlated and the effective number of independent samples well below the vector count. The second is the optical magnification returned by the DaVis calibration, which converts the measured displacement from pixels to millimetres. \todo{insert the DaVis calibration fit residual}
+
+\par The two budgets combine in quadrature to a standard uncertainty of approximately 4\% on the comparison between prediction and measurement, or 8\% at a coverage factor of $k = 2$. \todo{recompute once the calibration residual is available}
+
+\par Three consequences follow for the results of Chapter \ref{chapter: Results}. Points 2 to 9 disagree by 0.5\% to 2.6\%, which falls below the standard uncertainty and calls for no further explanation. Point 1 shows the largest disagreement of the campaign at 7.9\%, close to twice the standard uncertainty and at the edge of the interval defined by $k = 2$. The value stays compatible with the budget as a whole, although no single input accounts for it on its own: an error in $\theta$ alone would have to reach $1.26^{\circ}$, which exceeds the reading uncertainty of the protractor by more than a factor of four. Points 10 to 20 sit between 2.4\% and 3.7\%, all of the same sign and with no dependence on $l$. A one-signed offset of this kind indicates a systematic error rather than scatter, and an angle offset of $0.57^{\circ}$ reproduces it exactly. Those eleven points share a single setting of the glass plate, so a small constant error in $\theta$ is the most plausible source.
+
 \par No beam expander was used during the first experimental campaign. Since no specification in the literature was found to size the laser diffuser and given the small field of view of 2cm, it was believed that the scattering and diffusion alone from the ground glass would be sufficient to fill the whole field of view. However that belief was proven wrong. Moreover, the small size of the diffuser made the laser beam diffraction limited at the ground glass and not at the camera aperture, this meant that changing the f-stop of the camera had no effect in the average speckle pattern size and the average speckles were a lot bigger than expected. Another effect was the vignetting of the speckle pattern diameter, meaning that the pattern size would change with the aperture diameter and magnification ($D_{\Delta s} \approx D \cdot M_{ag}$), which limited the usable $f_\#$. Faced with these limitations, another experimental campaign was envisioned with a bigger ground glass and a beam expander to try and produce a finer speckle pattern.
 
 \section{Speckle Pattern Investigation}
@@ -153,6 +187,34 @@ The previous setup was modified to also test the creation of speckles by project
     \label{fig: projected speckle experiment}
 \end{figure}
 
+\subsection{Uncertainty Sources}
+\label{subsection: speckle uncertainty}
+
+\par This campaign sets a measured average speckle size against the Rayleigh limit of Equation \ref{equation: Rayleigh Limit}. The two quantities are not equivalent. Equation \ref{equation: Rayleigh Limit} returns the smallest speckle the optical system can form, whereas the DaVis function returns a spatial average over a real pattern. A measured value above the prediction is therefore the expected outcome, and the comparison tests a floor rather than an equality. Only a measured value below the limit would indicate an error.
+
+\par The prediction rests on three inputs. The wavelength is fixed by the laser line at $\lambda = 632.8$ nm and contributes nothing of consequence. The optical magnification comes from the same DaVis calibration discussed in Subsection \ref{subsection: angled glass uncertainty}, so its uncertainty carries over unchanged. The f-stop number deserves attention, because the values engraved on a lens barrel are rounded members of a geometric series. Table \ref{tab: fstop correction} lists the effect. Marked apertures of 4, 8 and 16 are exact, whereas 11 and 22 stand for 11.31 and 22.63. The $\Delta s_{th}$ column of Table \ref{tab: speckle investigation matrix} is consequently low by 2.9\% for the ten points acquired at those two settings.
+
+\begin{table}[h]
+    \centering
+    \caption{Effect of the rounded f-stop scale on the speckle size predicted by Equation \ref{equation: Rayleigh Limit}. The engraved values follow powers of $\sqrt{2}$, and two of the three settings of this campaign are rounded. The correction applies to every point of Table \ref{tab: speckle investigation matrix} acquired at $f_\# = 11$ or $f_\# = 22$.}
+    \label{tab: fstop correction}
+    \begin{tabular}{lrrl}
+        \toprule
+        Marked $f_\#$ & Actual $f_\#$ & Correction on $\Delta s_{th}$ & Points affected \\
+        \midrule
+        4  &  4.00 & 0.0\% & 1, 4, 11 \\
+        11 & 11.31 & 2.9\% & 2, 5, 7, 8, 9, 10, 12 \\
+        22 & 22.63 & 2.9\% & 3, 6, 13 \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+\par On the measurement side the dominant term is the estimator itself. The DaVis function subtracts a sliding minimum from a sliding average, and both lengths were fixed at 16 pixels for every point of the campaign. That choice is arbitrary and the returned size depends on it. A repeat of the analysis at other lengths bounds the effect. \todo{repeat the speckle size analysis at 8 and 32 px and quote the spread}
+
+\par Speckle formation is random in nature, as established in Chapter \ref{chapter: LiteratureReview}. A single image therefore yields a finite sample estimate rather than a fixed property of the setup, and the spread across the field or across repeated frames sets a statistical floor that no choice of estimator can improve upon. \todo{quote the standard deviation of the speckle size across the field}
+
+\par One condition governs whether the comparison is meaningful at all. Section \ref{section: Angled Glass Experiment} established that the small diffuser of the first campaign made the beam diffraction limited at the ground glass instead of at the camera aperture, which placed the setup outside the regime that Equation \ref{equation: Rayleigh Limit} describes. The larger diffuser was introduced to restore that regime. Evidence for the restoration is the response of the measured size to the f-stop, since a diffraction limit set at the aperture must scale with $f_\#$ and one set at the diffuser must not. Points 1 to 3, 4 to 6 and 11 to 13 each hold the magnification fixed and vary only the aperture, so the three groups provide that test directly. Residual vignetting would break the same condition across the field and is checked by a comparison of the estimate between the centre and the edge of the image.
+
 Up until now, the designed setup made it known how to create an appropriate speckle pattern and how to set the optical distances so a desirable sensitivity and spatial resolution is achieved. This knowledge now can be applied in a proof of concept case that enables the visualization of a true density gradient and even its integration into a density field. The next experiment will build on that basis to visualize a compressible jet, which will serve as proof of concept and allow for the reconstruction of a density field using SBOS.
 
 \section{Compressible Jet Experiment}
@@ -169,5 +231,18 @@ A similar setup to the one shown in Figure \ref{fig: Directed speckles investiga
 
 The data acquisition followed a similar procedure than the one explained at Section \ref{section: Angled Glass Experiment}. A target plate was put at the in-focus position and a picture was captured to calibrate laVision's DaVis software. Then, the laser was turned on and a reference picture was taken. The pressure was set at the air tap valve and the air gun was triggered, while the camera captured 100 images with an exposure time of 300 $\mu$s. In total, 6 cases were captured with pressures at the air tap valve ranging from 3 bar to 8 bar with 1 bar step. The speckle size obtained was checked following the procedure of Section \ref{section: Speckle Pattern Investigation}. The 100 images for each case were averaged and cross-correlated with an interrogation window of 12 px, 75\% of overlap and 4 multipasses.
 
+
+\subsection{Uncertainty Sources}
+\label{subsection: jet uncertainty}
+
+\par The jet measurement runs through a longer chain than the two campaigns before it. A displacement field is converted into a deflection angle, the deflection angle into a density gradient through the Gladstone-Dale relation, and the gradient into a density field through the inverse Abel transform of Subsection \ref{subsection: Axisymmetric Refractive Field}. Every stage adds a term, and the terms fall into three groups: the flow condition, the optical setup, and the reconstruction.
+
+\par The flow condition carries the largest uncertainty and the one least under control. As stated at the start of this section, the pressure at the air tap valve is known but the pressure immediately upstream of the nozzle is not, because the losses across the hose, the quick-disconnect couplings and the air gun body were never quantified. Any comparison against compressible flow theory inherits that gap, since the nozzle pressure ratio follows from the stagnation pressure alone. An independent route exists. The shock cell length of an underexpanded jet depends on the nozzle pressure ratio through the relation of Emden \cite{Emden1899}, so a measurement of the cell length recovers the pressure without a gauge at the nozzle. \todo{bound the nozzle pressure from the measured shock cell length}
+
+\par The optical terms are those of Subsection \ref{subsection: angled glass uncertainty} and transfer without modification. Sensitivity follows from $S = l M_{ag}$, so the defocus distance and the calibration magnification enter directly. Both were set once for the whole pressure series, which makes their contribution a common bias across the six cases rather than a source of scatter between them. Relative comparisons between pressures are therefore tighter than the absolute density level.
+
+\par Processing contributes a term that the current settings hide. The 100 frames of each case were averaged before cross-correlation, so the algorithm returns a single mean field and no estimate of its own repeatability. Correlation of the frames individually recovers that estimate, and the standard deviation across the 100 realisations then plays the role that $\sigma_\Delta$ plays in Table \ref{tab: angled glass displacement results}. The same operation separates measurement noise from genuine unsteadiness in the jet, which the average discards. \todo{correlate the frames individually and quote the scatter across realisations}
+
+\par Three terms belong to the reconstruction. The Gladstone-Dale coefficient for air at $\lambda = 632.8$ nm is known to better than one percent and is negligible against the rest. The width assigned to the refractive object in the near-field correction is not measured but inferred, so its influence on the recovered density needs a sensitivity study across a plausible range. \todo{quantify the density sensitivity to the assumed object width} The inverse Abel transform assumes axial symmetry and involves a derivative, which amplifies noise towards the jet axis and makes the centreline density the least reliable part of the field. A jet from a commercial air gun nozzle is unlikely to be perfectly symmetric, and a comparison of the two halves of the measured field quantifies the departure.
 
 \section{Aerospike Experiment}
