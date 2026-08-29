@@ -22,7 +22,7 @@
 
 
 
-\par To simplify the experiment, a small angled piece of glass was used as refractive object, similar to what Schwarz \& Braukmann \cite{Schwarz&Braukmann} and Meier \& Rösgen \cite{Meier&Roesgen2013} have used. As shown in Figure \ref{fig: Angled glass geometry}, the angled glass introduces a uniform unidirectional displacement to the speckle background that can be predicted using equation \ref{equation: Displacement of angled glass}. By dividing the displacement measured by the camera $\Delta x$ and the displacement induced by the refractive object $\epsilon$, it is possible to obtain the setup sensitivity $S$, as shown in Eq. \ref{equation: S BOS}. The glass piece used had a thickness $T = 2$ mm and a refractive index of around $n = 1.52 \pm 0.02$. 
+\par To simplify the experiment, a small angled piece of glass was used as refractive object, similar to what Schwarz \& Braukmann \cite{Schwarz&Braukmann} and Meier \& Rösgen \cite{Meier&Roesgen2013} have used. As shown in Figure \ref{fig: Angled glass geometry}, the angled glass introduces a uniform unidirectional displacement to the speckle background that can be predicted using equation \ref{equation: Displacement of angled glass}. By dividing the displacement measured by the camera $\Delta x$ and the displacement induced by the refractive object $\epsilon$, it is possible to obtain the setup sensitivity $S$, as shown in Eq. \ref{equation: S BOS}. It is worth noting that the definition of $\epsilon$ in this case is an artifice because the real displacement $\Delta x$ is independent of $l$. The $\epsilon$ is used to connect a simple refractive object to a real experimental scenario. The glass piece used had a thickness $T = 2$ mm and a refractive index of around $n = 1.52 \pm 0.02$. 
 
 
  \begin{figure}[h]
@@ -75,8 +75,7 @@
 
 Points 10-20 of Table \ref{tab: angled glass test matrix} describes the optical arrangement of a different configuration to the previous points.The setup presented in Figure \ref{fig: Angled glass setup} was modified to run an experiment intended to demonstrate the SBOS capacity of achieving different defocus configurations. The experiment consisted in keeping the in-focus plane fixed and moving the refractive object in steps with a linear slider, shown in Figure \ref{fig: Angled Glass Slider}. This kept the optical magnification constant, while permitting the exploration of a range of defocusing distances. Therefore the experiment can prove that the advantage of the negative defocus configuration in achieving a higher sensitivity comes only from the $M_{ag}$ or also some other mechanism related to $l$.
 
-The data acquisition followed standard BOS procedure using LaVision's DaVis 8.4 software. First, a calibration plate was used to define the in-focus plane, it can be seen in Figure \ref{fig: Angled glass setup}. From the calibration, DaVis computed the magnification and the pixel density of the setup. Then, The laser is turned on and a reference image is taken. The laser is turned back off and the refractive object is put into position following the distances presented in the surface maps of chapter \ref{chapter: methodology}. With the laser back on, a displaced image is taken. Post-processing was done using LaVision DaVis 11 software. The images were first pre-processed to obtain a 2 frame sequence. Then the cross-correlation (CC) algorithm was used to reconstruct the displacement. Due to an unexpected large average speckle size, the smallest interrogation window had a size of 64x64 with 4 multipass and 75\% of overlap, while the biggest had 256x256 pixels with 1 pass and 75\% overlap.
-
+The data acquisition followed standard BOS procedure using LaVision's DaVis 8.4 software. First, a calibration plate was used to define the in-focus plane, it can be seen in Figure \ref{fig: Angled glass setup}. From the calibration, DaVis computed the magnification and the pixel density of the setup. Then, The laser is turned on and a reference image is taken. The laser is turned back off and the refractive object is put into position following the distances presented in the surface maps of chapter \ref{chapter: methodology}. With the laser back on, a displaced image is taken. Post-processing was done using LaVision DaVis 11 software. The images were first pre-processed to obtain a 2 frame sequence. Then the cross-correlation (CC) algorithm was used to reconstruct the displacement. Due to an unexpected large average speckle size, the smallest interrogation window had a size of 64x64 with 4 multipass and 75\% of overlap, while the biggest had 256x256 pixels with 1 pass and 75\% overlap.Nevertheless, given the large magnification, the vector pitch obtained is quite still small.
 
 
  \begin{figure}[h]
@@ -140,7 +139,7 @@ A series of pictures were taken where $d_{GG}, M_{ag}$ and $f_\#$ were varied. T
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.5\textwidth]{figures/projected speckle schematic.png}
-    \caption{Illustrated diagram of the setup used to create and study projected speckles}
+    \caption{Diagram of the setup used to create and study projected speckles}
     \label{fig: projected speckle setup diagram}
 \end{figure}
 
@@ -159,7 +158,7 @@ Up until now, the designed setup made it known how to create an appropriate spec
 \section{Compressible Jet Experiment}
 \label{section: Compressible jet experiment}
 
-A similar setup to the one shown in Figure \ref{fig: Directed speckles investigation setup} was used to image a compressible jet. For this experiment, $l = 3$ cm, $d_{GG} = 83$ cm, $d_f = 74$ cm and $f_\# = 11$, which gives $M_{ag} = 0.417$, $S = 0.0125$ and $s_{min} = 0.369$ mm. Figure \ref{fig: Compressible Jet experiment} shows a picture of the assembled setup. The jet was achieved by connecting a standard air gun with a nozzle diameter $d_N = 3.5$ mm to a wall air tap with a hose. This setup allowed to adjust the pressure coming out of the air tap, however, a big limitation was the lack of loss quantification through the hose, quick-disconnect couplings and the air gun itself, meaning that the actual pressure right before the nozzle exit was unknown.
+A similar setup to the one shown in Figure \ref{fig: Directed speckles investigation setup} was used to image a compressible jet. For this experiment, $l = 3$ cm, $d_{GG} = 83$ cm, $d_f = 74$ cm and $f_\# = 11$, which gives $M_{ag} = 0.37$, $S = 0.0125$ and $s_{min} = 0.369$ mm. Figure \ref{fig: Compressible Jet experiment} shows a picture of the assembled setup. The jet was achieved by connecting a standard air gun with a nozzle diameter $d_N = 3.5$ mm to a wall air tap with a hose. This setup allowed to adjust the pressure coming out of the air tap, however, a big limitation was the lack of loss quantification through the hose, quick-disconnect couplings and the air gun itself, meaning that the actual pressure right before the nozzle exit was unknown.
 
 \begin{figure}[h]
     \centering

@@ -69,7 +69,7 @@ Through Table \ref{tab: df and Mag angled glass results}, the design strategy of
     \end{tabular}
 \end{table}
 
-Through the data collected during the experimental campaign, it is possible to obtain sensitivity through two routes and each give a different insight on the error sources and validity of the experiment. Table \ref{tab: sensitivity comparison} compares the theoretical sensitivity given by the surface map of chapter \ref{chapter: methodology} to sensitivity obtained through the geometry $S_{geom} = l \cdot M_{ag_{exp}}$ and the sensitivity obtained with the displacement data $S_\Delta = \Delta x_{SBOS}/\epsilon_{glass}$. With the exemption of point 7, which has already been treated, all data is within 8\% of agreement. Strangely point 2 and 9 show a larger error in this table compared to the previous ones. This larger deviation might come to a measurement error in the lever arm $l$ which was used to compute $\epsilon_{glass}$. The data also validates the methodology of chapter \ref{chapter: methodology} as it demonstrates that the physical setup reproduces the predicted performance.
+Through the data collected during the experimental campaign, it is possible to obtain sensitivity through two routes and each give a different insight on the error sources and validity of the experiment. Table \ref{tab: sensitivity comparison} compares the theoretical sensitivity given by the surface map of chapter \ref{chapter: methodology} to sensitivity obtained through the geometry $S_{geom} = l \cdot M_{ag_{exp}}$ and the sensitivity obtained with the displacement data $S_\Delta = \Delta_x/\epsilon_{glass}$. With the exemption of point 7, which has already been treated, all data is within 8\% of agreement. It is worth noting that the $S_{geom}$ error is almost the same as the magnification error, while $S_\Delta$ stacks both the displacement measurement error and the geometric setup error. The data also validates the methodology of chapter \ref{chapter: methodology} as it demonstrates that the physical setup reproduces the predicted performance.
 
 %\par The sensitivity itself can be reached by three routes, and comparing them separates the error introduced by the optical layout from the error present in the measurement. Table \ref{tab: sensitivity comparison} collects them. $S_{th}$ is the design value, $S_{geom}$ substitutes the magnification actually achieved, and $S_{\Delta}$ is recovered from the displacement measured in the image.
 
@@ -107,8 +107,23 @@ Through the data collected during the experimental campaign, it is possible to o
     \end{tabular}
 \end{table}
 
-With the data at hand it is also possible to compare the performance of a setup that uses negative defocus to another with positive defocus, effectively comparing the new capacities of SBOS to a standard BOS configuration. Figure \ref{} plots the sensitivity versus defocus distance of points 1 to 9 that were captured with $f=200$ mm, with error bars corresponding to the standard deviation divided by the mean cross-correlation displacement. The plot reproduces the findings of chapter \ref{chapter: methodology}, where for a given defocus distance $l$, sensitivity is higher if the distance is negative.
+With the data at hand it is also possible to compare the performance of a setup that uses negative defocus to another with positive defocus, effectively comparing the new capacities of SBOS to a standard BOS configuration. Figure \ref{fig: S vs l experimental} plots the sensitivity versus defocus distance of points 1 to 9 that were captured with $f=200$ mm, with error bars corresponding to the standard deviation divided by the mean cross-correlation displacement. The plot reproduces the findings of chapter \ref{chapter: methodology}, where for a given defocus distance $l$, sensitivity is higher if the distance is negative.
 
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=1\textwidth]{figures/S vs l experimental.jpg}
+    \caption{Plot of Sensitivity Vs defocus distance for the points obtained with a camera lens with $f=200$mm, $f_\# = 11$ and $f_\# = 22$}
+    \label{fig: S vs l experimental}
+\end{figure}
+
+Points 10 to 20 of table \ref{tab: angled glass displacement results} and \ref{tab: sensitivity comparison} shows the results of the experiment where the angled glass was positioned in a linear slider with a fixed magnification and only the defocus position was changed. Figure \ref{fig: S vs l slider experiment} plots the resulting sensitivity varied with defocus distance. The points are symmetric around the Y-axis, which means that the mechanism that makes a negative defocus configuration more powerful than its positive counterpart is not the negative distance per say but the increased magnification that comes with a shorter focal distance to the camera. Although the resolution has not been measured in this case, it is also to be expected through equation \ref{equation: S over smin} that the spatial resolution trade-off is also improved by this increase in magnification.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=1\textwidth]{figures/S vs l slider experiment.jpg}
+    \caption{Plot of Sensitivity Vs defocus distance for the points obtained in the slider experiment, $f=200$mm, fixed Magnification of $M_{ag} = 0.745$}
+    \label{fig: S vs l slider experiment}
+\end{figure}
 
 \section{Speckle Pattern Investigation Results}
 
