@@ -1,7 +1,7 @@
 \chapter{Optics of a Blurred Object}
 \label{Appendix: Blurred Object}
 
-When an imaged object is blurred, its features do not converge to a single distinct point but are instead smeared around an area called circle of confusion. Figure \ref{fig: Blurred object geometry} shows an object of height $H'$ and how light travels from the highest point of the object to interact with the convergent lens in the sketch. The image also shows an object in focus with height $H$ and its image height $h$. Notice how the light rays from the in-focus object make a triangle with its image, it's this geometry that allows for the derivation of relationship between distances $d_f, f $ and $Z$ called thin lens equation, described in equation \ref{equation: Thin Lens equation}. For an out-of-focus object, the relationship between object distance $m$, image distance $Z$ and $f$ is no longer described through the thin lens equation as the geometry of the system has changed. Nevertheless, It is possible to use this new geometry to define new concepts, such as the blurred object magnification $M_{ag_{obj}}$, which corresponds to the ratio between the size of the out-of-focus object and the image of the in-focus object that shares the light ray that crosses the middle of the lens with the out-of-focus object.
+When an imaged object is blurred, its features do not converge to a single distinct point but are instead smeared around an area called circle of confusion. Figure \ref{fig: Blurred object geometry} shows an object of height $H'$ and how light travels from the highest point of the object to interact with the convergent lens in the sketch. The image also shows an object in focus with height $H$ and its image height $h$. Notice how the light rays from the in-focus object make a triangle with its image, it's this geometry that allows for the derivation of relationship between distances $d_f, f $ and $Z$ called thin lens equation, described in Equation \ref{equation: Thin Lens equation}. For an out-of-focus object, the relationship between object distance $m$, image distance $Z$ and $f$ is no longer described through the thin lens equation as the geometry of the system has changed. Nevertheless, It is possible to use this new geometry to define new concepts, such as the blurred object magnification $M_{ag_{obj}}$, which corresponds to the ratio between the size of the out-of-focus object and the image of the in-focus object that shares the light ray that crosses the middle of the lens with the out-of-focus object.
 
 \begin{figure}[htbp]
     \centering
@@ -23,21 +23,21 @@ This magnification can also be written in terms of the focal length and the in-f
     M_{ag_{obj}} = \frac{f(1+M_{ag})}{m}
 \end{equation}
 
-Equivalently to how $M_{ag}$ can be used to transfer a length from the image plane to the object plane and vice-versa by dividing or multiplying it by $M_{ag}$, respectively. The same can be done with $M_{ag_{obj}}$. This way, it is possible to transfer the $CoC$ from the image plane to the blurred object plane. In this same way, $L_{FoV_{obj}}$ was derived in equation \ref{equation: LFoVobj BOS}.
+Equivalently to how $M_{ag}$ can be used to transfer a length from the image plane to the object plane and vice-versa by dividing or multiplying it by $M_{ag}$, respectively. The same can be done with $M_{ag_{obj}}$. This way, it is possible to transfer the $CoC$ from the image plane to the blurred object plane. In this same way, $L_{FoV_{obj}}$ was derived in Equation \ref{equation: LFoVobj BOS}.
 
 \begin{equation}
     \label{equation: CoCobj transfer}
     CoC_{obj} = \frac{CoC}{M_{ag_{obj}}}
 \end{equation}
 
-By combining equations \ref{equation: CoC in M and S}, \ref{equation: Mobj in f and M} and \ref{equation: CoCobj transfer}, it is possible to obtain:
+By combining Equations \ref{equation: CoC in M and S}, \ref{equation: Mobj in f and M} and \ref{equation: CoCobj transfer}, it is possible to obtain:
 
 \begin{equation}
     \label{equation: CoCobj compact}
     CoC_{obj} = \frac{lM_{ag}}{f_\#(1+M_{ag})}
 \end{equation}
 
-and rearranging equations \ref{equation: CoCobj transfer}, \ref{equation: Mobj definition} and \ref{equation: df}:
+and rearranging Equations \ref{equation: CoCobj transfer}, \ref{equation: Mobj definition} and \ref{equation: df}:
 
 \begin{equation}
     \label{equation: CoCobj expanded}
@@ -51,4 +51,4 @@ Given the spatial resolution $\delta_t$ derived by Gojani \& Obayashi, described
     \delta_t = \frac{lM_{ag}}{f_\#(1+M_{ag})} + \frac{\Delta_t}{M_{ag}} \left( 1 - \frac{l}{m+l}\right)
 \end{equation}
 
-If $\Delta_t$ corresponds to the $CoC$ as it is mentioned in Gojani's paper, his blurred circle becomes $\delta_t = 2 \cdot CoC_{obj}$ through equations \ref{equation: CoCobj compact} and \ref{equation: CoCobj expanded}. If the geometry of Gojani's cone of light is also investigated a bit further, it is possible to notice that it resembles the geometry of Figure \ref{fig: CoC geometry} but off the lens axis and mirrored around the lens' plane. This observation leads to the interpretation of Gojani's result as a calculation of the Circle of Confusion in the object plane of two points in the image plane that form the Circle of Confusion, or the object Circle of Confusion of the image Circle of Confusion, which is...a rather confusing result. Nevertheless, It is thus proven that Gojani’s formulation predicts a blur circle twice the size of the one established experimentally by Schwarz and Braukmann \cite{Gojani&Obayashi, Schwarz&Braukmann}.
+If $\Delta_t$ corresponds to the $CoC$ as it is mentioned in Gojani's paper, his blurred circle becomes $\delta_t = 2 \cdot CoC_{obj}$ through Equations \ref{equation: CoCobj compact} and \ref{equation: CoCobj expanded}. If the geometry of Gojani's cone of light is also investigated a bit further, it is possible to notice that it resembles the geometry of Figure \ref{fig: CoC geometry} but off the lens axis and mirrored around the lens' plane. This observation leads to the interpretation of Gojani's result as a calculation of the Circle of Confusion in the object plane of two points in the image plane that form the Circle of Confusion, or the object Circle of Confusion of the image Circle of Confusion, which is...a rather confusing result. Nevertheless, It is thus proven that Gojani’s formulation predicts a blur circle twice the size of the one established experimentally by Schwarz and Braukmann \cite{Gojani&Obayashi, Schwarz&Braukmann}.

@@ -8,7 +8,7 @@
 
 \par The ability of fluid to change its density is called compressibility. Air is a gas mixture, so its molecules are distanced enough that they are able to move closer together when some pressure is applied. Due to this, air is classified as having high compressibility. When objects move slowly through it, changes in pressure throughout the flow field are small enough that the effect can be neglected as an engineering approximation, and density can be assumed constant. This is the incompressible assumption, and it can be expressed through the relation between density $\rho$ and pressure p via the compressibility coefficient $\tau$, as shown in the equation: $d \rho =\rho \tau dp$.
 
-\par When high speeds are achieved, the pressure gradients through the flow field become larger, leading to a significant change in density that needs to be accounted for. A normal threshold for compressible flows is when the Mach Number ($M$) surpasses 0.3, which marks the point where density changes are higher than $5\%$ \cite{TheBookOfAnderson}. The Mach number is a non-dimensional quantity, defined by Eq. \ref{equation:Mach Number}, that governs the behavior of waves traveling faster than the speed of sound. This behavior was discovered in 1885 by Ernst Mach and Wentzel when working on such structures with schlieren imaging \cite{Settles2001}.
+\par When high speeds are achieved, the pressure gradients through the flow field become larger, leading to a significant change in density that needs to be accounted for. A normal threshold for compressible flows is when the Mach Number ($M$) surpasses 0.3, which marks the point where density changes are higher than $5\%$ \cite{TheBookOfAnderson}. The Mach number is a non-dimensional quantity, defined by Equation \ref{equation:Mach Number}, that governs the behavior of waves traveling faster than the speed of sound. This behavior was discovered in 1885 by Ernst Mach and Wentzel when working on such structures with schlieren imaging \cite{Settles2001}.
 
 \begin{equation}
     \label{equation:Mach Number}
@@ -31,7 +31,7 @@ Figure \ref{fig: Moving sound wave} shows an object leaving point A at a speed f
 \mu = \arcsin\!\left(\frac{1}{M}\right)
 \end{equation}
 
-\par The coalescence of the emitted waves creates an extremely thin region (of around $10^{-7}$m of magnitude) where the flow properties change drastically, in an almost explosive compression process that originates a seemingly discontinuous pressure increase across it \cite{TheBookOfAnderson}. When the emitted sound from the object becomes stronger, an oblique shock wave with an angle $\beta$ from the freestream air is formed, where $\beta > \mu$. Through this oblique shock wave, the pressure, density, temperature and entropy of the flow increases, while the total pressure, Mach number and velocity decreases. These relationships are described by the continuity, momentum and energy equations for oblique shocks, summarized by Eq. \ref{equation: oblique continuity}, \ref{equation: oblique momentum} and \ref{equation: oblique energy} respectively, given the geometry of Figure \ref{fig: Oblique shock geometry}.
+\par The coalescence of the emitted waves creates an extremely thin region (of around $10^{-7}$m of magnitude) where the flow properties change drastically, in an almost explosive compression process that originates a seemingly discontinuous pressure increase across it \cite{TheBookOfAnderson}. When the emitted sound from the object becomes stronger, an oblique shock wave with an angle $\beta$ from the freestream air is formed, where $\beta > \mu$. Through this oblique shock wave, the pressure, density, temperature and entropy of the flow increases, while the total pressure, Mach number and velocity decreases. These relationships are described by the continuity, momentum and energy equations for oblique shocks, summarized by Equation \ref{equation: oblique continuity}, \ref{equation: oblique momentum} and \ref{equation: oblique energy} respectively, given the geometry of Figure \ref{fig: Oblique shock geometry}.
 
 \begin{figure}[htbp]
     \centering
@@ -90,7 +90,7 @@ Equation \ref{equation:theta-beta-M} shows how strong density gradients naturall
 
 %Add a picture of underexpanded, overexpanded and perfectly expanded jets
 
-\par Figure \ref{} shows that under-expanded jet is marked by periodic structures called shock cells. These cells form as a mechanism of pressure adaptation between the nozzle exit and the ambient air through alternating Prandtl-Meyer expansion and compression waves \cite{vanHinsberg2014}. Since the the pressure at the nozzle exit is greater than the ambient pressure, the flow needs to expand to match the outside pressure. The results is a Prandtl-Meyer expansion fan anchored at the lip of the nozzle. These expansion waves are reflected at the axis of symmetry into another expansion fan, which in turn reflect at the jet boundary into compression waves. These converge into one another and coalesce, forming a shock. This shock increases pressure, leading to another round of expansion waves. this process continues until, due to friction, the jet pressure equals the atmospheric pressure.
+\par Figure \ref{} shows that under-expanded jet is marked by periodic structures called shock cells. These cells form as a mechanism of pressure adaptation between the nozzle exit and the ambient air through alternating Prandtl-Meyer expansion and compression waves \cite{vanHinsberg2014}. Since the the pressure at the nozzle exit is greater than the ambient pressure, the flow needs to expand to match the outside pressure. The results is a Prandtl-Meyer expansion fan anchored at the lip of the nozzle. These expansion waves are reflected at the axis of symmetry into another expansion fan, which in turn reflect at the jet boundary into compression waves. These converge into one another and coalesce, forming a shock. This shock increases pressure, leading to another round of expansion waves. This process continues until, due to friction, the jet pressure equals the atmospheric pressure.
 
 %Add picture of the jet
 
@@ -99,7 +99,7 @@ Equation \ref{equation:theta-beta-M} shows how strong density gradients naturall
 
 \section{Refraction}
 \label{section: Refraction}
-\par As mentioned in chapter \ref{chapter: introduction}, refraction is the change in direction of a light ray as it propagates through a medium with spatially varying refractive index. This index is the ratio between the speed of light through vacuum, $c_0 \approx 3 \cdot 10^8$ m/s, and the speed of light through the medium, $c: n=c_0/c$.
+\par As mentioned in Chapter \ref{chapter: introduction}, refraction is the change in direction of a light ray as it propagates through a medium with spatially varying refractive index. This index is the ratio between the speed of light through vacuum, $c_0 \approx 3 \cdot 10^8$ m/s, and the speed of light through the medium, $c: n=c_0/c$.
 
 \par The refractive index is a function of the light’s wavelength $\lambda$, and the thermochemical state of the environment it passes through. If $n$ is known at a certain wavelength and thermochemical state, it can be extrapolated to other states through the Lorentz-Lorentz equation, where $A$ is the molar refractivity, dependent on the wavelength, and $W_M$ the mean molecular weight \cite{Schmidt2025}.
 
@@ -158,7 +158,7 @@ Equation \ref{equation:theta-beta-M} shows how strong density gradients naturall
 \int \nabla \rho \, dz
 \end{equation}
 
-\par Equation \ref{equation:epsilon-nabla rho} links directly the light deviation vector to the density gradient through media. Thus, in order to obtain a quantitative measure of the density field through a test section, one could employ a method to measure the displacement of light after passing through it. If the transversal refractive gradients are independent to the line of sight direction, such as a 2D planar flow, equation \ref{equation:epsilon-nabla rho} can be simplified into equation \ref{equation: Displacement and Density Gradient} for $x$, where $W$ is the refractive object thickness \cite{RajendranDotTracking}.
+\par Equation \ref{equation:epsilon-nabla rho} links directly the light deviation vector to the density gradient through media. Thus, in order to obtain a quantitative measure of the density field through a test section, one could employ a method to measure the displacement of light after passing through it. If the transversal refractive gradients are independent to the line of sight direction, such as a 2D planar flow, Equation \ref{equation:epsilon-nabla rho} can be simplified into Equation \ref{equation: Displacement and Density Gradient} for $x$, where $W$ is the refractive object thickness \cite{RajendranDotTracking}.
 
 \begin{equation}
     \label{equation: Displacement and Density Gradient}
@@ -170,12 +170,12 @@ The equation shows that, if the light displacement passing through such refracti
 \subsection{Axisymmetric Refractive Field}
 \label{subsection: Axisymmetric Refractive Field}
 
-When a refractive object is axially symmetric, it is possible to reconstruct it's whole density distribution with only a 2D snapshot of the light displacements through it. In such scenario, the image is a 2D projection of a 3D axissymetric body, and the inverse Abel transform can be used to obtain it's radial and axial profile. Consider the case in Figure \ref{fig: Abel transform} and equation \ref{equation: displacement integral} for y, it can be integrated in y in both sides into equation \ref{}, which removes the partial derivative through the fundamental theorem of calculus.
+When a refractive object is axially symmetric, it is possible to reconstruct its whole density distribution with only a 2D snapshot of the light displacements through it. In such scenario, the image is a 2D projection of a 3D axisymmetric body, and the inverse Abel transform can be used to obtain its radial and axial profile. Consider the case in Figure \ref{fig: Abel transform} and Equation \ref{equation: displacement integral} for y, it can be integrated in y in both sides into Equation \ref{}, which removes the partial derivative through the fundamental theorem of calculus.
 
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.3\textwidth]{figures/AbelTransform.png}
-    \caption{Diagram of the geometry of an axisymmetric body being seeing by an observer in I. If the body, in grey, is described by a function $f(r)$, the observer will see its projection $F(y)$, which is its Abel transform}
+    \caption{Diagram of the geometry of an axisymmetric body being seen by an observer in I. If the body, in grey, is described by a function $f(r)$, the observer will see its projection $F(y)$, which is its Abel transform}
     \label{fig: Abel transform}
 \end{figure}
 
@@ -184,7 +184,7 @@ When a refractive object is axially symmetric, it is possible to reconstruct it'
     E_y = \frac{2}{n_0}\int_0^R [n(r) - n_0]dz
 \end{equation}
 
-Now, by changing $z$ for the radius $r$, $E_y$ becomes the plain Abel transform of the refractive index $n$ in equation \ref{equation: Abel transform of n} \cite{Abel1826}. This means that when the inverse Abel transformation is applied to $E_y$, a radial profile of $n$ is obtained, which can be translated to the density through the Gladstone-Dale relation.
+Now, by changing $z$ for the radius $r$, $E_y$ becomes the plain Abel transform of the refractive index $n$ in Equation \ref{equation: Abel transform of n} \cite{Abel1826}. This means that when the inverse Abel transformation is applied to $E_y$, a radial profile of $n$ is obtained, which can be translated to the density through the Gladstone-Dale relation.
 
 \begin{equation}
     \label{equation: Abel transform of n}
