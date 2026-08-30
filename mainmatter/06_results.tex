@@ -125,6 +125,38 @@ Points 10 to 20 of Tables \ref{tab: angled glass displacement results} and \ref{
     \label{fig: S vs l slider experiment}
 \end{figure}
 
+\subsection{Uncertainty of the Angled Glass Experiment}
+
+\par An uncertainty budget is required before any disagreement in the experiment can be interpreted. The campaign compares a displacement predicted by Equation \ref{equation: Displacement of angled glass} against a displacement measured by cross-correlation and each side carries its own uncertainty. So two budget were constructed based on the Guide to the Expression of uncertainty in Measurement (GUM).
+
+The first budget focus in the three inputs of the angled glass displacement prediction, namely the plate thickness $T$, the plate angle $\theta$ and the refractive index $n$. Thickness was measured with a caliper and the angle was set with a protractor, while refractive index was obtained in literature as the value for common glass. Each input was treated as a rectangular probability distribution of half-width $a$ with a standard uncertainty of $u = a/\sqrt{3}$. Table \ref{tab: angled glass uncertainty} displays the half-width $a$ and uncertainty $u$ for each input variable. 
+
+The sensitivity coefficients and contributions of each input variable regarding the two glass angles were also estimated based on Equation \ref{equation: Displacement of angled glass}. 
+Table \ref{tab: angled glass uncertainty} shows the contribution of each variable for each glass angle, which correspond to the sensitivity coefficient times the uncertainty. At the bottom of the table it is also possible to note the combined uncertainties for each angle.
+
+\begin{table}[h]
+    \centering
+    \caption{Uncertainty budget for the displacement predicted by Equation \ref{equation: Displacement of angled glass}. Each input is treated as a rectangular distribution of half-width $a$, so that $u = a/\sqrt{3}$.}
+    \label{tab: angled glass uncertainty}
+    \begin{tabular}{llrrrr}
+        \toprule
+        Source & Instrument & $a$ & $u$ & \multicolumn{2}{c}{Contribution [\%]} \\
+        \cmidrule(lr){5-6}
+               &            &     &          & $\theta = 17^{\circ}$ & $\theta = 20^{\circ}$ \\
+        \midrule
+        Plate thickness $T$  & Calliper   & 0.02 mm         & 0.012 mm         & 0.58 & 0.58 \\
+        Refractive index $n$ & Literature & 0.02            & 0.012            & 1.40 & 1.37 \\
+        Plate angle $\theta$ & Protractor & $0.50^{\circ}$  & $0.29^{\circ}$   & 1.82 & 1.59 \\
+        \midrule
+        Combined             &            &                 &                  & 2.37 & 2.18 \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+\par Regarding the cross-correlation displacement measurement, it is affected mainly by two variable. The first is the scatter of the cross-correlation vector field $\sigma_\Delta$, already listed in Table \ref{tab: angled glass displacement results}, which runs from 2.0\% to 6.0\% of the mean displacement with an average of 3.2\%. The second is the optical magnification returned by the DaVis calibration, which converts the measured displacement from pixels to millimeters.
+
+%Davis Calibration fit error within 1 to 2.9 px
+
 \section{Speckle Pattern Investigation Results}
 
 \section{Compressible Jet Experiment Results}
