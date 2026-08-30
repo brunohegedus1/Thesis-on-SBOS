@@ -8,7 +8,7 @@ Write Introduction paragraph
 
 The Angled Glass Experiment aimed to validate the methodology and compare the different defocus configurations treated in Chapter \ref{chapter: methodology}. This section will display the data that has been collected, present how it was treated and discuss whether these objectives have been achieved. The tables that follow give an overview of the results.
 
-Table \ref{tab: angled glass displacement results} compares the displacements measured through SBOS with the predicted shift induced by the angled glass. $\Delta_x$ is the mean of the cross-correlation vector field in pixels, $\Delta x_{SBOS}$ is the latter transferred to mm through $\rho_{px}$ and $\Delta x_{glass}$ is the glass-induced ray shift, calculated through Equation \ref{equation: Displacement of angled glass}. Since the glass piece produces a uniform displacement field, the standard deviation of the cross-correlation field $\sigma_\Delta$ quantifies the precision of the SBOS measurement, while the relative error quantifies the accuracy of the method. All errors are below 10\%, with most of them below 4\% and $\sigma_\Delta$ also shows small values. The only outlier was point 1 with a relative error of 7.87 \%. Given that the optical magnification and $d_f$ error shown in Table \ref{tab: df and Mag angled glass results} do not stand out for point 1 compared to other points, most probably the source of the error was in the measurement of the glass angle for that point. Nevertheless, these metrics indicate that the technique has been well implemented and is capable of producing accurate and precise results.
+Table \ref{tab: angled glass displacement results} compares the displacements measured through SBOS with the predicted shift induced by the angled glass. $\Delta_x$ is the mean of the cross-correlation vector field in pixels, $\Delta x_{SBOS}$ is the latter transferred to mm through $\rho_{px}$ and $\Delta x_{glass}$ is the glass-induced ray shift, calculated through Equation \ref{equation: Displacement of angled glass}. Since the glass piece produces a uniform displacement field, the standard deviation of the cross-correlation field $\sigma_\Delta$ quantifies the precision of the SBOS measurement, while the relative error quantifies the accuracy of the method. All errors are below 10\%, with most of them below 4\% and $\sigma_\Delta$ also shows small values. The largest deviation was point 1 with a relative error of 7.87 \%. The optical magnification and $d_f$ error shown in Table \ref{tab: df and Mag angled glass results} do not stand out for point 1 compared to the other points, so the design values alone do not reveal the source of that deviation. Subsection \ref{subsection: angled glass uncertainty} weighs this point against the uncertainty of the campaign and treats it in more detail. Nevertheless, these metrics indicate that the technique has been well implemented and is capable of producing accurate and precise results.
 
 
 \begin{table}[h]
@@ -126,13 +126,13 @@ Points 10 to 20 of Tables \ref{tab: angled glass displacement results} and \ref{
 \end{figure}
 
 \subsection{Uncertainty of the Angled Glass Experiment}
+\label{subsection: angled glass uncertainty}
 
-\par An uncertainty budget is required before any disagreement in the experiment can be interpreted. The campaign compares a displacement predicted by Equation \ref{equation: Displacement of angled glass} against a displacement measured by cross-correlation and each side carries its own uncertainty. So two budget were constructed based on the Guide to the Expression of uncertainty in Measurement (GUM).
+\par An uncertainty budget is required before any disagreement in the experiment can be interpreted. The campaign compares a displacement predicted by Equation \ref{equation: Displacement of angled glass} against a displacement measured by cross-correlation and each side carries its own uncertainty. Two budgets were therefore constructed based on the Guide to the Expression of Uncertainty in Measurement \cite{JCGM2008}.
 
-The first budget focus in the three inputs of the angled glass displacement prediction, namely the plate thickness $T$, the plate angle $\theta$ and the refractive index $n$. Thickness was measured with a caliper and the angle was set with a protractor, while refractive index was obtained in literature as the value for common glass. Each input was treated as a rectangular probability distribution of half-width $a$ with a standard uncertainty of $u = a/\sqrt{3}$. Table \ref{tab: angled glass uncertainty} displays the half-width $a$ and uncertainty $u$ for each input variable. 
+The first budget focuses on the three inputs of the angled glass displacement prediction, namely the plate thickness $T$, the plate angle $\theta$ and the refractive index $n$. Thickness was measured with a caliper and the angle was set with a protractor, while the refractive index was obtained from the literature as the value for common glass. Each input was treated as a rectangular probability distribution of half-width $a$ with a standard uncertainty of $u = a/\sqrt{3}$.
 
-The sensitivity coefficients and contributions of each input variable regarding the two glass angles were also estimated based on Equation \ref{equation: Displacement of angled glass}. 
-Table \ref{tab: angled glass uncertainty} shows the contribution of each variable for each glass angle, which correspond to the sensitivity coefficient times the uncertainty. At the bottom of the table it is also possible to note the combined uncertainties for each angle.
+The sensitivity coefficients and contributions of each input variable regarding the two glass angles were also estimated based on Equation \ref{equation: Displacement of angled glass}. All of these quantities are collected in Table \ref{tab: angled glass uncertainty}, where the half-width and the standard uncertainty are listed for every input, followed by its contribution at each glass angle. The contribution of a variable corresponds to its sensitivity coefficient times its uncertainty, and the combined uncertainty for each angle is given at the bottom of the table.
 
 \begin{table}[h]
     \centering
@@ -144,7 +144,7 @@ Table \ref{tab: angled glass uncertainty} shows the contribution of each variabl
         \cmidrule(lr){5-6}
                &            &     &          & $\theta = 17^{\circ}$ & $\theta = 20^{\circ}$ \\
         \midrule
-        Plate thickness $T$  & Calliper   & 0.02 mm         & 0.012 mm         & 0.58 & 0.58 \\
+        Plate thickness $T$  & Caliper    & 0.02 mm         & 0.012 mm         & 0.58 & 0.58 \\
         Refractive index $n$ & Literature & 0.02            & 0.012            & 1.40 & 1.37 \\
         Plate angle $\theta$ & Protractor & $0.50^{\circ}$  & $0.29^{\circ}$   & 1.82 & 1.59 \\
         \midrule
@@ -153,9 +153,30 @@ Table \ref{tab: angled glass uncertainty} shows the contribution of each variabl
     \end{tabular}
 \end{table}
 
-\par Regarding the cross-correlation displacement measurement, it is affected mainly by two variable. The first is the scatter of the cross-correlation vector field $\sigma_\Delta$, already listed in Table \ref{tab: angled glass displacement results}, which runs from 2.0\% to 6.0\% of the mean displacement with an average of 3.2\%. The second is the optical magnification returned by the DaVis calibration, which converts the measured displacement from pixels to millimeters.
+\par Regarding the cross-correlation displacement measurement, it is affected mainly by two variables. The first is the scatter of the cross-correlation vector field $\sigma_\Delta$, already listed in Table \ref{tab: angled glass displacement results}, which runs from 2.0\% to 6.0\% of the mean displacement with an average of 3.2\%. This term is evaluated from the vector field itself and therefore varies from point to point. The standard deviation of the field is used instead of the standard error of the mean, because the 75\% window overlap leaves neighbouring vectors correlated and the number of independent samples is consequently well below the vector count. The second is the optical magnification returned by the DaVis calibration, which converts the measured displacement from pixels to millimeters. The calibration fit residual stayed within 2.9 px over the sensor width of 2560 px, so a rectangular treatment of that bound contributes only 0.07\%. The pixel pitch is fixed by the manufacturer and is negligible against both. Table \ref{tab: measurement uncertainty} collects the second budget.
 
-%Davis Calibration fit error within 1 to 2.9 px
+\begin{table}[h]
+    \centering
+    \caption{Uncertainty budget for the displacement measured by cross-correlation. The scatter of the vector field is evaluated from the data of Table \ref{tab: angled glass displacement results} and varies per point, whereas the other two terms are common to the whole campaign. The last column gives the contribution of each source to the measured displacement.}
+    \label{tab: measurement uncertainty}
+    \begin{tabular}{llr}
+        \toprule
+        Source & Estimate & Contribution [\%] \\
+        \midrule
+        Vector field scatter $\sigma_\Delta$ & Table \ref{tab: angled glass displacement results}, per point & 2.01 to 6.04 \\
+        Optical magnification $M_{ag}$       & DaVis fit residual below 2.9 px           & 0.07 \\
+        Pixel pitch $l_{px}$                 & 6.5 \si{\micro \meter}, manufacturer      & negligible \\
+        \midrule
+        Combined                             &                                           & 2.01 to 6.04 \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+\par The two budgets combine into a total standard uncertainty on the comparison between prediction and measurement. Since the vector field scatter dominates the second budget and varies per point, the total does so as well and runs from 3.11\% at point 1 to 6.49\% at point 2. Point 6 and point 7 also sit above 5\% for the same reason. The magnification term is small enough that the total is set almost entirely by the glass angle and by the cross-correlation scatter.
+
+\par This budget allows the deviations of Table \ref{tab: angled glass displacement results} to be judged. Every point except point 1 falls within its own standard uncertainty, and points 17 and 18 are the only ones that require the interval defined by $k = 2$. The agreement is therefore better than the raw percentages suggest, since the points with the largest deviations are also the ones with the largest scatter. Point 1 is the exception at 7.87\%, which is 2.5 times its combined standard uncertainty of 3.11\%. The glass angle alone does not explain it, because an error of $1.26^{\circ}$ would be required and that value exceeds the reading uncertainty of the protractor by more than a factor of four. The most likely explanation is a combination of a misread angle and a plate that was not seated flat against its mount.
+
+\par The eleven slider points deserve a separate remark. Each one falls within its own uncertainty, however all of them deviate in the same direction and none of them shows any dependence on $l$. A one-signed offset of this kind indicates a systematic error rather than scatter, and an angle offset of $0.57^{\circ}$ reproduces it exactly. Those points share a single setting of the glass plate, so a small constant error in $\theta$ is the most plausible source. This also confirms that the measured displacement is independent of the defocus distance, as anticipated in Chapter \ref{chapter: Experimental Setups}.
 
 \section{Speckle Pattern Investigation Results}
 
