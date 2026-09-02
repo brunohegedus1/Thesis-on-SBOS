@@ -185,6 +185,64 @@ In this section, the results, errors and associated uncertainties of the angled 
 
 \section{Speckle Pattern Investigation Results}
 
+\begin{table}[htbp]
+    \centering
+    \caption{Speckle sizes measured with directed speckles, for the configurations of Table \ref{tab: speckle investigation matrix}. $M_{ag_{exp}}$ is the magnification measured with the calibration plate, $\Delta s_{th}$ the size predicted by the Rayleigh criterion and $\Delta s_{exp}$ the size returned by the DaVis estimator. The last two columns give the deviation of the measurement from the prediction, in pixels and relative to the prediction. Points 1 to 13 vary the aperture and the ground glass distance, whereas points 14 to 28 hold both fixed and sweep the magnification. The estimator failed to return a value for point 10.}
+    \label{tab: speckle results direct}
+    \begin{tabular}{lrrrrrrr}
+        \toprule
+        Point & $f_\#$ & $d_{GG}$ & $M_{ag_{exp}}$ & $\Delta s_{th}$ & $\Delta s_{exp}$ & $\Delta s$ dev. & $\Delta s$ dev. \\
+              & [--] & [mm] & [--] & [px] & [px] & [px] & [\%] \\
+        \midrule
+         1 &  4.00 &  740 &  0.938 &  0.92 &   1.20 &   $+0.28$ &   $+30.9$ \\
+         2 & 11.31 &  740 &  0.938 &  2.59 &   1.48 &   $-1.11$ &   $-42.9$ \\
+         3 & 22.63 &  740 &  0.938 &  5.19 &   2.00 &   $-3.19$ &   $-61.4$ \\
+         4 &  4.00 &  740 &  0.288 &  0.61 &   1.19 &   $+0.59$ &   $+97.3$ \\
+         5 & 11.31 &  740 &  0.288 &  1.71 &   1.56 &   $-0.15$ &    $-8.7$ \\
+         6 & 22.63 &  740 &  0.288 &  3.42 &   2.04 &   $-1.39$ &   $-40.5$ \\
+         7 & 11.31 &  450 &  0.288 &  1.71 &   1.35 &   $-0.36$ &   $-21.0$ \\
+         8 & 11.31 &  280 &  0.288 &  1.71 &   1.40 &   $-0.31$ &   $-18.2$ \\
+         9 & 11.31 &  190 &  0.288 &  1.71 &   1.59 &   $-0.12$ &    $-7.1$ \\
+        10 & 11.31 &  100 &  0.288 &  1.71 & failed &        -- &        -- \\
+        11 &  4.00 &  300 &  0.445 &  0.67 &   1.22 &   $+0.55$ &   $+81.3$ \\
+        12 & 11.31 &  300 &  0.445 &  1.90 &   1.44 &   $-0.46$ &   $-24.4$ \\
+        13 & 22.63 &  300 &  0.445 &  3.81 &   2.09 &   $-1.72$ &   $-45.1$ \\
+        \midrule
+        14 & 22.63 &  300 &  0.974 &  5.37 &   1.81 &   $-3.57$ &   $-66.4$ \\
+        15 & 22.63 &  300 &  0.885 &  5.13 &   1.76 &   $-3.38$ &   $-65.8$ \\
+        16 & 22.63 &  300 &  0.779 &  4.84 &   1.86 &   $-2.98$ &   $-61.6$ \\
+        17 & 22.63 &  300 &  0.649 &  4.48 &   1.60 &   $-2.88$ &   $-64.3$ \\
+        18 & 22.63 &  300 &  0.556 &  4.22 &   1.65 &   $-2.57$ &   $-60.8$ \\
+        19 & 22.63 &  300 &  0.487 &  4.03 &   1.47 &   $-2.56$ &   $-63.5$ \\
+        20 & 22.63 &  300 &  0.389 &  3.76 &   1.68 &   $-2.08$ &   $-55.3$ \\
+        21 & 22.63 &  300 &  0.325 &  3.58 &   1.42 &   $-2.16$ &   $-60.3$ \\
+        22 & 22.63 &  300 &  0.278 &  3.46 &   1.48 &   $-1.97$ &   $-57.1$ \\
+        23 & 22.63 &  300 &  0.216 &  3.28 &   1.59 &   $-1.70$ &   $-51.7$ \\
+        24 & 22.63 &  300 &  0.162 &  3.14 &   1.74 &   $-1.39$ &   $-44.5$ \\
+        25 & 22.63 &  300 &  0.115 &  3.00 &   1.91 &   $-1.09$ &   $-36.3$ \\
+        26 & 22.63 &  300 &  0.072 &  2.89 &   1.65 &   $-1.23$ &   $-42.7$ \\
+        27 & 22.63 &  300 &  0.053 &  2.83 &   1.71 &   $-1.12$ &   $-39.6$ \\
+        28 & 22.63 &  300 &  0.034 &  2.78 &   1.87 &   $-0.91$ &   $-32.8$ \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+\begin{table}[htbp]
+    \centering
+    \caption{Speckle sizes measured with projected speckles, for the configurations of Table \ref{tab: projected speckle matrix}. The columns follow the convention of Table \ref{tab: speckle results direct}. The three points share the same optical layout and vary only the aperture.}
+    \label{tab: speckle results projected}
+    \begin{tabular}{lrrrrrrr}
+        \toprule
+        Point & $f_\#$ & $d_{GG}$ & $M_{ag_{exp}}$ & $\Delta s_{th}$ & $\Delta s_{exp}$ & $\Delta s$ dev. & $\Delta s$ dev. \\
+              & [--] & [mm] & [--] & [px] & [px] & [px] & [\%] \\
+        \midrule
+        29 &  4.00 &  300 &  0.854 &  0.88 &   1.45 &   $+0.57$ &   $+64.9$ \\
+        30 & 11.31 &  300 &  0.854 &  2.49 &   1.67 &   $-0.82$ &   $-32.9$ \\
+        31 & 22.63 &  300 &  0.854 &  4.97 &   2.41 &   $-2.56$ &   $-51.6$ \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
 
 
 \section{Compressible Jet Experiment Results}
