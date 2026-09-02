@@ -156,7 +156,30 @@ The previous setup was modified to also test the creation of speckles by project
     \label{fig: projected speckle setup diagram}
 \end{figure}
 
-3 points were obtained using projected speckles and they are summarized in Table \ref{} as points 29-31. A $f_\#$ sweep was done to assess the effect of that variable with a $d_{GG}$ of 300mm, as it was the distance where the most amount of points were collected for the directed speckle case. Therefore, a direct comparison can be done between the results obtained with projected speckles and direct speckles.
+3 points were obtained using projected speckles and they are summarized in Table \ref{tab: projected speckle matrix} as points 29-31. A $f_\#$ sweep was done to assess the effect of that variable with a $d_{GG}$ of 300mm, as it was the distance where the most amount of points were collected for the directed speckle case. Therefore, a direct comparison can be done between the results obtained with projected speckles and direct speckles.
+
+\begin{table}[htbp]
+    \centering
+    \caption{Configurations acquired with projected speckles. The columns follow
+    the convention of Table \ref{tab: speckle investigation matrix} and the point
+    numbering continues from it, so $f_\#$ is the actual f-stop number rather than
+    the marked one, $d_{GG}$ is the distance between the beam expander lens and the
+    projection plane, $M_{ag}$ the optical magnification obtained from $d_f$ through
+    the thin lens relation of Equation \ref{equation: M} and $\Delta s_{th}$ the
+    speckle size predicted by the Rayleigh criterion (Equation \ref{equation: Rayleigh Limit}).
+    The three points share the same optical layout and vary only the aperture.}
+    \label{tab: projected speckle matrix}
+    \begin{tabular}{lrrrrr}
+        \toprule
+        Point & $f_\#$ & $d_{GG}$ & $M_{ag}$ & $d_f$ & $\Delta s_{th}$ \\
+              & [--]   & [mm]     & [--] & [mm] & [px] \\
+        \midrule
+        29 &  4.00 & 300 & 0.8511 & 435 & 0.88 \\
+        30 & 11.31 & 300 & 0.8511 & 435 & 2.49 \\
+        31 & 22.63 & 300 & 0.8511 & 435 & 4.97 \\
+        \bottomrule
+    \end{tabular}
+\end{table}
 
 \begin{figure}[h]
     \centering
