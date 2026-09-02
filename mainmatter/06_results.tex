@@ -142,17 +142,17 @@ The glass displacement budget is summarized in Table \ref{tab: angled glass unce
     \centering
     \caption{Uncertainty budget for the displacement measured by cross-correlation and sensitivity. The scatter of the vector field is evaluated from the data of Table \ref{tab: angled glass displacement results} and varies per point. For the magnification, DaVis calibration residual was used as its uncertainty which slightly varies per point, so the maximum was taken here. The pixel pitch is common to the whole campaign. The defocus distance was obtained with a metric tape and judged by about $\pm$ 1mm. The contributions were obtained as explained in Table \ref{tab: angled glass uncertainty}. The bottom rows show the combined uncertainty for $\Delta x$ and $S_\Delta$ together with the formulas used to compute them. Since the values vary per point, its range is presented here but they can be found in full at Tables \ref{tab: angled glass displacement results} and \ref{tab: sensitivity comparison}.}
     \label{tab: measurement uncertainty}
-    \begin{tabular}{llr}
+    \begin{tabular}{llrrr}
         \toprule
-        Source & Estimate & Contribution $c_i$ [\%] \\
+        Source & Instrument & $a$ & $u$ & Contribution $c_i$ [\%] \\
         \midrule
-        Vector field scatter $\sigma_\Delta$ & Table \ref{tab: angled glass displacement results}, per point & 2.01 to 6.04 \\
-        Optical magnification $M_{ag}$       & DaVis fit residual below 2.9 px           & 0.07 \\
-        Pixel pitch $l_{px}$                 & 6.5 \si{\micro \meter}, manufacturer      & negligible \\
-        Defocus distance $l$                 & Optical rail, $a = 1$ mm                  & 0.38 to 5.77 \\
+        Vector field scatter $\sigma_\Delta$        & Cross-correlation & --     & per point & 2.01 to 6.04 \\
+        Optical magnification $M_{ag}$              & DaVis calibration & --     & 2.9 px    & 0.11 \\
+        Pixel pitch $l_{px}$                        & Manufacturer      & --     & --        & negligible \\
+        Defocus distance $l$                        & Metric tape       & 1 mm   & 0.58 mm   & 0.38 to 5.77 \\
         \midrule
-        Combined, $u_{\Delta x} = \sqrt{\sigma_{rel}^2 + c_{M_{ag}}^2 }$        &                                           & 2.01 to 6.04 \\
-        Combined, $u_{S_\Delta} = \sqrt{u_{glass}^2+\sigma_{rel}^2 + (u_{l}/l)^2 }$        &                                           & 3.19 to 6.75 \\
+        Combined, $u_{\Delta x} = \sqrt{\sigma_{rel}^2 + c_{M_{ag}}^2 }$             &  &  &  & 2.02 to 6.04 \\
+        Combined, $u_{S_\Delta} = \sqrt{u_{glass}^2+\sigma_{rel}^2 + (u_{l}/l)^2 }$  &  &  &  & 3.19 to 6.75 \\
         \bottomrule
     \end{tabular}
 \end{table}
