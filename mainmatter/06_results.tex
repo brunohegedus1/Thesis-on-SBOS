@@ -117,7 +117,7 @@ The data collected during the experimental campaign allows the assessment of sen
 
 The glass displacement budget is summarized in Table \ref{tab: angled glass uncertainty}. It focuses on the three inputs of the angled glass displacement estimate, namely the plate thickness $T$, the plate angle $\theta$ and the refractive index $n$. Thickness was measured with a caliper and the angle was set with a protractor, while the refractive index was obtained from the literature for common glass. Each input was treated as a rectangular probability distribution of half-width $a$ with a standard uncertainty of $u = a/\sqrt{3}$. The sensitivity coefficients and contributions of each input variable regarding the two glass angles were also estimated based on Equation \ref{equation: Displacement of angled glass}. These coefficients measure how much a change in each variable affects the final displacement. They are also used to calculate the contribution of each variable to the combined uncertainty as it is equal to the sensitivity coefficient times uncertainty \cite{JCGM2008}. These quantities are collected in Table \ref{tab: angled glass uncertainty}, where the half-width and the standard uncertainty are listed for every input, followed by its contribution at each glass angle. The combined uncertainty for each angle is given at the bottom row and corresponds to the root of the sum of squares of the above percentages.
 
-\begin{table}[h]
+\begin{table}[htbp]
     \centering
     \caption{Uncertainty budget for the displacement predicted by Equation \ref{equation: Displacement of angled glass}. The three input variables are described under the Source column together with the instrument used to measure them in the instrument column. Each input is treated as a rectangular distribution of half-width $a$, so that $u = a/\sqrt{3}$ \cite{JCGM2008}. The contributions $c_i$ are the sensitivity coefficients, computed by inspecting the deviation in $\Delta x_{glass}$ after a small difference of each variable, multiplied by the uncertainty $u$. On the bottom row, the combined uncertainty of $\Delta x_{glass}$ can be found together with the formula used to compute it.}
     \label{tab: angled glass uncertainty}
@@ -136,9 +136,9 @@ The glass displacement budget is summarized in Table \ref{tab: angled glass unce
     \end{tabular}
 \end{table}
 
-\par Regarding the cross-correlation displacement measurement, it is affected mainly by two variables. The first is the scatter of the cross-correlation vector field $\sigma_\Delta$, listed in Table \ref{tab: angled glass displacement results}. It ranges from 2.0\% to 6.0\% of the mean displacement with an average of 3.2\%. This term is evaluated from the vector field itself, varying from point to point. The second is the optical magnification returned by the DaVis calibration. The calibration fit residual stayed within 2.9 px over the sensor width of 2560 px, which gives a contribution of only 0.07\% for a rectangular distribution. The pixel pitch $l_{px}$ is fixed by the manufacturer and is negligible against the other two. Table \ref{tab: measurement uncertainty} presents the second budget, together with the uncertainty of the defocus distance $l$, which is required for the sensitivity.
+\par Regarding the uncertainty of the cross-correlation displacement measurement, it is affected mainly by two variables. The first is the scatter of the cross-correlation vector field $\sigma_\Delta$, listed in Table \ref{tab: angled glass displacement results}. It ranges from 2.0\% to 6.0\% of the mean displacement with an average of 3.2\%. This term is evaluated from the vector field itself, varying from point to point. The second is the optical magnification returned by the DaVis calibration. The calibration fit residual stayed within 2.9 px over the sensor width of 2560 px, which gives a contribution of only 0.07\% for a rectangular distribution. The pixel pitch $l_{px}$ is fixed by the manufacturer and is negligible against the other two. Table \ref{tab: measurement uncertainty} presents the second budget, together with the uncertainty of the defocus distance $l$, which is required for the sensitivity.
 
-\begin{table}[h]
+\begin{table}[htbp]
     \centering
     \caption{Uncertainty budget for the displacement measured by cross-correlation and sensitivity. The scatter of the vector field is evaluated from the data of Table \ref{tab: angled glass displacement results} and varies per point. For the magnification, DaVis calibration residual was used as its uncertainty which slightly varies per point, so the maximum was taken here. The pixel pitch is common to the whole campaign. The defocus distance was obtained with a metric tape and judged by about $\pm$ 1mm. The contributions were obtained as explained in Table \ref{tab: angled glass uncertainty}. The bottom rows show the combined uncertainty for $\Delta x$ and $S_\Delta$ together with the formulas used to compute them. Since the values vary per point, its range is presented here but they can be found in full at Tables \ref{tab: angled glass displacement results} and \ref{tab: sensitivity comparison}.}
     \label{tab: measurement uncertainty}
@@ -180,9 +180,11 @@ Points 10 to 20 of Tables \ref{tab: angled glass displacement results} and \ref{
     \label{fig: S vs l slider experiment}
 \end{figure}
 
+Section \ref{section: Angled Glass Experiment} mentioned a discrepancy between the predicted average speckle size obtained through the Rayleigh diffraction limit and the ones obtained experimentally and computed using DaVis. Table \ref{tab: angled glass speckle results} displays side to side both quantities together with the $f_\#$ and $M_{ag}$ used at each point. The $\Delta s$ deviation demonstrates that the discrepancy of some points exceeds many times the theoretical value. Speckle formation is a intrinsically random phenomena, described by complex physics \cite{Goodman2020, NikitaFominBook, Cloud2007}, so it is not exactly clear what is precisely the root of this difference. Nevertheless, the data gives some clues on what could be improved. From points 8-10, the $f_\#$ varies significantly, however little to no effect is observed in the average speckle size. In contrast, changes in magnification vary considerably the experimental average speckle size. These two factors, leads to the belief that the pattern did not became diffraction limit at the lens pupil but rather at the ground glass itself.
+
 \begin{table}[htbp]
     \centering
-    \caption{Speckle sizes measured during the angled glass campaign, for the configurations of Table \ref{tab: angled glass test matrix}. $M_{ag_{exp}}$ is the magnification measured with the calibration plate, $\Delta s_{th}$ the size predicted by the Rayleigh criterion of Equation \ref{equation: Rayleigh Limit} and $\Delta s_{exp}$ the size returned by the DaVis estimator. The last column is the difference between the two. Points 11 to 20 share the optical layout of point 10, so their predicted and measured sizes are identical.}
+    \caption{Speckle sizes measured during the angled glass campaign, for the configurations of Table \ref{tab: angled glass test matrix}. $M_{ag_{exp}}$ is the magnification measured with the calibration plate, $\Delta s_{th}$ the size predicted by the Rayleigh limit of Equation \ref{equation: Rayleigh Limit} and $\Delta s_{exp}$ the size returned by the DaVis estimator. The last column is the difference between the two. Points 11 to 20 share the optical layout of point 10, so their predicted and measured sizes are identical and have been omitted.}
     \label{tab: angled glass speckle results}
     \begin{tabular}{lrrrrr}
         \toprule
@@ -200,16 +202,6 @@ Points 10 to 20 of Tables \ref{tab: angled glass displacement results} and \ref{
          9 & 16.00 & 0.640 &  3.06 &  10.31 & $+7.25$ \\
         \midrule
         10 &  8.00 & 0.746 &  1.65 &   9.70 & $+8.04$ \\
-        11 &  8.00 & 0.746 &  1.65 &   3.31 & $+1.65$ \\
-        12 &  8.00 & 0.746 &  1.65 &   3.31 & $+1.65$ \\
-        13 &  8.00 & 0.746 &  1.65 &   3.31 & $+1.65$ \\
-        14 &  8.00 & 0.746 &  1.65 &   3.31 & $+1.65$ \\
-        15 &  8.00 & 0.746 &  1.65 &   3.31 & $+1.65$ \\
-        16 &  8.00 & 0.746 &  1.65 &   3.31 & $+1.65$ \\
-        17 &  8.00 & 0.746 &  1.65 &   3.31 & $+1.65$ \\
-        18 &  8.00 & 0.746 &  1.65 &   3.31 & $+1.65$ \\
-        19 &  8.00 & 0.746 &  1.65 &   3.31 & $+1.65$ \\
-        20 &  8.00 & 0.746 &  1.65 &   3.31 & $+1.65$ \\
         \bottomrule
     \end{tabular}
 \end{table}
