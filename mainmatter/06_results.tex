@@ -10,15 +10,13 @@ The Angled Glass Experiment aimed to validate the methodology and compare the di
 
 Table \ref{tab: angled glass displacement results} compares the displacements measured through SBOS with the predicted shift induced by the angled glass. $\Delta_x$ is the mean of the cross-correlation vector field in pixels, $\Delta x_{SBOS}$ is the latter transferred to mm in the focal plane and $\Delta x_{glass}$ is the glass-induced ray shift, calculated through Equation \ref{equation: Displacement of angled glass}. Since the glass piece produces a uniform displacement field, the standard deviation of the cross-correlation field $\sigma_\Delta$ quantifies the precision of the SBOS measurement, while the relative error quantifies the accuracy of the method. The last column displays the total combined uncertainty of measurement of $\Delta x$, which will be treated in more detail later this section.
 
-% REVIEW: point 1 is called an outlier because no cause was found. Absence of an
-% REVIEW: explanation is not what defines an outlier. The commented-out alternative
-% REVIEW: paragraph below this one is stronger: it quantifies point 1 at 2.5 times
-% REVIEW: u_tot and tests the glass-angle hypothesis. Consider using it instead.
-The table allows the comparison of the measurement error with its inherent uncertainty. In general terms, the error obtained is below the combined uncertainty, with the exception of points 1, 17 and 18. Only point 1, however, differs significantly from the uncertainty, with a difference of 4.76 percentage points, while 17 and 18 deviate by less than 0.5 percentage points. Regarding point 1, even the optical magnification and $d_f$ error shown in Table \ref{tab: df and Mag angled glass results} do not stand out compared to the other points, meaning that the design values alone do not reveal the source of that deviation. Therefore, point 1 can be considered an outlier. The slider experimental error is also worth a remark due to the distinct behavior of its deviation. As it can be seen in Table \ref{tab: angled glass displacement results}, all the deviations of the slider experiments are positive and have a similar magnitude, which leads to the interpretation of an induced bias in the measurement. It is not clear what caused this bias, although it was probably introduced by an added error in the magnification and glass angle, as both were fixed throughout the measurements.
+The table allows the comparison of the measurement error with its inherent uncertainty. In general terms, the error obtained is below the combined uncertainty, with the exception of points 1, 17 and 18. Only point 1, however, differs significantly from the uncertainty, with a difference of 4.76 percentage points, while 17 and 18 deviate by less than 0.5 percentage points. Regarding point 1, an error of $1.26^{\circ}$ in the glass angle measurement would be needed would be needed to cause its deviation of 7.87\%, which exceeds the reading uncertainty of the protractor. The cause for such error could be a misread angle or an unnoticed movement that changed the angle when setting it in the rail.
+
+The slider experimental error is also worth a remark due to the distinct behavior of its deviation. As it can be seen in Table \ref{tab: angled glass displacement results}, all the deviations of the slider experiments are positive and have a similar magnitude, which leads to the interpretation of an induced bias in the measurement. It is not clear what caused this bias, although it was probably introduced by an added error in the magnification and glass angle, as both were fixed throughout the measurements.
 Nevertheless, the deviation of every point except 1 stays well within 5\%, below its measurement uncertainties, and the scatter signaled by $\sigma_\Delta$ is well within 2px. Consequently, these metrics indicate that the technique has been well implemented and is capable of producing accurate and precise results.
 
 %Alternative for the above paragraph
-%Every point except point 1 falls within its own standard uncertainty, and points 17 and 18 are the only ones that require the interval defined by $k = 2$. The agreement is therefore better than the raw percentages suggest, since the points with the largest deviations are also the ones with the largest scatter. Point 1 is the exception at 7.87\%, which is 2.5 times its combined standard uncertainty of 3.11\%. The glass angle alone does not explain it, because an error of $1.26^{\circ}$ would be required and that value exceeds the reading uncertainty of the protractor by more than a factor of four. The most likely explanation is a combination of a misread angle and a plate that was not seated flat against its mount.
+%Every point except point 1 falls within its own standard uncertainty, and points 17 and 18 are the only ones that require the interval defined by $k = 2$. The agreement is therefore better than the raw percentages suggest, since the points with the largest deviations are also the ones with the largest scatter. Point 1 is the exception at 7.87\%, which is 2.5 times its combined standard uncertainty of 3.11\%. The glass angle alone does not explain it, because an error of $1.26^{\circ}$ would be required and that value exceeds the reading uncertainty of the protractor by more than a factor of four. The most likely explanation is a combination of a misread angle and a plate that was not seated flat against its mount. not seated flat against it mount? What?
 
 
 \begin{table}[h]
@@ -79,19 +77,8 @@ Through Table \ref{tab: df and Mag angled glass results}, the design strategy of
     \end{tabular}
 \end{table}
 
-% REVIEW: two claims in this paragraph need rewording.
-% REVIEW: (a) 'the S_geom error is almost the same as the magnification error' is an
-% REVIEW:     identity, not an observation: S_geom = l M_exp and S_th = l M_th share
-% REVIEW:     the same l, so the relative deviation IS the magnification deviation.
-% REVIEW: (b) S_Delta is not independent either. Its deviation reproduces
-% REVIEW:     (1+e_dx)(1+e_M)-1 for all nine points to within rounding. Table 6.3 is
-% REVIEW:     therefore a re-expression of Tables 6.1 and 6.2, not a second route.
-% REVIEW: (c) 'most points are below u_tot or quite close to it' understates the
-% REVIEW:     result: 10 of 19 points exceed u_tot (1, 2, 7, 9, 13, 14, 15, 18, 19,
-% REVIEW:     20). Points 13-15 and 18-20 exceed by under one percentage point and
-% REVIEW:     are exactly the slider points carrying the systematic offset named
-% REVIEW:     earlier, which is worth saying explicitly.
-The data collected during the experimental campaign allows the assessment of sensitivity through two experimental routes, each one providing a different insight on the error sources and validity of the experiment. Table \ref{tab: sensitivity comparison} compares the theoretical sensitivity given by the surface map of Chapter \ref{chapter: methodology} to the sensitivity obtained through the geometry $S_{geom} = l \cdot M_{ag_{exp}}$ and the sensitivity obtained with the displacement data $S_\Delta = \Delta_x \cdot l_{px}/\varepsilon_{glass}$. With the exception of point 7, which has already been discussed, all data is within 8\% of agreement. It is worth noting that the $S_{geom}$ error is almost the same as the magnification error, while $S_\Delta$ stacks both the displacement measurement error and the geometric setup error. The total combined uncertainty of $S_\Delta$ has also been calculated and is displayed in the last column, most points are below $u_{tot}$ in magnitude or quite close to it with the exception of point 7 and 9. Nevertheless, the data shows that the optical configuration parameters defined by the methodology of Chapter \ref{chapter: methodology} produce a setup with the predicted sensitivity within an acceptable error range. Therefore, it validates the methodology as it demonstrates that the physical setup reproduces the predicted performance.
+
+The data collected during the experimental campaign allows the assessment of sensitivity through two experimental routes. Table \ref{tab: sensitivity comparison} compares the theoretical sensitivity given by the surface map of Chapter \ref{chapter: methodology} to the sensitivity obtained through the geometry $S_{geom} = l \cdot M_{ag_{exp}}$ and the sensitivity obtained with the displacement data $S_\Delta = \Delta_x \cdot l_{px}/\varepsilon_{glass}$. With the exception of point 7, which has already been discussed, all data is within 8\% of agreement. It is worth noting that the $S_{geom}$ error is the same as the magnification error, while $S_\Delta$ stacks both the displacement measurement error and the geometric setup error. The total combined uncertainty of $S_\Delta$ has also been calculated and is displayed in the last column, most points are below $u_{tot}$ in magnitude or within 1\% to it with the exception of point 7 and 9. It is worth noting that most points which error exceeds the total uncertainty belong to the slider experiment, which could have experienced a bias, as previously mentioned. Nevertheless, The data shows that the optical configuration parameters defined by the methodology of Chapter \ref{chapter: methodology} produce a setup with the predicted sensitivity within an acceptable error range. Therefore, it validates the methodology as it demonstrates that the physical setup reproduces the predicted performance.
 
 
 
@@ -156,11 +143,7 @@ The glass displacement budget is summarized in Table \ref{tab: angled glass unce
 
 \begin{table}[htbp]
     \centering
-% REVIEW: this caption says the combined uncertainties can be found in full in
-% REVIEW: Tables 6.1 and 6.3. True for u_S_Delta, false for u_Delta_x. This table's
-% REVIEW: u_Delta_x row is 2.01-6.04 %; the u_tot column of Table 6.1 is 3.11-6.49 %
-% REVIEW: because it also folds in u_glass. Different quantities, same promise.
-    \caption{Uncertainty budget for the displacement measured by cross-correlation and sensitivity. The scatter of the vector field is evaluated from the data of Table \ref{tab: angled glass displacement results} and varies per point. For the magnification, DaVis calibration residual was used as its uncertainty which slightly varies per point, so the maximum was taken here. The pixel pitch is common to the whole campaign. The defocus distance was obtained with a metric tape and judged by about $\pm$ 1mm. The contributions were obtained as explained in Table \ref{tab: angled glass uncertainty}. The bottom rows show the combined uncertainty for $\Delta x$ and $S_\Delta$ together with the formulas used to compute them. Since the values vary per point, its range is presented here but they can be found in full at Tables \ref{tab: angled glass displacement results} and \ref{tab: sensitivity comparison}.}
+    \caption{Uncertainty budget for the displacement measured by cross-correlation and sensitivity. The scatter of the vector field is evaluated from the data of Table \ref{tab: angled glass displacement results} and varies per point. For the magnification, DaVis calibration residual was used as its uncertainty which slightly varies per point, so the maximum was taken here. The pixel pitch is common to the whole campaign. The defocus distance was obtained with a metric tape and judged by about $\pm$ 1mm. The contributions were obtained as explained in Table \ref{tab: angled glass uncertainty}. The bottom rows show the combined uncertainty for $\Delta x$ and $S_\Delta$ together with the formulas used to compute them. Since the values vary per point, its range is presented here but they can be found in at Tables \ref{tab: angled glass displacement results} and \ref{tab: sensitivity comparison}, respectively.}
     \label{tab: measurement uncertainty}
     \begin{tabular}{llrrr}
         \toprule
@@ -171,7 +154,7 @@ The glass displacement budget is summarized in Table \ref{tab: angled glass unce
         Pixel pitch $l_{px}$                        & Manufacturer      & --     & --        & negligible \\
         Defocus distance $l$                        & Metric tape       & 1 mm   & 0.58 mm   & 0.38 to 5.77 \\
         \midrule
-        Combined, $u_{\Delta x} = \sqrt{\sigma_{rel}^2 + c_{M_{ag}}^2 }$             &  &  &  & 2.01 to 6.04 \\
+        Combined, $u_{\Delta x} = \sqrt{u_{glass}^2+\sigma_{rel}^2 + c_{M_{ag}}^2 }$             &  &  &  & 3.11 - 6.49 \\
         Combined, $u_{S_\Delta} = \sqrt{u_{glass}^2+\sigma_{rel}^2 + c_{l}^2 }$  &  &  &  & 3.19 to 6.75 \\
         \bottomrule
     \end{tabular}
@@ -180,10 +163,7 @@ The glass displacement budget is summarized in Table \ref{tab: angled glass unce
 
 \par The total uncertainties that follow from the budgets are reported per point in the last column of their respective tables. The first total concerns the comparison between the predicted and the measured displacement. It combines the prediction budget with the scatter and the magnification, and it ranges from 3.11\% at point 1 to 6.49\% at point 2. The second total concerns the sensitivity $S_{\Delta}$, which stays within 3.19\% to 6.75\%. It reaches its largest values at points 11 and 16, for which the defocus distance of only 10 mm makes the contribution of $l$ dominant. Points 2, 6 and 7 sit above 5\% in both totals. In each case the cross-correlation scatter is the dominant contribution.
 
-% REVIEW: the error bars are described as the standard deviation divided by the mean
-% REVIEW: displacement, a dimensionless ratio, on an axis in mm. Presumably that
-% REVIEW: fraction times S.
-Regarding the research objectives, one of the goals of the experimental campaign was the comparison of the new capacities of SBOS to a standard BOS configuration. With the data at hand it is possible to compare the performance of a setup that uses negative defocus to another with positive defocus, effectively answering the experiment's objective. Figure \ref{fig: S vs l experimental} plots the sensitivity versus defocus distance of points 1 to 9 that were captured with $f=200$ mm, with error bars corresponding to the standard deviation divided by the mean cross-correlation displacement.
+Regarding the research objectives, one of the goals of the experimental campaign was the comparison of the new capacities of SBOS to a standard BOS configuration. With the data at hand it is possible to compare the performance of a setup that uses negative defocus to another with positive defocus, effectively answering the experiment's objective. Figure \ref{fig: S vs l experimental} plots the sensitivity versus defocus distance of points 1 to 9 that were captured with $f=200$ mm, with error bars corresponding to the standard deviation divided by the mean cross-correlation displacement times the sensitivity values.
 
 \begin{figure}[h]
     \centering
@@ -202,7 +182,7 @@ Figure \ref{fig: S vs l experimental} replicates one of the predictions of Chapt
 % REVIEW: The stronger argument is already in Table 6.1: Delta_x stays between
 % REVIEW: 29.37 and 29.75 px across l = 0 to +/-50 mm at fixed magnification. That
 % REVIEW: is a direct measurement showing l adds no mechanism of its own.
-Points 10 to 20 of Tables \ref{tab: angled glass displacement results} and \ref{tab: sensitivity comparison} show the results of the experiment where the angled glass was positioned in a linear slider with a fixed magnification and only the defocus position was changed. Figure \ref{fig: S vs l slider experiment} plots the resulting sensitivity varied with defocus distance. The points are symmetric around the Y-axis, which means that the mechanism that makes a negative defocus configuration more powerful than its positive counterpart is not the negative distance per se but the increased magnification that comes with a shorter focal distance to the camera. Therefore, it is proven that the mechanism that makes the negative defocus more sensitive than positive defocus is the higher magnification that comes with a lower focal distance.
+Points 10 to 20 of Tables \ref{tab: angled glass displacement results} and \ref{tab: sensitivity comparison} show the results of the experiment where the angled glass was positioned in a linear slider with a fixed magnification and only the defocus position was changed. Figure \ref{fig: S vs l slider experiment} plots the resulting sensitivity varied with defocus distance. The points are symmetric around the Y-axis, which means that the mechanism that makes a negative defocus configuration more powerful than its positive counterpart is not the negative distance per se but the increased magnification that comes with a shorter focal distance to the camera. Therefore, it is demonstrated that the mechanism that makes the negative defocus more sensitive than positive defocus is the higher magnification that comes with a lower focal distance.
 
 \begin{figure}[h]
     \centering
@@ -211,90 +191,37 @@ Points 10 to 20 of Tables \ref{tab: angled glass displacement results} and \ref{
     \label{fig: S vs l slider experiment}
 \end{figure}
 
-% REVIEW: CHECK THE RAW DATA FOR POINTS 5 AND 6 OF TABLE 6.6 BEFORE WRITING MORE.
-% REVIEW: Sorting Delta s exp by defocus type splits almost perfectly:
-% REVIEW:   Negative: pt1 27.61  pt3 29.29  pt5 11.39  pt7 34.35
-% REVIEW:   Positive: pt2 11.81  pt4  8.73  pt6 28.20  pt8  8.81  pt9 10.31
-% REVIEW: Points 5 and 6 are the only exceptions. They are adjacent rows with the
-% REVIEW: same f_# = 11.31 and the same l = 80 mm. Exchanging those two values makes
-% REVIEW: the separation exact and raises corr(M_ag, Delta s exp) from +0.67 to
-% REVIEW: +0.97. Two adjacent rows being the sole counterexample to two separate
-% REVIEW: trends looks like a transcription swap.
-% REVIEW: Caveat if it is confirmed: negative defocus means a shorter d_f and so a
-% REVIEW: higher M_ag in this campaign, so defocus sign and magnification are
-% REVIEW: confounded and cannot be separated from these points.
-Section \ref{section: Angled Glass Experiment} mentioned a discrepancy between the predicted average speckle size obtained through the Rayleigh diffraction limit and the ones obtained experimentally and computed using DaVis. Table \ref{tab: angled glass speckle results} displays both quantities side by side together with the $f_\#$ and $M_{ag}$ used at each point. The $\Delta s$ deviation shows that at some points the discrepancy exceeds the theoretical value several times over. Speckle formation is an intrinsically random phenomenon, described by complex physics \cite{Goodman2020, NikitaFominBook, Cloud2007}, so it is not exactly clear what is precisely the root of this difference. Nevertheless, the data gives some clues on what could be improved.
+Section \ref{section: Angled Glass Experiment} mentioned a discrepancy between the predicted average speckle size obtained through the Rayleigh diffraction limit and the ones obtained experimentally and computed using Hamarová's method \cite{}. Table \ref{tab: angled glass speckle results} displays both quantities side by side together with the $f_\#$ and $M_{ag}$ used at each point. The $\Delta s$ deviation shows that at some points the discrepancy exceeds the theoretical value several times over. Speckle formation is an intrinsically random phenomenon, described by complex physics \cite{Goodman2020, NikitaFominBook, Cloud2007}, so it is not exactly clear what is precisely the root of this difference. Nevertheless, the data gives some clues on what could be improved.
 
-% REVIEW: the magnification claim is weakly supported as the table stands:
-% REVIEW: corr(M_ag, Delta s exp) = +0.67, with two counterexamples in the same
-% REVIEW: table (pt5 M = 1.043 -> 11.39 px, pt6 M = 0.718 -> 28.20 px). See the note
-% REVIEW: above about a possible pt5/pt6 swap.
-% REVIEW: Cleaner f_# evidence than points 8-10, which also vary M: point 4 at
-% REVIEW: f_# 16 gives 8.73 px and point 8 at f_# 4 gives 8.81 px. Four times the
-% REVIEW: aperture, no change at all.
-% REVIEW: Also worth reporting: Delta s exp is bimodal, clustering at 8.7-11.8 px
-% REVIEW: and at 27.6-34.4 px with nothing in between.
-From points 8-10, the $f_\#$ varies significantly. However, little to no effect is observed in the average speckle size. In contrast, changes in magnification vary the experimental average speckle size considerably. These factors lead to the belief that the pattern did not become diffraction limited at the lens pupil but rather at the ground glass itself, so what is imaged are the phase cells present at the diffuser.
+From points 4 and 8-10, the $f_\#$ varies significantly, however, little effect is observed in the average speckle size. The $f_\#$ ranges from 4 to 16 whereas $\Delta s$ stays within 8.73 px to 10.31 px and the $M_{ag}$ varies from 0.640 to 0.746. In contrast, changes in magnification influence the experimental average speckle size considerably. From points 1-4 the $f_\#$ is fixed and $M_{ag}$ changes from 0.671 to 1.045, displaying $\Delta s$ from 8.73 px to 29.29 px. These factors lead to the belief that the pattern did not become diffraction limited at the lens pupil but rather at the ground glass itself, so what is imaged are the phase cells present at the diffuser.
 
-% REVIEW: 'follows very closely' is generous. Seven of nine points agree within
-% REVIEW: 17 %, but points 1 and 3 are +50 % and +59 %.
-Moreover, the speckle pattern diameter $D_{s_{exp}}$ follows closely the same trend as $D_{s_{th}}$ which is the size of the image of a collimated source, computed as $D_{s_{th}} = M_{ag} \cdot D_{ap}$. This could mean that the scattering cone coming out of the ground glass diffuser is too narrow and far from the lens, so that it behaves almost as a collimated source when it reaches the aperture. The difference between both values is then explained by the remaining scattering of the laser.
 
-% REVIEW: three problems in this paragraph.
-% REVIEW: (a) two different meanings of 'Rayleigh' are welded together. Goodman's
-% REVIEW:     Rayleigh is the amplitude STATISTICS of a developed speckle field. The
-% REVIEW:     Rayleigh of Equation 4.9 is a diffraction LIMIT, a resolution
-% REVIEW:     criterion. 'Rayleigh diffraction limited distribution' merges the two.
-% REVIEW:     This is the load-bearing step of the conjecture.
-% REVIEW: (b) the cited passage is about a projector illuminating a screen, not
-% REVIEW:     about imaging a diffuser. The commented note below already calls this
-% REVIEW:     a stretch. Cite the objective/subjective speckle distinction directly.
-% REVIEW: (c) the overfill conjecture is checkable and looks doubtful. Filling the
-% REVIEW:     pupil needs a scattering half-angle of about arctan((D/2)/z); with
-% REVIEW:     D = 12.5 mm and z of order 400 mm that is roughly 0.9 deg, and a ground
-% REVIEW:     glass scatters over tens of degrees.
-% REVIEW:     A free-space (objective) speckle explanation does not close either:
-% REVIEW:     with the 12.7 mm illuminated diffuser of Chapter 5 and z = 300 mm,
-% REVIEW:     lambda z / D = 15 um, about 2.3 px at M = 1, not the 27 px measured.
-% REVIEW:     What survives is the explanation already given above, that the camera
-% REVIEW:     resolves and images the diffuser's own phase cells; at M = 1 the
-% REVIEW:     measured 27.61 px corresponds to a 179 um cell, plausible for a coarse
-% REVIEW:     ground glass.
-% REVIEW:     One more candidate never considered: Chapter 5 sets the DaVis sliding
-% REVIEW:     average and minimum to 16 px, while Delta s th ranges 0.75-3.90 px. A
-% REVIEW:     16 px kernel cannot report a 1 px speckle, and the measured floor sits
-% REVIEW:     at 8.7-11.8 px.
-A property of speckles mentioned by Goodman \cite{Goodman2020} might help to understand the phenomena observed during the campaign. In his book he says that when the scattering cone does not overfill a lens, the image captured corresponds only to random phase cells of the diffuser, whereas if the lens is overfilled, a Rayleigh distribution is produced. Putting all evidence together results in the following conjecture: the collimated laser light hitting a small diffuser created a scatter cone that was too narrow to overfill the lens. Consequently, a Rayleigh diffraction limited distribution was not created at the pupil and the camera could only image the random phase cells of the diffuser.
 
-%Hypothesis: too narrow of a scatter cone can't overfill the lens, thus the lens only images the random phase cells of the diffuser and do not create a Rayleigh diffraction limit distribution . Good. Now how can I write this on the previous paragraph?
-
+%A property of speckles mentioned by Goodman \cite{Goodman2020} might help to understand the phenomena observed during the campaign. In his book he says that when the scattering cone does not overfill a lens, the image captured corresponds only to random phase cells of the diffuser, whereas if the lens is overfilled, a Rayleigh distribution is produced. Putting all evidence together results in the following conjecture: the collimated laser light hitting a small diffuser created a scatter cone that was too narrow to overfill the lens. Consequently, a Rayleigh diffraction limited distribution was not created at the pupil and the camera could only image the random phase cells of the diffuser. %This paragraph is probably wrong
 
 %This is a stretch from Goodman "If the diffuser overfills the projection lens, then each projector resolution cell undergoes a random walk of amplitudes scattered from the diffuser, resulting in an independent Rayleigh-distributed amplitude and uniformly distributed phase for each of such projection-lens resolution cells incident on the screen."
 
 
 \begin{table}[htbp]
     \centering
-% REVIEW: two things to settle in this table.
-% REVIEW: (a) the caption points at Table 5.1, which lists MARKED f-numbers (11, 16)
-% REVIEW:     while this table lists actual ones (11.31, 16.00).
-% REVIEW: (b) point 5 carries '>3336' with no explanation anywhere.
-    \caption{Speckle sizes measured during the angled glass campaign, for the configurations of Table \ref{tab: angled glass test matrix}. $M_{ag_{exp}}$ is the magnification measured with the calibration plate, $\Delta s_{th}$ the size predicted by the Rayleigh limit of Equation \ref{equation: Rayleigh Limit} and $\Delta s_{exp}$ the size returned by the DaVis estimator. The last column is the difference between the two. The columns $D_s$ give the diameter of the speckle pattern on the sensor, predicted as $D \cdot M_{ag}$ and measured from the image. Points 11 to 20 share the optical layout of point 10, so their predicted and measured sizes are identical and have been omitted.}
+
+    \caption{Speckle sizes measured during the angled glass campaign, for the configurations of Table \ref{tab: angled glass test matrix}. $M_{ag_{exp}}$ is the magnification measured with the calibration plate, $\Delta s_{th}$ the size predicted by the Rayleigh limit of Equation \ref{equation: Rayleigh Limit} and $\Delta s_{exp}$ the size returned by the DaVis estimator. The last column is the difference between the two.  Points 11 to 20 share the optical layout of point 10, so their predicted and measured sizes are identical and have been omitted.}
     \label{tab: angled glass speckle results}
-    \begin{tabular}{lrrrrrrr}
+    \begin{tabular}{lrrrrr}
         \toprule
-        Point & $f_\#$ & $M_{ag_{exp}}$ & $D_{s_{th}}$ & $D_{s_{exp}}$ & $\Delta s_{th}$ & $\Delta s_{exp}$ & $\Delta s$ dev. \\
-              & [--] & [--] & [px] & [px] & [px] & [px] & [px] \\
+        Point & $f_\#$ & $M_{ag_{exp}}$ &  $\Delta s_{th}$ & $\Delta s_{exp}$ & $\Delta s$ dev. \\
+              & [--] & [--] & [px] & [px] & [px] \\
         \midrule
-         1 & 16.00 & 1.002 & 1839 &    2750 &  3.72 &  27.61 & $+23.89$ \\
-         2 & 16.00 & 0.688 & 1261 &    1196 &  3.15 &  11.81 & $+8.67$ \\
-         3 & 16.00 & 1.045 & 2019 &    3209 &  3.90 &  29.29 & $+25.39$ \\
-         4 & 16.00 & 0.671 & 1237 &    1119 &  3.12 &   8.73 & $+5.61$ \\
-         5 & 11.31 & 1.043 & 2900 & $>3336$ &  2.74 &  11.39 & $+8.65$ \\
-         6 & 11.31 & 0.718 & 1929 &    1878 &  2.27 &  28.20 & $+25.93$ \\
-         7 & 11.31 & 1.054 & 1836 &    1530 &  3.02 &  34.35 & $+31.33$ \\
-         8 &  4.00 & 0.572 & 2355 &    2363 &  0.75 &   8.81 & $+8.06$ \\
-         9 & 16.00 & 0.640 & 1175 &    1130 &  3.06 &  10.31 & $+7.25$ \\
-        10 &  8.00 & 0.746 & 2849 &    2640 &  1.65 &   9.70 & $+8.04$ \\
+         1 & 16.00 & 1.002 &   3.72 &  27.61 & $+23.89$ \\
+         2 & 16.00 & 0.688 &   3.15 &  11.81 & $+8.67$ \\
+         3 & 16.00 & 1.045 &   3.90 &  29.29 & $+25.39$ \\
+         4 & 16.00 & 0.671 &   3.12 &   8.73 & $+5.61$ \\
+        5 & 11.31 & 1.043 &   2.74 &  28.20 & $+25.46$ \\
+         6 & 11.31 & 0.718 &   2.27 &  13.32 & $+11.05$ \\
+         7 & 11.31 & 1.054 &   3.02 &  34.35 & $+31.33$ \\
+         8 &  4.00 & 0.572 &   0.75 &   8.81 & $+8.06$ \\
+         9 & 16.00 & 0.640 &  3.06 &  10.31 & $+7.25$ \\
+        10 &  8.00 & 0.746 &  1.65 &   9.70 & $+8.04$ \\
         \bottomrule
     \end{tabular}
 \end{table}
