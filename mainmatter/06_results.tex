@@ -191,9 +191,9 @@ Points 10 to 20 of Tables \ref{tab: angled glass displacement results} and \ref{
     \label{fig: S vs l slider experiment}
 \end{figure}
 
-Section \ref{section: Angled Glass Experiment} mentioned a discrepancy between the predicted average speckle size obtained through the Rayleigh diffraction limit and the ones obtained experimentally and computed using Hamarová's method \cite{}. Table \ref{tab: angled glass speckle results} displays both quantities side by side together with the $f_\#$ and $M_{ag}$ used at each point. The $\Delta s$ deviation shows that at some points the discrepancy exceeds the theoretical value several times over. Speckle formation is an intrinsically random phenomenon, described by complex physics \cite{Goodman2020, NikitaFominBook, Cloud2007}, so it is not exactly clear what is precisely the root of this difference. Nevertheless, the data gives some clues on what could be improved.
+Section \ref{section: Angled Glass Experiment} mentioned a discrepancy between the predicted average speckle size obtained through the Rayleigh diffraction limit and the ones obtained experimentally and computed using Hamarová's method \cite{Hamarova2016}. Table \ref{tab: angled glass speckle results} displays both quantities side by side together with the $f_\#$ and $M_{ag}$ used at each point. The $\Delta s$ deviation shows that at some points the discrepancy exceeds the theoretical value several times over. Speckle formation is an intrinsically random phenomenon, described by complex physics \cite{Goodman2020, NikitaFominBook, Cloud2007}, so it is not exactly clear what is precisely the root of this difference. Nevertheless, the data gives some clues on what could be improved.
 
-From points 4 and 8-10, the $f_\#$ varies significantly, however, little effect is observed in the average speckle size. The $f_\#$ ranges from 4 to 16 whereas $\Delta s$ stays within 8.73 px to 10.31 px and the $M_{ag}$ varies from 0.640 to 0.746. In contrast, changes in magnification influence the experimental average speckle size considerably. From points 1-4 the $f_\#$ is fixed and $M_{ag}$ changes from 0.671 to 1.045, displaying $\Delta s$ from 8.73 px to 29.29 px. These factors lead to the belief that the pattern did not become diffraction limited at the lens pupil but rather at the ground glass itself, so what is imaged are the phase cells present at the diffuser.
+From points 4 and 8-10, the $f_\#$ varies significantly. However, little effect is observed in the average speckle size. The $f_\#$ ranges from 4 to 16 whereas $\Delta s$ stays within 12.35 px to 12.94 px and the $M_{ag}$ varies from 0.572 to 0.746. In contrast, changes in magnification influence the experimental average speckle size considerably. From points 1-4 the $f_\#$ is fixed and $M_{ag}$ changes from 0.671 to 1.045, displaying $\Delta s$ from 12.74 px to 21.21 px. These factors lead to the belief that the pattern did not become diffraction limited at the lens pupil but rather at the ground glass itself, so what is imaged are the phase cells present at the diffuser.
 
 
 
@@ -205,23 +205,23 @@ From points 4 and 8-10, the $f_\#$ varies significantly, however, little effect 
 \begin{table}[htbp]
     \centering
 
-    \caption{Speckle sizes measured during the angled glass campaign, for the configurations of Table \ref{tab: angled glass test matrix}. $M_{ag_{exp}}$ is the magnification measured with the calibration plate, $\Delta s_{th}$ the size predicted by the Rayleigh limit of Equation \ref{equation: Rayleigh Limit} and $\Delta s_{exp}$ the size returned by the DaVis estimator. The last column is the difference between the two.  Points 11 to 20 share the optical layout of point 10, so their predicted and measured sizes are identical and have been omitted.}
+    \caption{Speckle sizes measured during the angled glass campaign, for the configurations of Table \ref{tab: angled glass test matrix}. $M_{ag_{exp}}$ is the magnification measured with the calibration plate, $\Delta s_{th}$ the size predicted by the Rayleigh limit of Equation \ref{equation: Rayleigh Limit} and $\Delta s_{exp}$ the size returned by the one-dimensional autocorrelation method of Hamarová et al. \cite{Hamarova2016}, taken as the lag at which the normalised autocorrelation of intensity falls to $1/e$. The last column is the difference between the two. Points 11 to 20 share the optical layout of point 10, so their predicted and measured sizes are identical and have been omitted.}
     \label{tab: angled glass speckle results}
     \begin{tabular}{lrrrrr}
         \toprule
         Point & $f_\#$ & $M_{ag_{exp}}$ &  $\Delta s_{th}$ & $\Delta s_{exp}$ & $\Delta s$ dev. \\
               & [--] & [--] & [px] & [px] & [px] \\
         \midrule
-         1 & 16.00 & 1.002 &   3.72 &  27.61 & $+23.89$ \\
-         2 & 16.00 & 0.688 &   3.15 &  11.81 & $+8.67$ \\
-         3 & 16.00 & 1.045 &   3.90 &  29.29 & $+25.39$ \\
-         4 & 16.00 & 0.671 &   3.12 &   8.73 & $+5.61$ \\
-        5 & 11.31 & 1.043 &   2.74 &  28.20 & $+25.46$ \\
-         6 & 11.31 & 0.718 &   2.27 &  13.32 & $+11.05$ \\
-         7 & 11.31 & 1.054 &   3.02 &  34.35 & $+31.33$ \\
-         8 &  4.00 & 0.572 &   0.75 &   8.81 & $+8.06$ \\
-         9 & 16.00 & 0.640 &  3.06 &  10.31 & $+7.25$ \\
-        10 &  8.00 & 0.746 &  1.65 &   9.70 & $+8.04$ \\
+         1 & 16.00 & 1.002 &   3.72 &  20.30 & $+16.58$ \\
+         2 & 16.00 & 0.688 &   3.15 &  13.05 & $+9.90$ \\
+         3 & 16.00 & 1.045 &   3.90 &  21.21 & $+17.31$ \\
+         4 & 16.00 & 0.671 &   3.12 &  12.74 & $+9.62$ \\
+         5 & 11.31 & 1.043 &   2.74 &  20.78 & $+18.04$ \\
+         6 & 11.31 & 0.718 &   2.27 &  14.12 & $+11.85$ \\
+         7 & 11.31 & 1.054 &   3.02 &  25.32 & $+22.30$ \\
+         8 &  4.00 & 0.572 &   0.75 &  12.35 & $+11.60$ \\
+         9 & 16.00 & 0.640 &   3.06 &  12.65 & $+9.59$ \\
+        10 &  8.00 & 0.746 &   1.65 &  12.94 & $+11.29$ \\
         \bottomrule
     \end{tabular}
 \end{table}
