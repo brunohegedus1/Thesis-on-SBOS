@@ -249,7 +249,7 @@ present the data obtained with the experimental setups described in Section \ref
         \midrule
          1 &  4.00 &  740 &  0.938 &   0.92 &   2.73 & $+1.82$ \\
          2 & 11.31 &  740 &  0.938 &   2.59 &   3.83 & $+1.24$ \\
-         3 & 22.63 &  740 &  0.938 &   5.19 &   4.00 & $-1.19$ \\
+         3 & 22.63 &  740 &  0.938 &   5.19 &   3.96 & $-1.19$ \\
          4 &  4.00 &  740 &  0.288 &   0.61 &   1.62 & $+1.02$ \\
          5 & 11.31 &  740 &  0.288 &   1.71 &   2.71 & $+1.00$ \\
          6 & 22.63 &  740 &  0.288 &   3.42 &   3.81 & $+0.39$ \\
@@ -280,6 +280,10 @@ present the data obtained with the experimental setups described in Section \ref
     \end{tabular}
 \end{table}
 
+Table \ref{tab: speckle results direct} shows average speckle size obtained experimentally for each point. At a first glance it is already possible to see that the order of magnitude of these results is much similar to the predicted values compared  than the ones obtained previously, in Table \ref{tab: angled glass speckle results}, with deviations that span from 0.07 px to a maximum of 2.88 px. Nevertheless the relative error is still large overall, with the worst result at the points with subpixel speckles and close to 5 px. The error also vastly surpasses the uncertainty associated with magnification, which stayed within 5\% for a 10\% deviation in $M_{ag}$, and post-processing, where the filter uncertainty maximum was XX and the estimator quantified by Hamarová et al. \cite{Hamarova2016} within 1.5\%. Regardless, the data obtained provides a better fit to the Rayleigh diffraction prediction, showing that the equation can be used as a rough preliminary estimator of the speckle size. The results also allows for the identification of useful trends and comparisons in speckle production, as will be shown.
+
+Table \ref{tab: speckle results projected} shows the results of the points obtained with projected speckles. Compared to direct speckles, the projected speckles show a similar deviation to theory and an overall smaller speckle size, which also evident through Figure \ref{}. The results are too similar to the direct speckle approach to discriminate which method to use based on speckle quality. Therefore, the trade-off on how to create the speckle pattern comes more to practical considerations than on its speckle characteristics. Projected speckles might be preferable in applications where only one optical access is available; where powerful lasers are being used that could damage the camera or when the double-pass method of Meier \& Rösgen \cite{Meier&Roesgen2013} needs to be used for increased sensitivity, but it might be more vulnerable to vibrations and decorrelation \cite{Buhlmann2020}. Whereas direct speckle provides more intensity, which allows for lower exposures; is more robust against vibrations and decorrelation; and might be preferable when a see-through optical access is available.
+
 \begin{table}[htbp]
     \centering
     \caption{Speckle sizes measured with projected speckles, for the configurations of Table \ref{tab: projected speckle matrix}. The columns follow the convention of Table \ref{tab: speckle results direct}. The three points share the same optical layout and vary only the aperture.}
@@ -295,6 +299,16 @@ present the data obtained with the experimental setups described in Section \ref
         \bottomrule
     \end{tabular}
 \end{table}
+
+The various $f_\#$ sweeps made during the experimental campaign allows to evaluate if the interference waves became diffraction limited at the pupil. Figure \ref{} shows the trend of average speckle size with f-stop number for 4 different configurations. All lines follow the characteristic increasing trend of a developed subjective speckle, which follows equation \ref{equation: Rayleigh Limit}, and signals that the interference front is becoming diffraction limited at the lens pupil \cite{Goodman2020}. The red and yellow lines both share the same $d_{GG}$ what makes them viable for direct comparison. 
+
+Through them, it is visible that the magnification is also playing a part in the speckle size. A comparison with trends from different $d_{GG}$ is also reasonable as it will be demonstrated later. Comparing the last two lines with the purple one, it is again possible to observe the same trends, with speckle increasing not only with $f_\#$ but also with $M_{ag}$. In green, the projected speckle trend can also be analyzed. It demonstrates that projected speckles are generally smaller, presenting smaller speckles even to yellow which has a lower magnification than green. The Figure demonstrates the, that despite large deviations compared to the Rayleigh limit the results shows roughly the expected trends.
+
+%add f-stop sweeps
+
+By using the points where only $d_{GG}$ was varied, it is possible to check the influence of the beam diameter in the speckle generation. Figure \ref{} shows that the average speckle size remains quite consistent for high $d_{GG}$, as it varies from 2.91 px at 190mm, dips to 2.29 px at 450 mm and goes to 2.71 px at 740mm. However it spikes at low $d_{GG}$ when the beam diameter is small, reaching 4.59 px at 100mm with beam ratio of 1.25. This data supports the hypothesis that the larger speckle size in the angled glass experiment was caused by the small diameter of the laser when it hit the 12.7cm ground glass diffuser. The fact that the speckle barely changed for larger distances is also backed up by the literature, which doesn't mention the effect of the laser diameter in the speckle generation. In addition, it means that, when designing the laser optical setup, an experimentalist must only worry about expanding the laser beam to fill the desired field of view and make sure it is large enough.
+
+%Add d GG comparison figure
 
 
 
