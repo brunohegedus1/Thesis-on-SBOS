@@ -304,11 +304,13 @@ Table \ref{tab: speckle results projected} shows the results of the points obtai
     \end{tabular}
 \end{table}
 
+%Talk about the uncertainty quantification
+
 The various $f_\#$ sweeps made during the experimental campaign allows to evaluate if the interference waves became diffraction limited at the pupil. Figure \ref{fig: speckle f-number sweep} shows the trend of average speckle size with f-stop number for 4 different configurations. All lines follow the characteristic increasing trend of a developed subjective speckle, which follows equation \ref{equation: Rayleigh Limit}, and signals that the interference front is becoming diffraction limited at the lens pupil \cite{Goodman2020}. The red and yellow lines both share the same $d_{GG}$ what makes them viable for direct comparison. Curiously, it appears that the increased magnification of the red line caused practically no effect in the average speckle size, displaying almost the same values for equal f-stop as the yellow line. The same insensitivity to magnification was also experienced through points 14-28 which will be treated later. Looking at the purple line compared to the latter two, it appears that the different $d_{GG}$ introduced some difference in the speckle size, with the purple exceeding the red by 0.7, 0.25 and 0.33 px for $f_\#$ 4,11,22 respectively. In green, the projected speckle trend can also be analyzed. It demonstrates that projected speckles are generally smaller, presenting smaller speckles even to yellow which has a lower magnification than green. The Figure shows some promising trends as there is a clear dependence on $f_\#$ and it indicates a tendency of projected to be smaller than direct speckles. However, it also shows an insensitivity to the optical magnification, contradicting equation \ref{equation: Rayleigh Limit}, and the effect of $d_{GG}$ which will be further discussed next.
 
-\begin{figure}[htbp]
+\begin{figure}[h]
     \centering
-    \includegraphics[width=\textwidth]{figures/speckle exp f-number sweep.jpg}
+    \includegraphics[width=0.7\textwidth]{figures/speckle exp f-number sweep.jpg}
     \caption{Average speckle size versus f-stop number for the four aperture sweeps of the speckle investigation campaign. The red and yellow lines correspond to points 1-3 and 4-6, which share $d_{GG} = 740$ mm at two different magnifications. The purple line corresponds to points 11-13, acquired at $d_{GG} = 300$ mm, and the green line to points 29-31, obtained with projected speckles at the same $d_{GG}$}
     \label{fig: speckle f-number sweep}
 \end{figure}
@@ -316,9 +318,9 @@ The various $f_\#$ sweeps made during the experimental campaign allows to evalua
 
 It is possible to verify the influence of the beam diameter in the speckle generation by plotting the points where only $d_{GG}$ was varied. Figure \ref{fig: speckle dGG sweep} shows that the average speckle size remains quite consistent for high $d_{GG}$, as it varies from 2.91 px at 190mm, dips to 2.29 px at 450 mm and goes to 2.71 px at 740mm. This variation is consistent with the findings of Figure \ref{fig: speckle f-number sweep}. It shows that $d_{GG}$ can increase the speckle size but for large distances the spread is practically subpixel. However, the figure also shows a spike at low $d_{GG}$ when the beam diameter is small, reaching 4.59 px at 100mm with beam ratio of 1.25. This data supports the hypothesis that the larger speckle size in the angled glass experiment was caused by the small diameter of the laser when it hit the 12.7cm ground glass diffuser. The fact that the speckle changed less for larger distances is also backed up by the literature, which doesn't mention the effect of the laser diameter in the speckle generation. In addition, it means that, when designing the laser optical setup, an experimentalist must only worry about expanding the laser beam to fill the desired field of view.
 
-\begin{figure}[htbp]
+\begin{figure}[h]
     \centering
-    \includegraphics[width=\textwidth]{figures/Speckle d_GG Sweep.jpg}
+    \includegraphics[width=0.7\textwidth]{figures/Speckle d_GG Sweep.jpg}
     \caption{Average speckle size versus the distance between the beam expander lens and the ground glass diffuser, for points 5 and 7-10 of Table \ref{tab: speckle results direct}, all acquired at $f_\# = 11.31$ and $M_{ag_{exp}} = 0.296$}
     \label{fig: speckle dGG sweep}
 \end{figure}
@@ -326,9 +328,9 @@ It is possible to verify the influence of the beam diameter in the speckle gener
 
 To better assess the effect of optical magnification in the speckle generation process, a sweep of the focal distance was conducted through points 14-28 and is shown in Figure \ref{fig: speckle magnification sweep}. It is worth mentioning that the magnification value of these points is less accurate than the others, as the focal distance was obtained through the distance marks of the camera lens. Nevertheless, the figure shows, for a different $d_{GG}$, the same speckle size insensitivity to optical magnification that was identified in Figure \ref{fig: speckle f-number sweep}. ...
 
-\begin{figure}[htbp]
+\begin{figure}[h]
     \centering
-    \includegraphics[width=\textwidth]{figures/speckle exp mag sweep.jpg}
+    \includegraphics[width=0.7\textwidth]{figures/speckle exp mag sweep.jpg}
     \caption{Average speckle size versus optical magnification for points 14-28 of Table \ref{tab: speckle results direct}, acquired at a fixed $f_\# = 22.63$ and $d_{GG} = 300$ mm. The magnification of these points was obtained from the distance marks of the camera lens rather than with the calibration plate}
     \label{fig: speckle magnification sweep}
 \end{figure}
