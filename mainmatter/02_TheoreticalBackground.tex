@@ -65,15 +65,16 @@ M_{n,2}^{2}
 \left(M_{n,1}^{2} - 1\right).
 \end{align}
 
-\par These are important equations, as they allow the computation of the conditions after the shock by only knowing the initial flow conditions. Another important relationship defines the flow direction $\theta$ after it has passed through the oblique shock, called the $\theta-\beta-M$ relation. This equation gives two solutions for flows over wedges, defining a weak shock and strong shock pairing of $M_1$ and $\beta$. The classification of a shock as strong or weak relates to the pressure drop across it, the bigger the total pressure drop, the stronger the shock. This relationship is shown below.
+\par These are important equations, as they allow the computation of the conditions after the shock by only knowing the initial flow conditions. Another important relationship defines the flow direction $\theta$ after it has passed through the oblique shock, called the $\theta-\beta-M$ relation. This equation gives two solutions for flows over concave wedges, defining a weak shock and strong shock pairing of $M_1$ and $\beta$. The classification of a shock as strong or weak relates to the pressure drop across it, the bigger the total pressure drop, the stronger the shock. Consequently, the bigger the density gradient as well. This relationship is shown below, together with equation 2.9 it shows how strong density gradients naturally appear in supersonic flow across shock waves.
 
 \begin{equation}
 \label{equation:theta-beta-M}
     \tan \theta = 2 \cot \beta \frac{M_1^2\sin^2\beta -1}{M_1^2(\gamma +\cos 2\beta )+2}
 \end{equation}
-Equation \ref{equation:theta-beta-M} shows how strong density gradients naturally appear in supersonic flow across shock waves. Using these relationships, aerodynamicists are able to control the inlet properties of a wind tunnel section to obtain a shock wave with the desired angle and strength.
 
-%Add a prandtl meyer expansion fan theory in here
+Up until now only compressive waves have been discussed, however, a supersonic flow can also expand through a Prandtl-Meyer expansion fan. When a supersonic flow finds a convex corner instead of a concave one, it turns away from itself, creating a continuous low pressure zone that accelerates it even further. The flow through an expansion fan is isentropic and isentropic relationships can be used to compute the conditions after the fan if initial conditions are known. An important parameter in these scenarios is the Prandtl-Meyer Angle $\nu$, which can be used to know how much the flow must bend in order to achieve a certain Mach number $M_2$. Equation \ref{} and \ref{} summarizes how $\nu$ can be used to find the convex corner angle, and subsequent flow direction $\theta$.
+
+%add prandtl meyer angle
 
 \par Since variations in density produce corresponding variations in refractive index, shock structures can be detected using the deflection of light passing through the medium by employing schlieren methods. These techniques allow the visualization and quantification of the resulting density gradients, enabling experimental measurements to be compared with theoretical predictions for validation. In the context of this thesis, the theory presented in this subsection will be paramount to interpret and judge the results stemming from the implementation of SBOS in a high-speed wind tunnel.
 
