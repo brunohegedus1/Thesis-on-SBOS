@@ -454,6 +454,33 @@
       \verb 10.1007/s00348-003-0724-8
       \endverb
     \endentry
+    \entry{Emden1899}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=27080c2fc479e1f0b469327117a1e9e2}{%
+           family={Emden},
+           familyi={E\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{27080c2fc479e1f0b469327117a1e9e2}
+      \strng{fullhash}{27080c2fc479e1f0b469327117a1e9e2}
+      \strng{fullhashraw}{27080c2fc479e1f0b469327117a1e9e2}
+      \strng{bibnamehash}{27080c2fc479e1f0b469327117a1e9e2}
+      \strng{authorbibnamehash}{27080c2fc479e1f0b469327117a1e9e2}
+      \strng{authornamehash}{27080c2fc479e1f0b469327117a1e9e2}
+      \strng{authorfullhash}{27080c2fc479e1f0b469327117a1e9e2}
+      \strng{authorfullhashraw}{27080c2fc479e1f0b469327117a1e9e2}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Annalen der Physik}
+      \field{title}{Über die Ausströmungserscheinungen permanenter Gase}
+      \field{volume}{69}
+      \field{year}{1899}
+      \field{pages}{264\bibrangedash 289}
+      \range{pages}{26}
+    \endentry
     \entry{NikitaFominBook}{book}{}{}
       \name{author}{1}{}{%
         {{hash=df23512324014ae7adee9e980d785708}{%
@@ -1466,6 +1493,37 @@
       \range{pages}{9}
       \verb{doi}
       \verb 10.1016/j.optlaseng.2009.08.010
+      \endverb
+    \endentry
+    \entry{Powell2010}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=505c8c38dd83311d8eb0993129e8cf29}{%
+           family={Powell},
+           familyi={P\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{505c8c38dd83311d8eb0993129e8cf29}
+      \strng{fullhash}{505c8c38dd83311d8eb0993129e8cf29}
+      \strng{fullhashraw}{505c8c38dd83311d8eb0993129e8cf29}
+      \strng{bibnamehash}{505c8c38dd83311d8eb0993129e8cf29}
+      \strng{authorbibnamehash}{505c8c38dd83311d8eb0993129e8cf29}
+      \strng{authornamehash}{505c8c38dd83311d8eb0993129e8cf29}
+      \strng{authorfullhash}{505c8c38dd83311d8eb0993129e8cf29}
+      \strng{authorfullhashraw}{505c8c38dd83311d8eb0993129e8cf29}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{1-2}
+      \field{journaltitle}{International Journal of Aeroacoustics}
+      \field{title}{On Prandtl's formulas for supersonic jet cell length}
+      \field{volume}{9}
+      \field{year}{2010}
+      \field{pages}{207\bibrangedash 236}
+      \range{pages}{30}
+      \verb{doi}
+      \verb 10.1260/1475-472X.9.1-2.207
       \endverb
     \endentry
     \entry{Raffel2015}{article}{}{}

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.5) (preloaded format=xelatex 2026.8.21)  14 SEP 2026 17:24
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.5) (preloaded format=xelatex 2026.8.21)  14 SEP 2026 19:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1605,18 +1605,16 @@ File: figures/highly under-expanded jet.jpg Graphic file (type bmp)
 <figures/highly under-expanded jet.jpg>
 File: figures/unique barrel under-expanded jet.jpg Graphic file (type bmp)
 <figures/unique barrel under-expanded jet.jpg>
+ [7]
 File: figures/Diagrams of light refraction.png Graphic file (type bmp)
 <figures/Diagrams of light refraction.png>
- [7]
+ [8]
 
-LaTeX Warning: Reference `' on page 8 undefined on input line 219.
+LaTeX Warning: Reference `' on page 9 undefined on input line 232.
 
 File: figures/AbelTransform.png Graphic file (type bmp)
 <figures/AbelTransform.png>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[8]) (mainmatter/03_LiteratureReview.tex [9]
+) (mainmatter/03_LiteratureReview.tex [9]
 Chapter 3.
 File: figures/Hooke shadowgraphy setup.png Graphic file (type bmp)
 <figures/Hooke shadowgraphy setup.png>
@@ -1847,12 +1845,12 @@ Package logreq Info: Writing requests to 'report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 45603 strings out of 402619
- 968314 string characters out of 5438862
- 1880795 words of memory out of 5000000
- 74021 multiletter control sequences out of 15000+600000
+ 45615 strings out of 402619
+ 968810 string characters out of 5438862
+ 1881502 words of memory out of 5000000
+ 74033 multiletter control sequences out of 15000+600000
  633296 words of font info for 113 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 107i,12n,108p,2099b,5763s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 107i,12n,108p,2099b,5761s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on report.xdv (67 pages, 1820884 bytes).
+Output written on report.xdv (67 pages, 1844840 bytes).
