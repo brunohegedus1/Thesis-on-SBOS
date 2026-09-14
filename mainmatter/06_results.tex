@@ -161,24 +161,29 @@ The glass displacement's uncertainty budget is summarized in Table \ref{tab: ang
 
 Regarding the research objectives, one of the goals of the experimental campaign was the comparison of the new capacities of SBOS to a standard BOS configuration. With the data at hand it is possible to compare the performance of a setup that uses negative defocus to another with positive defocus, effectively answering the experiment's objective. Figure \ref{fig: S vs l experimental} plots the sensitivity versus defocus distance of points 1 to 9 that were captured with $f=200$ mm, with error bars corresponding to the standard deviation divided by the mean cross-correlation displacement times the sensitivity values.
 
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
-    \includegraphics[width=1\textwidth]{figures/S vs l experimental.jpg}
-    \caption{Sensitivity versus defocus distance for the points obtained with a camera lens of $f = 200$ mm, $f_\# = 11$ and $f_\# = 16$ for an enforced $L_{FoV_{obj}} = 17$ mm}
-    \label{fig: S vs l experimental}
+    \begin{subfigure}[b]{0.49\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figures/S vs l experimental.jpg}
+        \caption{}
+        \label{fig: S vs l experimental}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.49\textwidth}
+        \centering
+        \includegraphics[trim={1cm 0cm 1cm 0cm},clip,width=\textwidth]{figures/S vs l slider experiment.jpg}
+        \caption{}
+        \label{fig: S vs l slider experiment}
+    \end{subfigure}
+    \caption{Sensitivity versus defocus distance for a camera lens of $f = 200$ mm. (a) Points obtained with $f_\# = 11$ and $f_\# = 16$ for an enforced $L_{FoV_{obj}} = 17$ mm. (b) Points obtained in the slider experiment, with a fixed measured magnification of $M_{ag} = 0.746$}
+    \label{fig: S vs l experiments}
 \end{figure}
 
 Figure \ref{fig: S vs l experimental} replicates one of the predictions of Chapter \ref{chapter: methodology}, where a higher sensitivity was obtained for the same defocus distance if a negative defocus was chosen instead of its positive one. It is also worth noting that all points were obtained with the same field of view of the object. Therefore, a higher sensitivity and magnification is achieved while capturing the same area of the object. Although the resolution has not been measured in this case, it is also to be expected through Equation \ref{equation: S over smin} that the spatial resolution trade-off is improved by this increase in magnification. This figure effectively compares the performance of SBOS with BOS, answering one of the research questions posed in Chapter \ref{chapter: introduction}.
 
 
 Points 10 to 20 of Tables \ref{tab: angled glass displacement results} and \ref{tab: sensitivity comparison} show the results of the experiment where the angled glass was positioned in a linear slider with a fixed magnification and only the defocus position was changed. Figure \ref{fig: S vs l slider experiment} plots the resulting sensitivity against the defocusing distance. The points are symmetric around the Y-axis, which means that the mechanism that makes a negative defocus configuration more powerful than its positive counterpart is not the negative distance per se but the increased magnification that comes with a shorter focal distance to the camera. Therefore, the mechanism making negative defocus more sensitive than standard defocus is the higher magnification that comes with a shorter focal length.
-
-\begin{figure}[h]
-    \centering
-    \includegraphics[trim={1cm 0cm 1cm 0cm},clip,width=1\textwidth]{figures/S vs l slider experiment.jpg}
-    \caption{Sensitivity versus defocus distance for the points obtained in the slider experiment, $f = 200$ mm, fixed measured magnification of $M_{ag} = 0.746$}
-    \label{fig: S vs l slider experiment}
-\end{figure}
 
 Section \ref{section: Angled Glass Experiment} mentioned a discrepancy between the predicted average speckle size obtained through the Rayleigh diffraction limit and the ones obtained experimentally and computed using Hamarová's method \cite{Hamarova2016}. Table \ref{tab: angled glass speckle results} displays both quantities side by side together with the $f_\#$ and $M_{ag}$ used at each point. The $\Delta s$ deviation shows that at some points the discrepancy exceeds the theoretical value several times. Speckle formation is an intrinsically random phenomenon, described by complex physics \cite{Goodman2020, NikitaFominBook, Cloud2007}, so it is not exactly clear what is precisely the root of this difference. Nevertheless, the data gives some clues on what could be improved.
 
