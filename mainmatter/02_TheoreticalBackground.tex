@@ -89,6 +89,7 @@ Up until now only compressive waves have been discussed, however, a supersonic f
 \par This section aims to explain the connection between compressible flow and density changes. Since variations in density produce corresponding variations in refractive index, shock and expansion structures can be detected using the deflection of light passing through the medium by employing schlieren methods. These techniques allow the visualization and quantification of the resulting density gradients, enabling experimental measurements to be compared with theoretical predictions. In the context of this thesis, the theory presented in this subsection will be paramount to interpret and judge the results stemming from the implementation of SBOS in a high-speed wind tunnel.
 
 \section{Compressible Jets}
+\label{section: Compressible Jet Theory}
 
 %Talk about compressible jets
 %define underexpanded- perfectly expanded -overexpanded
@@ -113,7 +114,7 @@ Up until now only compressive waves have been discussed, however, a supersonic f
     \label{fig: planar underexpanded jet}
 \end{figure}
 
-The three Figures \ref{fig: moderately underexpanded jet}, \ref{fig: highly underexpanded jet} and \ref{fig: unique barrel underexpanded jet} show sketches of under-expanded circular jets at different NPRs \cite{Duronio2023}. Due to it's axissimetry, the circular jet has a different structure to the planar case, displaying an early formation of an oblique shock extending from the lip to the jet axis, often called \emph{Intercepting shock}. When the NPR is between 2 and 4, as in Figure \ref{fig: moderately underexpanded jet}, this oblique shock reflects at the jet axis and goes to the shear layer, where it turns into an expansion fan, thus forming an "X" shape at each shock cell. For higher NPRs between 4 and 7, Figure \ref{fig: highly underexpanded jet}, the intercepting shock transitions to a singular reflection and produces a normal shock called \emph{Mach disk}, which gives each shock cell a "barrel" shape. For even higher NPRs, Figure \ref{fig: unique barrel underexpanded jet}, the jet is dominated by a single barrel. In this case, the shock crossing the axis can no longer be considered a normal shock and its curvature must be taken into account. This last case is also marked by a decreased jet boundary diameter and a very long plume caused by entraining air.
+The three Figures \ref{fig: moderately underexpanded jet}, \ref{fig: highly underexpanded jet} and \ref{fig: unique barrel underexpanded jet} show sketches of under-expanded circular jets at different NPRs \cite{Duronio2023}. Due to it's axissymetry, the circular jet has a different structure to the planar case, displaying an early formation of an oblique shock extending from the lip to the jet axis, often called \emph{Intercepting shock}. When the NPR is between 2 and 4, as in Figure \ref{fig: moderately underexpanded jet}, this oblique shock reflects at the jet axis and goes to the shear layer, where it turns into an expansion fan, thus forming an "X" shape at each shock cell. For higher NPRs between 4 and 7, Figure \ref{fig: highly underexpanded jet}, the intercepting shock transitions to a singular reflection and produces a normal shock called \emph{Mach disk}, which gives each shock cell a "barrel" shape. For even higher NPRs, Figure \ref{fig: unique barrel underexpanded jet}, the jet is dominated by a single barrel. In this case, the shock crossing the axis can no longer be considered a normal shock and its curvature must be taken into account. This last case is also marked by a decreased jet boundary diameter and a very long plume caused by entraining air.
 
 \begin{figure}[htbp]
     \centering
@@ -141,7 +142,19 @@ The three Figures \ref{fig: moderately underexpanded jet}, \ref{fig: highly unde
     \label{fig: circular underexpanded jets}
 \end{figure}
 
-Since a circular jet will be used to attest the capabilities of SBOS in producing a quantitative density field, this knowledge on axissymetric jet structure will be important to visually interpret the NPR of the results. The former sections clarify the mechanisms that lead high speed flows to vary its density. These variations influence how light bends when moving through the medium in a phenomenon called \emph{refraction}. This will be treated next.
+As hinted by the scale of the sketches in Figure \ref{fig: circular underexpanded jets}, the $NPR$  also changes the length of the shock cells, $L_s$. Robert Emden was the first to correlate $L_s$ of underexpanded choked jets with the $NPR$ in 1899 \cite{Powell2010, Emden1899}. After a series of experiments he reached the format of equation \ref{equation: Emden Formula}, where $k$ is a numerical coefficient that varies with the nozzle geometry and NPR range. The value of $k$ changed from 0.77 to 1.02 during the campaign, so Emden averaged it to obtain $k = 0.88$. Later, Hartmann \& Lazarus introduced a constant term independent of $NPR$ to the formulation, achieving the format of equation \ref{equation: Lazarus-Hartmann Formula}, with $a = 0.3$ and $b = 0.98$.
+
+\begin{equation}
+    \label{equation: Emden Formula}
+    \frac{L_s}{d_N} = k\sqrt{NPR - NPR_c}
+\end{equation}
+
+\begin{equation}
+    \label{equation: Lazarus-Hartmann Formula}
+    \frac{L_s}{d_N} = a+b\sqrt{NPR - NPR_c}
+\end{equation}
+
+Since a circular jet will be used to attest the capabilities of SBOS in producing a quantitative density field, this knowledge on axissymetric jet structure will be important to visually interpret the NPR of the results. The former sections clarify the mechanisms that lead high speed flows to vary its density. These variations influence how light bends when moving through the medium in the phenomenon of light refraction. This will be treated next.
 
 \section{Refraction}
 \label{section: Refraction}
