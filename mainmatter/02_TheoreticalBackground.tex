@@ -94,18 +94,52 @@ Up until now only compressive waves have been discussed, however, a supersonic f
 %define underexpanded- perfectly expanded -overexpanded
 %Characterize the flow through an underexpanded jet
 
-\par One important study case of compressible aerodynamics is the flow structure of a high pressure jet. Jets are produced by a high pressure flow coming out of a nozzle outlet that meets a lower pressure environment. When the pressure between the nozzle and the ambient air surpasses a certain threshold, the critical pressure ratio $NPR_c$, the Mach number at the minimum cross-section of the nozzle becomes 1 and the mass flow through the nozzle hits its maximum. The pressure ratio can continue to increase, however the throat Mach number and mass flow will remain the same for that given geometry, this condition is called choked flow. If the geometry of the nozzle after the throat diverges, the flow expands, a favorable pressure gradient is established and the flow accelerates, increasing the Mach number. Depending on the pressure at the exit of the nozzle, a jet can be said: underexpanded, if $p_e > p_a$; perfectly expanded, if $p_e = p_a$ or overexpanded, if $p_e < p_a$. Figure \ref{} shows the visual difference between these different cases.
+\par One important study case of compressible aerodynamics is the flow structure of a high pressure jet. Jets are produced by a high pressure flow coming out of a nozzle outlet that meets a lower pressure environment. When the pressure between the nozzle and the ambient air surpasses a certain threshold, the critical pressure ratio $NPR_c$, the Mach number at the minimum cross-section of the nozzle becomes 1 and the mass flow through the nozzle hits its maximum. The pressure ratio can continue to increase, however the throat Mach number and mass flow will remain the same for that given geometry, this condition is called choked flow. If the geometry of the nozzle after the throat diverges, the flow expands, a favorable pressure gradient is established and the flow accelerates, increasing the Mach number. Depending on the pressure at the exit of the nozzle, a jet can be said: underexpanded, if $p_e > p_a$; perfectly expanded, if $p_e = p_a$ or overexpanded, if $p_e < p_a$. Figure \ref{fig: jet expansion regimes} shows the visual difference between these different cases.
 
-%Add a picture of underexpanded, overexpanded and perfectly expanded jets
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.8\textwidth]{figures/Under over and perfect expanded jets.jpg}
+    \caption{Nozzle exit flow for the three expansion conditions: perfectly expanded ($p_e = p_a$), under-expanded ($p_e > p_a$) and over-expanded ($p_e < p_a$)}
+    \label{fig: jet expansion regimes}
+\end{figure}
 
-\par Figure \ref{} shows the analytical resolution of a planar under-expanded jet. It shows that the jet is marked by periodic structures called shock cells. These cells form as a mechanism of pressure adaptation between the nozzle exit and the ambient air through alternating Prandtl-Meyer expansion and compression waves \cite{vanHinsberg2014}. Since the the pressure at the nozzle exit is greater than the ambient pressure, the flow needs to expand to match the outside pressure. The results is a Prandtl-Meyer expansion fan anchored at the lip of the nozzle. These expansion waves are reflected at the axis of symmetry into another expansion fan, which in turn reflect at the jet boundary into compression waves. These converge into one another and coalesce, forming a shock. This shock increases the pressure, leading to another round of expansion waves. This process continues until, due to friction, the jet pressure equals the atmospheric pressure.
+\par Figure \ref{fig: planar underexpanded jet} shows the analytical resolution of a planar under-expanded jet. It shows that the jet is marked by periodic structures called shock cells. These cells form as a mechanism of pressure adaptation between the nozzle exit and the ambient air through alternating Prandtl-Meyer expansion and compression waves \cite{vanHinsberg2014}. Since the the pressure at the nozzle exit is greater than the ambient pressure, the flow needs to expand to match the outside pressure. The results is a Prandtl-Meyer expansion fan anchored at the lip of the nozzle. These expansion waves are reflected at the axis of symmetry into another expansion fan, which in turn reflect at the jet boundary into compression waves. These converge into one another and coalesce, forming a shock. This shock increases the pressure, leading to another round of expansion waves. This process continues until, due to friction, the jet pressure equals the atmospheric pressure.
 
 
-%Add picture of planar underexpanded jet
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=\textwidth]{figures/under-expanded planar jet.jpg}
+    \caption{Analytical solution of a planar under-expanded jet. The expansion waves leaving the nozzle lips (black) cross at the axis of symmetry, reflect at the jet boundary and return as compression waves (red)}
+    \label{fig: planar underexpanded jet}
+\end{figure}
 
-The three Figures \ref{}, \ref{} and \ref{} show sketches of under-expanded circular jets at different NPRs \cite{Duronio2023}. Due to it's axissimetry, the circular jet has a different structure to the planar case, displaying an early formation of an oblique shock extending from the lip to the jet axis, often called \emph{Intercepting shock}. When the NPR is between 2 and 4, as in Figure \ref{}, this oblique shock reflects at the jet axis and goes to the shear layer, where it turns into an expansion fan, thus forming an "X" shape at each shock cell. For higher NPRs between 4 and 7, Figure \ref{}, the intercepting shock transitions to a singular reflection and produces a normal shock called \emph{Mach disk}, which gives each shock cell a "barrel" shape. For even higher NPRs, Figure \ref{}, the jet is dominated by an unique barrel. In this case, the shock crossing the axis can no longer be considered a normal shock and its curvature must be taken into account. This last case is also marked by a decreased jet boundary diameter and a very long plume caused by entraining air.
+The three Figures \ref{fig: moderately underexpanded jet}, \ref{fig: highly underexpanded jet} and \ref{fig: unique barrel underexpanded jet} show sketches of under-expanded circular jets at different NPRs \cite{Duronio2023}. Due to it's axissimetry, the circular jet has a different structure to the planar case, displaying an early formation of an oblique shock extending from the lip to the jet axis, often called \emph{Intercepting shock}. When the NPR is between 2 and 4, as in Figure \ref{fig: moderately underexpanded jet}, this oblique shock reflects at the jet axis and goes to the shear layer, where it turns into an expansion fan, thus forming an "X" shape at each shock cell. For higher NPRs between 4 and 7, Figure \ref{fig: highly underexpanded jet}, the intercepting shock transitions to a singular reflection and produces a normal shock called \emph{Mach disk}, which gives each shock cell a "barrel" shape. For even higher NPRs, Figure \ref{fig: unique barrel underexpanded jet}, the jet is dominated by an unique barrel. In this case, the shock crossing the axis can no longer be considered a normal shock and its curvature must be taken into account. This last case is also marked by a decreased jet boundary diameter and a very long plume caused by entraining air.
 
-%Add picture of moderate, high and unique barrel structure underexpanded jets side by side
+\begin{figure}[htbp]
+    \centering
+    \begin{subfigure}[b]{0.32\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figures/moderately under-expanded jet.jpg}
+        \caption{Moderately under-expanded, $2 < NPR < 4$}
+        \label{fig: moderately underexpanded jet}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.32\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figures/highly under-expanded jet.jpg}
+        \caption{Highly under-expanded, $4 < NPR < 7$}
+        \label{fig: highly underexpanded jet}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.32\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figures/unique barrel under-expanded jet.jpg}
+        \caption{Unique barrel, $NPR > 7$}
+        \label{fig: unique barrel underexpanded jet}
+    \end{subfigure}
+    \caption{Sketches of circular under-expanded jets at increasing nozzle pressure ratio, credit to Duronio et al. \cite{Duronio2023}}
+    \label{fig: circular underexpanded jets}
+\end{figure}
 
 Since a circular jet will be used to attest the capabilities of SBOS in producing a quantitative density field, this knowledge on axissymetric jet structure will be important to visually interpret the NPR of the results. The former sections clarify the mechanisms that lead high speed flows to vary its density. These variations influence how light bends when moving through the medium in a phenomenon called \emph{refraction}. This will be treated next.
 
