@@ -38,7 +38,7 @@
 \contentsline {section}{\numberline {6.3}Compressible Jet Experiment Results}{49}{section.6.3}%
 \contentsline {section}{\numberline {6.4}Aerospike Experiment Results}{49}{section.6.4}%
 \contentsline {chapter}{\numberline {7}Conclusion}{51}{chapter.7}%
-\contentsline {chapter}{References}{52}{chapter*.54}%
+\contentsline {chapter}{References}{52}{chapter*.55}%
 \contentsline {chapter}{\numberline {A}Derivation of the Circle of Confusion}{55}{appendix.A}%
 \contentsline {chapter}{\numberline {B}Optics of a Blurred Object}{57}{appendix.B}%
 \contentsline {chapter}{\numberline {C}Extended Surface Maps for SBOS}{59}{appendix.C}%

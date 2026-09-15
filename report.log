@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.5) (preloaded format=xelatex 2026.8.21)  14 SEP 2026 19:29
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.5) (preloaded format=xelatex 2026.8.21)  15 SEP 2026 11:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1839,18 +1839,18 @@ L3 programming layer <2026-07-20>
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: 69F9670CDC82D94CAF48F446612AFD50;8000.
+(rerunfilecheck)             Checksum: 68AC875F90DAF6143910253331246D80;8000.
 Package logreq Info: Writing requests to 'report.run.xml'.
 \openout1 = `report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 45615 strings out of 402619
- 968810 string characters out of 5438862
- 1881502 words of memory out of 5000000
- 74033 multiletter control sequences out of 15000+600000
+ 45617 strings out of 402619
+ 968889 string characters out of 5438862
+ 1881945 words of memory out of 5000000
+ 74035 multiletter control sequences out of 15000+600000
  633296 words of font info for 113 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  107i,12n,108p,2099b,5761s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on report.xdv (67 pages, 1844840 bytes).
+Output written on report.xdv (67 pages, 1851348 bytes).
