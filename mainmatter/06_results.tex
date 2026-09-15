@@ -448,12 +448,66 @@ The strategy envisioned to better estimate the nozzle pressure ratio builds on t
 
 The $NPR$ estimates displayed in Table \ref{tab: compressible jet NPR estimates} better fit the theory but also means that the pressure losses in the line were extremely high. The nozzle pressure ratios range from 2 to 4, exactly the range where an "X" shaped shock cell would be expected. Moreover, the pressures of datasets e and f change very little between them, while there is a big difference between a and f, which is coherent with the similar pictured obtained. A question arises, however, when the estimate of total pressure is compared with the one at the air tap gauge, as loss of over 40\% can't be explained with friction losses alone. These other sources of loss were probably choke points in the line, at quick disconnect joints or at a non-fully pressed air gun trigger. Another way to verify these estimates is by computing the density gradient field, measuring the shock cell length and relating them to the NPR through the relationships of section \ref{section: Compressible Jet Theory}.
 
-A density gradient field can be obtained assuming a planar field, through equation \ref{equation: Displacement and Density Gradient}. This result corresponds to the projection of the axyssimetric body. In reality, the thickness of the object $W$ and density gradient varies with the radius, so this solution will underestimate the density gradients at the borders of the jet. Nevertheless, it is useful to qualitatively study the shock cell structure, as the periodicity of the cell and the gradient signs are maintained in the projection. Figure \ref{} shows the gradients for dataset f in the two directions s and n together with the magnitude of the vector.
+A density gradient field can be obtained assuming a planar field, through equation \ref{equation: Displacement and Density Gradient}. This result corresponds to the projection of the axyssimetric body. In reality, the thickness of the object $W$ and density gradient varies with the radius, so this solution will underestimate the density gradients at the borders of the jet. Nevertheless, it is useful to qualitatively study the shock cell structure, as the periodicity of the cell and the gradient signs are maintained in the projection. Figure \ref{fig: dataset f density gradients} shows the gradients for dataset f in the two directions s and n together with the magnitude of the vector.
 
-%Add dataset f density gradients.
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=\textwidth]{figures/Dataset f density gradients.jpg}
+    \caption{Density gradient fields of dataset f obtained assuming a planar field. The top plot displays the density gradient in the n direction, the middle plot the density gradient in the s direction and the bottom plot the magnitude of the density gradient vector. The s axis is aligned with the jet axis with its origin at the nozzle exit, while n is normal to it}
+    \label{fig: dataset f density gradients}
+\end{figure}
 
-Following the middle plot of Figure \ref{}, correspondent to the density gradient in the s direction, the jet structures can be easily identified. Spanning from the lip to the axis at the nozzle exit, an expansion fan causes the density to decrease severely, indicated by the blue region in the core of the jet. A little above the lip, an oblique shock is marked in red going from the lip to the axis downstream, where it reflects in direction to the shear layer, forming an "X" shape. This intercepting shock produces a region of increasing density, marked by the red region. After the density peaks, a new round of expansion waves causes the density to decrease, thus starting a new shock cell. The periodicity of shock cells are also evident if the centerline density gradient is plotted, Figure \ref{} such graph for the 6 datasets.
+Following the middle plot of Figure \ref{fig: dataset f density gradients}, correspondent to the density gradient in the s direction, the jet structures can be easily identified. Spanning from the lip to the axis at the nozzle exit, an expansion fan causes the density to decrease severely, indicated by the blue region in the core of the jet. A little above the lip, an oblique shock is marked in red going from the lip to the axis downstream, where it reflects in direction to the shear layer, forming an "X" shape. This intercepting shock produces a region of increasing density, marked by the red region. After the density peaks, a new round of expansion waves causes the density to decrease, thus starting a new shock cell. The periodicity of shock cells are also evident if the centerline density gradient is plotted, Figure \ref{fig: centerline density gradients} such graph for the 6 datasets.
 
-%Add here the 6 centerline density gradients
+\begin{figure}[htbp]
+    \centering
+    \begin{subfigure}[b]{0.49\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figures/centerline density gradient dataset a.png}
+        \caption{Dataset a}
+        \label{fig: centerline density gradient dataset a}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.49\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figures/centerline density gradient dataset b.png}
+        \caption{Dataset b}
+        \label{fig: centerline density gradient dataset b}
+    \end{subfigure}
+
+    \vspace{0.5em}
+
+    \begin{subfigure}[b]{0.49\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figures/centerline density gradient dataset c.png}
+        \caption{Dataset c}
+        \label{fig: centerline density gradient dataset c}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.49\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figures/centerline density gradient dataset d.png}
+        \caption{Dataset d}
+        \label{fig: centerline density gradient dataset d}
+    \end{subfigure}
+
+    \vspace{0.5em}
+
+    \begin{subfigure}[b]{0.49\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figures/centerline density gradient dataset e.png}
+        \caption{Dataset e}
+        \label{fig: centerline density gradient dataset e}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.49\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figures/centerline density gradient dataset f.png}
+        \caption{Dataset f}
+        \label{fig: centerline density gradient dataset f}
+    \end{subfigure}
+    \caption{Centerline density gradient in the s direction for datasets a to f, obtained assuming a planar field. The light blue line is the gradient at the axis row $n = 0$ and the dark blue line its mean over $|n| \leq 0.25$ mm. The markers indicate the compression peaks, expansion troughs, density minima and density maxima detected along the centerline, and the dashed line marks the end of the first shock cell}
+    \label{fig: centerline density gradients}
+\end{figure}
 
 \section{Aerospike Experiment Results}

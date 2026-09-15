@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.5) (preloaded format=xelatex 2026.8.21)  15 SEP 2026 11:07
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.5) (preloaded format=xelatex 2026.8.21)  15 SEP 2026 16:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1610,7 +1610,7 @@ File: figures/Diagrams of light refraction.png Graphic file (type bmp)
 <figures/Diagrams of light refraction.png>
  [8]
 
-LaTeX Warning: Reference `' on page 9 undefined on input line 232.
+LaTeX Warning: Reference `' on page 9 undefined on input line 233.
 
 File: figures/AbelTransform.png Graphic file (type bmp)
 <figures/AbelTransform.png>
@@ -1786,9 +1786,31 @@ File: figures/jet displacement 7bar.png Graphic file (type bmp)
 <figures/jet displacement 7bar.png>
 File: figures/jet displacement 8bar.png Graphic file (type bmp)
 <figures/jet displacement 8bar.png>
-) (mainmatter/07_conclusion.tex [49] [50]
+ [49] [50]
+File: figures/Dataset f density gradients.jpg Graphic file (type bmp)
+<figures/Dataset f density gradients.jpg>
+File: figures/centerline density gradient dataset a.png Graphic file (type bmp)
+
+<figures/centerline density gradient dataset a.png>
+File: figures/centerline density gradient dataset b.png Graphic file (type bmp)
+
+<figures/centerline density gradient dataset b.png>
+File: figures/centerline density gradient dataset c.png Graphic file (type bmp)
+
+<figures/centerline density gradient dataset c.png>
+File: figures/centerline density gradient dataset d.png Graphic file (type bmp)
+
+<figures/centerline density gradient dataset d.png>
+File: figures/centerline density gradient dataset e.png Graphic file (type bmp)
+
+<figures/centerline density gradient dataset e.png>
+File: figures/centerline density gradient dataset f.png Graphic file (type bmp)
+
+<figures/centerline density gradient dataset f.png>
+) (mainmatter/07_conclusion.tex
+[51] [52]
 Chapter 7.
-) [51
+) [53
 
 ]
 Overfull \hbox (0.64949pt too wide) in paragraph at lines 66--66
@@ -1811,23 +1833,23 @@ Overfull \hbox (40.00558pt too wide) in paragraph at lines 66--66
 9. 
  []
 
-[52
+[54
 
-] [53] (appendix/appendix-a.tex [54]
+] [55] (appendix/appendix-a.tex [56]
 Appendix A.
 File: figures/CoC drawing.png Graphic file (type bmp)
 <figures/CoC drawing.png>
-[55
+[57
 
-]) (appendix/appendix-b.tex [56]
+]) (appendix/appendix-b.tex [58]
 Appendix B.
 File: figures/Blurred Object geometry.png Graphic file (type bmp)
 <figures/Blurred Object geometry.png>
-[57
+[59
 
-]) (appendix/appendix-c.tex [58]
+]) (appendix/appendix-c.tex [60]
 Appendix C.
-) [59
+) [61
 
 ] (report.aux)
  ***********
@@ -1839,18 +1861,18 @@ L3 programming layer <2026-07-20>
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: 68AC875F90DAF6143910253331246D80;8000.
+(rerunfilecheck)             Checksum: 77EBBECF1D598095EAB732D660A5BE3B;8000.
 Package logreq Info: Writing requests to 'report.run.xml'.
 \openout1 = `report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 45617 strings out of 402619
- 968889 string characters out of 5438862
- 1881945 words of memory out of 5000000
- 74035 multiletter control sequences out of 15000+600000
+ 45710 strings out of 402619
+ 973535 string characters out of 5438862
+ 1884063 words of memory out of 5000000
+ 74121 multiletter control sequences out of 15000+600000
  633296 words of font info for 113 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  107i,12n,108p,2099b,5761s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on report.xdv (67 pages, 1851348 bytes).
+Output written on report.xdv (69 pages, 1900068 bytes).

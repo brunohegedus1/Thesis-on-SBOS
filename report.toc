@@ -36,10 +36,10 @@
 \contentsline {section}{\numberline {6.1}Angled Glass Experiment Results}{39}{section.6.1}%
 \contentsline {section}{\numberline {6.2}Speckle Pattern Investigation Results}{44}{section.6.2}%
 \contentsline {section}{\numberline {6.3}Compressible Jet Experiment Results}{49}{section.6.3}%
-\contentsline {section}{\numberline {6.4}Aerospike Experiment Results}{49}{section.6.4}%
-\contentsline {chapter}{\numberline {7}Conclusion}{51}{chapter.7}%
-\contentsline {chapter}{References}{52}{chapter*.55}%
-\contentsline {chapter}{\numberline {A}Derivation of the Circle of Confusion}{55}{appendix.A}%
-\contentsline {chapter}{\numberline {B}Optics of a Blurred Object}{57}{appendix.B}%
-\contentsline {chapter}{\numberline {C}Extended Surface Maps for SBOS}{59}{appendix.C}%
+\contentsline {section}{\numberline {6.4}Aerospike Experiment Results}{51}{section.6.4}%
+\contentsline {chapter}{\numberline {7}Conclusion}{53}{chapter.7}%
+\contentsline {chapter}{References}{54}{chapter*.57}%
+\contentsline {chapter}{\numberline {A}Derivation of the Circle of Confusion}{57}{appendix.A}%
+\contentsline {chapter}{\numberline {B}Optics of a Blurred Object}{59}{appendix.B}%
+\contentsline {chapter}{\numberline {C}Extended Surface Maps for SBOS}{61}{appendix.C}%
 \contentsfinish 

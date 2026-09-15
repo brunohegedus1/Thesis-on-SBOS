@@ -1,17 +1,17 @@
 # Fdb version 4
-["biber report"] 1789406964.20273 "report.bcf" "report.bbl" "report" 1789463307.8327 0
-  "report.bcf" 1789463286.15433 122360 572521304b9efbaaeab6cb20e3b8ac1c "xelatex"
+["biber report"] 1789406964.20273 "report.bcf" "report.bbl" "report" 1789483557.60967 0
+  "report.bcf" 1789483531.82604 122360 572521304b9efbaaeab6cb20e3b8ac1c "xelatex"
   "report.bib" 1789379738.72957 17537 a13214dff850867356bac40c8bec58e2 ""
   (generated)
   "report.bbl"
   "report.blg"
   (rewritten before read)
-["xdvipdfmx"] 1789463287.33271 "report.xdv" "report.pdf" "report" 1789463307.97566 0
-  "report.xdv" 1789463286.15433 1851348 85d2218ca38d858e2faa899430cf8e29 "xelatex"
+["xdvipdfmx"] 1789483532.99628 "report.xdv" "report.pdf" "report" 1789483557.73145 0
+  "report.xdv" 1789483531.82604 1900068 8c101554b325765f2e04cdc8d0752ce7 "xelatex"
   (generated)
   "report.pdf"
   (rewritten before read)
-["xelatex"] 1789463275.25297 "report.tex" "report.xdv" "report" 1789463307.83496 0
+["xelatex"] 1789483520.82285 "report.tex" "report.xdv" "report" 1789483557.61092 0
   "C:/Users/bruno/AppData/Local/MiKTeX/miktex/data/le/xetex/xelatex.fmt" 1787319360.28344 27216620 79343683421b64d37a355684079830c4 ""
   "C:/Users/bruno/AppData/Local/Programs/MiKTeX/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136801054 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "C:/Users/bruno/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
@@ -218,6 +218,7 @@
   "figures/BOS setup.png" 1787040728.58728 7984928 bb2a251569686b5110af8d51cb157760 ""
   "figures/Blurred Object geometry.png" 1787040728.58928 31942 4d8c41dc811476635f3a391a5afc8b88 ""
   "figures/CoC drawing.png" 1787040728.59528 642906 78e4003ac9158a5a3a1d1a807ea22932 ""
+  "figures/Dataset f density gradients.jpg" 1789482869.30697 399218 2273e650d9eed24bf780b6c117554009 ""
   "figures/Diagrams of light refraction.png" 1787040728.60678 1736235 fe3834c8edfca2edc4b55ae6a04fa280 ""
   "figures/Gojani cone of light diagram.jpg" 1787040728.60878 86872 5baa9c29ca7a27b135395bb115bb6b1c ""
   "figures/Hooke shadowgraphy setup.png" 1787040728.61178 446103 bebaa18b554a5ec3249d8e1d8c0046da ""
@@ -244,6 +245,12 @@
   "figures/Under over and perfect expanded jets.jpg" 1789394812.76922 47607 45017ccddba8a24aa10b142132d2c7ba ""
   "figures/angled glass slider.jpeg" 1787240162.38695 94899 a0fd5b5d76f6d5a0ff229ef3eaf5ea26 ""
   "figures/angled laser schematic.png" 1787040728.7273 360735 18790dbea587a8d0a48ff559fa046387 ""
+  "figures/centerline density gradient dataset a.png" 1789483506.99782 234525 5df0931e0e34352d67b6ea2a09276041 ""
+  "figures/centerline density gradient dataset b.png" 1789483507.03537 226947 93c0e4fab2b49bae9dd98c1b7e9376ed ""
+  "figures/centerline density gradient dataset c.png" 1789483507.06425 202389 ba31988a3b1d33db98a7784293cb4043 ""
+  "figures/centerline density gradient dataset d.png" 1789483507.09755 206679 663a81ce5bc9b99ebd89aea250c14642 ""
+  "figures/centerline density gradient dataset e.png" 1789483507.1308 196441 909ec8f6099ae899962ac27626cd6d84 ""
+  "figures/centerline density gradient dataset f.png" 1789483507.16143 200540 f976c7ef8f666c8df72d7c235e1ac615 ""
   "figures/compressible jet setup.jpeg" 1787240162.40996 118476 8ab04b5f2b558b53350a825a6f0ff156 ""
   "figures/cover.jpg" 1787040728.74143 1420662 540158211126040967e541214899982a ""
   "figures/highly under-expanded jet.jpg" 1789394812.8967 55899 7ae51bd253f54848cf3c9132cfec159d ""
@@ -271,18 +278,18 @@
   "frontmatter/summary.tex" 1787040728.77994 84 6aeec0ce56741e44e501255e14db693a ""
   "frontmatter/title-thesis.tex" 1787143841.7113 2112 78ba1d0b9213a4a12ed10b4b0eb0bb8e ""
   "mainmatter/01_introduction.tex" 1789146941.52246 8234 002d08ebb50e821c6471d60b6b3806af ""
-  "mainmatter/02_TheoreticalBackground.tex" 1789406732.05583 22283 b513c07e29e910c233105c1845ed92d4 ""
+  "mainmatter/02_TheoreticalBackground.tex" 1789482869.30917 22656 efc088c721e47a3c342459bb3460489d ""
   "mainmatter/03_LiteratureReview.tex" 1789394074.08346 44360 6367769ec8db6a5e4ffd9271d7520b48 ""
   "mainmatter/04_methodology.tex" 1789394074.08346 39844 6f0ef253b89f5d1d03955179027b22bf ""
   "mainmatter/05_Methods.tex" 1789394074.08346 26157 0ef617e5d55bb66f1a92d5526ab3ace0 ""
-  "mainmatter/06_results.tex" 1789463255.11787 55120 b1c27f229128e28de2f0fc43f2c82fa8 ""
+  "mainmatter/06_results.tex" 1789483348.2586 61672 25aea4e7148b0198384b27719b727527 ""
   "mainmatter/07_conclusion.tex" 1787998426.17559 55 d888d3c2b2e6d14c94a67acb7a84363a ""
-  "report.aux" 1789463286.10957 90287 6c682e6b6cac251a0e0c84aea1dd85fc "xelatex"
+  "report.aux" 1789483531.75294 95110 15e76586ac1cd82a2def9ee9888686f0 "xelatex"
   "report.bbl" 1789406969.79447 80950 76a762932c7d326710ba1c838fda2a84 "biber report"
-  "report.out" 1789463286.15332 8000 68ac875f90daf6143910253331246d80 "xelatex"
-  "report.run.xml" 1789463286.15433 2350 3aa6604a065aed1d7ae2817af42d008f "xelatex"
+  "report.out" 1789483531.81403 8000 77ebbecf1d598095eab732d660a5be3b "xelatex"
+  "report.run.xml" 1789483531.82604 2350 3aa6604a065aed1d7ae2817af42d008f "xelatex"
   "report.tex" 1787910731.61688 2396 8c643ae59bbc33aab7e43c7ee5dbdcc4 ""
-  "report.toc" 1789463286.15433 3761 0fd03f9e5de8cfc7dabce0e3fa2da21f "xelatex"
+  "report.toc" 1789483531.82604 3761 f0e54acbac997963c8331bee121f723b "xelatex"
   "tudelft-report.cls" 1787040728.79155 9381 f5419fccba83fa68afd72be65714f4d3 ""
   (generated)
   "report.aux"
