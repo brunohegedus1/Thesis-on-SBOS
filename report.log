@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.5) (preloaded format=xelatex 2026.8.21)  15 SEP 2026 17:39
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.5) (preloaded format=xelatex 2026.8.21)  15 SEP 2026 19:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1513,8 +1513,8 @@ Package biblatex Info: ... file 'report.bbl' found.
  (report.bbl)
 Package biblatex Info: Reference section=0 on input line 17.
 Package biblatex Info: Reference segment=0 on input line 17.
-File: figures/cover.jpg Graphic file (type bmp)
-<figures/cover.jpg>
+File: figures/title page draft.jpg Graphic file (type bmp)
+<figures/title page draft.jpg>
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `RobotoSlabLight' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
@@ -1868,11 +1868,11 @@ Package logreq Info: Writing requests to 'report.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
  45710 strings out of 402619
- 973535 string characters out of 5438862
+ 973634 string characters out of 5438862
  1884756 words of memory out of 5000000
  74121 multiletter control sequences out of 15000+600000
  633296 words of font info for 113 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  107i,12n,108p,2099b,5761s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on report.xdv (69 pages, 1902664 bytes).
+Output written on report.xdv (69 pages, 1902672 bytes).
