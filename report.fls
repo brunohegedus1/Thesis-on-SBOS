@@ -745,6 +745,24 @@ INPUT .\appendix\appendix-c.tex
 INPUT .\appendix\appendix-c.tex
 INPUT .\appendix\appendix-c.tex
 INPUT appendix\appendix-c.tex
+INPUT .\figures\Px pitch and LFOV SBOS surf map.jpg
+INPUT .\figures\Px pitch and LFOV SBOS surf map.jpg
+INPUT .\figures\Px pitch and LFOV SBOS surf map.jpg
+INPUT .\figures\Speckle size surf map BOS.jpg
+INPUT .\figures\Speckle size surf map BOS.jpg
+INPUT .\figures\Speckle size surf map BOS.jpg
+INPUT .\figures\M,m,df surfmaps SBOS 70mm.jpg
+INPUT .\figures\M,m,df surfmaps SBOS 70mm.jpg
+INPUT .\figures\M,m,df surfmaps SBOS 70mm.jpg
+INPUT .\figures\M,m,df surfmaps BOS 70mm.jpg
+INPUT .\figures\M,m,df surfmaps BOS 70mm.jpg
+INPUT .\figures\M,m,df surfmaps BOS 70mm.jpg
+INPUT .\figures\Speckle size surf map SBOS 70mm.jpg
+INPUT .\figures\Speckle size surf map SBOS 70mm.jpg
+INPUT .\figures\Speckle size surf map SBOS 70mm.jpg
+INPUT .\figures\Speckle size surf map BOS 70mm.jpg
+INPUT .\figures\Speckle size surf map BOS 70mm.jpg
+INPUT .\figures\Speckle size surf map BOS 70mm.jpg
 INPUT report.aux
 INPUT .\report.out
 INPUT .\report.out

@@ -1,17 +1,17 @@
 # Fdb version 4
-["biber report"] 1789546682.73053 "report.bcf" "report.bbl" "report" 1789547518.94334 0
-  "report.bcf" 1789547494.60375 122429 b3b407e37941650101822d2fbd65d986 "xelatex"
+["biber report"] 1789546682.73053 "report.bcf" "report.bbl" "report" 1789551091.96908 0
+  "report.bcf" 1789551067.65066 122429 b3b407e37941650101822d2fbd65d986 "xelatex"
   "report.bib" 1789546642.08004 17685 795102d5e5b4c479ca7befcabd35a9c6 ""
   (generated)
   "report.bbl"
   "report.blg"
   (rewritten before read)
-["xdvipdfmx"] 1789547495.88838 "report.xdv" "report.pdf" "report" 1789547519.07303 0
-  "report.xdv" 1789547494.61022 1909736 81f95a2634eeecd331bb46c061fc195b "xelatex"
+["xdvipdfmx"] 1789551068.99397 "report.xdv" "report.pdf" "report" 1789551092.10677 0
+  "report.xdv" 1789551067.66629 1942652 ff4d6a48da6a73b15a5205166750a020 "xelatex"
   (generated)
   "report.pdf"
   (rewritten before read)
-["xelatex"] 1789547483.5285 "report.tex" "report.xdv" "report" 1789547518.94511 0
+["xelatex"] 1789551055.66318 "report.tex" "report.xdv" "report" 1789551091.97043 0
   "C:/Users/bruno/AppData/Local/MiKTeX/miktex/data/le/xetex/xelatex.fmt" 1787319360.28344 27216620 79343683421b64d37a355684079830c4 ""
   "C:/Users/bruno/AppData/Local/Programs/MiKTeX/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136801054 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "C:/Users/bruno/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
@@ -213,7 +213,7 @@
   "C:/Users/bruno/AppData/Local/Programs/MiKTeX/tex/latex/xkeyval/xkeyval.sty" 1656236919 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
   "appendix/appendix-a.tex" 1789394074.06783 3310 d26bb5fafac84a19de329feecbb0bcaa ""
   "appendix/appendix-b.tex" 1789394074.08346 4246 468aaebb0983564964000c738793f3dc ""
-  "appendix/appendix-c.tex" 1787998426.19114 395 78e2cba5d66982c04b8183b6345f8101 ""
+  "appendix/appendix-c.tex" 1789551032.97203 5309 f2a475afc9416d09d5ec363d89696960 ""
   "figures/AbelTransform.png" 1787844273.93815 39695 83c6b3d29266d3ed70ab1e9eed145517 ""
   "figures/BOS setup.png" 1787040728.58728 7984928 bb2a251569686b5110af8d51cb157760 ""
   "figures/Blurred Object geometry.png" 1787040728.58928 31942 4d8c41dc811476635f3a391a5afc8b88 ""
@@ -222,11 +222,14 @@
   "figures/Diagrams of light refraction.png" 1787040728.60678 1736235 fe3834c8edfca2edc4b55ae6a04fa280 ""
   "figures/Gojani cone of light diagram.jpg" 1787040728.60878 86872 5baa9c29ca7a27b135395bb115bb6b1c ""
   "figures/Hooke shadowgraphy setup.png" 1787040728.61178 446103 bebaa18b554a5ec3249d8e1d8c0046da ""
+  "figures/M,m,df surfmaps BOS 70mm.jpg" 1789549878.93457 775592 8461eb3d21475b25777d371364a23045 ""
   "figures/M,m,df surfmaps BOS.jpg" 1787040728.61578 454399 7cf2c6ab5c758110be16b63d421fa1c1 ""
+  "figures/M,m,df surfmaps SBOS 70mm.jpg" 1789549878.96583 684727 f4af0463a48d3f079c866d6d8b881379 ""
   "figures/M,m,df surfmaps SBOS.jpg" 1787040728.62079 414156 b13bf211eea917c9f502e14a8d48f9aa ""
   "figures/Meier and Roesgen single pass setup.jpg" 1787040728.62278 42190 fec62c1c3bbc4892eb6754602591d5b9 ""
   "figures/Moving sound waves.png" 1787040728.64679 2392992 a3c149b2bcf3f1beb139768e00eabba6 ""
   "figures/Oblique shock geometry.png" 1787040728.65279 1990612 ca7c04cc3b21fabbac5114b3edd005e2 ""
+  "figures/Px pitch and LFOV SBOS surf map.jpg" 1789549879.01363 662127 f6b3181134a427bdcaaedbf240643d4b ""
   "figures/Raffel BOS setup.png" 1787040728.66079 1048414 e95863d6ee7c188fd1e80573763154d8 ""
   "figures/S vs l experimental.jpg" 1789397620.20611 249117 4488f7d481e002b8a3ff2d7b5a75083b ""
   "figures/S vs l slider experiment.jpg" 1789397620.24224 317323 1472e4e5933992dacdd350a8d265e96b ""
@@ -241,6 +244,9 @@
   "figures/Speckle pattern point 10.jpg" 1789142730.94483 36573 d011ba06101100270b9a791ac8a748d0 ""
   "figures/Speckle pattern point 5.jpg" 1789141257.01418 375681 c95331eb72cb16f48ceef4f01118eb3c ""
   "figures/Speckle pattern point 8.jpg" 1789142730.90932 90183 b3d6a13b68c4599a69ec99c772750eee ""
+  "figures/Speckle size surf map BOS 70mm.jpg" 1789549879.04589 482905 2d4cf0164ec93f0e1e6ab0c2d41f881e ""
+  "figures/Speckle size surf map BOS.jpg" 1789549879.08322 526669 34690865a782ad1dc5b3cacd7e7262dd ""
+  "figures/Speckle size surf map SBOS 70mm.jpg" 1789549879.11648 371739 1c469fb93e1df04dfaa90f4534ab3295 ""
   "figures/Speckle size surf map SBOS.jpg" 1787040728.7233 228549 5ea759a50b82949ad8d812838eebb349 ""
   "figures/Under over and perfect expanded jets.jpg" 1789394812.76922 47607 45017ccddba8a24aa10b142132d2c7ba ""
   "figures/angled glass slider.jpeg" 1787240162.38695 94899 a0fd5b5d76f6d5a0ff229ef3eaf5ea26 ""
@@ -280,16 +286,16 @@
   "mainmatter/01_introduction.tex" 1789146941.52246 8234 002d08ebb50e821c6471d60b6b3806af ""
   "mainmatter/02_TheoreticalBackground.tex" 1789547465.67715 22423 dcb53065ae8864f3bf67c478dd0d228c ""
   "mainmatter/03_LiteratureReview.tex" 1789394074.08346 44360 6367769ec8db6a5e4ffd9271d7520b48 ""
-  "mainmatter/04_methodology.tex" 1789394074.08346 39844 6f0ef253b89f5d1d03955179027b22bf ""
+  "mainmatter/04_methodology.tex" 1789549901.12265 39912 105a20459cc3d048a5699fddc253bfb2 ""
   "mainmatter/05_Methods.tex" 1789394074.08346 26157 0ef617e5d55bb66f1a92d5526ab3ace0 ""
   "mainmatter/06_results.tex" 1789547367.69119 62498 88978ba7fc4adfb7250796392d4ce737 ""
   "mainmatter/07_conclusion.tex" 1787998426.17559 55 d888d3c2b2e6d14c94a67acb7a84363a ""
-  "report.aux" 1789547494.52541 96027 bf24980afa10c81898074be79e49b169 "xelatex"
+  "report.aux" 1789551067.5981 101490 7fdc93a97ceb5e1b547712bcf223a2c2 "xelatex"
   "report.bbl" 1789546687.22297 82480 938e3121cf0524bf63765acf9af26136 "biber report"
-  "report.out" 1789547494.58514 8000 77ebbecf1d598095eab732d660a5be3b "xelatex"
-  "report.run.xml" 1789547494.60922 2350 3aa6604a065aed1d7ae2817af42d008f "xelatex"
+  "report.out" 1789551067.62935 8795 ae3fd2576afcde54c7a617605d4d1638 "xelatex"
+  "report.run.xml" 1789551067.66629 2350 3aa6604a065aed1d7ae2817af42d008f "xelatex"
   "report.tex" 1789544587.46131 2407 1a0c001b76a6ddd40867d51c8aec4a23 ""
-  "report.toc" 1789547494.61022 3761 f0e54acbac997963c8331bee121f723b "xelatex"
+  "report.toc" 1789551067.66629 4061 eacc42e45ddb97854d7725d655d5adb2 "xelatex"
   "tudelft-report.cls" 1789546373.30447 9381 45e227fb4a6f63b84859ab9f8a84779e ""
   (generated)
   "report.aux"

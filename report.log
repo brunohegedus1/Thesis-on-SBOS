@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.5) (preloaded format=xelatex 2026.8.21)  16 SEP 2026 10:31
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.5) (preloaded format=xelatex 2026.8.21)  16 SEP 2026 11:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1658,11 +1658,6 @@ ML/cmm/m/it/10 f[]; l; f$\TU/Arial(0)/m/n/10 ) and compute X = ($\OML/cmm/m/it/
 (0)/m/n/10 ).
  []
 
-Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
-ine 146.
-
-LaTeX Warning: Reference `' on page 24 undefined on input line 146.
-
 [24]
 File: figures/Sensitivity and dav SBOS surf map.jpg Graphic file (type bmp)
 <figures/Sensitivity and dav SBOS surf map.jpg>
@@ -1682,17 +1677,10 @@ File: figures/Sensitivity and smin BOS surf map.jpg Graphic file (type bmp)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-LaTeX Warning: Reference `' on page 27 undefined on input line 204.
-
 [27]
 File: figures/M,m,df surfmaps BOS.jpg Graphic file (type bmp)
 <figures/M,m,df surfmaps BOS.jpg>
-
-
-LaTeX Warning: Reference `' on page 28 undefined on input line 215.
-
-[28]
+ [28]
 File: figures/Sensitivity and smin SBOS surf map 70cm.jpg Graphic file (type bm
 p)
 <figures/Sensitivity and smin SBOS surf map 70cm.jpg>
@@ -1849,9 +1837,22 @@ File: figures/Blurred Object geometry.png Graphic file (type bmp)
 
 ]) (appendix/appendix-c.tex [60]
 Appendix C.
-) [61
+File: figures/Px pitch and LFOV SBOS surf map.jpg Graphic file (type bmp)
+<figures/Px pitch and LFOV SBOS surf map.jpg>
+[61
 
-] (report.aux)
+]
+File: figures/Speckle size surf map BOS.jpg Graphic file (type bmp)
+<figures/Speckle size surf map BOS.jpg>
+File: figures/M,m,df surfmaps SBOS 70mm.jpg Graphic file (type bmp)
+<figures/M,m,df surfmaps SBOS 70mm.jpg>
+File: figures/M,m,df surfmaps BOS 70mm.jpg Graphic file (type bmp)
+<figures/M,m,df surfmaps BOS 70mm.jpg>
+File: figures/Speckle size surf map SBOS 70mm.jpg Graphic file (type bmp)
+<figures/Speckle size surf map SBOS 70mm.jpg>
+File: figures/Speckle size surf map BOS 70mm.jpg Graphic file (type bmp)
+<figures/Speckle size surf map BOS 70mm.jpg>
+) [62] [63] [64] (report.aux)
  ***********
 LaTeX2e <2026-06-01>
 L3 programming layer <2026-07-20>
@@ -1861,18 +1862,18 @@ L3 programming layer <2026-07-20>
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: 77EBBECF1D598095EAB732D660A5BE3B;8000.
+(rerunfilecheck)             Checksum: AE3FD2576AFCDE54C7A617605D4D1638;8795.
 Package logreq Info: Writing requests to 'report.run.xml'.
 \openout1 = `report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 45713 strings out of 402619
- 973774 string characters out of 5438862
- 1884816 words of memory out of 5000000
- 74124 multiletter control sequences out of 15000+600000
+ 45721 strings out of 402619
+ 975442 string characters out of 5438862
+ 1885687 words of memory out of 5000000
+ 74126 multiletter control sequences out of 15000+600000
  633296 words of font info for 113 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  107i,12n,108p,2099b,5767s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on report.xdv (69 pages, 1909736 bytes).
+Output written on report.xdv (72 pages, 1942652 bytes).

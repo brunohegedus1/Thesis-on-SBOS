@@ -38,8 +38,11 @@
 \contentsline {section}{\numberline {6.3}Compressible Jet Experiment Results}{49}{section.6.3}%
 \contentsline {section}{\numberline {6.4}Aerospike Experiment Results}{51}{section.6.4}%
 \contentsline {chapter}{\numberline {7}Conclusion}{53}{chapter.7}%
-\contentsline {chapter}{References}{54}{chapter*.57}%
+\contentsline {chapter}{References}{54}{chapter*.55}%
 \contentsline {chapter}{\numberline {A}Derivation of the Circle of Confusion}{57}{appendix.A}%
 \contentsline {chapter}{\numberline {B}Optics of a Blurred Object}{59}{appendix.B}%
-\contentsline {chapter}{\numberline {C}Extended Surface Maps for SBOS}{61}{appendix.C}%
+\contentsline {chapter}{\numberline {C}Extended Design Space Surface Maps}{61}{appendix.C}%
+\contentsline {section}{\numberline {C.1}Pixel density and in-focus field of view}{61}{appendix.C.1}%
+\contentsline {section}{\numberline {C.2}Speckle size for positive defocus}{62}{appendix.C.2}%
+\contentsline {section}{\numberline {C.3}Surface maps for a 7 cm field of view}{62}{appendix.C.3}%
 \contentsfinish 
