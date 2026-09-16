@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.5) (preloaded format=xelatex 2026.8.21)  16 SEP 2026 17:25
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.5) (preloaded format=xelatex 2026.8.21)  16 SEP 2026 20:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1513,8 +1513,8 @@ Package biblatex Info: ... file 'report.bbl' found.
  (report.bbl)
 Package biblatex Info: Reference section=0 on input line 17.
 Package biblatex Info: Reference segment=0 on input line 17.
-File: figures/title page draft.jpg Graphic file (type bmp)
-<figures/title page draft.jpg>
+File: figures/SBOS title page image.png Graphic file (type bmp)
+<figures/SBOS title page image.png>
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `RobotoSlabLight' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
@@ -1809,11 +1809,9 @@ File: figures/density field dataset c.png Graphic file (type bmp)
 <figures/density field dataset c.png>
 File: figures/density field dataset d.png Graphic file (type bmp)
 <figures/density field dataset d.png>
-File: figures/density field dataset e.png Graphic file (type bmp)
-<figures/density field dataset e.png>
 File: figures/density field dataset f.png Graphic file (type bmp)
 <figures/density field dataset f.png>
-) (mainmatter/07_conclusion.tex [53] [54]
+ [53]) (mainmatter/07_conclusion.tex [54]
 Chapter 7.
 ) [55
 
@@ -1885,12 +1883,12 @@ Package logreq Info: Writing requests to 'report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 45814 strings out of 402619
- 978982 string characters out of 5438862
- 1888146 words of memory out of 5000000
- 74213 multiletter control sequences out of 15000+600000
+ 45801 strings out of 402619
+ 978624 string characters out of 5438862
+ 1888937 words of memory out of 5000000
+ 74201 multiletter control sequences out of 15000+600000
  633296 words of font info for 113 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  107i,12n,108p,2089b,5763s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on report.xdv (74 pages, 2004700 bytes).
+Output written on report.xdv (74 pages, 2010564 bytes).

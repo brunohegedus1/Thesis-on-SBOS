@@ -459,9 +459,9 @@ INPUT .\report.bbl
 INPUT .\report.bbl
 INPUT .\report.bbl
 INPUT report.bbl
-INPUT .\figures\title page draft.jpg
-INPUT .\figures\title page draft.jpg
-INPUT .\figures\title page draft.jpg
+INPUT .\figures\SBOS title page image.png
+INPUT .\figures\SBOS title page image.png
+INPUT .\figures\SBOS title page image.png
 INPUT .\figures\logo-white.pdf
 INPUT .\figures\logo-white.pdf
 INPUT .\figures\logo-white.pdf
@@ -731,9 +731,6 @@ INPUT .\figures\density field dataset c.png
 INPUT .\figures\density field dataset d.png
 INPUT .\figures\density field dataset d.png
 INPUT .\figures\density field dataset d.png
-INPUT .\figures\density field dataset e.png
-INPUT .\figures\density field dataset e.png
-INPUT .\figures\density field dataset e.png
 INPUT .\figures\density field dataset f.png
 INPUT .\figures\density field dataset f.png
 INPUT .\figures\density field dataset f.png
