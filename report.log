@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.5) (preloaded format=xelatex 2026.8.21)  16 SEP 2026 14:10
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.5) (preloaded format=xelatex 2026.8.21)  16 SEP 2026 17:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1800,9 +1800,22 @@ File: figures/centerline density gradient dataset f.png Graphic file (type bmp)
 
 LaTeX Warning: Reference `' on page 51 undefined on input line 535.
 
-[51]) (mainmatter/07_conclusion.tex [52]
+[51] [52]
+File: figures/density field dataset a.png Graphic file (type bmp)
+<figures/density field dataset a.png>
+File: figures/density field dataset b.png Graphic file (type bmp)
+<figures/density field dataset b.png>
+File: figures/density field dataset c.png Graphic file (type bmp)
+<figures/density field dataset c.png>
+File: figures/density field dataset d.png Graphic file (type bmp)
+<figures/density field dataset d.png>
+File: figures/density field dataset e.png Graphic file (type bmp)
+<figures/density field dataset e.png>
+File: figures/density field dataset f.png Graphic file (type bmp)
+<figures/density field dataset f.png>
+) (mainmatter/07_conclusion.tex [53] [54]
 Chapter 7.
-) [53
+) [55
 
 ]
 Overfull \hbox (0.64949pt too wide) in paragraph at lines 66--66
@@ -1825,25 +1838,25 @@ Overfull \hbox (40.00558pt too wide) in paragraph at lines 66--66
 9. 
  []
 
-[54
+[56
 
-] [55] (appendix/appendix-a.tex [56]
+] [57] (appendix/appendix-a.tex [58]
 Appendix A.
 File: figures/CoC drawing.png Graphic file (type bmp)
 <figures/CoC drawing.png>
-[57
+[59
 
-]) (appendix/appendix-b.tex [58]
+]) (appendix/appendix-b.tex [60]
 Appendix B.
 File: figures/Blurred Object geometry.png Graphic file (type bmp)
 <figures/Blurred Object geometry.png>
-[59
+[61
 
-]) (appendix/appendix-c.tex [60]
+]) (appendix/appendix-c.tex [62]
 Appendix C.
 File: figures/Px pitch and LFOV SBOS surf map.jpg Graphic file (type bmp)
 <figures/Px pitch and LFOV SBOS surf map.jpg>
-[61
+[63
 
 ]
 File: figures/Speckle size surf map BOS.jpg Graphic file (type bmp)
@@ -1856,7 +1869,7 @@ File: figures/Speckle size surf map SBOS 70mm.jpg Graphic file (type bmp)
 <figures/Speckle size surf map SBOS 70mm.jpg>
 File: figures/Speckle size surf map BOS 70mm.jpg Graphic file (type bmp)
 <figures/Speckle size surf map BOS 70mm.jpg>
-) [62] [63] [64] (report.aux)
+) [64] [65] [66] (report.aux)
  ***********
 LaTeX2e <2026-06-01>
 L3 programming layer <2026-07-20>
@@ -1866,18 +1879,18 @@ L3 programming layer <2026-07-20>
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: CC99E7E06DBCD803867CC0CA3ACF87A7;9036.
+(rerunfilecheck)             Checksum: 35A8C7F7A9465F3BF0E0D452A8360A56;8993.
 Package logreq Info: Writing requests to 'report.run.xml'.
 \openout1 = `report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 45725 strings out of 402619
- 975587 string characters out of 5438862
- 1887095 words of memory out of 5000000
- 74130 multiletter control sequences out of 15000+600000
+ 45814 strings out of 402619
+ 978982 string characters out of 5438862
+ 1888146 words of memory out of 5000000
+ 74213 multiletter control sequences out of 15000+600000
  633296 words of font info for 113 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 107i,12n,108p,2089b,5767s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 107i,12n,108p,2089b,5763s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on report.xdv (72 pages, 1962312 bytes).
+Output written on report.xdv (74 pages, 2004700 bytes).

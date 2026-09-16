@@ -277,6 +277,83 @@
       \verb 10.1007/s003480050391
       \endverb
     \endentry
+    \entry{Dasch1992}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=cfd669e9b5caf7fe9842b0ae2a9d6197}{%
+           family={Dasch},
+           familyi={D\bibinitperiod},
+           given={C.\bibnamedelimi J.},
+           giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{cfd669e9b5caf7fe9842b0ae2a9d6197}
+      \strng{fullhash}{cfd669e9b5caf7fe9842b0ae2a9d6197}
+      \strng{fullhashraw}{cfd669e9b5caf7fe9842b0ae2a9d6197}
+      \strng{bibnamehash}{cfd669e9b5caf7fe9842b0ae2a9d6197}
+      \strng{authorbibnamehash}{cfd669e9b5caf7fe9842b0ae2a9d6197}
+      \strng{authornamehash}{cfd669e9b5caf7fe9842b0ae2a9d6197}
+      \strng{authorfullhash}{cfd669e9b5caf7fe9842b0ae2a9d6197}
+      \strng{authorfullhashraw}{cfd669e9b5caf7fe9842b0ae2a9d6197}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Applied Optics}
+      \field{number}{8}
+      \field{title}{One-dimensional tomography: a comparison of {Abel}, onion-peeling, and filtered backprojection methods}
+      \field{volume}{31}
+      \field{year}{1992}
+      \field{pages}{1146\bibrangedash 1152}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1364/AO.31.001146
+      \endverb
+    \endentry
+    \entry{Daun2006}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=56cd4196da48704871633d2da34e5f37}{%
+           family={Daun},
+           familyi={D\bibinitperiod},
+           given={K.\bibnamedelimi J.},
+           giveni={K\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=48c3d72bd6e76a8652e9a6430db9733d}{%
+           family={Thomson},
+           familyi={T\bibinitperiod},
+           given={K.\bibnamedelimi A.},
+           giveni={K\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=5f5501ee3881a72f69061a6d21e20416}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=8cb5e7e4ef8066e343732c91dccde57a}{%
+           family={Smallwood},
+           familyi={S\bibinitperiod},
+           given={G.\bibnamedelimi J.},
+           giveni={G\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{cd673afe01601360e2c88b39330141eb}
+      \strng{fullhash}{5bcbde905fa2560027b71b27f4b2d98d}
+      \strng{fullhashraw}{5bcbde905fa2560027b71b27f4b2d98d}
+      \strng{bibnamehash}{cd673afe01601360e2c88b39330141eb}
+      \strng{authorbibnamehash}{cd673afe01601360e2c88b39330141eb}
+      \strng{authornamehash}{cd673afe01601360e2c88b39330141eb}
+      \strng{authorfullhash}{5bcbde905fa2560027b71b27f4b2d98d}
+      \strng{authorfullhashraw}{5bcbde905fa2560027b71b27f4b2d98d}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Applied Optics}
+      \field{number}{19}
+      \field{title}{Deconvolution of axisymmetric flame properties using {Tikhonov} regularization}
+      \field{volume}{45}
+      \field{year}{2006}
+      \field{pages}{4638\bibrangedash 4646}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1364/AO.45.004638
+      \endverb
+    \endentry
     \entry{Debrus1972}{article}{}{}
       \name{author}{5}{}{%
         {{hash=be7d3baa28fb8132dd3d01eb6a30e389}{%
@@ -552,6 +629,47 @@
       \range{pages}{7}
       \verb{doi}
       \verb 10.1007/s12650-013-0170-5
+      \endverb
+    \endentry
+    \entry{Golub1979}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=d5fa18ca77d114cfc0017165cfb07607}{%
+           family={Golub},
+           familyi={G\bibinitperiod},
+           given={G.\bibnamedelimi H.},
+           giveni={G\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=a9476d8366672287447686ddda58f0bd}{%
+           family={Heath},
+           familyi={H\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=9d5559b485217f30bb35cdd53103ce2d}{%
+           family={Wahba},
+           familyi={W\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{2319c2ea9c77b1138729c4b6b75f2ad3}
+      \strng{fullhash}{2319c2ea9c77b1138729c4b6b75f2ad3}
+      \strng{fullhashraw}{2319c2ea9c77b1138729c4b6b75f2ad3}
+      \strng{bibnamehash}{2319c2ea9c77b1138729c4b6b75f2ad3}
+      \strng{authorbibnamehash}{2319c2ea9c77b1138729c4b6b75f2ad3}
+      \strng{authornamehash}{2319c2ea9c77b1138729c4b6b75f2ad3}
+      \strng{authorfullhash}{2319c2ea9c77b1138729c4b6b75f2ad3}
+      \strng{authorfullhashraw}{2319c2ea9c77b1138729c4b6b75f2ad3}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Technometrics}
+      \field{number}{2}
+      \field{title}{Generalized cross-validation as a method for choosing a good ridge parameter}
+      \field{volume}{21}
+      \field{year}{1979}
+      \field{pages}{215\bibrangedash 223}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1080/00401706.1979.10489751
       \endverb
     \endentry
     \entry{Goodman2020}{book}{}{}

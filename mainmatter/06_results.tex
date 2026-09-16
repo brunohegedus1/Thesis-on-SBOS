@@ -541,6 +541,51 @@ One of the goals of the compressible jet experiment was the quantitative reprodu
 
 Next, the folded normal displacement was divided by the effective lever arm $l_0 + W/2$, with $l_0 = 30$ mm and $W = 4$ mm, to obtain the deflection angle through Equation \ref{equation: S BOS}.Then, following Section \ref{subsection: Axisymmetric Refractive Field}, the deflection was first integrated in $y$ from the freestream towards the jet axis, which yields $E_y$, the Abel transform of $n - n_0$ in Equation \ref{equation: Abel transform of n}. The inverse transform was computed with the onion-peeling method of Dasch \cite{Dasch1992}, which divides the jet into concentric rings of constant refractive index. Onion-peeling converges to the exact profile for noise-free data. However, if noise is present, it accumulates errors from the outer rings inwards and produces large deviations at the centerline. To mitigate this effect, the inversion was solved with a Tikhonov regularization, as proposed by Daun et al. \cite{Daun2006}. The regularization parameter was chosen for each dataset by Generalized Cross-Validation \cite{Golub1979}. Finally, the refractive index was converted into density through the Gladstone-Dale relation, with $G = 2.26 \times 10^{-4}$ m$^3$/kg and an ambient density of $1.2$ kg/m$^3$. The resultant density fields can be found below.
 
-%Add 6 resultant desnity fields in a 2x3 configuration
+\begin{figure}[htbp]
+    \centering
+    \begin{subfigure}[b]{\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figures/density field dataset a.png}
+        \caption{Dataset a, with respective $NPR = 2.088$}
+        \label{fig: density field dataset a}
+    \end{subfigure}
+
+    \begin{subfigure}[b]{\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figures/density field dataset b.png}
+        \caption{Dataset b, with respective $NPR = 2.353$}
+        \label{fig: density field dataset b}
+    \end{subfigure}
+
+    \begin{subfigure}[b]{\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figures/density field dataset c.png}
+        \caption{Dataset c, with respective $NPR = 2.613$}
+        \label{fig: density field dataset c}
+    \end{subfigure}
+
+    \begin{subfigure}[b]{\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figures/density field dataset d.png}
+        \caption{Dataset d, with respective $NPR = 3.032$}
+        \label{fig: density field dataset d}
+    \end{subfigure}
+
+    \begin{subfigure}[b]{\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figures/density field dataset e.png}
+        \caption{Dataset e, with respective $NPR = 3.344$}
+        \label{fig: density field dataset e}
+    \end{subfigure}
+
+    \begin{subfigure}[b]{\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figures/density field dataset f.png}
+        \caption{Dataset f, with respective $NPR = 3.875$}
+        \label{fig: density field dataset f}
+    \end{subfigure}
+    \caption{Density fields of datasets a to f obtained through the Abel inversion with Tikhonov regularization. The s axis is aligned with the jet axis with its origin at the nozzle exit, while n is normal to it. Datasets a and b use a color scale from 1 to 2.2 kg m$^{-3}$, while datasets c to f use a color scale from 0.5 to 3.1 kg m$^{-3}$. Stations where the Abel inversion returned no value have been cropped}
+    \label{fig: density fields}
+\end{figure}
 
 \section{Aerospike Experiment Results}
