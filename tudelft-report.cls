@@ -182,9 +182,9 @@
                 %% Format and add (optional) subtitle and subject
                 \color{white}\titlestyle\fontsize{22}{22}\selectfont%
                     \ifdefvoid{\@subtitle}{}{\@subtitle \\[2.5ex]}%
-                    \ifdefvoid{\@subject}{}{\@subject \\[0.5ex]}
+                    \ifdefvoid{\@subject}{}{{\color{white}\@subject} \\[0.5ex]}
                 %% Format and add author or table of authors
-                \largetitlestyle\fontsize{24}{24}\selectfont%
+                \color{white}\largetitlestyle\fontsize{24}{24}\selectfont%
                     \ifdefvoid{\@covertable}{\@author}{\@covertable}
             \end{minipage}};
 
