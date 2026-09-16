@@ -703,6 +703,42 @@
       \verb 10.1016/j.measurement.2016.03.056
       \endverb
     \endentry
+    \entry{Hartmann1941}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=9827a3720ceeea8ee9f85ed6fe259139}{%
+           family={Hartmann},
+           familyi={H\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=08fc510493708392d5826984cc009c05}{%
+           family={Lazarus},
+           familyi={L\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{c6accc371409dae8c92c6fc9356d6d0d}
+      \strng{fullhash}{c6accc371409dae8c92c6fc9356d6d0d}
+      \strng{fullhashraw}{c6accc371409dae8c92c6fc9356d6d0d}
+      \strng{bibnamehash}{c6accc371409dae8c92c6fc9356d6d0d}
+      \strng{authorbibnamehash}{c6accc371409dae8c92c6fc9356d6d0d}
+      \strng{authornamehash}{c6accc371409dae8c92c6fc9356d6d0d}
+      \strng{authorfullhash}{c6accc371409dae8c92c6fc9356d6d0d}
+      \strng{authorfullhashraw}{c6accc371409dae8c92c6fc9356d6d0d}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The London, Edinburgh, and Dublin Philosophical Magazine and Journal of Science}
+      \field{number}{204}
+      \field{title}{The air-jet with a velocity exceeding that of sound}
+      \field{volume}{31}
+      \field{year}{1941}
+      \field{pages}{35\bibrangedash 50}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1080/14786444108520744
+      \endverb
+    \endentry
     \entry{Head2021}{thesis}{}{}
       \name{author}{1}{}{%
         {{hash=3aee3df46486f82b6742245b863537e6}{%
