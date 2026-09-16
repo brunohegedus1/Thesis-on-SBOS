@@ -2567,11 +2567,14 @@
     <bcf:citekey order="172" intorder="1">JCGM2008</bcf:citekey>
     <bcf:citekey order="173" intorder="1">Hamarova2016</bcf:citekey>
     <bcf:citekey order="174" intorder="1">Goodman2020</bcf:citekey>
-    <bcf:citekey order="175" intorder="1">Greenleaf1950</bcf:citekey>
+    <bcf:citekey order="175" intorder="1">Emden1899</bcf:citekey>
+    <bcf:citekey order="175" intorder="2">Hartmann1941</bcf:citekey>
+    <bcf:citekey order="175" intorder="3">Powell2010</bcf:citekey>
     <bcf:citekey order="176" intorder="1">Greenleaf1950</bcf:citekey>
-    <bcf:citekey order="177" intorder="1">Gojani&amp;Obayashi</bcf:citekey>
+    <bcf:citekey order="177" intorder="1">Greenleaf1950</bcf:citekey>
     <bcf:citekey order="178" intorder="1">Gojani&amp;Obayashi</bcf:citekey>
-    <bcf:citekey order="178" intorder="2">Schwarz&amp;Braukmann</bcf:citekey>
+    <bcf:citekey order="179" intorder="1">Gojani&amp;Obayashi</bcf:citekey>
+    <bcf:citekey order="179" intorder="2">Schwarz&amp;Braukmann</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

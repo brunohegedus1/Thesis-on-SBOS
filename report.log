@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.5) (preloaded format=xelatex 2026.8.21)  16 SEP 2026 11:30
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.5) (preloaded format=xelatex 2026.8.21)  16 SEP 2026 14:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1610,7 +1610,8 @@ File: figures/Diagrams of light refraction.png Graphic file (type bmp)
 <figures/Diagrams of light refraction.png>
  [8]
 
-LaTeX Warning: Reference `' on page 9 undefined on input line 233.
+LaTeX Warning: Reference `equation: integral of epsilon' on page 9 undefined on
+ input line 233.
 
 File: figures/AbelTransform.png Graphic file (type bmp)
 <figures/AbelTransform.png>
@@ -1731,7 +1732,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [40]
-Overfull \hbox (11.5911pt too wide) in paragraph at lines 144--157
+Overfull \hbox (11.5911pt too wide) in paragraph at lines 145--158
  [][] 
  []
 
@@ -1795,8 +1796,11 @@ File: figures/centerline density gradient dataset e.png Graphic file (type bmp)
 File: figures/centerline density gradient dataset f.png Graphic file (type bmp)
 
 <figures/centerline density gradient dataset f.png>
-) (mainmatter/07_conclusion.tex
-[51] [52]
+
+
+LaTeX Warning: Reference `' on page 51 undefined on input line 535.
+
+[51]) (mainmatter/07_conclusion.tex [52]
 Chapter 7.
 ) [53
 
@@ -1862,18 +1866,18 @@ L3 programming layer <2026-07-20>
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: AE3FD2576AFCDE54C7A617605D4D1638;8795.
+(rerunfilecheck)             Checksum: CC99E7E06DBCD803867CC0CA3ACF87A7;9036.
 Package logreq Info: Writing requests to 'report.run.xml'.
 \openout1 = `report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 45721 strings out of 402619
- 975442 string characters out of 5438862
- 1885687 words of memory out of 5000000
- 74126 multiletter control sequences out of 15000+600000
+ 45725 strings out of 402619
+ 975587 string characters out of 5438862
+ 1887095 words of memory out of 5000000
+ 74130 multiletter control sequences out of 15000+600000
  633296 words of font info for 113 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 107i,12n,108p,2099b,5767s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 107i,12n,108p,2089b,5767s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on report.xdv (72 pages, 1942652 bytes).
+Output written on report.xdv (72 pages, 1962312 bytes).
