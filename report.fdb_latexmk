@@ -1,17 +1,17 @@
 # Fdb version 4
-["biber report"] 1789581990.70629 "report.bcf" "report.bbl" "report" 1789582062.78049 0
-  "report.bcf" 1789582031.65005 122896 cd193e15323433bd98deb2eebf18f92b "xelatex"
+["biber report"] 1789581990.70629 "report.bcf" "report.bbl" "report" 1789638297.07829 0
+  "report.bcf" 1789638266.38815 122896 cd193e15323433bd98deb2eebf18f92b "xelatex"
   "report.bib" 1789564611.85362 19031 6acb8eb41c4c2ff54709d7d66550ae90 ""
   (generated)
   "report.bbl"
   "report.blg"
   (rewritten before read)
-["xdvipdfmx"] 1789582033.2094 "report.xdv" "report.pdf" "report" 1789582062.93049 0
-  "report.xdv" 1789582031.65005 2010564 e0836c6abfbfd2345b9d9c97ba83583a "xelatex"
+["xdvipdfmx"] 1789638267.73369 "report.xdv" "report.pdf" "report" 1789638297.21636 0
+  "report.xdv" 1789638266.38815 2013920 c43c03491a9b4278d873ebf47735d8c3 "xelatex"
   (generated)
   "report.pdf"
   (rewritten before read)
-["xelatex"] 1789582006.63085 "report.tex" "report.xdv" "report" 1789582062.78189 0
+["xelatex"] 1789638254.16801 "report.tex" "report.xdv" "report" 1789638297.0798 0
   "C:/Users/bruno/AppData/Local/MiKTeX/miktex/data/le/xetex/xelatex.fmt" 1787319360.28344 27216620 79343683421b64d37a355684079830c4 ""
   "C:/Users/bruno/AppData/Local/Programs/MiKTeX/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136801054 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "C:/Users/bruno/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
@@ -263,6 +263,7 @@
   "figures/density field dataset b.png" 1789572297.46677 191462 875d9bf33b955aedee595dfefd342960 ""
   "figures/density field dataset c.png" 1789572297.5001 153066 0d8aa879df0ba2fbbd98d5908449c0f4 ""
   "figures/density field dataset d.png" 1789572297.55017 163611 8388400d8b64cf659040cbbd3957112a ""
+  "figures/density field dataset e.png" 1789572297.5834 173690 3c389f914f7029e26bc9b2d1799be15d ""
   "figures/density field dataset f.png" 1789572297.62066 181870 527122ca642a71def8f3156504418741 ""
   "figures/highly under-expanded jet.jpg" 1789394812.8967 55899 7ae51bd253f54848cf3c9132cfec159d ""
   "figures/jet displacement 3bar.png" 1789406948.21845 831135 ec5bfb8df64de3dc45cdd26a19b07a85 ""
@@ -277,6 +278,7 @@
   "figures/moderately under-expanded jet.jpg" 1789394812.86212 67219 2cefd1226d40efe272d95492d8465098 ""
   "figures/projected speckle pattern experiment.png" 1787040728.75793 1336118 eecd00df02ee94742da40a25e982fb03 ""
   "figures/projected speckle schematic.png" 1787040728.76593 839553 00f702b7823a41e731c5246df0415ba6 ""
+  "figures/shock cell lengths.jpg" 1789571978.76488 93489 a4f45df8cc3592627150af1164600094 ""
   "figures/small sbos setup with captions.png" 1787040728.77493 679257 b2c800be42b02a11fb6e4a260cbb21c4 ""
   "figures/speckle exp f-number sweep.jpg" 1788944925.06464 129922 64ec08086afdc371d801368b4073baca ""
   "figures/speckle exp mag sweep.jpg" 1788982567.22475 100012 9c397cb2f7573b11fc3048feebf53369 ""
@@ -293,14 +295,14 @@
   "mainmatter/03_LiteratureReview.tex" 1789394074.08346 44360 6367769ec8db6a5e4ffd9271d7520b48 ""
   "mainmatter/04_methodology.tex" 1789549901.12265 39912 105a20459cc3d048a5699fddc253bfb2 ""
   "mainmatter/05_Methods.tex" 1789394074.08346 26157 0ef617e5d55bb66f1a92d5526ab3ace0 ""
-  "mainmatter/06_results.tex" 1789581857.22868 74962 59f44bd3f40357bd5fe5228a57f8ce63 ""
+  "mainmatter/06_results.tex" 1789638222.29819 75386 507cbf047b4292482bdfc4546a525442 ""
   "mainmatter/07_conclusion.tex" 1787998426.17559 55 d888d3c2b2e6d14c94a67acb7a84363a ""
-  "report.aux" 1789582031.58397 105946 cb22cb8e2d1d3cc2bc11f0c026ebb15e "xelatex"
+  "report.aux" 1789638266.32126 107241 11c3e22f03b55ca96e2df63e3ce08c7a "xelatex"
   "report.bbl" 1789582000.38109 87548 c0f2a0a3abb96eee3222d1edff1172cb "biber report"
-  "report.out" 1789582031.63354 8993 35a8c7f7a9465f3bf0e0d452a8360a56 "xelatex"
-  "report.run.xml" 1789582031.65005 2350 3aa6604a065aed1d7ae2817af42d008f "xelatex"
+  "report.out" 1789638266.36457 8993 2d98d10bdc5464ff4b744ca567c1f51a "xelatex"
+  "report.run.xml" 1789638266.38815 2350 3aa6604a065aed1d7ae2817af42d008f "xelatex"
   "report.tex" 1789581957.01859 2412 42c1306427543b842409572398e8348b ""
-  "report.toc" 1789582031.65005 4158 97268817af75055df3e55098e3a5cecb "xelatex"
+  "report.toc" 1789638266.38815 4158 77008487080de746414f14bbd09fd225 "xelatex"
   "tudelft-report.cls" 1789546373.30447 9381 45e227fb4a6f63b84859ab9f8a84779e ""
   (generated)
   "report.aux"

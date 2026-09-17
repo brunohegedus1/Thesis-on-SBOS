@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.5) (preloaded format=xelatex 2026.8.21)  16 SEP 2026 20:06
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.5) (preloaded format=xelatex 2026.8.21)  17 SEP 2026 11:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1796,11 +1796,9 @@ File: figures/centerline density gradient dataset e.png Graphic file (type bmp)
 File: figures/centerline density gradient dataset f.png Graphic file (type bmp)
 
 <figures/centerline density gradient dataset f.png>
-
-
-LaTeX Warning: Reference `' on page 51 undefined on input line 535.
-
-[51] [52]
+File: figures/shock cell lengths.jpg Graphic file (type bmp)
+<figures/shock cell lengths.jpg>
+ [51] [52]
 File: figures/density field dataset a.png Graphic file (type bmp)
 <figures/density field dataset a.png>
 File: figures/density field dataset b.png Graphic file (type bmp)
@@ -1809,9 +1807,12 @@ File: figures/density field dataset c.png Graphic file (type bmp)
 <figures/density field dataset c.png>
 File: figures/density field dataset d.png Graphic file (type bmp)
 <figures/density field dataset d.png>
+File: figures/density field dataset e.png Graphic file (type bmp)
+<figures/density field dataset e.png>
 File: figures/density field dataset f.png Graphic file (type bmp)
 <figures/density field dataset f.png>
- [53]) (mainmatter/07_conclusion.tex [54]
+)
+(mainmatter/07_conclusion.tex [53] [54]
 Chapter 7.
 ) [55
 
@@ -1877,18 +1878,18 @@ L3 programming layer <2026-07-20>
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: 35A8C7F7A9465F3BF0E0D452A8360A56;8993.
+(rerunfilecheck)             Checksum: 2D98D10BDC5464FF4B744CA567C1F51A;8993.
 Package logreq Info: Writing requests to 'report.run.xml'.
 \openout1 = `report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 45801 strings out of 402619
- 978624 string characters out of 5438862
- 1888937 words of memory out of 5000000
- 74201 multiletter control sequences out of 15000+600000
+ 45824 strings out of 402619
+ 979496 string characters out of 5438862
+ 1889543 words of memory out of 5000000
+ 74222 multiletter control sequences out of 15000+600000
  633296 words of font info for 113 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  107i,12n,108p,2089b,5763s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on report.xdv (74 pages, 2010564 bytes).
+Output written on report.xdv (74 pages, 2013920 bytes).

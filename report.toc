@@ -36,10 +36,10 @@
 \contentsline {section}{\numberline {6.1}Angled Glass Experiment Results}{39}{section.6.1}%
 \contentsline {section}{\numberline {6.2}Speckle Pattern Investigation Results}{44}{section.6.2}%
 \contentsline {section}{\numberline {6.3}Compressible Jet Experiment Results}{49}{section.6.3}%
-\contentsline {subsection}{\numberline {6.3.1}Quantitative Density Field}{52}{subsection.6.3.1}%
-\contentsline {section}{\numberline {6.4}Aerospike Experiment Results}{54}{section.6.4}%
+\contentsline {subsection}{\numberline {6.3.1}Quantitative Density Field}{53}{subsection.6.3.1}%
+\contentsline {section}{\numberline {6.4}Aerospike Experiment Results}{53}{section.6.4}%
 \contentsline {chapter}{\numberline {7}Conclusion}{55}{chapter.7}%
-\contentsline {chapter}{References}{56}{chapter*.56}%
+\contentsline {chapter}{References}{56}{chapter*.57}%
 \contentsline {chapter}{\numberline {A}Derivation of the Circle of Confusion}{59}{appendix.A}%
 \contentsline {chapter}{\numberline {B}Optics of a Blurred Object}{61}{appendix.B}%
 \contentsline {chapter}{\numberline {C}Extended Design Space Surface Maps}{63}{appendix.C}%

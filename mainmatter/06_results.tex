@@ -529,10 +529,15 @@ Following the middle plot of Figure \ref{fig: dataset f density gradients}, corr
 % REVIEW: L_s is defined here as the distance between consecutive maxima, but the caption and the values use the nozzle to the first maximum. The NPR used for the fit comes from the shear layer angle, so the literature comparison checks consistency rather than validating the NPR independently.
 The 6 plots in Figure \ref{fig: centerline density gradients} allow the identification of important marks in the shock cell structure. The periodicity and dissipation effect is clear, each cell is marked by an expansion valley and a compression peak and its amplitude decreases until atmospheric conditions are reached. The density maxima and minima are also distinguishable as the points where the gradient is zero. The distance between two consecutive maxima marks the length of the shock cell. For each dataset, the lengths of the first shock cell $L_s$ have been retrieved and they are displayed in their respective plot caption. The data confirms the previous qualitative visual evaluations regarding the shock cells sizes, as it shows that $L_s$ increases monotonically with $NPR$, meaning that the shock cells stretch further at increasing nozzle pressure ratios. It is also notable that more cells are present at higher pressures. Now that a more realistic estimate of the $NPR$ and $L_s$ have been achieved, it is possible to correlate both quantities using the formats of Equations \ref{equation: Emden Formula} and \ref{equation: Lazarus-Hartmann Formula} and compare to Emden's and Hartmann-Lazarus' formulation respectively, this way validating the application with literature data.
 
-%Add shock cell length picture 
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=\textwidth]{figures/shock cell lengths.jpg}
+    \caption{First shock cell length $L_s$ of datasets a to f, normalized by the jet diameter, against $\sqrt{NPR - NPR_c}$. The measurements are displayed together with the formulations of Emden ($k = 0.88$) and Hartmann-Lazarus ($a = 0.98$, $b = 0.30$) and with the curves of both formats fitted to the data}
+    \label{fig: shock cell lengths}
+\end{figure}
 
-% REVIEW: Figure \ref{} is empty. The fitted L_s is the first cell, but Emden k = 0.88, Prandtl k = 1.2 and Hartmann-Lazarus k = 1.06 describe the later cells (average of later cells?); only the Hartmann-Lazarus constant-term formula (0.98, 0.30) is for the first cell. "Can be said to be satisfactory" is weak for a conclusion.
-The fitted curves using Emden's and Hartmann-Lazarus' formulations are displayed together with the literature solutions in Figure \ref{}. The obtained values for the constants are: $k = 1.16, a = 0.894$ and $b = 0.28$. The $k$ value differs from Emden's $0.88$ figure, however, it is in line with other estimates such as Prandtl-Pack's $k = 1.2$ and Hartmann-Lazarus' $k= 1.06$ \cite{Emden1899, Hartmann1941, Powell2010}. Visually, the data is positioned in-between Hartmann-Lazarus' equation and Emden's formulation, as it slightly underestimates the former and considerably overestimates the latter. Regarding the fits, the Hartmann-Lazarus equation better describes the data behavior as the Emden format diverges significantly to the last point. Given that the data follows a trend format previously observed in the literature, is positioned in between two established results, and given the limitations of the measurements, the results can be said to be satisfactory.
+% REVIEW: The fitted L_s is the first cell, but Emden k = 0.88, Prandtl k = 1.2 and Hartmann-Lazarus k = 1.06 describe the later cells (average of later cells?); only the Hartmann-Lazarus constant-term formula (0.98, 0.30) is for the first cell. "Can be said to be satisfactory" is weak for a conclusion.
+The fitted curves using Emden's and Hartmann-Lazarus' formulations are displayed together with the literature solutions in Figure \ref{fig: shock cell lengths}. The obtained values for the constants are: $k = 1.16, a = 0.894$ and $b = 0.28$. The $k$ value differs from Emden's $0.88$ figure, however, it is in line with other estimates such as Prandtl-Pack's $k = 1.2$ and Hartmann-Lazarus' $k= 1.06$ \cite{Emden1899, Hartmann1941, Powell2010}. Visually, the data is positioned in-between Hartmann-Lazarus' equation and Emden's formulation, as it slightly underestimates the former and considerably overestimates the latter. Regarding the fits, the Hartmann-Lazarus equation better describes the data behavior as the Emden format diverges significantly to the last point. Given that the data follows a trend format previously observed in the literature, is positioned in between two established results, and given the limitations of the measurements, the results can be said to be satisfactory.
 
 \subsection{Quantitative Density Field}
 \label{subsection: Quantitative Density Field results}
@@ -571,12 +576,12 @@ Next, the folded normal displacement was divided by the effective lever arm $l_0
         \label{fig: density field jet dataset d}
     \end{subfigure}
 
-    % \begin{subfigure}[b]{\textwidth}
-    %     \centering
-    %     \includegraphics[width=\textwidth]{figures/density field dataset e.png}
-    %     \caption{Dataset e, with respective $NPR = 3.344$}
-    %     \label{fig: density field dataset e}
-    % \end{subfigure}
+    \begin{subfigure}[b]{\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figures/density field dataset e.png}
+        \caption{Dataset e, with respective $NPR = 3.344$}
+        \label{fig: density field jet dataset e}
+    \end{subfigure}
 
     \begin{subfigure}[b]{\textwidth}
         \centering
@@ -584,7 +589,7 @@ Next, the folded normal displacement was divided by the effective lever arm $l_0
         \caption{Dataset f, with respective $NPR = 3.875$}
         \label{fig: density field jet dataset f}
     \end{subfigure}
-    \caption{Density fields of datasets a,b,c,d and f obtained through the Abel inversion with Tikhonov regularization. The s axis is aligned with the jet axis with its origin at the nozzle exit, while n is normal to it. Datasets a and b use a color scale from 1 to 2.2 kg m$^{-3}$, while datasets c to f use a color scale from 0.5 to 3.1 kg m$^{-3}$.}
+    \caption{Density fields of datasets a to f obtained through the Abel inversion with Tikhonov regularization. The s axis is aligned with the jet axis with its origin at the nozzle exit, while n is normal to it. Datasets a and b use a color scale from 1 to 2.2 kg m$^{-3}$, while datasets c to f use a color scale from 0.5 to 3.1 kg m$^{-3}$.}
     \label{fig: density fields jets}
 \end{figure}
 
