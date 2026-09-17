@@ -2552,34 +2552,31 @@
     <bcf:citekey order="159" intorder="1">JCGM2008</bcf:citekey>
     <bcf:citekey order="160" intorder="1">Hamarova2016</bcf:citekey>
     <bcf:citekey order="161" intorder="1">Goodman2020</bcf:citekey>
-    <bcf:citekey order="161" intorder="2">NikitaFominBook</bcf:citekey>
-    <bcf:citekey order="161" intorder="3">Cloud2007</bcf:citekey>
-    <bcf:citekey order="162" intorder="1">Goodman2020</bcf:citekey>
+    <bcf:citekey order="162" intorder="1">Hamarova2016</bcf:citekey>
     <bcf:citekey order="163" intorder="1">Hamarova2016</bcf:citekey>
     <bcf:citekey order="164" intorder="1">Hamarova2016</bcf:citekey>
     <bcf:citekey order="165" intorder="1">Hamarova2016</bcf:citekey>
     <bcf:citekey order="166" intorder="1">Hamarova2016</bcf:citekey>
     <bcf:citekey order="167" intorder="1">Hamarova2016</bcf:citekey>
     <bcf:citekey order="168" intorder="1">Hamarova2016</bcf:citekey>
-    <bcf:citekey order="169" intorder="1">Hamarova2016</bcf:citekey>
-    <bcf:citekey order="170" intorder="1">Meier&amp;Roesgen2013</bcf:citekey>
-    <bcf:citekey order="171" intorder="1">JCGM2008</bcf:citekey>
-    <bcf:citekey order="172" intorder="1">Hamarova2016</bcf:citekey>
-    <bcf:citekey order="173" intorder="1">JCGM2008</bcf:citekey>
-    <bcf:citekey order="174" intorder="1">Hamarova2016</bcf:citekey>
-    <bcf:citekey order="175" intorder="1">Goodman2020</bcf:citekey>
-    <bcf:citekey order="176" intorder="1">Dalziel2000</bcf:citekey>
-    <bcf:citekey order="177" intorder="1">Emden1899</bcf:citekey>
-    <bcf:citekey order="177" intorder="2">Hartmann1941</bcf:citekey>
-    <bcf:citekey order="177" intorder="3">Powell2010</bcf:citekey>
-    <bcf:citekey order="178" intorder="1">Dasch1992</bcf:citekey>
-    <bcf:citekey order="179" intorder="1">Daun2006</bcf:citekey>
-    <bcf:citekey order="180" intorder="1">Golub1979</bcf:citekey>
+    <bcf:citekey order="169" intorder="1">Meier&amp;Roesgen2013</bcf:citekey>
+    <bcf:citekey order="170" intorder="1">JCGM2008</bcf:citekey>
+    <bcf:citekey order="171" intorder="1">Hamarova2016</bcf:citekey>
+    <bcf:citekey order="172" intorder="1">JCGM2008</bcf:citekey>
+    <bcf:citekey order="173" intorder="1">Hamarova2016</bcf:citekey>
+    <bcf:citekey order="174" intorder="1">Goodman2020</bcf:citekey>
+    <bcf:citekey order="175" intorder="1">Dalziel2000</bcf:citekey>
+    <bcf:citekey order="176" intorder="1">Emden1899</bcf:citekey>
+    <bcf:citekey order="176" intorder="2">Hartmann1941</bcf:citekey>
+    <bcf:citekey order="176" intorder="3">Powell2010</bcf:citekey>
+    <bcf:citekey order="177" intorder="1">Dasch1992</bcf:citekey>
+    <bcf:citekey order="178" intorder="1">Daun2006</bcf:citekey>
+    <bcf:citekey order="179" intorder="1">Golub1979</bcf:citekey>
+    <bcf:citekey order="180" intorder="1">Greenleaf1950</bcf:citekey>
     <bcf:citekey order="181" intorder="1">Greenleaf1950</bcf:citekey>
-    <bcf:citekey order="182" intorder="1">Greenleaf1950</bcf:citekey>
+    <bcf:citekey order="182" intorder="1">Gojani&amp;Obayashi</bcf:citekey>
     <bcf:citekey order="183" intorder="1">Gojani&amp;Obayashi</bcf:citekey>
-    <bcf:citekey order="184" intorder="1">Gojani&amp;Obayashi</bcf:citekey>
-    <bcf:citekey order="184" intorder="2">Schwarz&amp;Braukmann</bcf:citekey>
+    <bcf:citekey order="183" intorder="2">Schwarz&amp;Braukmann</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

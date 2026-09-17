@@ -35,9 +35,9 @@
 \contentsline {chapter}{\numberline {6}Results}{39}{chapter.6}%
 \contentsline {section}{\numberline {6.1}Angled Glass Experiment Results}{39}{section.6.1}%
 \contentsline {section}{\numberline {6.2}Speckle Pattern Investigation Results}{44}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Compressible Jet Experiment Results}{50}{section.6.3}%
+\contentsline {section}{\numberline {6.3}Compressible Jet Experiment Results}{49}{section.6.3}%
 \contentsline {subsection}{\numberline {6.3.1}Quantitative Density Field}{53}{subsection.6.3.1}%
-\contentsline {section}{\numberline {6.4}Aerospike Experiment Results}{54}{section.6.4}%
+\contentsline {section}{\numberline {6.4}Aerospike Experiment Results}{55}{section.6.4}%
 \contentsline {chapter}{\numberline {7}Conclusion}{56}{chapter.7}%
 \contentsline {chapter}{References}{57}{chapter*.57}%
 \contentsline {chapter}{\numberline {A}Derivation of the Circle of Confusion}{60}{appendix.A}%
