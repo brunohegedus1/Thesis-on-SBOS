@@ -662,9 +662,12 @@ INPUT .\figures\S vs l slider experiment.jpg
 INPUT .\figures\speckle size per point.jpg
 INPUT .\figures\speckle size per point.jpg
 INPUT .\figures\speckle size per point.jpg
-INPUT .\figures\speckle exp f-number sweep.jpg
-INPUT .\figures\speckle exp f-number sweep.jpg
-INPUT .\figures\speckle exp f-number sweep.jpg
+INPUT .\figures\speckle exp f-number sweep.png
+INPUT .\figures\speckle exp f-number sweep.png
+INPUT .\figures\speckle exp f-number sweep.png
+INPUT .\figures\speckle exp mag sweep.jpg
+INPUT .\figures\speckle exp mag sweep.jpg
+INPUT .\figures\speckle exp mag sweep.jpg
 INPUT .\figures\Speckle d_GG Sweep.jpg
 INPUT .\figures\Speckle d_GG Sweep.jpg
 INPUT .\figures\Speckle d_GG Sweep.jpg
@@ -677,9 +680,6 @@ INPUT .\figures\Speckle pattern point 8.jpg
 INPUT .\figures\Speckle pattern point 10.jpg
 INPUT .\figures\Speckle pattern point 10.jpg
 INPUT .\figures\Speckle pattern point 10.jpg
-INPUT .\figures\speckle exp mag sweep.jpg
-INPUT .\figures\speckle exp mag sweep.jpg
-INPUT .\figures\speckle exp mag sweep.jpg
 INPUT .\figures\jet displacement 3bar.png
 INPUT .\figures\jet displacement 3bar.png
 INPUT .\figures\jet displacement 3bar.png

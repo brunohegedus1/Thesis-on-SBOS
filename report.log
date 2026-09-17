@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.5) (preloaded format=xelatex 2026.8.21)  17 SEP 2026 11:44
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.5) (preloaded format=xelatex 2026.8.21)  17 SEP 2026 15:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1749,9 +1749,11 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 File: figures/speckle size per point.jpg Graphic file (type bmp)
 <figures/speckle size per point.jpg>
  [44] [45] [46]
-File: figures/speckle exp f-number sweep.jpg Graphic file (type bmp)
-<figures/speckle exp f-number sweep.jpg>
+File: figures/speckle exp f-number sweep.png Graphic file (type bmp)
+<figures/speckle exp f-number sweep.png>
  [47]
+File: figures/speckle exp mag sweep.jpg Graphic file (type bmp)
+<figures/speckle exp mag sweep.jpg>
 File: figures/Speckle d_GG Sweep.jpg Graphic file (type bmp)
 <figures/Speckle d_GG Sweep.jpg>
 File: figures/Speckle pattern point 5.jpg Graphic file (type bmp)
@@ -1760,9 +1762,7 @@ File: figures/Speckle pattern point 8.jpg Graphic file (type bmp)
 <figures/Speckle pattern point 8.jpg>
 File: figures/Speckle pattern point 10.jpg Graphic file (type bmp)
 <figures/Speckle pattern point 10.jpg>
-File: figures/speckle exp mag sweep.jpg Graphic file (type bmp)
-<figures/speckle exp mag sweep.jpg>
- [48]
+ [48] [49]
 File: figures/jet displacement 3bar.png Graphic file (type bmp)
 <figures/jet displacement 3bar.png>
 File: figures/jet displacement 4bar.png Graphic file (type bmp)
@@ -1775,7 +1775,7 @@ File: figures/jet displacement 7bar.png Graphic file (type bmp)
 <figures/jet displacement 7bar.png>
 File: figures/jet displacement 8bar.png Graphic file (type bmp)
 <figures/jet displacement 8bar.png>
- [49] [50]
+ [50]
 File: figures/Dataset f density gradients.jpg Graphic file (type bmp)
 <figures/Dataset f density gradients.jpg>
 File: figures/centerline density gradient dataset a.png Graphic file (type bmp)
@@ -1796,9 +1796,10 @@ File: figures/centerline density gradient dataset e.png Graphic file (type bmp)
 File: figures/centerline density gradient dataset f.png Graphic file (type bmp)
 
 <figures/centerline density gradient dataset f.png>
+ [51] [52]
 File: figures/shock cell lengths.jpg Graphic file (type bmp)
 <figures/shock cell lengths.jpg>
- [51] [52]
+ [53]
 File: figures/density field dataset a.png Graphic file (type bmp)
 <figures/density field dataset a.png>
 File: figures/density field dataset b.png Graphic file (type bmp)
@@ -1812,9 +1813,9 @@ File: figures/density field dataset e.png Graphic file (type bmp)
 File: figures/density field dataset f.png Graphic file (type bmp)
 <figures/density field dataset f.png>
 )
-(mainmatter/07_conclusion.tex [53] [54]
+(mainmatter/07_conclusion.tex [54] [55]
 Chapter 7.
-) [55
+) [56
 
 ]
 Overfull \hbox (0.64949pt too wide) in paragraph at lines 66--66
@@ -1837,25 +1838,25 @@ Overfull \hbox (40.00558pt too wide) in paragraph at lines 66--66
 9. 
  []
 
-[56
+[57
 
-] [57] (appendix/appendix-a.tex [58]
+] [58] (appendix/appendix-a.tex [59]
 Appendix A.
 File: figures/CoC drawing.png Graphic file (type bmp)
 <figures/CoC drawing.png>
-[59
+[60
 
-]) (appendix/appendix-b.tex [60]
+]) (appendix/appendix-b.tex [61]
 Appendix B.
 File: figures/Blurred Object geometry.png Graphic file (type bmp)
 <figures/Blurred Object geometry.png>
-[61
+[62
 
-]) (appendix/appendix-c.tex [62]
+]) (appendix/appendix-c.tex [63]
 Appendix C.
 File: figures/Px pitch and LFOV SBOS surf map.jpg Graphic file (type bmp)
 <figures/Px pitch and LFOV SBOS surf map.jpg>
-[63
+[64
 
 ]
 File: figures/Speckle size surf map BOS.jpg Graphic file (type bmp)
@@ -1868,7 +1869,7 @@ File: figures/Speckle size surf map SBOS 70mm.jpg Graphic file (type bmp)
 <figures/Speckle size surf map SBOS 70mm.jpg>
 File: figures/Speckle size surf map BOS 70mm.jpg Graphic file (type bmp)
 <figures/Speckle size surf map BOS 70mm.jpg>
-) [64] [65] [66] (report.aux)
+) [65] [66] [67] (report.aux)
  ***********
 LaTeX2e <2026-06-01>
 L3 programming layer <2026-07-20>
@@ -1886,10 +1887,10 @@ Package logreq Info: Writing requests to 'report.run.xml'.
 Here is how much of TeX's memory you used:
  45824 strings out of 402619
  979496 string characters out of 5438862
- 1889543 words of memory out of 5000000
+ 1888747 words of memory out of 5000000
  74222 multiletter control sequences out of 15000+600000
  633296 words of font info for 113 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 107i,12n,108p,2089b,5763s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 107i,12n,108p,1850b,5763s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on report.xdv (74 pages, 2013920 bytes).
+Output written on report.xdv (75 pages, 2027216 bytes).
