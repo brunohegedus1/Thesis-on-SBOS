@@ -35,15 +35,15 @@
 \contentsline {chapter}{\numberline {6}Results}{39}{chapter.6}%
 \contentsline {section}{\numberline {6.1}Angled Glass Experiment Results}{39}{section.6.1}%
 \contentsline {section}{\numberline {6.2}Speckle Pattern Investigation Results}{44}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Compressible Jet Experiment Results}{49}{section.6.3}%
+\contentsline {section}{\numberline {6.3}Compressible Jet Experiment Results}{50}{section.6.3}%
 \contentsline {subsection}{\numberline {6.3.1}Quantitative Density Field}{53}{subsection.6.3.1}%
-\contentsline {section}{\numberline {6.4}Aerospike Experiment Results}{55}{section.6.4}%
-\contentsline {chapter}{\numberline {7}Conclusion}{56}{chapter.7}%
-\contentsline {chapter}{References}{57}{chapter*.57}%
-\contentsline {chapter}{\numberline {A}Derivation of the Circle of Confusion}{60}{appendix.A}%
-\contentsline {chapter}{\numberline {B}Optics of a Blurred Object}{62}{appendix.B}%
-\contentsline {chapter}{\numberline {C}Extended Design Space Surface Maps}{64}{appendix.C}%
-\contentsline {section}{\numberline {C.1}Pixel density and in-focus field of view}{64}{appendix.C.1}%
-\contentsline {section}{\numberline {C.2}Speckle size for positive defocus}{65}{appendix.C.2}%
-\contentsline {section}{\numberline {C.3}Surface maps for a 7 cm field of view}{65}{appendix.C.3}%
+\contentsline {section}{\numberline {6.4}Aerospike Experiment Results}{56}{section.6.4}%
+\contentsline {chapter}{\numberline {7}Conclusion}{57}{chapter.7}%
+\contentsline {chapter}{References}{58}{chapter*.58}%
+\contentsline {chapter}{\numberline {A}Derivation of the Circle of Confusion}{61}{appendix.A}%
+\contentsline {chapter}{\numberline {B}Optics of a Blurred Object}{63}{appendix.B}%
+\contentsline {chapter}{\numberline {C}Extended Design Space Surface Maps}{65}{appendix.C}%
+\contentsline {section}{\numberline {C.1}Pixel density and in-focus field of view}{65}{appendix.C.1}%
+\contentsline {section}{\numberline {C.2}Speckle size for positive defocus}{66}{appendix.C.2}%
+\contentsline {section}{\numberline {C.3}Surface maps for a 7 cm field of view}{66}{appendix.C.3}%
 \contentsfinish 

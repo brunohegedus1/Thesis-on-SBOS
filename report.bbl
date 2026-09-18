@@ -1649,6 +1649,42 @@
       \verb 10.1016/j.optlaseng.2009.08.010
       \endverb
     \endentry
+    \entry{Panda1999}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=bf8b6bce5b35f22ac5aabc2a37057935}{%
+           family={Panda},
+           familyi={P\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=562994a7f4639bf19e7316e5f81a7198}{%
+           family={Seasholtz},
+           familyi={S\bibinitperiod},
+           given={R.\bibnamedelimi G.},
+           giveni={R\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \strng{namehash}{8fe8bf4553dd4471b55dccbda4e0794e}
+      \strng{fullhash}{8fe8bf4553dd4471b55dccbda4e0794e}
+      \strng{fullhashraw}{8fe8bf4553dd4471b55dccbda4e0794e}
+      \strng{bibnamehash}{8fe8bf4553dd4471b55dccbda4e0794e}
+      \strng{authorbibnamehash}{8fe8bf4553dd4471b55dccbda4e0794e}
+      \strng{authornamehash}{8fe8bf4553dd4471b55dccbda4e0794e}
+      \strng{authorfullhash}{8fe8bf4553dd4471b55dccbda4e0794e}
+      \strng{authorfullhashraw}{8fe8bf4553dd4471b55dccbda4e0794e}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Physics of Fluids}
+      \field{number}{12}
+      \field{title}{Measurement of shock structure and shock-vortex interaction in underexpanded jets using {Rayleigh} scattering}
+      \field{volume}{11}
+      \field{year}{1999}
+      \field{pages}{3761\bibrangedash 3777}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1063/1.870247
+      \endverb
+    \endentry
     \entry{Powell2010}{article}{}{}
       \name{author}{1}{}{%
         {{hash=505c8c38dd83311d8eb0993129e8cf29}{%
@@ -2061,6 +2097,7 @@
       \range{pages}{8}
     \endentry
   \enddatalist
+  \missing{Ozawa2020}
 \endrefsection
 \endinput
 

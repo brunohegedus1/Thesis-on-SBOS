@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.5) (preloaded format=xelatex 2026.8.21)  17 SEP 2026 17:44
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.5) (preloaded format=xelatex 2026.8.21)  18 SEP 2026 13:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1510,7 +1510,15 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'report.bbl' found.
- (report.bbl)
+ (report.bbl
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                Ozawa2020
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+)
 Package biblatex Info: Reference section=0 on input line 17.
 Package biblatex Info: Reference segment=0 on input line 17.
 File: figures/SBOS title page image.png Graphic file (type bmp)
@@ -1525,13 +1533,11 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `RobotoSlabThin' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-
-(C:\Users\bruno\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-cmr.cfg
+ (C:\Users\bruno\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
 LaTeX Font Info:    Trying to load font information for U+msa on input line 32.
-
 
 (C:\Users\bruno\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -1611,7 +1617,7 @@ File: figures/Diagrams of light refraction.png Graphic file (type bmp)
  [8]
 
 LaTeX Warning: Reference `equation: integral of epsilon' on page 9 undefined on
- input line 233.
+ input line 232.
 
 File: figures/AbelTransform.png Graphic file (type bmp)
 <figures/AbelTransform.png>
@@ -1756,13 +1762,14 @@ File: figures/speckle exp mag sweep.jpg Graphic file (type bmp)
 <figures/speckle exp mag sweep.jpg>
 File: figures/Speckle d_GG Sweep.jpg Graphic file (type bmp)
 <figures/Speckle d_GG Sweep.jpg>
+ [48]
 File: figures/Speckle pattern point 5.jpg Graphic file (type bmp)
 <figures/Speckle pattern point 5.jpg>
 File: figures/Speckle pattern point 8.jpg Graphic file (type bmp)
 <figures/Speckle pattern point 8.jpg>
 File: figures/Speckle pattern point 10.jpg Graphic file (type bmp)
 <figures/Speckle pattern point 10.jpg>
- [48] [49]
+ [49]
 File: figures/jet displacement 3bar.png Graphic file (type bmp)
 <figures/jet displacement 3bar.png>
 File: figures/jet displacement 4bar.png Graphic file (type bmp)
@@ -1813,12 +1820,24 @@ File: figures/density field dataset e.png Graphic file (type bmp)
 File: figures/density field dataset f.png Graphic file (type bmp)
 <figures/density field dataset f.png>
  [53] [54]
+File: figures/centreline density e vs panda.png Graphic file (type bmp)
+<figures/centreline density e vs panda.png>
+ [55]
 
-LaTeX Warning: Citation '' on page 55 undefined on input line 588.
+LaTeX Warning: Reference `' on page 56 undefined on input line 599.
 
-) (mainmatter/07_conclusion.tex [55]
+
+LaTeX Warning: Citation 'Ozawa2020' on page 56 undefined on input line 599.
+
+
+LaTeX Warning: Citation 'Ozawa2020' on page 56 undefined on input line 603.
+
+
+LaTeX Warning: Citation '' on page 56 undefined on input line 603.
+
+) (mainmatter/07_conclusion.tex [56]
 Chapter 7.
-) [56
+) [57
 
 ]
 Overfull \hbox (0.64949pt too wide) in paragraph at lines 66--66
@@ -1841,25 +1860,25 @@ Overfull \hbox (40.00558pt too wide) in paragraph at lines 66--66
 9. 
  []
 
-[57
+[58
 
-] [58] (appendix/appendix-a.tex [59]
+] [59] (appendix/appendix-a.tex [60]
 Appendix A.
 File: figures/CoC drawing.png Graphic file (type bmp)
 <figures/CoC drawing.png>
-[60
+[61
 
-]) (appendix/appendix-b.tex [61]
+]) (appendix/appendix-b.tex [62]
 Appendix B.
 File: figures/Blurred Object geometry.png Graphic file (type bmp)
 <figures/Blurred Object geometry.png>
-[62
+[63
 
-]) (appendix/appendix-c.tex [63]
+]) (appendix/appendix-c.tex [64]
 Appendix C.
 File: figures/Px pitch and LFOV SBOS surf map.jpg Graphic file (type bmp)
 <figures/Px pitch and LFOV SBOS surf map.jpg>
-[64
+[65
 
 ]
 File: figures/Speckle size surf map BOS.jpg Graphic file (type bmp)
@@ -1872,7 +1891,7 @@ File: figures/Speckle size surf map SBOS 70mm.jpg Graphic file (type bmp)
 <figures/Speckle size surf map SBOS 70mm.jpg>
 File: figures/Speckle size surf map BOS 70mm.jpg Graphic file (type bmp)
 <figures/Speckle size surf map BOS 70mm.jpg>
-) [65] [66] [67] (report.aux)
+) [66] [67] [68] (report.aux)
  ***********
 LaTeX2e <2026-06-01>
 L3 programming layer <2026-07-20>
@@ -1882,18 +1901,18 @@ L3 programming layer <2026-07-20>
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: 2D98D10BDC5464FF4B744CA567C1F51A;8993.
+(rerunfilecheck)             Checksum: 911F34B05AD6DAD225EF005EE51BEB91;8993.
 Package logreq Info: Writing requests to 'report.run.xml'.
 \openout1 = `report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 45824 strings out of 402619
- 979496 string characters out of 5438862
- 1888560 words of memory out of 5000000
- 74222 multiletter control sequences out of 15000+600000
+ 45840 strings out of 402619
+ 980125 string characters out of 5438862
+ 1890188 words of memory out of 5000000
+ 74237 multiletter control sequences out of 15000+600000
  633296 words of font info for 113 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 107i,12n,108p,1903b,5763s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 107i,12n,108p,1850b,5763s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on report.xdv (75 pages, 2044668 bytes).
+Output written on report.xdv (76 pages, 2093032 bytes).

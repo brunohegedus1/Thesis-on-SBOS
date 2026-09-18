@@ -1,17 +1,17 @@
 # Fdb version 4
-["biber report"] 1789659855.9852 "report.bcf" "report.bbl" "report" 1789659905.16517 0
-  "report.bcf" 1789659874.16145 122759 af0535b65788746eb4c11cd7c8a8ca05 "xelatex"
+["biber report"] 1789731662.95831 "report.bcf" "report.bbl" "report" 1789731773.40107 0
+  "report.bcf" 1789731740.89536 123834 88edd342e7b276e392e57056bf849e00 "xelatex"
   "report.bib" 1789659812.05559 19381 d1511fc055f0e3c9f05b19d6a4c242dc ""
   (generated)
   "report.bbl"
   "report.blg"
   (rewritten before read)
-["xdvipdfmx"] 1789659875.34782 "report.xdv" "report.pdf" "report" 1789659906.84209 0
-  "report.xdv" 1789659874.17812 2044668 a7864cc9982539a8a52d7bd15900ef79 "xelatex"
+["xdvipdfmx"] 1789731742.33255 "report.xdv" "report.pdf" "report" 1789731773.55338 0
+  "report.xdv" 1789731740.90058 2093032 7369e3a01b0a554e1505e168bd2a2b8d "xelatex"
   (generated)
   "report.pdf"
   (rewritten before read)
-["xelatex"] 1789659861.66096 "report.tex" "report.xdv" "report" 1789659905.19714 0
+["xelatex"] 1789731728.62084 "report.tex" "report.xdv" "report" 1789731773.40238 0
   "C:/Users/bruno/AppData/Local/MiKTeX/miktex/data/le/xetex/xelatex.fmt" 1787319360.28344 27216620 79343683421b64d37a355684079830c4 ""
   "C:/Users/bruno/AppData/Local/Programs/MiKTeX/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136801054 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "C:/Users/bruno/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
@@ -258,6 +258,7 @@
   "figures/centerline density gradient dataset d.png" 1789485470.76113 141377 7b9af952fac9bd7b463568bcae7b8b4a ""
   "figures/centerline density gradient dataset e.png" 1789485470.80113 140269 cd47e4603f3986fcc31a51279eeb4a08 ""
   "figures/centerline density gradient dataset f.png" 1789485470.82577 136877 eb9d0040fec06cc4229b9b579b1221e5 ""
+  "figures/centreline density e vs panda.png" 1789731615.56068 113620 6e9d36f8a65acdf1f51ed7745b638ede ""
   "figures/compressible jet setup.jpeg" 1787240162.40996 118476 8ab04b5f2b558b53350a825a6f0ff156 ""
   "figures/density field dataset a.png" 1789572297.43601 174985 b8ab3979831d3cb9f9c267a70050d1c8 ""
   "figures/density field dataset b.png" 1789572297.46677 191462 875d9bf33b955aedee595dfefd342960 ""
@@ -278,7 +279,7 @@
   "figures/moderately under-expanded jet.jpg" 1789394812.86212 67219 2cefd1226d40efe272d95492d8465098 ""
   "figures/projected speckle pattern experiment.png" 1787040728.75793 1336118 eecd00df02ee94742da40a25e982fb03 ""
   "figures/projected speckle schematic.png" 1787040728.76593 839553 00f702b7823a41e731c5246df0415ba6 ""
-  "figures/shock cell lengths.jpg" 1789571978.76488 93489 a4f45df8cc3592627150af1164600094 ""
+  "figures/shock cell lengths.jpg" 1789662183.51015 103014 390a2cbe2df8ab8220aa4635b938f816 ""
   "figures/small sbos setup with captions.png" 1787040728.77493 679257 b2c800be42b02a11fb6e4a260cbb21c4 ""
   "figures/speckle exp f-number sweep.png" 1789652862.98244 80085 75b77769da67cff348acb1f593c116d4 ""
   "figures/speckle exp mag sweep.jpg" 1788982567.22475 100012 9c397cb2f7573b11fc3048feebf53369 ""
@@ -291,18 +292,18 @@
   "frontmatter/summary.tex" 1787040728.77994 84 6aeec0ce56741e44e501255e14db693a ""
   "frontmatter/title-thesis.tex" 1787143841.7113 2112 78ba1d0b9213a4a12ed10b4b0eb0bb8e ""
   "mainmatter/01_introduction.tex" 1789146941.52246 8234 002d08ebb50e821c6471d60b6b3806af ""
-  "mainmatter/02_TheoreticalBackground.tex" 1789551199.45855 22707 c2509ea4c186ec505164334126e6f3d2 ""
+  "mainmatter/02_TheoreticalBackground.tex" 1789662433.08088 22894 6a86848524b8dc7136ec6a63f8fc1d6f ""
   "mainmatter/03_LiteratureReview.tex" 1789650626.69768 44378 c0dfd29e4856c3d6e67ff6eeee03e54b ""
   "mainmatter/04_methodology.tex" 1789549901.12265 39912 105a20459cc3d048a5699fddc253bfb2 ""
   "mainmatter/05_Methods.tex" 1789640015.50868 26194 b459402674183c62f61adf248f0f3ec9 ""
-  "mainmatter/06_results.tex" 1789659293.79947 74431 f8676564fb0b779654f66296b89dffe9 ""
+  "mainmatter/06_results.tex" 1789731624.08575 79293 4f7012dac9fcd71ef44668d2c49b91b5 ""
   "mainmatter/07_conclusion.tex" 1787998426.17559 55 d888d3c2b2e6d14c94a67acb7a84363a ""
-  "report.aux" 1789659874.1115 106984 5c6b5d6a2838ceb8125b0e665508d879 "xelatex"
-  "report.bbl" 1789659861.42374 87548 c0f2a0a3abb96eee3222d1edff1172cb "biber report"
-  "report.out" 1789659874.16041 8993 2d98d10bdc5464ff4b744ca567c1f51a "xelatex"
-  "report.run.xml" 1789659874.17812 2350 3aa6604a065aed1d7ae2817af42d008f "xelatex"
+  "report.aux" 1789731740.82889 109383 ff3b9f12dc479a4625f00b30a75ef092 "xelatex"
+  "report.bbl" 1789731687.92238 89133 a56bcf8b81db4e2f526a2bf1929d1d40 "biber report"
+  "report.out" 1789731740.87871 8993 911f34b05ad6dad225ef005ee51beb91 "xelatex"
+  "report.run.xml" 1789731740.90058 2350 3aa6604a065aed1d7ae2817af42d008f "xelatex"
   "report.tex" 1789581957.01859 2412 42c1306427543b842409572398e8348b ""
-  "report.toc" 1789659874.17812 4158 1bb00eb4b9737094b4985dbbf42e0f9a "xelatex"
+  "report.toc" 1789731740.90058 4158 eef96932d448471f0fcfa606f8a125a8 "xelatex"
   "tudelft-report.cls" 1789546373.30447 9381 45e227fb4a6f63b84859ab9f8a84779e ""
   (generated)
   "report.aux"
