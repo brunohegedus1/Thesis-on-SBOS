@@ -1608,6 +1608,52 @@
       \verb 10.1007/s00348-015-1919-5
       \endverb
     \endentry
+    \entry{Ozawa2020}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=f23cadd11a736d64eee3ee97cbadadde}{%
+           family={Ozawa},
+           familyi={O\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=35614ae18094273435212f1198344348}{%
+           family={Nonomura},
+           familyi={N\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=19bd5560b8ef1c29e4ab525de6f69d63}{%
+           family={Oyama},
+           familyi={O\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=8dbc19982dbd8a17c5c729c3b9f47b4b}{%
+           family={Asai},
+           familyi={A\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{e8bace4a571f6d908e3bd37913daa28e}
+      \strng{fullhash}{5480c9ef4a231859e1a1490fcfe1855d}
+      \strng{fullhashraw}{5480c9ef4a231859e1a1490fcfe1855d}
+      \strng{bibnamehash}{e8bace4a571f6d908e3bd37913daa28e}
+      \strng{authorbibnamehash}{e8bace4a571f6d908e3bd37913daa28e}
+      \strng{authornamehash}{e8bace4a571f6d908e3bd37913daa28e}
+      \strng{authorfullhash}{5480c9ef4a231859e1a1490fcfe1855d}
+      \strng{authorfullhashraw}{5480c9ef4a231859e1a1490fcfe1855d}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Physics of Fluids}
+      \field{number}{4}
+      \field{title}{Effect of the {Reynolds} number on the aeroacoustic fields of a transitional supersonic jet}
+      \field{volume}{32}
+      \field{year}{2020}
+      \field{pages}{046108}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1063/1.5138195
+      \endverb
+    \endentry
     \entry{Pan2010}{article}{}{}
       \name{author}{3}{}{%
         {{hash=75a6e5ba1358d23c6629b0bd43aeaae3}{%
@@ -2097,7 +2143,6 @@
       \range{pages}{8}
     \endentry
   \enddatalist
-  \missing{Ozawa2020}
 \endrefsection
 \endinput
 

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.5) (preloaded format=xelatex 2026.8.21)  18 SEP 2026 13:42
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.5) (preloaded format=xelatex 2026.8.21)  18 SEP 2026 15:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1510,15 +1510,7 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'report.bbl' found.
- (report.bbl
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                Ozawa2020
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-)
+ (report.bbl)
 Package biblatex Info: Reference section=0 on input line 17.
 Package biblatex Info: Reference segment=0 on input line 17.
 File: figures/SBOS title page image.png Graphic file (type bmp)
@@ -1533,11 +1525,13 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `RobotoSlabThin' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- (C:\Users\bruno\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-cmr.cfg
+
+(C:\Users\bruno\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
 LaTeX Font Info:    Trying to load font information for U+msa on input line 32.
+
 
 (C:\Users\bruno\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -1827,12 +1821,6 @@ File: figures/centreline density e vs panda.png Graphic file (type bmp)
 LaTeX Warning: Reference `' on page 56 undefined on input line 599.
 
 
-LaTeX Warning: Citation 'Ozawa2020' on page 56 undefined on input line 599.
-
-
-LaTeX Warning: Citation 'Ozawa2020' on page 56 undefined on input line 603.
-
-
 LaTeX Warning: Citation '' on page 56 undefined on input line 603.
 
 ) (mainmatter/07_conclusion.tex [56]
@@ -1907,12 +1895,12 @@ Package logreq Info: Writing requests to 'report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 45840 strings out of 402619
- 980125 string characters out of 5438862
- 1890188 words of memory out of 5000000
- 74237 multiletter control sequences out of 15000+600000
+ 45842 strings out of 402619
+ 980246 string characters out of 5438862
+ 1890222 words of memory out of 5000000
+ 74239 multiletter control sequences out of 15000+600000
  633296 words of font info for 113 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  107i,12n,108p,1850b,5763s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on report.xdv (76 pages, 2093032 bytes).
+Output written on report.xdv (76 pages, 2095604 bytes).
