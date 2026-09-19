@@ -1957,6 +1957,42 @@
       \verb 10.1007/s00348-023-03602-1
       \endverb
     \endentry
+    \entry{Seiner1980}{inproceedings}{}{}
+      \name{author}{2}{}{%
+        {{hash=556898af2cdf28d75efec134402ee558}{%
+           family={Seiner},
+           familyi={S\bibinitperiod},
+           given={J.\bibnamedelimi M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=18628bd0bd183c406b8824b11e3186a7}{%
+           family={Norum},
+           familyi={N\bibinitperiod},
+           given={T.\bibnamedelimi D.},
+           giveni={T\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Hartford, CT}%
+      }
+      \strng{namehash}{2c2569961d4e685892bdcc344004cefe}
+      \strng{fullhash}{2c2569961d4e685892bdcc344004cefe}
+      \strng{fullhashraw}{2c2569961d4e685892bdcc344004cefe}
+      \strng{bibnamehash}{2c2569961d4e685892bdcc344004cefe}
+      \strng{authorbibnamehash}{2c2569961d4e685892bdcc344004cefe}
+      \strng{authornamehash}{2c2569961d4e685892bdcc344004cefe}
+      \strng{authorfullhash}{2c2569961d4e685892bdcc344004cefe}
+      \strng{authorfullhashraw}{2c2569961d4e685892bdcc344004cefe}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{6th AIAA Aeroacoustics Conference}
+      \field{note}{AIAA Paper 80-0965}
+      \field{title}{Aerodynamic aspects of shock containing jet plumes}
+      \field{year}{1980}
+      \verb{doi}
+      \verb 10.2514/6.1980-965
+      \endverb
+    \endentry
     \entry{Settles2017}{article}{}{}
       \name{author}{2}{}{%
         {{hash=7bc0d218a74d1c82dff5f851d2347e92}{%

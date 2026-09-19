@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.5) (preloaded format=xelatex 2026.8.21)  18 SEP 2026 15:12
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.5) (preloaded format=xelatex 2026.8.21)  19 SEP 2026 12:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1717,12 +1717,31 @@ File: figures/projected speckle pattern experiment.png Graphic file (type bmp)
  [37]
 File: figures/compressible jet setup.jpeg Graphic file (type bmp)
 <figures/compressible jet setup.jpeg>
-) (mainmatter/06_results.tex [38]
+ [38]
+
+LaTeX Warning: Reference `' on page 39 undefined on input line 222.
+
+
+LaTeX Warning: Reference `' on page 39 undefined on input line 222.
+
+
+LaTeX Warning: Reference `' on page 39 undefined on input line 222.
+
+
+LaTeX Warning: Citation '' on page 39 undefined on input line 222.
+
+
+LaTeX Warning: Citation '' on page 39 undefined on input line 222.
+
+
+LaTeX Warning: Citation '' on page 39 undefined on input line 222.
+
+) (mainmatter/06_results.tex [39]
 Chapter 6.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[39
+[40
 
 ]
 
@@ -1731,12 +1750,12 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[40]
+[41]
 Overfull \hbox (11.5911pt too wide) in paragraph at lines 145--158
  [][] 
  []
 
-[41]
+[42]
 File: figures/S vs l experimental.jpg Graphic file (type bmp)
 <figures/S vs l experimental.jpg>
 File: figures/S vs l slider experiment.jpg Graphic file (type bmp)
@@ -1745,25 +1764,25 @@ File: figures/S vs l slider experiment.jpg Graphic file (type bmp)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[42] [43]
+[43] [44]
 File: figures/speckle size per point.jpg Graphic file (type bmp)
 <figures/speckle size per point.jpg>
- [44] [45] [46]
+ [45] [46] [47]
 File: figures/speckle exp f-number sweep.png Graphic file (type bmp)
 <figures/speckle exp f-number sweep.png>
- [47]
+ [48]
 File: figures/speckle exp mag sweep.jpg Graphic file (type bmp)
 <figures/speckle exp mag sweep.jpg>
 File: figures/Speckle d_GG Sweep.jpg Graphic file (type bmp)
 <figures/Speckle d_GG Sweep.jpg>
- [48]
+ [49]
 File: figures/Speckle pattern point 5.jpg Graphic file (type bmp)
 <figures/Speckle pattern point 5.jpg>
 File: figures/Speckle pattern point 8.jpg Graphic file (type bmp)
 <figures/Speckle pattern point 8.jpg>
 File: figures/Speckle pattern point 10.jpg Graphic file (type bmp)
 <figures/Speckle pattern point 10.jpg>
- [49]
+ [50]
 File: figures/jet displacement 3bar.png Graphic file (type bmp)
 <figures/jet displacement 3bar.png>
 File: figures/jet displacement 4bar.png Graphic file (type bmp)
@@ -1776,10 +1795,10 @@ File: figures/jet displacement 7bar.png Graphic file (type bmp)
 <figures/jet displacement 7bar.png>
 File: figures/jet displacement 8bar.png Graphic file (type bmp)
 <figures/jet displacement 8bar.png>
- [50]
+ [51]
 File: figures/Dataset f density gradients.jpg Graphic file (type bmp)
 <figures/Dataset f density gradients.jpg>
- [51]
+ [52]
 File: figures/centerline density gradient dataset a.png Graphic file (type bmp)
 
 <figures/centerline density gradient dataset a.png>
@@ -1800,7 +1819,7 @@ File: figures/centerline density gradient dataset f.png Graphic file (type bmp)
 <figures/centerline density gradient dataset f.png>
 File: figures/shock cell lengths.jpg Graphic file (type bmp)
 <figures/shock cell lengths.jpg>
- [52]
+ [53]
 File: figures/density field dataset a.png Graphic file (type bmp)
 <figures/density field dataset a.png>
 File: figures/density field dataset b.png Graphic file (type bmp)
@@ -1813,19 +1832,13 @@ File: figures/density field dataset e.png Graphic file (type bmp)
 <figures/density field dataset e.png>
 File: figures/density field dataset f.png Graphic file (type bmp)
 <figures/density field dataset f.png>
- [53] [54]
+ [54] [55]
 File: figures/centreline density e vs panda.png Graphic file (type bmp)
 <figures/centreline density e vs panda.png>
- [55]
-
-LaTeX Warning: Reference `' on page 56 undefined on input line 599.
-
-
-LaTeX Warning: Citation '' on page 56 undefined on input line 603.
-
-) (mainmatter/07_conclusion.tex [56]
+ [56])
+(mainmatter/07_conclusion.tex [57]
 Chapter 7.
-) [57
+) [58
 
 ]
 Overfull \hbox (0.64949pt too wide) in paragraph at lines 66--66
@@ -1848,25 +1861,25 @@ Overfull \hbox (40.00558pt too wide) in paragraph at lines 66--66
 9. 
  []
 
-[58
+[59
 
-] [59] (appendix/appendix-a.tex [60]
+] [60] (appendix/appendix-a.tex [61]
 Appendix A.
 File: figures/CoC drawing.png Graphic file (type bmp)
 <figures/CoC drawing.png>
-[61
+[62
 
-]) (appendix/appendix-b.tex [62]
+]) (appendix/appendix-b.tex [63]
 Appendix B.
 File: figures/Blurred Object geometry.png Graphic file (type bmp)
 <figures/Blurred Object geometry.png>
-[63
+[64
 
-]) (appendix/appendix-c.tex [64]
+]) (appendix/appendix-c.tex [65]
 Appendix C.
 File: figures/Px pitch and LFOV SBOS surf map.jpg Graphic file (type bmp)
 <figures/Px pitch and LFOV SBOS surf map.jpg>
-[65
+[66
 
 ]
 File: figures/Speckle size surf map BOS.jpg Graphic file (type bmp)
@@ -1879,7 +1892,7 @@ File: figures/Speckle size surf map SBOS 70mm.jpg Graphic file (type bmp)
 <figures/Speckle size surf map SBOS 70mm.jpg>
 File: figures/Speckle size surf map BOS 70mm.jpg Graphic file (type bmp)
 <figures/Speckle size surf map BOS 70mm.jpg>
-) [66] [67] [68] (report.aux)
+) [67] [68] [69] (report.aux)
  ***********
 LaTeX2e <2026-06-01>
 L3 programming layer <2026-07-20>
@@ -1895,12 +1908,12 @@ Package logreq Info: Writing requests to 'report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 45842 strings out of 402619
- 980246 string characters out of 5438862
- 1890222 words of memory out of 5000000
- 74239 multiletter control sequences out of 15000+600000
+ 45850 strings out of 402619
+ 980530 string characters out of 5438862
+ 1890509 words of memory out of 5000000
+ 74247 multiletter control sequences out of 15000+600000
  633296 words of font info for 113 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  107i,12n,108p,1850b,5763s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on report.xdv (76 pages, 2095604 bytes).
+Output written on report.xdv (77 pages, 2127180 bytes).
