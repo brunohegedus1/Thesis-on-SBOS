@@ -20,30 +20,30 @@
 \contentsline {section}{\numberline {4.1}Geometries of a SBOS optical setup}{21}{section.4.1}%
 \contentsline {subsection}{\numberline {4.1.1}Positive defocus setup}{21}{subsection.4.1.1}%
 \contentsline {subsection}{\numberline {4.1.2}Negative defocus setup}{23}{subsection.4.1.2}%
-\contentsline {section}{\numberline {4.2}Sensitivity-Resolution Ratio}{23}{section.4.2}%
+\contentsline {section}{\numberline {4.2}Sensitivity-Resolution Ratio}{24}{section.4.2}%
 \contentsline {section}{\numberline {4.3}Design Strategy}{24}{section.4.3}%
 \contentsline {subsection}{\numberline {4.3.1}Surface Maps for negative defocus setup}{25}{subsection.4.3.1}%
 \contentsline {subsection}{\numberline {4.3.2}Surface Maps for positive defocus setup}{27}{subsection.4.3.2}%
 \contentsline {subsection}{\numberline {4.3.3}Effect of FoV}{28}{subsection.4.3.3}%
-\contentsline {section}{\numberline {4.4}SR criterion}{30}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Summary of Design Guidelines}{30}{section.4.5}%
+\contentsline {section}{\numberline {4.4}SR criterion}{29}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Summary of Design Guidelines}{31}{section.4.5}%
 \contentsline {chapter}{\numberline {5}Experimental Setups}{32}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Angled Glass Experiments}{32}{section.5.1}%
 \contentsline {section}{\numberline {5.2}Speckle Pattern Investigation}{35}{section.5.2}%
 \contentsline {section}{\numberline {5.3}Compressible Jet Experiment}{38}{section.5.3}%
 \contentsline {section}{\numberline {5.4}Aerospike Experiment}{38}{section.5.4}%
-\contentsline {chapter}{\numberline {6}Results}{40}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Angled Glass Experiment Results}{40}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Speckle Pattern Investigation Results}{45}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Compressible Jet Experiment Results}{51}{section.6.3}%
-\contentsline {subsection}{\numberline {6.3.1}Quantitative Density Field}{54}{subsection.6.3.1}%
-\contentsline {section}{\numberline {6.4}Aerospike Experiment Results}{57}{section.6.4}%
-\contentsline {chapter}{\numberline {7}Conclusion}{58}{chapter.7}%
-\contentsline {chapter}{References}{59}{chapter*.59}%
-\contentsline {chapter}{\numberline {A}Derivation of the Circle of Confusion}{62}{appendix.A}%
-\contentsline {chapter}{\numberline {B}Optics of a Blurred Object}{64}{appendix.B}%
-\contentsline {chapter}{\numberline {C}Extended Design Space Surface Maps}{66}{appendix.C}%
-\contentsline {section}{\numberline {C.1}Pixel density and in-focus field of view}{66}{appendix.C.1}%
-\contentsline {section}{\numberline {C.2}Speckle size for positive defocus}{67}{appendix.C.2}%
-\contentsline {section}{\numberline {C.3}Surface maps for a 7 cm field of view}{67}{appendix.C.3}%
+\contentsline {chapter}{\numberline {6}Results}{41}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Angled Glass Experiment Results}{41}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Speckle Pattern Investigation Results}{46}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Compressible Jet Experiment Results}{52}{section.6.3}%
+\contentsline {subsection}{\numberline {6.3.1}Quantitative Density Field}{55}{subsection.6.3.1}%
+\contentsline {section}{\numberline {6.4}Aerospike Experiment Results}{58}{section.6.4}%
+\contentsline {chapter}{\numberline {7}Conclusion}{59}{chapter.7}%
+\contentsline {chapter}{References}{60}{chapter*.59}%
+\contentsline {chapter}{\numberline {A}Derivation of the Circle of Confusion}{63}{appendix.A}%
+\contentsline {chapter}{\numberline {B}Optics of a Blurred Object}{65}{appendix.B}%
+\contentsline {chapter}{\numberline {C}Extended Design Space Surface Maps}{67}{appendix.C}%
+\contentsline {section}{\numberline {C.1}Pixel density and in-focus field of view}{67}{appendix.C.1}%
+\contentsline {section}{\numberline {C.2}Speckle size for positive defocus}{68}{appendix.C.2}%
+\contentsline {section}{\numberline {C.3}Surface maps for a 7 cm field of view}{68}{appendix.C.3}%
 \contentsfinish 

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.5) (preloaded format=xelatex 2026.8.21)  19 SEP 2026 13:15
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.5) (preloaded format=xelatex 2026.8.21)  19 SEP 2026 14:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1652,7 +1652,7 @@ File: figures/BOS setup.png Graphic file (type bmp)
 File: figures/SBOS with negative l.png Graphic file (type bmp)
 <figures/SBOS with negative l.png>
  [23]
-Overfull \hbox (44.56898pt too wide) in paragraph at lines 142--143
+Overfull \hbox (44.56898pt too wide) in paragraph at lines 141--142
 \TU/Arial(0)/m/n/10 would solve the system for a given combinations of P = ($\O
 ML/cmm/m/it/10 f[]; l; f$\TU/Arial(0)/m/n/10 ) and compute X = ($\OML/cmm/m/it/
 10 S; s[]; \OT1/cmr/m/n/10 ^^A\OML/cmm/m/it/10 s; d[]; Z; M[]; m; CoC$\TU/Arial
@@ -1665,13 +1665,9 @@ File: figures/Sensitivity and dav SBOS surf map.jpg Graphic file (type bmp)
  [25]
 File: figures/M,m,df surfmaps SBOS.jpg Graphic file (type bmp)
 <figures/M,m,df surfmaps SBOS.jpg>
+ [26]
 File: figures/Speckle size surf map SBOS.jpg Graphic file (type bmp)
 <figures/Speckle size surf map SBOS.jpg>
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[26]
 File: figures/Sensitivity and smin BOS surf map.jpg Graphic file (type bmp)
 <figures/Sensitivity and smin BOS surf map.jpg>
 
@@ -1681,14 +1677,20 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [27]
 File: figures/M,m,df surfmaps BOS.jpg Graphic file (type bmp)
 <figures/M,m,df surfmaps BOS.jpg>
- [28]
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 File: figures/Sensitivity and smin SBOS surf map 70cm.jpg Graphic file (type bm
 p)
 <figures/Sensitivity and smin SBOS surf map 70cm.jpg>
 File: figures/Sensitivity and smin BOS surf map 70mm.jpg Graphic file (type bmp
 )
 <figures/Sensitivity and smin BOS surf map 70mm.jpg>
- [29] [30]) (mainmatter/05_Methods.tex [31]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[28] [29] [30]) (mainmatter/05_Methods.tex [31]
 Chapter 5.
 File: figures/small sbos setup with captions.png Graphic file (type bmp)
 <figures/small sbos setup with captions.png>
@@ -1738,12 +1740,12 @@ File: figures/Aerospike technical drawing.jpg Graphic file (type bmp)
 
 LaTeX Warning: Reference `' on page 39 undefined on input line 259.
 
-) (mainmatter/06_results.tex [39]
+[39]) (mainmatter/06_results.tex [40]
 Chapter 6.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[40
+[41
 
 ]
 
@@ -1752,12 +1754,12 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[41]
+[42]
 Overfull \hbox (11.5911pt too wide) in paragraph at lines 145--158
  [][] 
  []
 
-[42]
+[43]
 File: figures/S vs l experimental.jpg Graphic file (type bmp)
 <figures/S vs l experimental.jpg>
 File: figures/S vs l slider experiment.jpg Graphic file (type bmp)
@@ -1766,25 +1768,25 @@ File: figures/S vs l slider experiment.jpg Graphic file (type bmp)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[43] [44]
+[44] [45]
 File: figures/speckle size per point.jpg Graphic file (type bmp)
 <figures/speckle size per point.jpg>
- [45] [46] [47]
+ [46] [47] [48]
 File: figures/speckle exp f-number sweep.png Graphic file (type bmp)
 <figures/speckle exp f-number sweep.png>
- [48]
+ [49]
 File: figures/speckle exp mag sweep.jpg Graphic file (type bmp)
 <figures/speckle exp mag sweep.jpg>
 File: figures/Speckle d_GG Sweep.jpg Graphic file (type bmp)
 <figures/Speckle d_GG Sweep.jpg>
- [49]
+ [50]
 File: figures/Speckle pattern point 5.jpg Graphic file (type bmp)
 <figures/Speckle pattern point 5.jpg>
 File: figures/Speckle pattern point 8.jpg Graphic file (type bmp)
 <figures/Speckle pattern point 8.jpg>
 File: figures/Speckle pattern point 10.jpg Graphic file (type bmp)
 <figures/Speckle pattern point 10.jpg>
- [50]
+ [51]
 File: figures/jet displacement 3bar.png Graphic file (type bmp)
 <figures/jet displacement 3bar.png>
 File: figures/jet displacement 4bar.png Graphic file (type bmp)
@@ -1797,10 +1799,10 @@ File: figures/jet displacement 7bar.png Graphic file (type bmp)
 <figures/jet displacement 7bar.png>
 File: figures/jet displacement 8bar.png Graphic file (type bmp)
 <figures/jet displacement 8bar.png>
- [51]
+ [52]
 File: figures/Dataset f density gradients.jpg Graphic file (type bmp)
 <figures/Dataset f density gradients.jpg>
- [52]
+ [53]
 File: figures/centerline density gradient dataset a.png Graphic file (type bmp)
 
 <figures/centerline density gradient dataset a.png>
@@ -1821,7 +1823,7 @@ File: figures/centerline density gradient dataset f.png Graphic file (type bmp)
 <figures/centerline density gradient dataset f.png>
 File: figures/shock cell lengths.jpg Graphic file (type bmp)
 <figures/shock cell lengths.jpg>
- [53]
+ [54]
 File: figures/density field dataset a.png Graphic file (type bmp)
 <figures/density field dataset a.png>
 File: figures/density field dataset b.png Graphic file (type bmp)
@@ -1834,13 +1836,13 @@ File: figures/density field dataset e.png Graphic file (type bmp)
 <figures/density field dataset e.png>
 File: figures/density field dataset f.png Graphic file (type bmp)
 <figures/density field dataset f.png>
- [54] [55]
+ [55] [56]
 File: figures/centreline density e vs panda.png Graphic file (type bmp)
 <figures/centreline density e vs panda.png>
- [56])
-(mainmatter/07_conclusion.tex [57]
+ [57])
+(mainmatter/07_conclusion.tex [58]
 Chapter 7.
-) [58
+) [59
 
 ]
 Overfull \hbox (0.64949pt too wide) in paragraph at lines 66--66
@@ -1863,25 +1865,25 @@ Overfull \hbox (40.00558pt too wide) in paragraph at lines 66--66
 9. 
  []
 
-[59
+[60
 
-] [60] (appendix/appendix-a.tex [61]
+] [61] (appendix/appendix-a.tex [62]
 Appendix A.
 File: figures/CoC drawing.png Graphic file (type bmp)
 <figures/CoC drawing.png>
-[62
+[63
 
-]) (appendix/appendix-b.tex [63]
+]) (appendix/appendix-b.tex [64]
 Appendix B.
 File: figures/Blurred Object geometry.png Graphic file (type bmp)
 <figures/Blurred Object geometry.png>
-[64
+[65
 
-]) (appendix/appendix-c.tex [65]
+]) (appendix/appendix-c.tex [66]
 Appendix C.
 File: figures/Px pitch and LFOV SBOS surf map.jpg Graphic file (type bmp)
 <figures/Px pitch and LFOV SBOS surf map.jpg>
-[66
+[67
 
 ]
 File: figures/Speckle size surf map BOS.jpg Graphic file (type bmp)
@@ -1894,7 +1896,7 @@ File: figures/Speckle size surf map SBOS 70mm.jpg Graphic file (type bmp)
 <figures/Speckle size surf map SBOS 70mm.jpg>
 File: figures/Speckle size surf map BOS 70mm.jpg Graphic file (type bmp)
 <figures/Speckle size surf map BOS 70mm.jpg>
-) [67] [68] [69] (report.aux)
+) [68] [69] [70] (report.aux)
  ***********
 LaTeX2e <2026-06-01>
 L3 programming layer <2026-07-20>
@@ -1918,4 +1920,4 @@ Here is how much of TeX's memory you used:
  1348 hyphenation exceptions out of 8191
  107i,12n,108p,1850b,5763s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on report.xdv (77 pages, 2136436 bytes).
+Output written on report.xdv (78 pages, 2147640 bytes).
