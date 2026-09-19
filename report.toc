@@ -39,7 +39,7 @@
 \contentsline {subsection}{\numberline {6.3.1}Quantitative Density Field}{54}{subsection.6.3.1}%
 \contentsline {section}{\numberline {6.4}Aerospike Experiment Results}{57}{section.6.4}%
 \contentsline {chapter}{\numberline {7}Conclusion}{58}{chapter.7}%
-\contentsline {chapter}{References}{59}{chapter*.58}%
+\contentsline {chapter}{References}{59}{chapter*.59}%
 \contentsline {chapter}{\numberline {A}Derivation of the Circle of Confusion}{62}{appendix.A}%
 \contentsline {chapter}{\numberline {B}Optics of a Blurred Object}{64}{appendix.B}%
 \contentsline {chapter}{\numberline {C}Extended Design Space Surface Maps}{66}{appendix.C}%
