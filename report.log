@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.5) (preloaded format=xelatex 2026.8.21)  20 SEP 2026 17:15
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.5) (preloaded format=xelatex 2026.8.21)  20 SEP 2026 17:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1735,7 +1735,7 @@ File: figures/aerospike model.jpeg Graphic file (type bmp)
 File: figures/Aerospike technical drawing.jpg Graphic file (type bmp)
 <figures/Aerospike technical drawing.jpg>
 [39]
-Overfull \hbox (18.83595pt too wide) in paragraph at lines 265--284
+Overfull \hbox (69.88837pt too wide) in paragraph at lines 265--284
  [][] 
  []
 
@@ -1916,10 +1916,10 @@ Package logreq Info: Writing requests to 'report.run.xml'.
 Here is how much of TeX's memory you used:
  45909 strings out of 402619
  982811 string characters out of 5438862
- 1892679 words of memory out of 5000000
+ 1892574 words of memory out of 5000000
  74302 multiletter control sequences out of 15000+600000
  633296 words of font info for 113 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  107i,12n,108p,1850b,5763s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on report.xdv (78 pages, 2168320 bytes).
+Output written on report.xdv (78 pages, 2168144 bytes).
