@@ -2132,6 +2132,34 @@
       \field{pages}{17}
       \range{pages}{1}
     \endentry
+    \entry{Wisse2005}{thesis}{}{}
+      \name{author}{1}{}{%
+        {{hash=0f1a7a2d2563cca95cef03e46e9c4567}{%
+           family={Wisse},
+           familyi={W\bibinitperiod},
+           given={M.\bibnamedelimi E.\bibnamedelimi N.},
+           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Delft University of Technology}%
+      }
+      \strng{namehash}{0f1a7a2d2563cca95cef03e46e9c4567}
+      \strng{fullhash}{0f1a7a2d2563cca95cef03e46e9c4567}
+      \strng{fullhashraw}{0f1a7a2d2563cca95cef03e46e9c4567}
+      \strng{bibnamehash}{0f1a7a2d2563cca95cef03e46e9c4567}
+      \strng{authorbibnamehash}{0f1a7a2d2563cca95cef03e46e9c4567}
+      \strng{authornamehash}{0f1a7a2d2563cca95cef03e46e9c4567}
+      \strng{authorfullhash}{0f1a7a2d2563cca95cef03e46e9c4567}
+      \strng{authorfullhashraw}{0f1a7a2d2563cca95cef03e46e9c4567}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{ISBN 90-9019436-3}
+      \field{title}{An Asymptotic Analysis of Compressible Base Flow and the Implementation into Linear Plug Nozzles}
+      \field{type}{phdthesis}
+      \field{year}{2005}
+    \endentry
     \entry{Zhu2025}{article}{}{}
       \name{author}{4}{}{%
         {{hash=0029d410aa3a4f17856f92f67e9000a0}{%

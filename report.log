@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.5) (preloaded format=xelatex 2026.8.21)  19 SEP 2026 14:31
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.5) (preloaded format=xelatex 2026.8.21)  20 SEP 2026 17:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1726,9 +1726,6 @@ LaTeX Warning: Citation '' on page 39 undefined on input line 222.
 
 LaTeX Warning: Citation '' on page 39 undefined on input line 222.
 
-
-LaTeX Warning: Citation '' on page 39 undefined on input line 222.
-
 File: figures/aerospike camera setup.jpeg Graphic file (type bmp)
 <figures/aerospike camera setup.jpeg>
 File: figures/aerospike speckle generator setup2.jpeg Graphic file (type bmp)
@@ -1737,10 +1734,15 @@ File: figures/aerospike model.jpeg Graphic file (type bmp)
 <figures/aerospike model.jpeg>
 File: figures/Aerospike technical drawing.jpg Graphic file (type bmp)
 <figures/Aerospike technical drawing.jpg>
+[39]
+Overfull \hbox (18.83595pt too wide) in paragraph at lines 265--284
+ [][] 
+ []
 
-LaTeX Warning: Reference `' on page 39 undefined on input line 259.
 
-[39]) (mainmatter/06_results.tex [40]
+LaTeX Warning: Reference `' on page 40 undefined on input line 286.
+
+) (mainmatter/06_results.tex [40]
 Chapter 6.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1906,18 +1908,18 @@ L3 programming layer <2026-07-20>
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: 8840E70DC3EC0BE7550912A1E32D9A2C;8993.
+(rerunfilecheck)             Checksum: D1F447B9466062F66831B65C618ABCE3;8993.
 Package logreq Info: Writing requests to 'report.run.xml'.
 \openout1 = `report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 45904 strings out of 402619
- 982619 string characters out of 5438862
- 1891735 words of memory out of 5000000
- 74297 multiletter control sequences out of 15000+600000
+ 45909 strings out of 402619
+ 982811 string characters out of 5438862
+ 1892679 words of memory out of 5000000
+ 74302 multiletter control sequences out of 15000+600000
  633296 words of font info for 113 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  107i,12n,108p,1850b,5763s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on report.xdv (78 pages, 2147640 bytes).
+Output written on report.xdv (78 pages, 2168320 bytes).
