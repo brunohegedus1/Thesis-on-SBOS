@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.5) (preloaded format=xelatex 2026.8.21)  21 SEP 2026 14:57
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.5) (preloaded format=xelatex 2026.8.21)  21 SEP 2026 20:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1656,7 +1656,7 @@ File: figures/BOS setup.png Graphic file (type bmp)
 File: figures/negative defocus BOS configuration.jpg Graphic file (type bmp)
 <figures/negative defocus BOS configuration.jpg>
  [25]
-Overfull \hbox (44.56898pt too wide) in paragraph at lines 141--142
+Overfull \hbox (44.56898pt too wide) in paragraph at lines 143--144
 \TU/Arial(0)/m/n/10 would solve the system for a given combinations of P = ($\O
 ML/cmm/m/it/10 f[]; l; f$\TU/Arial(0)/m/n/10 ) and compute X = ($\OML/cmm/m/it/
 10 S; s[]; \OT1/cmr/m/n/10 ^^A\OML/cmm/m/it/10 s; d[]; Z; M[]; m; CoC$\TU/Arial
@@ -1727,9 +1727,6 @@ File: figures/compressible jet setup.jpeg Graphic file (type bmp)
 
 LaTeX Warning: Citation '' on page 41 undefined on input line 222.
 
-
-LaTeX Warning: Citation '' on page 41 undefined on input line 222.
-
 File: figures/aerospike camera setup.jpeg Graphic file (type bmp)
 <figures/aerospike camera setup.jpeg>
 File: figures/aerospike speckle generator setup2.jpeg Graphic file (type bmp)
@@ -1739,18 +1736,14 @@ File: figures/aerospike model.jpeg Graphic file (type bmp)
 File: figures/Aerospike technical drawing.jpg Graphic file (type bmp)
 <figures/Aerospike technical drawing.jpg>
 [41]
-Overfull \hbox (25.4206pt too wide) in paragraph at lines 265--284
- [][] 
- []
-
 File: figures/WT experiment setup.jpg Graphic file (type bmp)
 <figures/WT experiment setup.jpg>
-) (mainmatter/06_results.tex [42]
+) (mainmatter/06_results.tex [42] [43]
 Chapter 6.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[43
+[44
 
 ]
 
@@ -1759,12 +1752,12 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[44]
+[45]
 Overfull \hbox (11.5911pt too wide) in paragraph at lines 145--158
  [][] 
  []
 
-[45]
+[46]
 File: figures/S vs l experimental.jpg Graphic file (type bmp)
 <figures/S vs l experimental.jpg>
 File: figures/S vs l slider experiment.jpg Graphic file (type bmp)
@@ -1773,25 +1766,25 @@ File: figures/S vs l slider experiment.jpg Graphic file (type bmp)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[46] [47]
+[47] [48]
 File: figures/speckle size per point.jpg Graphic file (type bmp)
 <figures/speckle size per point.jpg>
- [48] [49] [50]
+ [49] [50] [51]
 File: figures/speckle exp f-number sweep.png Graphic file (type bmp)
 <figures/speckle exp f-number sweep.png>
- [51]
+ [52]
 File: figures/speckle exp mag sweep.jpg Graphic file (type bmp)
 <figures/speckle exp mag sweep.jpg>
 File: figures/Speckle d_GG Sweep.jpg Graphic file (type bmp)
 <figures/Speckle d_GG Sweep.jpg>
- [52]
+ [53]
 File: figures/Speckle pattern point 5.jpg Graphic file (type bmp)
 <figures/Speckle pattern point 5.jpg>
 File: figures/Speckle pattern point 8.jpg Graphic file (type bmp)
 <figures/Speckle pattern point 8.jpg>
 File: figures/Speckle pattern point 10.jpg Graphic file (type bmp)
 <figures/Speckle pattern point 10.jpg>
- [53]
+ [54]
 File: figures/jet displacement 3bar.png Graphic file (type bmp)
 <figures/jet displacement 3bar.png>
 File: figures/jet displacement 4bar.png Graphic file (type bmp)
@@ -1804,10 +1797,10 @@ File: figures/jet displacement 7bar.png Graphic file (type bmp)
 <figures/jet displacement 7bar.png>
 File: figures/jet displacement 8bar.png Graphic file (type bmp)
 <figures/jet displacement 8bar.png>
- [54]
+ [55]
 File: figures/Dataset f density gradients.jpg Graphic file (type bmp)
 <figures/Dataset f density gradients.jpg>
- [55]
+ [56]
 File: figures/centerline density gradient dataset a.png Graphic file (type bmp)
 
 <figures/centerline density gradient dataset a.png>
@@ -1828,7 +1821,7 @@ File: figures/centerline density gradient dataset f.png Graphic file (type bmp)
 <figures/centerline density gradient dataset f.png>
 File: figures/shock cell lengths.jpg Graphic file (type bmp)
 <figures/shock cell lengths.jpg>
- [56]
+ [57]
 File: figures/density field dataset a.png Graphic file (type bmp)
 <figures/density field dataset a.png>
 File: figures/density field dataset b.png Graphic file (type bmp)
@@ -1841,13 +1834,13 @@ File: figures/density field dataset e.png Graphic file (type bmp)
 <figures/density field dataset e.png>
 File: figures/density field dataset f.png Graphic file (type bmp)
 <figures/density field dataset f.png>
- [57] [58]
+ [58] [59]
 File: figures/centreline density e vs panda.png Graphic file (type bmp)
 <figures/centreline density e vs panda.png>
- [59])
-(mainmatter/07_conclusion.tex [60]
+ [60])
+(mainmatter/07_conclusion.tex [61] [62]
 Chapter 7.
-) [61
+) [63
 
 ]
 Overfull \hbox (0.64949pt too wide) in paragraph at lines 66--66
@@ -1870,25 +1863,25 @@ Overfull \hbox (40.00558pt too wide) in paragraph at lines 66--66
 9. 
  []
 
-[62
+[64
 
-] [63] (appendix/appendix-a.tex [64]
+] [65] (appendix/appendix-a.tex [66]
 Appendix A.
 File: figures/CoC drawing.png Graphic file (type bmp)
 <figures/CoC drawing.png>
-[65
+[67
 
-]) (appendix/appendix-b.tex [66]
+]) (appendix/appendix-b.tex [68]
 Appendix B.
 File: figures/Blurred Object geometry.png Graphic file (type bmp)
 <figures/Blurred Object geometry.png>
-[67
+[69
 
-]) (appendix/appendix-c.tex [68]
+]) (appendix/appendix-c.tex [70]
 Appendix C.
 File: figures/Px pitch and LFOV SBOS surf map.jpg Graphic file (type bmp)
 <figures/Px pitch and LFOV SBOS surf map.jpg>
-[69
+[71
 
 ]
 File: figures/Speckle size surf map BOS.jpg Graphic file (type bmp)
@@ -1901,7 +1894,7 @@ File: figures/Speckle size surf map SBOS 70mm.jpg Graphic file (type bmp)
 <figures/Speckle size surf map SBOS 70mm.jpg>
 File: figures/Speckle size surf map BOS 70mm.jpg Graphic file (type bmp)
 <figures/Speckle size surf map BOS 70mm.jpg>
-) [70] [71] [72] (report.aux)
+) [72] [73] [74] (report.aux)
  ***********
 LaTeX2e <2026-06-01>
 L3 programming layer <2026-07-20>
@@ -1911,18 +1904,18 @@ L3 programming layer <2026-07-20>
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: 322E1705C11AFE054A53570FE8F822BF;9159.
+(rerunfilecheck)             Checksum: D5CA9768FE5B7905F84D0D291F000DAE;9159.
 Package logreq Info: Writing requests to 'report.run.xml'.
 \openout1 = `report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 45936 strings out of 402619
- 984110 string characters out of 5438862
- 1893454 words of memory out of 5000000
- 74327 multiletter control sequences out of 15000+600000
+ 45943 strings out of 402619
+ 984409 string characters out of 5438862
+ 1893324 words of memory out of 5000000
+ 74334 multiletter control sequences out of 15000+600000
  633296 words of font info for 113 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  107i,12n,108p,1850b,5763s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on report.xdv (80 pages, 2210652 bytes).
+Output written on report.xdv (82 pages, 2250224 bytes).

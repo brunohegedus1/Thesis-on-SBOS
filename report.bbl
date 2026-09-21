@@ -590,6 +590,36 @@
       \verb 10.1088/0957-0233/11/7/703
       \endverb
     \endentry
+    \entry{Giepman2016}{thesis}{}{}
+      \name{author}{1}{}{%
+        {{hash=6caddec7d36252f7372a8c8479473f0b}{%
+           family={Giepman},
+           familyi={G\bibinitperiod},
+           given={R.\bibnamedelimi H.\bibnamedelimi M.},
+           giveni={R\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Delft University of Technology}%
+      }
+      \strng{namehash}{6caddec7d36252f7372a8c8479473f0b}
+      \strng{fullhash}{6caddec7d36252f7372a8c8479473f0b}
+      \strng{fullhashraw}{6caddec7d36252f7372a8c8479473f0b}
+      \strng{bibnamehash}{6caddec7d36252f7372a8c8479473f0b}
+      \strng{authorbibnamehash}{6caddec7d36252f7372a8c8479473f0b}
+      \strng{authornamehash}{6caddec7d36252f7372a8c8479473f0b}
+      \strng{authorfullhash}{6caddec7d36252f7372a8c8479473f0b}
+      \strng{authorfullhashraw}{6caddec7d36252f7372a8c8479473f0b}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Flow control for oblique shock wave reflections}
+      \field{type}{phdthesis}
+      \field{year}{2016}
+      \verb{doi}
+      \verb 10.4233/uuid:597489bb-0b41-4da2-8ec4-b1bc390f8d2c
+      \endverb
+    \endentry
     \entry{Gojani&Obayashi}{article}{}{}
       \name{author}{3}{}{%
         {{hash=79e3263b1994bd8ee15a766197bbfced}{%

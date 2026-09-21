@@ -617,8 +617,31 @@ The compressible jet experiments allowed the imaging of a real schlieren object 
 
 %All the lessons learned on previous campaigns were put to practice in this application
 
-The final experiment implemented the SBOS method in an high-speed wind tunnel setting to image the flow through a linear aerospike nozzle. The goal of this campaign was to test the design guidelines described in chaper \ref{chapter: methodology} in a real wind-tunnel environment and identify its limitations; to further investigate the effects in sensitivity and resolution of using different defocus positions, specially inside the test section; and to capture with sufficient detail the flow structures present at linear aerospike nozzle ramp. Table \ref{} collects the experimental details of the imaged points. The distances were obtained from the pixel pitch resultant from DaVis' calibration output.
+The final experiment implemented the SBOS method in an high-speed wind tunnel setting to image the flow through a linear aerospike nozzle. The goal of this campaign was to test the design guidelines described in chaper \ref{chapter: methodology} in a real wind-tunnel environment and identify its limitations; to further investigate the effects in sensitivity and resolution of using different defocus positions, specially inside the test section; and to capture with sufficient detail the flow structures present at linear aerospike nozzle ramp. Table \ref{tab: aerospike experimental results} collects the experimental details of the imaged points. The distances were obtained from the pixel pitch resultant from DaVis' calibration output.
 
-%Add Table with experimental results
+\begin{table}[htbp]
+    \centering
+    \caption{Experimental optical configurations of the aerospike campaign. $l$ is the defocus distance, $l_{eff}$ the effective lever arm, $d_f$ the distance from the camera lens to the in-focus plane, $M_{ag}$ the magnification measured with the calibration plate and $L_{FoV_{obj}}$ the field of view at the model. $S = l_{eff} \cdot M_{ag}$ is the sensitivity and $s_{min}$ the minimum distinguishable feature, which are not defined for the points with the in-focus plane inside the test section. ``Negative'' and ``Positive'' denote the in-focus plane lying respectively in front of or behind the model, while ``Inside TS'' denotes the in-focus plane inside the test section}
+    \label{tab: aerospike experimental results}
+    \begin{tabular}{lrrrrrrrrl}
+        \toprule
+        Point & $l$ & $l_{eff}$ & $d_f$ & $M_{ag}$ & $L_{FoV_{obj}}$ & Exposure time & $S$ & $s_{min}$ & Defocus \\
+              & [mm] & [mm] & [mm] & [--] & [mm] & [$\mu$s] & [mm] & [mm] & \\
+        \midrule
+         1 &  55 & 160 & 1139.1 & 0.213 & 75.19 & 480 & 34.1 & 0.638 & Negative \\
+         2 &   0 &   0 & 1261.0 & 0.189 & 74.48 & 480 &  0.0 & 0.000 & Inside TS \\
+         3 &  60 & 165 & 1426.0 & 0.163 & 76.10 & 960 & 26.9 & 0.526 & Positive \\
+        \midrule
+         4 &  55 & 160 & 1038.0 & 0.239 & 67.90 & 480 & 38.2 & 0.701 & Negative \\
+         5 &  55 & 160 & 1038.0 & 0.239 & 67.90 & 480 & 38.2 & 0.701 & Negative \\
+         6 &  55 & 160 & 1038.0 & 0.239 & 67.90 & 480 & 38.2 & 0.701 & Negative \\
+         7 &  55 & 160 & 1038.0 & 0.239 & 67.90 & 480 & 38.2 & 0.701 & Negative \\
+         8 & $-15$ & 90 & 1107.5 & 0.220 & 68.88 & 480 & -- & -- & Inside TS \\
+         9 & $-15$ & 90 & 1107.5 & 0.220 & 68.88 & 480 & -- & -- & Inside TS \\
+        10 & $-15$ & 90 & 1107.5 & 0.220 & 68.88 & 480 & -- & -- & Inside TS \\
+        11 & $-15$ & 90 & 1107.5 & 0.220 & 68.88 & 480 & -- & -- & Inside TS \\
+        \bottomrule
+    \end{tabular}
+\end{table}
 
 The experimental campaign can be divided in two. The first 3 points only imaged the nozzle exhaust without a freestream supersonic flow. It varied the defocus configuration, focusing in front of the test secion, inside of it and behind it, represented by points 1-3 respectively.

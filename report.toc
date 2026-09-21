@@ -33,18 +33,18 @@
 \contentsline {section}{\numberline {5.2}Speckle Pattern Investigation}{37}{section.5.2}%
 \contentsline {section}{\numberline {5.3}Compressible Jet Experiment}{40}{section.5.3}%
 \contentsline {section}{\numberline {5.4}Aerospike Experiment}{40}{section.5.4}%
-\contentsline {chapter}{\numberline {6}Results}{43}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Angled Glass Experiment Results}{43}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Speckle Pattern Investigation Results}{48}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Compressible Jet Experiment Results}{54}{section.6.3}%
-\contentsline {subsection}{\numberline {6.3.1}Quantitative Density Field}{57}{subsection.6.3.1}%
-\contentsline {section}{\numberline {6.4}Aerospike Experiment Results}{60}{section.6.4}%
-\contentsline {chapter}{\numberline {7}Conclusion}{61}{chapter.7}%
-\contentsline {chapter}{References}{62}{chapter*.62}%
-\contentsline {chapter}{\numberline {A}Derivation of the Circle of Confusion}{65}{appendix.A}%
-\contentsline {chapter}{\numberline {B}Optics of a Blurred Object}{67}{appendix.B}%
-\contentsline {chapter}{\numberline {C}Extended Design Space Surface Maps}{69}{appendix.C}%
-\contentsline {section}{\numberline {C.1}Pixel density and in-focus field of view}{69}{appendix.C.1}%
-\contentsline {section}{\numberline {C.2}Speckle size for positive defocus}{70}{appendix.C.2}%
-\contentsline {section}{\numberline {C.3}Surface maps for a 7 cm field of view}{70}{appendix.C.3}%
+\contentsline {chapter}{\numberline {6}Results}{44}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Angled Glass Experiment Results}{44}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Speckle Pattern Investigation Results}{49}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Compressible Jet Experiment Results}{55}{section.6.3}%
+\contentsline {subsection}{\numberline {6.3.1}Quantitative Density Field}{58}{subsection.6.3.1}%
+\contentsline {section}{\numberline {6.4}Aerospike Experiment Results}{61}{section.6.4}%
+\contentsline {chapter}{\numberline {7}Conclusion}{63}{chapter.7}%
+\contentsline {chapter}{References}{64}{chapter*.63}%
+\contentsline {chapter}{\numberline {A}Derivation of the Circle of Confusion}{67}{appendix.A}%
+\contentsline {chapter}{\numberline {B}Optics of a Blurred Object}{69}{appendix.B}%
+\contentsline {chapter}{\numberline {C}Extended Design Space Surface Maps}{71}{appendix.C}%
+\contentsline {section}{\numberline {C.1}Pixel density and in-focus field of view}{71}{appendix.C.1}%
+\contentsline {section}{\numberline {C.2}Speckle size for positive defocus}{72}{appendix.C.2}%
+\contentsline {section}{\numberline {C.3}Surface maps for a 7 cm field of view}{72}{appendix.C.3}%
 \contentsfinish 
