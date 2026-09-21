@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.5) (preloaded format=xelatex 2026.8.21)  21 SEP 2026 14:19
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.5) (preloaded format=xelatex 2026.8.21)  21 SEP 2026 14:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1615,7 +1615,7 @@ File: figures/Diagrams of light refraction.png Graphic file (type bmp)
  [9]
 
 LaTeX Warning: Reference `equation: integral of epsilon' on page 10 undefined o
-n input line 256.
+n input line 254.
 
 File: figures/AbelTransform.png Graphic file (type bmp)
 <figures/AbelTransform.png>
@@ -1919,10 +1919,10 @@ Package logreq Info: Writing requests to 'report.run.xml'.
 Here is how much of TeX's memory you used:
  45936 strings out of 402619
  984110 string characters out of 5438862
- 1892454 words of memory out of 5000000
+ 1893454 words of memory out of 5000000
  74327 multiletter control sequences out of 15000+600000
  633296 words of font info for 113 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  107i,12n,108p,1850b,5763s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on report.xdv (80 pages, 2210032 bytes).
+Output written on report.xdv (80 pages, 2210652 bytes).
