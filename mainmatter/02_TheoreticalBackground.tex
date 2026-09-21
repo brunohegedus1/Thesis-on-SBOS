@@ -73,9 +73,7 @@ M_{n,2}^{2}
     \tan \theta = 2 \cot \beta \frac{M_1^2\sin^2\beta -1}{M_1^2(\gamma +\cos 2\beta )+2}
 \end{equation}
 
-Up until now only compressive waves have been discussed, however, a supersonic flow can also expand through a Prandtl-Meyer expansion fan. When a supersonic flow finds a convex corner instead of a concave one, it turns away from itself, creating a continuous low pressure zone that accelerates it even further. The flow through an expansion fan is isentropic, so isentropic relationships can be used to compute the conditions after the fan if initial conditions are known. An important parameter in these scenarios is the Prandtl-Meyer Angle $\nu$, which can be used to know how much the flow must bend in order to achieve a certain Mach number $M_2$. Equation \ref{equation: Prandtl-Meyer function} and \ref{equation: Prandtl-Meyer turning angle} summarizes how $\nu$ can be used to find the convex corner angle and subsequent flow direction $\theta$.
-
-%add prandtl meyer angle
+Up until now only compressive waves have been discussed, however, a supersonic flow can also expand through a Prandtl-Meyer expansion fan. When a supersonic flow finds a convex corner instead of a concave one, it turns away from itself, creating a continuous low pressure zone that accelerates it even further. An important parameter in these scenarios is the Prandtl-Meyer Angle $\nu$, which can be used to know how much the flow must bend in order to achieve a certain Mach number $M_2$. Equation \ref{equation: Prandtl-Meyer function} and \ref{equation: Prandtl-Meyer turning angle} summarizes how $\nu$ can be used to find the convex corner angle and subsequent flow direction $\theta$.
 
 \begin{equation}
 \label{equation: Prandtl-Meyer function}
@@ -87,7 +85,11 @@ Up until now only compressive waves have been discussed, however, a supersonic f
     \theta = \nu(M_2) - \nu(M_1)
 \end{equation}
 
-\par This section aims to explain the connection between compressible flow and density changes. Since variations in density produce corresponding variations in refractive index, shock and expansion structures can be detected using the deflection of light passing through the medium by employing schlieren methods. These techniques allow the visualization and quantification of the resulting density gradients, enabling experimental measurements to be compared with theoretical predictions. In the context of this thesis, the theory presented in this subsection will be paramount to interpret and judge the results stemming from the implementation of SBOS in a high-speed wind tunnel.
+The flow through an expansion fan is isentropic, which means that entropy is conserved in the process. No change in entropy means that no losses are present, consequently total quantities such as temperature and pressure are also maintained. Through the isentropic relationships in Equation \ref{}, the static density and pressure after an expansion fan can be calculated. The equations shows that an increase in the Mach number leads to a decrease in both static density as well as pressure.
+
+%Add isentropic relationships of total to static pressure and density
+
+\parWith This section clarifies the connection between compressible flow and density changes. Since variations in density produce corresponding variations in refractive index, shock and expansion structures can be detected using the deflection of light passing through the medium by employing schlieren methods. These techniques allow the visualization and quantification of the resulting density gradients, enabling experimental measurements to be compared with theoretical predictions. In the context of this thesis, the theory presented in this subsection will be paramount to interpret and judge the results stemming from the implementation of SBOS in a high-speed wind tunnel.
 
 \section{Compressible Jets}
 \label{section: Compressible Jet Theory}
@@ -164,8 +166,9 @@ The distinct feature of an aerospike nozzle is the presence of its ramp right af
 
 %Add picture of the under, perfect and over expanded flow.
 
+It's the pressure adaptation feature present in an aerospike at under-expanded condition that makes it interesting for Single Stage to Orbit (SSTO) vehicles. As shown in Figure \ref{}, the process resembles the succession of expansion and compression waves present in a free under-expanded jet. The mechanism always begins with an expansion wave at the outside lip of the exhaust exit. These waves reach the ramp and due to its concave geometry, the flow is compressed and reflect as compression waves. In the shear layer, the compression waves reflect into waves of other type and are redirected to the ramp. At this stage however, the curvature of the ramp is less accentuated and the waves reflect at the ramp to ones of the same family. The process continues with waves changing its type at the jet boundary and maintaining it when hitting the ramp, gradually fluctuating the ramp pressure around ambient conditions. This way, the flow is directed to be parallel to the centerline and there are no abrupt pressure differences capable of producing strong loss inducing shocks.
 
-
+The flow through the ramp of an aerospike nozzle will be investigated later using SBOS as a demonstration of the imaging method capabilities. In that context, this description of the flow physics will be of utmost important to assess if the method has sufficient resolution and sensitivity to correctly study the application. It is now clear from the previous sections how high-speeds and geometry leads to different flow structures that vary the fluid's density.
 
 \section{Refraction}
 \label{section: Refraction}
