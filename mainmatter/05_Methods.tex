@@ -256,33 +256,33 @@ Figure \ref{fig: aerospike setup} shows how the camera was set up together with 
     \label{fig: aerospike setup}
 \end{figure}
 
-Table \ref{tab: aerospike test matrix} displays the points used in the experimental campaign. The first 3 points were taken with the same $NPR = 8$, the nozzle flow on and without the freestream wind tunnel flow. The intention was to further compare the different defocus configurations, with point 1 positioned at a negative defocus distance, point 3 at a positive defocus distance and point 2 a zero defocus distance, meaning that it had its focus at the half-width of the test section. Points 4-12 imaged the nozzle flow with the wind tunnel flow on. For these points, the camera was positioned closer to the test section and the field of view adjusted to better fit the ground glass. The first 4 points were obtained with a negative defocus distance and the last 4 were taken with the focus 15mm inside the test section, both cases imaged $NPR = 8,10,12,14$.
+Table \ref{tab: aerospike test matrix} displays the points used in the experimental campaign. The first 3 points were taken with the same $NPR = 8$, the nozzle flow on and without the freestream wind tunnel flow. The intention was to further compare the different defocus configurations, with point 1 positioned at a negative defocus distance, point 3 at a positive defocus distance and point 2 a zero defocus distance, meaning that it had its focus at the half-width of the test section. Points 4-12 imaged the nozzle flow with the wind tunnel flow on. For these points, the camera was positioned closer to the test section and the field of view adjusted to better fit the ground glass. The first 4 points were obtained with a negative defocus distance and the last 4 were taken with the focus 15mm inside the test section, both cases imaged $NPR = 8,10,12,14$. For the points with the focus inside the test section, the sensitivity and $s_{min}$ can't be defined as both depend on a defocus distance, as per Equations \ref{equation: S BOS} and \ref{equation: smin}. 
 
 \begin{table}[htbp]
     \centering
-    \caption{Optical configurations acquired during the aerospike campaign. $l$ is the defocus distance, $l_{eff}$ the effective lever arm, $d_f$ the distance from the camera lens to the in-focus plane and $m$ the distance from the lens to the wind tunnel test section. $S = l_{eff} \cdot M_{ag}$ is the sensitivity, $s_{min}$ the minimum distinguishable feature and $L_{FoV_{obj}}$ the field of view at the model and $NPR$ the nozzle pressure ratio at which each point was acquired. ``Negative'' and ``Positive'' denote the in-focus plane lying respectively in front of or behind the model, while ``None'' denotes the in-focus plane at the half-width of the test section.}
+    \caption{Optical configurations acquired during the aerospike campaign. $l$ is the defocus distance, $l_{eff}$ the effective lever arm, $d_f$ the distance from the camera lens to the in-focus plane and $m$ the distance from the lens to the wind tunnel test section. $S$ is the sensitivity, $s_{min}$ the minimum distinguishable feature and $L_{FoV_{obj}}$ the field of view at the model and $NPR$ the nozzle pressure ratio. ``Negative'' and ``Positive'' denote the in-focus plane lying respectively in front of or behind the model, while ``Inside TS'' denotes the in-focus plane inside the test section.}
     \label{tab: aerospike test matrix}
     \begin{tabular}{lrrrrrrrrrrrl}
         \toprule
-        Point & $f_\#$ & $f$ & $l$ & $l_{eff}$ & $d_f$ & $m$ & $M_{ag}$ & $S$ & $s_{min}$ & $L_{FoV_{obj}}$ & $NPR$ & Type of Defocus \\
+        Point & $f_\#$ & $f$ & $l$ & $l_{eff}$ & $d_f$ & $m$ & $M_{ag}$ & $S$ & $s_{min}$ & $L_{FoV_{obj}}$ & $NPR$ & Defocus \\
               &        & [mm] & [mm] & [mm] & [mm] & [mm] & [--] & [mm] & [mm] & [mm] & [--] & \\
         \midrule
          1 & 22 & 200 &  55 & 160 & 1205 & 1260 & 0.199 & 31.8 & 0.604 & 79.92 &  8 & Negative \\
-         2 & 11 & 200 &   0 & 105 & 1260 & 1260 & 0.189 & 19.8 & 0.758 & 80.61 &  8 & None \\
+         2 & 11 & 200 &   -105 & 0 & 1260 & 1260 & 0.189 & - & 0 & 80.61 &  8 & Inside TS \\
          3 & 22 & 200 &  60 & 165 & 1320 & 1260 & 0.179 & 29.5 & 0.568 & 88.45 &  8 & Positive \\
         \midrule
          4 & 22 & 200 &  55 & 160 & 1095 & 1150 & 0.223 & 35.7 & 0.664 & 72.01 &  8 & Negative \\
          5 & 22 & 200 &  55 & 160 & 1095 & 1150 & 0.223 & 35.7 & 0.664 & 72.01 & 10 & Negative \\
          6 & 22 & 200 &  55 & 160 & 1095 & 1150 & 0.223 & 35.7 & 0.664 & 72.01 & 12 & Negative \\
          7 & 22 & 200 &  55 & 160 & 1095 & 1150 & 0.223 & 35.7 & 0.664 & 72.01 & 14 & Negative \\
-         8 & 11 & 200 & $-15$ &  90 & 1165 & 1150 & 0.207 & 18.6 & 0.702 & 72.98 &  8 & Negative, inside TS \\
-         9 & 11 & 200 & $-15$ &  90 & 1165 & 1150 & 0.207 & 18.6 & 0.702 & 72.98 & 10 & Negative, inside TS \\
-        10 & 11 & 200 & $-15$ &  90 & 1165 & 1150 & 0.207 & 18.6 & 0.702 & 72.98 & 12 & Negative, inside TS \\
-        11 & 11 & 200 & $-15$ &  90 & 1165 & 1150 & 0.207 & 18.6 & 0.702 & 72.98 & 14 & Negative, inside TS \\
+         8 & 11 & 200 & $-15$ &  90 & 1165 & 1150 & 0.207 & - & - & 72.98 &  8 & Inside TS \\
+         9 & 11 & 200 & $-15$ &  90 & 1165 & 1150 & 0.207 & - & - & 72.98 & 10 & Inside TS \\
+        10 & 11 & 200 & $-15$ &  90 & 1165 & 1150 & 0.207 & - & - & 72.98 & 12 & Inside TS \\
+        11 & 11 & 200 & $-15$ &  90 & 1165 & 1150 & 0.207 & - & - & 72.98 & 14 & Inside TS\\
         \bottomrule
     \end{tabular}
 \end{table}
 
 The distances displayed at the table were measured following the convention of the diagram shown in Figure \ref{}. This time, the test section has a larger thickness, so an effective defocus distance was also computed that would take into account the glass thickness of $G = 30$mm and half-width of the test section $W/2 = 75$ mm. This $l_{eff}$ was used to compute the $L_{FoV_{obj}}$, $S$ and $s_{min}$. 
 
-%Add an schematic with the distances
+%Add an schematic of the WT experiment

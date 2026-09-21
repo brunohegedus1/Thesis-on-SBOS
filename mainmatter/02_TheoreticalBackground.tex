@@ -1,7 +1,7 @@
 \chapter{From Compressibility to Light Refraction}
 \label{chapter: Theory}
 
-\par A brief theoretical background is needed to understand the relationship between compressibility and refraction, to make clear how all these concepts culminate on optical flow visualization techniques. The next subsections will treat this, explaining the importance of the Mach Number, a description of shock waves and the relationship to density. Then on refraction, it will highlight the most important aspects that make Schlieren imaging possible.
+\par A brief theoretical background is needed to understand how the relationship between compressibility and refraction culminate on optical flow visualization techniques. The next subsections will first explain how high speeds give rise to density changes in a fluid. It will highlight the importance of the Mach Number, give a description of compression and expansion waves, and how it can be applied in real cases such as compressible jets and aerospikes nozzles. Afterwards it will treat on refraction, stressing the most important aspects that make Schlieren imaging possible.
 % Finally, a detailed description of the schlieren-based methods is given, finishing with laser speckled BOS and the research gap. 
 
 \section{Compressibility and Density}
@@ -47,7 +47,7 @@ p_1 + \rho_1 u_1^2 &= p_2 + \rho_2 u_2^2 \label{equation: oblique momentum} \\
 h_1 + \frac{u_1^2}{2} &= h_2 + \frac{u_2^2}{2} \label{equation: oblique energy}
 \end{align}
 
-\par These equations relate the flow properties before and after the shock. It is important to note that these changes only depend on the velocity component normal to the shock, with the tangential component maintaining constant. Considering a calorically perfect gas and adiabatic flow across the shock, it is possible to obtain the following relationships for $M_2, \rho_2$ and $p_2$ that rely only on $M_1$ and $\beta$.
+\par These equations relate the flow properties before and after the shock. It is important to note that these changes depend only on the velocity component normal to the shock, with the tangential component maintaining constant. Considering a calorically perfect gas and adiabatic flow across the shock, it is possible to obtain the following relationships for $M_2, \rho_2$ and $p_2$ that rely only on $M_1$ and $\beta$.
 
 \begin{align}
 M_{n,1} &= M_1 \sin\beta, \\
@@ -154,9 +154,18 @@ As hinted by the scale of the sketches in Figure \ref{fig: circular underexpande
     \frac{L_s}{d_N} = a\sqrt{NPR - NPR_c}+b
 \end{equation}
 
-Since a circular jet will be used to attest the capabilities of SBOS in producing a quantitative density field, this knowledge on axissymetric jet structure will be important to visually interpret the results. 
+Since a circular jet will be used to attest the capabilities of SBOS in producing a quantitative density field, this knowledge on axissymetric jet structure will be important to visually interpret the results. Moreover, similar structures to those explained here for a circular jet are present in other different geometries, such as an aerospike nozzle. The next subsection will give a brief summary of the flow through a linear arospike nozzle and use much of what has been said here for this porpuse.
 
-The former sections clarify the mechanisms that lead high speed flows to vary its density. These variations influence how light bends when moving through the medium in the phenomenon of light refraction. This will be treated next.
+%The former sections clarify the mechanisms that lead high speed flows to vary its density. These variations influence how light bends when moving through the medium in the phenomenon of light refraction. This will be treated next.
+
+\subsection{Aerospike Nozzle Flow}
+\label{subsection: aerospike nozzle theory}
+The distinct feature of an aerospike nozzle is the presence of its ramp right after its  exhaust. The ramp is designed so that the expansion fan anchored at the outside lip is not disturbed by the reflection of its own waves \cite{Wisse2005}. In the design condition, the flow expands through these waves, accelerating and reducing its static pressure, until design conditions are met, $M_{design}$ and $(p/p_a)_{design}$. In under-expanded condition, the same pressure adaptation process that happened in the free under-expanded jet now occurs in the ramp, where the flow is redirected to be parallel to the centerline. The result is a passive pressure adaptation mechanism that allows an aerospike to keep its thrust efficiency for a wide range of ambient pressures. In over-expanded condition, the flow is expanded below ambient pressure, the maximum turning angle of the fan increases, redirecting part of the exhaust flow sideways. Also, a shock may appear downstream so that ambient pressure is reached. Both mechanisms lead to a loss in thrust efficiency, so engineers try to avoid this condition and favor under-expanded and perfectly expanded flow. Figure \ref{} shows the flow structure of an aerospike in under, perfectly and over expanded conditions.
+
+%Add picture of the under, perfect and over expanded flow.
+
+
+
 
 \section{Refraction}
 \label{section: Refraction}
