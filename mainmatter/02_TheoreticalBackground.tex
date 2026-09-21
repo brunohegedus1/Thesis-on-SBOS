@@ -85,9 +85,17 @@ Up until now only compressive waves have been discussed, however, a supersonic f
     \theta = \nu(M_2) - \nu(M_1)
 \end{equation}
 
-The flow through an expansion fan is isentropic, which means that entropy is conserved in the process. No change in entropy means that no losses are present, consequently total quantities such as temperature and pressure are also maintained. Through the isentropic relationships in Equation \ref{}, the static density and pressure after an expansion fan can be calculated. The equations shows that an increase in the Mach number leads to a decrease in both static density as well as pressure.
+The flow through an expansion fan is isentropic, which means that entropy is conserved in the process. No change in entropy means that no losses are present, consequently total quantities such as temperature and pressure are also maintained. Through the isentropic relationships in Equations \ref{equation: isentropic pressure} and \ref{equation: isentropic density}, the static density and pressure after an expansion fan can be calculated. The equations shows that an increase in the Mach number leads to a decrease in both static density as well as pressure.
 
-%Add isentropic relationships of total to static pressure and density
+\begin{equation}
+\label{equation: isentropic pressure}
+    \frac{p_0}{p} = \left(1 + \frac{\gamma - 1}{2}M^2\right)^{\frac{\gamma}{\gamma - 1}}
+\end{equation}
+
+\begin{equation}
+\label{equation: isentropic density}
+    \frac{\rho_0}{\rho} = \left(1 + \frac{\gamma - 1}{2}M^2\right)^{\frac{1}{\gamma - 1}}
+\end{equation}
 
 \parWith This section clarifies the connection between compressible flow and density changes. Since variations in density produce corresponding variations in refractive index, shock and expansion structures can be detected using the deflection of light passing through the medium by employing schlieren methods. These techniques allow the visualization and quantification of the resulting density gradients, enabling experimental measurements to be compared with theoretical predictions. In the context of this thesis, the theory presented in this subsection will be paramount to interpret and judge the results stemming from the implementation of SBOS in a high-speed wind tunnel.
 

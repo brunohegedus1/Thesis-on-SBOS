@@ -1,17 +1,17 @@
 # Fdb version 4
-["biber report"] 1789917112.39136 "report.bcf" "report.bbl" "report" 1789919565.76966 0
-  "report.bcf" 1789919534.06094 124508 0048c0305709a3245a4b8481c388fb0c "xelatex"
+["biber report"] 1789917112.39136 "report.bcf" "report.bbl" "report" 1789992142.22007 0
+  "report.bcf" 0 -1 0 ""
   "report.bib" 1789737099.80298 20048 5bd46b6c49ce679f07a095903c58c7dd ""
   (generated)
   "report.bbl"
   "report.blg"
   (rewritten before read)
 ["xdvipdfmx"] 1789919535.37722 "report.xdv" "report.pdf" "report" 1789919565.9148 0
-  "report.xdv" 1789919534.06094 2168144 0bbc8abf2f6ef2f6bbc83247da2903b9 "xelatex"
+  "report.xdv" 1789992141.35867 230700 c57639508b411ac972694856c75d1ee5 "xelatex"
   (generated)
   "report.pdf"
   (rewritten before read)
-["xelatex"] 1789919522.41834 "report.tex" "report.xdv" "report" 1789919565.7715 0
+["xelatex"] 1789992276.49729 "report.tex" "report.xdv" "report" 1789992278.19346 2
   "C:/Users/bruno/AppData/Local/MiKTeX/miktex/data/le/xetex/xelatex.fmt" 1787319360.28344 27216620 79343683421b64d37a355684079830c4 ""
   "C:/Users/bruno/AppData/Local/Programs/MiKTeX/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136801054 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "C:/Users/bruno/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
@@ -295,26 +295,24 @@
   "frontmatter/preface.tex" 1787040728.77893 217 a2eafe0749a39043e63492dcd41bf8e0 ""
   "frontmatter/summary.tex" 1787040728.77994 84 6aeec0ce56741e44e501255e14db693a ""
   "frontmatter/title-thesis.tex" 1787143841.7113 2112 78ba1d0b9213a4a12ed10b4b0eb0bb8e ""
-  "mainmatter/01_introduction.tex" 1789814449.94016 8242 9820fb1440e13c757bdbf81851c7938d ""
-  "mainmatter/02_TheoreticalBackground.tex" 1789662433.08088 22894 6a86848524b8dc7136ec6a63f8fc1d6f ""
+  "mainmatter/01_introduction.tex" 1789984253.12088 8120 7f65426e05ddd91ff20511a157a1c29a ""
+  "mainmatter/02_TheoreticalBackground.tex" 1789992119.17998 26969 a020b8453a354754127bcd59b6d2169a ""
   "mainmatter/03_LiteratureReview.tex" 1789650626.69768 44378 c0dfd29e4856c3d6e67ff6eeee03e54b ""
-  "mainmatter/04_methodology.tex" 1789821027.04251 40498 dc77cdcc2081c24c25309c80db5896c2 ""
-  "mainmatter/05_Methods.tex" 1789919472.86692 32877 313494faf88ffc535347c9bcc0b4b9e1 ""
+  "mainmatter/04_methodology.tex" 1789984253.13339 40512 211d605073478a9304cf42adc8e1f209 ""
+  "mainmatter/05_Methods.tex" 1789992011.88243 33354 54f2faadd4aca0872b55a18b3bba7bcd ""
   "mainmatter/06_results.tex" 1789821027.05814 82362 9e31bfcc52ddcb1b25d7af5a353d6c09 ""
   "mainmatter/07_conclusion.tex" 1787998426.17559 55 d888d3c2b2e6d14c94a67acb7a84363a ""
-  "report.aux" 1789919533.9783 114676 57f01723fcc4c8716fa5b742af6b5c46 "xelatex"
-  "report.bbl" 1789917123.12006 93830 40041b67e3c2c5311380b061e21df8cd "biber report"
-  "report.out" 1789919534.04512 8993 d1f447b9466062f66831b65c618abce3 "xelatex"
-  "report.run.xml" 1789919534.06094 2350 3aa6604a065aed1d7ae2817af42d008f "xelatex"
+  "report.aux" 1789992141.35867 4777 1c47022d8f99f6207c2fa3e2823eb6dc "xelatex"
+  "report.bbl" 0 -1 0 "biber report"
+  "report.out" 1789992141.35867 815 8aa063990e9bffc38d194d98ebefad5f "xelatex"
+  "report.run.xml" 1789983960.28346 2350 3aa6604a065aed1d7ae2817af42d008f ""
   "report.tex" 1789581957.01859 2412 42c1306427543b842409572398e8348b ""
-  "report.toc" 1789919534.06094 4158 2be2ce8f147b36c80bf6020bb030656a "xelatex"
+  "report.toc" 1789992140.9284 0 d41d8cd98f00b204e9800998ecf8427e "xelatex"
   "tudelft-report.cls" 1789546373.30447 9381 45e227fb4a6f63b84859ab9f8a84779e ""
   (generated)
   "report.aux"
-  "report.bcf"
   "report.log"
   "report.out"
-  "report.run.xml"
   "report.toc"
   "report.xdv"
   (rewritten before read)
