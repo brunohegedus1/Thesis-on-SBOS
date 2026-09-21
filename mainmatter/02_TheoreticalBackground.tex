@@ -89,14 +89,11 @@ The flow through an expansion fan is isentropic, which means that entropy is con
 
 %Add isentropic relationships of total to static pressure and density
 
-\parWith This section clarifies the connection between compressible flow and density changes. Since variations in density produce corresponding variations in refractive index, shock and expansion structures can be detected using the deflection of light passing through the medium by employing schlieren methods. These techniques allow the visualization and quantification of the resulting density gradients, enabling experimental measurements to be compared with theoretical predictions. In the context of this thesis, the theory presented in this subsection will be paramount to interpret and judge the results stemming from the implementation of SBOS in a high-speed wind tunnel.
+
+\par This section clarifies the connection between compressible flow and density changes. The theory presented here will be important on the next subsections to explain the flow of two notable study cases, the flow of a high-speed jet and the structure of an aerospike nozzle exhaust. Since these variations in density produce corresponding variations in refractive index, shock and expansion structures can be detected using the deflection of light passing through the medium by employing schlieren methods. These techniques allow the visualization and quantification of the resulting density gradients, enabling experimental measurements to be compared with theoretical predictions.
 
 \section{Compressible Jets}
 \label{section: Compressible Jet Theory}
-
-%Talk about compressible jets
-%define underexpanded- perfectly expanded -overexpanded
-%Characterize the flow through an underexpanded jet
 
 \par One important study case of compressible aerodynamics is the flow structure of a high pressure jet. Jets are produced by a high pressure flow coming out of a nozzle outlet that meets a lower pressure environment. When the pressure between the nozzle and the ambient air surpasses a certain threshold, the critical pressure ratio $NPR_c$, the Mach number at the minimum cross-section of the nozzle becomes 1 and the mass flow through the nozzle hits its maximum. The pressure ratio can continue to increase, however the throat Mach number and mass flow will remain the same for that given geometry, this condition is called choked flow. If the geometry of the nozzle after the throat diverges, the flow expands, a favorable pressure gradient is established and the flow accelerates, increasing the Mach number. Depending on the pressure at the exit of the nozzle, a jet can be said: underexpanded, if $p_e > p_a$; perfectly expanded, if $p_e = p_a$ or overexpanded, if $p_e < p_a$. Figure \ref{fig: jet expansion regimes} shows the visual difference between these different cases.
 
@@ -156,19 +153,19 @@ As hinted by the scale of the sketches in Figure \ref{fig: circular underexpande
     \frac{L_s}{d_N} = a\sqrt{NPR - NPR_c}+b
 \end{equation}
 
-Since a circular jet will be used to attest the capabilities of SBOS in producing a quantitative density field, this knowledge on axissymetric jet structure will be important to visually interpret the results. Moreover, similar structures to those explained here for a circular jet are present in other different geometries, such as an aerospike nozzle. The next subsection will give a brief summary of the flow through a linear arospike nozzle and use much of what has been said here for this porpuse.
+Since a circular jet will be used to attest the capabilities of SBOS in producing a quantitative density field, this knowledge on axissymetric jet structure will be important to visually interpret the results. Moreover, similar structures to those explained here for a circular jet are present in other different geometries, such as an aerospike nozzle. The next subsection will give a brief summary of the flow through a linear arospike nozzle and use much of what has been said here for this purpose.
 
 %The former sections clarify the mechanisms that lead high speed flows to vary its density. These variations influence how light bends when moving through the medium in the phenomenon of light refraction. This will be treated next.
 
-\subsection{Aerospike Nozzle Flow}
-\label{subsection: aerospike nozzle theory}
+\section{Aerospike Nozzle Flow}
+\label{section: aerospike nozzle theory}
 The distinct feature of an aerospike nozzle is the presence of its ramp right after its  exhaust. The ramp is designed so that the expansion fan anchored at the outside lip is not disturbed by the reflection of its own waves \cite{Wisse2005}. In the design condition, the flow expands through these waves, accelerating and reducing its static pressure, until design conditions are met, $M_{design}$ and $(p/p_a)_{design}$. In under-expanded condition, the same pressure adaptation process that happened in the free under-expanded jet now occurs in the ramp, where the flow is redirected to be parallel to the centerline. The result is a passive pressure adaptation mechanism that allows an aerospike to keep its thrust efficiency for a wide range of ambient pressures. In over-expanded condition, the flow is expanded below ambient pressure, the maximum turning angle of the fan increases, redirecting part of the exhaust flow sideways. Also, a shock may appear downstream so that ambient pressure is reached. Both mechanisms lead to a loss in thrust efficiency, so engineers try to avoid this condition and favor under-expanded and perfectly expanded flow. Figure \ref{} shows the flow structure of an aerospike in under, perfectly and over expanded conditions.
 
 %Add picture of the under, perfect and over expanded flow.
 
 It's the pressure adaptation feature present in an aerospike at under-expanded condition that makes it interesting for Single Stage to Orbit (SSTO) vehicles. As shown in Figure \ref{}, the process resembles the succession of expansion and compression waves present in a free under-expanded jet. The mechanism always begins with an expansion wave at the outside lip of the exhaust exit. These waves reach the ramp and due to its concave geometry, the flow is compressed and reflect as compression waves. In the shear layer, the compression waves reflect into waves of other type and are redirected to the ramp. At this stage however, the curvature of the ramp is less accentuated and the waves reflect at the ramp to ones of the same family. The process continues with waves changing its type at the jet boundary and maintaining it when hitting the ramp, gradually fluctuating the ramp pressure around ambient conditions. This way, the flow is directed to be parallel to the centerline and there are no abrupt pressure differences capable of producing strong loss inducing shocks.
 
-The flow through the ramp of an aerospike nozzle will be investigated later using SBOS as a demonstration of the imaging method capabilities. In that context, this description of the flow physics will be of utmost important to assess if the method has sufficient resolution and sensitivity to correctly study the application. It is now clear from the previous sections how high-speeds and geometry leads to different flow structures that vary the fluid's density.
+The flow through the ramp of an aerospike nozzle will be investigated later using SBOS as a demonstration of the imaging method capabilities. In that context, the description of the flow physics will be of utmost important to assess if the method has sufficient resolution and sensitivity to correctly study the application. It is now clear from the previous sections how high-speeds and geometry leads to different flow structures that vary the fluid's density. The next section will explain how density influences the bending of light moving through a fluid, which is the fundamental principle behind optical density measurement techniques.
 
 \section{Refraction}
 \label{section: Refraction}
