@@ -5,45 +5,46 @@
 \contentsline {chapter}{\numberline {2}From Compressibility to Light Refraction}{3}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Compressibility and Density}{3}{section.2.1}%
 \contentsline {section}{\numberline {2.2}Compressible Jets}{6}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Aerospike Nozzle Flow}{8}{subsection.2.2.1}%
-\contentsline {section}{\numberline {2.3}Refraction}{8}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Axisymmetric Refractive Field}{10}{subsection.2.3.1}%
-\contentsline {chapter}{\numberline {3}Optical Density Measurement Techniques}{11}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Classical Methods}{11}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Background Oriented Schlieren}{13}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Optical Spatial Resolution}{14}{subsection.3.2.1}%
+\contentsline {section}{\numberline {2.3}Aerospike Nozzle Flow}{8}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Refraction}{9}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Axisymmetric Refractive Field}{10}{subsection.2.4.1}%
+\contentsline {chapter}{\numberline {3}Optical Density Measurement Techniques}{12}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Classical Methods}{12}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Background Oriented Schlieren}{14}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Optical Spatial Resolution}{15}{subsection.3.2.1}%
 \contentsline {subsection}{\numberline {3.2.2}Imaging hardware and post-processing}{16}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}Variants of BOS}{17}{subsection.3.2.3}%
-\contentsline {section}{\numberline {3.3}Laser Speckled Background Oriented Schlieren}{18}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Limitations, accuracy and uncertainty of SBOS}{19}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.2.3}Variants of BOS}{18}{subsection.3.2.3}%
+\contentsline {section}{\numberline {3.3}Laser Speckled Background Oriented Schlieren}{19}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Limitations, accuracy and uncertainty of SBOS}{20}{subsection.3.3.1}%
 \contentsline {section}{\numberline {3.4}Research Gap}{21}{section.3.4}%
-\contentsline {chapter}{\numberline {4}Design Guidelines of BOS Setups}{22}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Geometries of a SBOS optical setup}{22}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Positive defocus setup}{22}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}Negative defocus setup}{24}{subsection.4.1.2}%
-\contentsline {section}{\numberline {4.2}Sensitivity-Resolution Ratio}{25}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Design Strategy}{25}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Surface Maps for negative defocus setup}{26}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Surface Maps for positive defocus setup}{28}{subsection.4.3.2}%
-\contentsline {subsection}{\numberline {4.3.3}Effect of FoV}{29}{subsection.4.3.3}%
-\contentsline {section}{\numberline {4.4}SR criterion}{30}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Summary of Design Guidelines}{32}{section.4.5}%
-\contentsline {chapter}{\numberline {5}Experimental Setups}{33}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Angled Glass Experiments}{33}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Speckle Pattern Investigation}{36}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Compressible Jet Experiment}{39}{section.5.3}%
-\contentsline {section}{\numberline {5.4}Aerospike Experiment}{39}{section.5.4}%
-\contentsline {chapter}{\numberline {6}Results}{42}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Angled Glass Experiment Results}{42}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Speckle Pattern Investigation Results}{47}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Compressible Jet Experiment Results}{53}{section.6.3}%
-\contentsline {subsection}{\numberline {6.3.1}Quantitative Density Field}{56}{subsection.6.3.1}%
-\contentsline {section}{\numberline {6.4}Aerospike Experiment Results}{59}{section.6.4}%
-\contentsline {chapter}{\numberline {7}Conclusion}{60}{chapter.7}%
-\contentsline {chapter}{\numberline {A}Derivation of the Circle of Confusion}{61}{appendix.A}%
-\contentsline {chapter}{\numberline {B}Optics of a Blurred Object}{63}{appendix.B}%
-\contentsline {chapter}{\numberline {C}Extended Design Space Surface Maps}{65}{appendix.C}%
-\contentsline {section}{\numberline {C.1}Pixel density and in-focus field of view}{65}{appendix.C.1}%
-\contentsline {section}{\numberline {C.2}Speckle size for positive defocus}{66}{appendix.C.2}%
-\contentsline {section}{\numberline {C.3}Surface maps for a 7 cm field of view}{66}{appendix.C.3}%
+\contentsline {chapter}{\numberline {4}Design Guidelines of BOS Setups}{23}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Geometries of a SBOS optical setup}{23}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Positive defocus setup}{23}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Negative defocus setup}{25}{subsection.4.1.2}%
+\contentsline {section}{\numberline {4.2}Sensitivity-Resolution Ratio}{26}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Design Strategy}{26}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Surface Maps for negative defocus setup}{27}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Surface Maps for positive defocus setup}{29}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}Effect of FoV}{30}{subsection.4.3.3}%
+\contentsline {section}{\numberline {4.4}SR criterion}{31}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Summary of Design Guidelines}{33}{section.4.5}%
+\contentsline {chapter}{\numberline {5}Experimental Setups}{34}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Angled Glass Experiments}{34}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Speckle Pattern Investigation}{37}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Compressible Jet Experiment}{40}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Aerospike Experiment}{40}{section.5.4}%
+\contentsline {chapter}{\numberline {6}Results}{43}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Angled Glass Experiment Results}{43}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Speckle Pattern Investigation Results}{48}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Compressible Jet Experiment Results}{54}{section.6.3}%
+\contentsline {subsection}{\numberline {6.3.1}Quantitative Density Field}{57}{subsection.6.3.1}%
+\contentsline {section}{\numberline {6.4}Aerospike Experiment Results}{60}{section.6.4}%
+\contentsline {chapter}{\numberline {7}Conclusion}{61}{chapter.7}%
+\contentsline {chapter}{References}{62}{chapter*.62}%
+\contentsline {chapter}{\numberline {A}Derivation of the Circle of Confusion}{65}{appendix.A}%
+\contentsline {chapter}{\numberline {B}Optics of a Blurred Object}{67}{appendix.B}%
+\contentsline {chapter}{\numberline {C}Extended Design Space Surface Maps}{69}{appendix.C}%
+\contentsline {section}{\numberline {C.1}Pixel density and in-focus field of view}{69}{appendix.C.1}%
+\contentsline {section}{\numberline {C.2}Speckle size for positive defocus}{70}{appendix.C.2}%
+\contentsline {section}{\numberline {C.3}Surface maps for a 7 cm field of view}{70}{appendix.C.3}%
 \contentsfinish 

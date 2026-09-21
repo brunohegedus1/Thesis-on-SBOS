@@ -1,9 +1,12 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.5) (preloaded format=xelatex 2026.8.21)  21 SEP 2026 14:05
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.5) (preloaded format=xelatex 2026.8.21)  21 SEP 2026 14:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**\def\parWith{\par}\input{report.tex}
-(report.tex (tudelft-report.cls
+**./report.tex
+(report.tex
+LaTeX2e <2026-06-01>
+L3 programming layer <2026-07-20>
+(tudelft-report.cls
 Document Class: tudelft-report 05-09-2024 v1.7.1 TU Delft Report Class
 (C:\Users\bruno\AppData\Local\Programs\MiKTeX\tex/latex/base\book.cls
 Document Class: book 2025/01/22 v1.4n Standard LaTeX document class
@@ -1506,9 +1509,8 @@ Package biblatex Info: Automatic encoding selection.
 \openout4 = `report.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'report.bbl' not found.
-
-No file report.bbl.
+Package biblatex Info: ... file 'report.bbl' found.
+ (report.bbl)
 Package biblatex Info: Reference section=0 on input line 17.
 Package biblatex Info: Reference segment=0 on input line 17.
 File: figures/SBOS title page image.png Graphic file (type bmp)
@@ -1523,6 +1525,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `RobotoSlabThin' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
+
 (C:\Users\bruno\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
@@ -1578,684 +1581,81 @@ Underfull \hbox (badness 5231) in paragraph at lines 75--75
 
 ]) [6] (mainmatter/01_introduction.tex
 Chapter 1.
-
-LaTeX Warning: Citation 'TheBookOfAnderson' on page 1 undefined on input line 4
-.
-
-
-LaTeX Warning: Citation 'TheBookOfAnderson' on page 1 undefined on input line 6
-.
-
-
-LaTeX Warning: Citation 'Raffel2001' on page 1 undefined on input line 6.
-
-
-LaTeX Warning: Citation 'Schmidt2025' on page 1 undefined on input line 8.
-
-
-LaTeX Warning: Citation 'Settles2001' on page 1 undefined on input line 10.
-
-
-LaTeX Warning: Citation 'Schmidt2025' on page 1 undefined on input line 10.
-
-
-LaTeX Warning: Citation 'Meier&Roesgen2013' on page 1 undefined on input line 1
-2.
-
-
-LaTeX Warning: Citation 'Nakamura2021' on page 1 undefined on input line 12.
-
 [1
 
 
-]
-
-LaTeX Warning: Citation 'Wisse2005' on page 2 undefined on input line 16.
-
-
-LaTeX Warning: Citation 'Hagemann1998' on page 2 undefined on input line 16.
-
-) (mainmatter/02_TheoreticalBackground.tex [2]
+]) (mainmatter/02_TheoreticalBackground.tex [2]
 Chapter 2.
-
-LaTeX Warning: Citation 'TheBookOfAnderson' on page 3 undefined on input line 1
-2.
-
-
-LaTeX Warning: Citation 'Settles2001' on page 3 undefined on input line 12.
-
-
-LaTeX Warning: Citation 'TheBookOfAnderson' on page 3 undefined on input line 1
-9.
-
 File: figures/Moving sound waves.png Graphic file (type bmp)
 <figures/Moving sound waves.png>
-
-LaTeX Warning: Citation 'TheBookOfAnderson' on page 3 undefined on input line 2
-4.
-
-
-LaTeX Warning: Citation 'TheBookOfAnderson' on page 3 undefined on input line 2
-4.
-
-
-LaTeX Warning: Citation 'TheBookOfAnderson' on page 3 undefined on input line 3
-5.
-
 [3
 
 ]
 File: figures/Oblique shock geometry.png Graphic file (type bmp)
 <figures/Oblique shock geometry.png>
-
-
-LaTeX Warning: Citation 'TheBookOfAnderson' on page 4 undefined on input line 4
-0.
-
-
-LaTeX Warning: Citation 'TheBookOfAnderson' on page 4 undefined on input line 4
-0.
-
-[4] [5]
+ [4] [5]
 File: figures/Under over and perfect expanded jets.jpg Graphic file (type bmp)
 <figures/Under over and perfect expanded jets.jpg>
-
-
-LaTeX Warning: Citation 'vanHinsberg2014' on page 6 undefined on input line 118
-.
-
 File: figures/under-expanded planar jet.jpg Graphic file (type bmp)
 <figures/under-expanded planar jet.jpg>
-
-LaTeX Warning: Citation 'Duronio2023' on page 6 undefined on input line 128.
-
-[6]
+ [6]
 File: figures/moderately under-expanded jet.jpg Graphic file (type bmp)
 <figures/moderately under-expanded jet.jpg>
 File: figures/highly under-expanded jet.jpg Graphic file (type bmp)
 <figures/highly under-expanded jet.jpg>
 File: figures/unique barrel under-expanded jet.jpg Graphic file (type bmp)
 <figures/unique barrel under-expanded jet.jpg>
-
-
-LaTeX Warning: Citation 'Duronio2023' on page 7 undefined on input line 152.
-
-
-LaTeX Warning: Citation 'Duronio2023' on page 7 undefined on input line 152.
-
-
-LaTeX Warning: Citation 'Powell2010' on page 7 undefined on input line 156.
-
-
-LaTeX Warning: Citation 'Emden1899' on page 7 undefined on input line 156.
-
-
-LaTeX Warning: Citation 'Hartmann1941' on page 7 undefined on input line 156.
-
-[7]
-
-LaTeX Warning: Citation 'Wisse2005' on page 8 undefined on input line 173.
-
-
-LaTeX Warning: Reference `' on page 8 undefined on input line 173.
-
-
-LaTeX Warning: Reference `' on page 8 undefined on input line 177.
-
-
-LaTeX Warning: Citation 'Schmidt2025' on page 8 undefined on input line 185.
-
-
-LaTeX Warning: Citation 'Head2021' on page 8 undefined on input line 195.
-
-
-LaTeX Warning: Citation 'Head2021' on page 8 undefined on input line 201.
-
-
-LaTeX Warning: Citation 'Settles2001' on page 8 undefined on input line 201.
-
-[8]
+ [7]
+File: figures/under perfect and over expanded aerospike.jpg Graphic file (type 
+bmp)
+<figures/under perfect and over expanded aerospike.jpg>
+ [8]
 File: figures/Diagrams of light refraction.png Graphic file (type bmp)
 <figures/Diagrams of light refraction.png>
-
-
-LaTeX Warning: Citation 'Schmidt2025' on page 9 undefined on input line 212.
-
-
-LaTeX Warning: Citation 'Schmidt2025' on page 9 undefined on input line 212.
-
-
-LaTeX Warning: Citation 'Settles2001' on page 9 undefined on input line 216.
-
-
-LaTeX Warning: Citation 'RajendranDotTracking' on page 9 undefined on input lin
-e 242.
-
-[9]
-
-LaTeX Warning: Citation 'Abel1826' on page 10 undefined on input line 254.
-
+ [9]
 
 LaTeX Warning: Reference `equation: integral of epsilon' on page 10 undefined o
-n input line 254.
+n input line 256.
 
 File: figures/AbelTransform.png Graphic file (type bmp)
 <figures/AbelTransform.png>
-) (mainmatter/03_LiteratureReview.tex [10]
+[10]) (mainmatter/03_LiteratureReview.tex [11]
 Chapter 3.
-
-LaTeX Warning: Citation 'Settles2001' on page 11 undefined on input line 10.
-
-
-LaTeX Warning: Citation 'Settles2017' on page 11 undefined on input line 11.
-
 File: figures/Hooke shadowgraphy setup.png Graphic file (type bmp)
 <figures/Hooke shadowgraphy setup.png>
-
-LaTeX Warning: Citation 'Settles2001' on page 11 undefined on input line 16.
-
-
-LaTeX Warning: Citation 'Settles2001' on page 11 undefined on input line 16.
-
-
-LaTeX Warning: Citation 'Settles2001' on page 11 undefined on input line 20.
-
-
-LaTeX Warning: Citation 'Settles2001' on page 11 undefined on input line 20.
-
-
-LaTeX Warning: Citation 'Settles2017' on page 11 undefined on input line 20.
-
-[11
+[12
 
 ]
 File: figures/Schlieren setup.png Graphic file (type bmp)
 <figures/Schlieren setup.png>
-
-
-LaTeX Warning: Citation 'Debrus1972' on page 12 undefined on input line 30.
-
-
-LaTeX Warning: Citation 'Kopf1972' on page 12 undefined on input line 30.
-
-
-LaTeX Warning: Citation 'NikitaFominBook' on page 12 undefined on input line 30
-.
-
 File: figures/laser speckled interferometry.png Graphic file (type bmp)
 <figures/laser speckled interferometry.png>
-
-LaTeX Warning: Citation 'Kopf1972' on page 12 undefined on input line 35.
-
-
-LaTeX Warning: Citation 'Kopf1972' on page 12 undefined on input line 35.
-
-
-LaTeX Warning: Citation 'Settles2017' on page 12 undefined on input line 39.
-
-[12]
-
-LaTeX Warning: Citation 'Raffel2001' on page 13 undefined on input line 43.
-
-
-LaTeX Warning: Citation 'Schmidt2025' on page 13 undefined on input line 43.
-
+ [13]
 File: figures/Raffel BOS setup.png Graphic file (type bmp)
 <figures/Raffel BOS setup.png>
-
-LaTeX Warning: Citation 'Raffel2001' on page 13 undefined on input line 48.
-
-
-LaTeX Warning: Citation 'Raffel2001' on page 13 undefined on input line 48.
-
-
-LaTeX Warning: Citation 'Gojani&Obayashi' on page 13 undefined on input line 54
-.
-
-
-LaTeX Warning: Citation 'Schwarz&Braukmann' on page 13 undefined on input line 
-55.
-
-
-LaTeX Warning: Citation 'Greenleaf1950' on page 13 undefined on input line 59.
-
-
-LaTeX Warning: Citation 'Schmidt2025' on page 13 undefined on input line 67.
-
-
-LaTeX Warning: Citation 'Greenleaf1950' on page 13 undefined on input line 70.
-
-[13]
-
-LaTeX Warning: Citation 'Greenleaf1950' on page 14 undefined on input line 79.
-
-
-LaTeX Warning: Citation 'Schwarz&Braukmann' on page 14 undefined on input line 
-79.
-
-
-LaTeX Warning: Citation 'Gojani&Obayashi' on page 14 undefined on input line 79
-.
-
-
-LaTeX Warning: Citation 'Schwarz&Braukmann' on page 14 undefined on input line 
-83.
-
-
-LaTeX Warning: Citation 'Gojani&Obayashi' on page 14 undefined on input line 83
-.
-
-
-LaTeX Warning: Citation 'Schwarz&Braukmann' on page 14 undefined on input line 
-83.
-
-
-LaTeX Warning: Citation 'Gojani&Obayashi' on page 14 undefined on input line 83
-.
-
+ [14]
 File: figures/Gojani cone of light diagram.jpg Graphic file (type bmp)
 <figures/Gojani cone of light diagram.jpg>
 
-LaTeX Warning: Citation 'Gojani&Obayashi' on page 14 undefined on input line 98
-.
-
-
-LaTeX Warning: Citation 'Gojani&Obayashi' on page 14 undefined on input line 98
-.
-
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-LaTeX Warning: Citation 'Gojani&Obayashi' on page 14 undefined on input line 10
-2.
-
-
-LaTeX Warning: Citation 'Greenleaf1950' on page 14 undefined on input line 102.
-
-
-
-LaTeX Warning: Citation 'Michalski2018' on page 14 undefined on input line 102.
-
-
-[14]
-
-LaTeX Warning: Citation 'Schwarz&Braukmann' on page 15 undefined on input line 
-104.
-
-
-Overfull \hbox (74.12657pt too wide) in paragraph at lines 104--105
-[]\TU/Arial(0)/m/n/10 Contrasting to approach B, Schwarz et al. correlated $\OM
-L/cmm/m/it/10 CoC$ \TU/Arial(0)/m/n/10 with spatial resolution experimentally [
-[]].
- []
-
-
-LaTeX Warning: Citation 'Schmidt2025' on page 15 undefined on input line 108.
-
-
-LaTeX Warning: Citation 'Schmidt2025' on page 15 undefined on input line 115.
-
-
-LaTeX Warning: Citation 'Gojani&Obayashi' on page 15 undefined on input line 11
-5.
-
-
-LaTeX Warning: Citation 'Schwarz&Braukmann' on page 15 undefined on input line 
-115.
-
-[15]
-
-LaTeX Warning: Citation 'Raffel2001' on page 16 undefined on input line 117.
-
-
-LaTeX Warning: Citation 'Schmidt2025' on page 16 undefined on input line 117.
-
-
-LaTeX Warning: Citation 'Schmidt2025' on page 16 undefined on input line 119.
-
-
-LaTeX Warning: Citation 'Schmidt2025' on page 16 undefined on input line 119.
-
-
-LaTeX Warning: Citation 'Raffel2015' on page 16 undefined on input line 119.
-
-
-LaTeX Warning: Citation 'Raffel2015' on page 16 undefined on input line 119.
-
-
-LaTeX Warning: Citation 'Schmidt2025' on page 16 undefined on input line 119.
-
-
-LaTeX Warning: Citation 'CakirEtAl' on page 16 undefined on input line 119.
-
-
-LaTeX Warning: Citation 'Schmidt2025' on page 16 undefined on input line 121.
-
-
-LaTeX Warning: Citation 'CakirEtAl' on page 16 undefined on input line 121.
-
-
-LaTeX Warning: Citation 'Schmidt2025' on page 16 undefined on input line 123.
-
-
-LaTeX Warning: Citation 'Schwarz&Braukmann' on page 16 undefined on input line 
-123.
-
-
-LaTeX Warning: Citation 'Schwarz&Braukmann' on page 16 undefined on input line 
-125.
-
-
-LaTeX Warning: Citation 'Schmidt2025' on page 16 undefined on input line 125.
-
-
-LaTeX Warning: Citation 'Schwarz&Braukmann' on page 16 undefined on input line 
-125.
-
-
-LaTeX Warning: Citation 'KahlerEtAl' on page 16 undefined on input line 125.
-
-[16]
-
-LaTeX Warning: Citation 'KahlerEtAl' on page 17 undefined on input line 127.
-
-
-LaTeX Warning: Citation 'Raffel2015' on page 17 undefined on input line 127.
-
-
-LaTeX Warning: Citation 'Schwarz&Braukmann' on page 17 undefined on input line 
-127.
-
-
-LaTeX Warning: Citation 'Michalski2018' on page 17 undefined on input line 127.
-
-
-
-LaTeX Warning: Citation 'Raffel2015' on page 17 undefined on input line 133.
-
-
-LaTeX Warning: Citation 'Schmidt2025' on page 17 undefined on input line 133.
-
-
-LaTeX Warning: Citation 'TomographicBOS' on page 17 undefined on input line 133
-.
-
-
-LaTeX Warning: Citation 'Raffel2015' on page 17 undefined on input line 133.
-
-
-LaTeX Warning: Citation 'Schmidt2025' on page 17 undefined on input line 133.
-
-
-LaTeX Warning: Citation 'PlenopticBOS' on page 17 undefined on input line 133.
-
-
-LaTeX Warning: Citation 'TelecentricBOS' on page 17 undefined on input line 137
-.
-
-
-LaTeX Warning: Citation 'vanHinsberg2014' on page 17 undefined on input line 13
-7.
-
-
-LaTeX Warning: Citation 'Dalziel2000' on page 17 undefined on input line 137.
-
-
-LaTeX Warning: Citation 'AirBOS' on page 17 undefined on input line 137.
-
-
-LaTeX Warning: Citation 'AirBOS2' on page 17 undefined on input line 137.
-
-
-LaTeX Warning: Citation 'Raffel2015' on page 17 undefined on input line 137.
-
-
-LaTeX Warning: Citation 'Schmidt2025' on page 17 undefined on input line 137.
-
-
-LaTeX Warning: Citation 'BOSCO' on page 17 undefined on input line 137.
-
-
-LaTeX Warning: Citation 'ExplosionsBOS' on page 17 undefined on input line 137.
-
-
-
-LaTeX Warning: Citation 'Schmidt2025' on page 17 undefined on input line 137.
-
-[17]
-
-LaTeX Warning: Citation 'RBOS' on page 18 undefined on input line 139.
-
-
-LaTeX Warning: Citation 'BackIluminatedBOS' on page 18 undefined on input line 
-139.
-
-
-LaTeX Warning: Citation 'Raffel2015' on page 18 undefined on input line 139.
-
-
-LaTeX Warning: Citation 'Raffel2015' on page 18 undefined on input line 139.
-
-
-LaTeX Warning: Citation 'Schmidt2025' on page 18 undefined on input line 139.
-
-
-LaTeX Warning: Citation 'Meier&Roesgen2013' on page 18 undefined on input line 
-139.
-
-
-LaTeX Warning: Citation 'NikitaFominBook' on page 18 undefined on input line 14
-3.
-
-
-LaTeX Warning: Citation 'Goodman2020' on page 18 undefined on input line 143.
-
-
-LaTeX Warning: Citation 'Boas&Dunn2010' on page 18 undefined on input line 143.
-
-
-
-LaTeX Warning: Citation 'Hung&Ho2005' on page 18 undefined on input line 143.
-
-
-LaTeX Warning: Citation 'Debrus1972' on page 18 undefined on input line 143.
-
-
-LaTeX Warning: Citation 'Meier&Roesgen2013' on page 18 undefined on input line 
-143.
-
-
-LaTeX Warning: Citation 'Goodman2020' on page 18 undefined on input line 145.
-
-
-LaTeX Warning: Citation 'NikitaFominBook' on page 18 undefined on input line 14
-5.
-
-
-LaTeX Warning: Citation 'Cloud2007' on page 18 undefined on input line 145.
-
-
-LaTeX Warning: Citation 'Goodman2020' on page 18 undefined on input line 145.
-
-
-LaTeX Warning: Citation 'Meier&Roesgen2013' on page 18 undefined on input line 
-147.
-
-
-LaTeX Warning: Citation 'Goodman2020' on page 18 undefined on input line 147.
-
+[15] [16] [17] [18]
 File: figures/Meier and Roesgen single pass setup.jpg Graphic file (type bmp)
 <figures/Meier and Roesgen single pass setup.jpg>
-
-LaTeX Warning: Citation 'Meier&Roesgen2013' on page 18 undefined on input line 
-152.
-
-
-LaTeX Warning: Citation 'Meier&Roesgen2013' on page 18 undefined on input line 
-152.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: Citation 'Meier&Roesgen2013' on page 18 undefined on input line 
-156.
-
-
-Overfull \hbox (19.68008pt too wide) in paragraph at lines 156--157
-[]\TU/Arial(0)/m/n/10 These new optical configurations promise great benefits c
-ompared to standard BOS [[]].
- []
-
-[18]
-
-LaTeX Warning: Citation 'Barker&Fourney' on page 19 undefined on input line 158
-.
-
-
-LaTeX Warning: Citation 'Buhlmann2020' on page 19 undefined on input line 160.
-
-
-LaTeX Warning: Citation 'Michalski2018' on page 19 undefined on input line 160.
-
-
-
-LaTeX Warning: Citation 'Debrus1972' on page 19 undefined on input line 160.
-
-
-LaTeX Warning: Citation 'Nakamura2021' on page 19 undefined on input line 160.
-
+ [19]
 File: figures/SBOS setup ilustrated.png Graphic file (type bmp)
 <figures/SBOS setup ilustrated.png>
-
-LaTeX Warning: Citation 'Michalski2018' on page 19 undefined on input line 165.
-
-
-
-LaTeX Warning: Citation 'Michalski2018' on page 19 undefined on input line 165.
-
-
-[19]
-
-LaTeX Warning: Citation 'Buhlmann2020' on page 20 undefined on input line 175.
-
-
-LaTeX Warning: Citation 'Meier&Roesgen2013' on page 20 undefined on input line 
-175.
-
-
-LaTeX Warning: Citation 'Michalski2018' on page 20 undefined on input line 175.
-
-
-
-LaTeX Warning: Citation 'Nakamura2021' on page 20 undefined on input line 175.
-
-
-LaTeX Warning: Citation 'Buhlmann2020' on page 20 undefined on input line 177.
-
-
-LaTeX Warning: Citation 'Li&CHiang1986' on page 20 undefined on input line 177.
-
-
-
-LaTeX Warning: Citation 'Meier&Roesgen2013' on page 20 undefined on input line 
-177.
-
-
-LaTeX Warning: Citation 'Nakamura2021' on page 20 undefined on input line 177.
-
-
-LaTeX Warning: Citation 'Michalski2018' on page 20 undefined on input line 177.
-
-
-
-LaTeX Warning: Citation 'Michalski2018' on page 20 undefined on input line 179.
-
-
-
-LaTeX Warning: Citation 'Nakamura2021' on page 20 undefined on input line 179.
-
-
-LaTeX Warning: Citation 'Raffel2015' on page 20 undefined on input line 179.
-
-
-LaTeX Warning: Citation 'Elsinga2004' on page 20 undefined on input line 179.
-
-
-LaTeX Warning: Citation 'Michalski2018' on page 20 undefined on input line 181.
-
-
-
-LaTeX Warning: Citation 'Meier&Roesgen2013' on page 20 undefined on input line 
-181.
-
-[20]
-
-LaTeX Warning: Citation 'Meier&Roesgen2013' on page 21 undefined on input line 
-185.
-
-
-LaTeX Warning: Citation 'Michalski2018' on page 21 undefined on input line 185.
-
-
-) (mainmatter/04_methodology.tex [21]
+ [20] [21]) (mainmatter/04_methodology.tex [22]
 Chapter 4.
 File: figures/BOS setup.png Graphic file (type bmp)
 <figures/BOS setup.png>
-[22
+[23
 
-]
-
-LaTeX Warning: Citation 'Schwarz&Braukmann' on page 23 undefined on input line 
-42.
-
-
-LaTeX Warning: Citation 'Gojani&Obayashi' on page 23 undefined on input line 42
-.
-
-
-LaTeX Warning: Citation 'Dalziel2000' on page 23 undefined on input line 42.
-
-
-LaTeX Warning: Citation 'vanHinsberg2014' on page 23 undefined on input line 42
-.
-
-
-LaTeX Warning: Citation 'Schwarz&Braukmann' on page 23 undefined on input line 
-42.
-
-
-Overfull \hbox (5.74075pt too wide) in paragraph at lines 42--43
-[]\TU/Arial(0)/m/n/10 As discussed in Chapter []3[], Schwarz et al. [[]] and Go
-jani et al. [[]]
- []
-
-[23]
-
-LaTeX Warning: Citation 'Schmidt2025' on page 24 undefined on input line 70.
-
-
-LaTeX Warning: Citation 'Schwarz&Braukmann' on page 24 undefined on input line 
-70.
-
+] [24]
 File: figures/negative defocus BOS configuration.jpg Graphic file (type bmp)
 <figures/negative defocus BOS configuration.jpg>
-
-LaTeX Warning: Citation 'Barker&Fourney' on page 24 undefined on input line 97.
-
-
-
-Overfull \hbox (4.9721pt too wide) in paragraph at lines 97--98
-[]\TU/Arial(0)/m/n/10 Another difference from BOS to SBOS is the speckle genera
-tion. Barker and Fourney [[]]
- []
-
-[24]
-
-LaTeX Warning: Citation 'KahlerEtAl' on page 25 undefined on input line 131.
-
-
+ [25]
 Overfull \hbox (44.56898pt too wide) in paragraph at lines 141--142
 \TU/Arial(0)/m/n/10 would solve the system for a given combinations of P = ($\O
 ML/cmm/m/it/10 f[]; l; f$\TU/Arial(0)/m/n/10 ) and compute X = ($\OML/cmm/m/it/
@@ -2263,29 +1663,22 @@ ML/cmm/m/it/10 f[]; l; f$\TU/Arial(0)/m/n/10 ) and compute X = ($\OML/cmm/m/it/
 (0)/m/n/10 ).
  []
 
-[25]
+[26]
 File: figures/Sensitivity and dav SBOS surf map.jpg Graphic file (type bmp)
 <figures/Sensitivity and dav SBOS surf map.jpg>
- [26]
+ [27]
 File: figures/M,m,df surfmaps SBOS.jpg Graphic file (type bmp)
 <figures/M,m,df surfmaps SBOS.jpg>
-
-
-LaTeX Warning: Citation 'KahlerEtAl' on page 27 undefined on input line 173.
-
-[27]
+ [28]
 File: figures/Speckle size surf map SBOS.jpg Graphic file (type bmp)
 <figures/Speckle size surf map SBOS.jpg>
-
-
-LaTeX Warning: Citation 'Cloud2007' on page 28 undefined on input line 182.
-
 File: figures/Sensitivity and smin BOS surf map.jpg Graphic file (type bmp)
 <figures/Sensitivity and smin BOS surf map.jpg>
 
+
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[28]
+[29]
 File: figures/M,m,df surfmaps BOS.jpg Graphic file (type bmp)
 <figures/M,m,df surfmaps BOS.jpg>
 
@@ -2301,84 +1694,41 @@ File: figures/Sensitivity and smin BOS surf map 70mm.jpg Graphic file (type bmp
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[29]
-
-LaTeX Warning: Citation 'Schmidt2025' on page 30 undefined on input line 238.
-
-
-LaTeX Warning: Citation 'Gojani&Obayashi' on page 30 undefined on input line 23
-8.
-
-[30] [31]) (mainmatter/05_Methods.tex [32]
+[30] [31] [32]) (mainmatter/05_Methods.tex [33]
 Chapter 5.
 File: figures/small sbos setup with captions.png Graphic file (type bmp)
 <figures/small sbos setup with captions.png>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-LaTeX Warning: Citation 'Schwarz&Braukmann' on page 33 undefined on input line 
-25.
-
-
-LaTeX Warning: Citation 'Meier&Roesgen2013' on page 33 undefined on input line 
-25.
-
-[33
-
-]
 File: figures/angled laser schematic.png Graphic file (type bmp)
 <figures/angled laser schematic.png>
- [34]
+[34
+
+] [35]
 File: figures/angled glass slider.jpeg Graphic file (type bmp)
 <figures/angled glass slider.jpeg>
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[35]
+[36]
 File: figures/speckle pattern investigation.jpg Graphic file (type bmp)
 <figures/speckle pattern investigation.jpg>
- [36]
-
-LaTeX Warning: Citation 'Hamarova2016' on page 37 undefined on input line 147.
-
-
-LaTeX Warning: Citation 'Pan2010' on page 37 undefined on input line 147.
-
-
-LaTeX Warning: Citation 'Hamarova2016' on page 37 undefined on input line 151.
-
-
-LaTeX Warning: Citation 'Shi2023' on page 37 undefined on input line 151.
-
-
-LaTeX Warning: Citation 'Zhu2025' on page 37 undefined on input line 151.
-
-[37]
-
-LaTeX Warning: Citation 'Meier&Roesgen2013' on page 38 undefined on input line 
-154.
-
-
-LaTeX Warning: Citation 'Buhlmann2020' on page 38 undefined on input line 154.
-
+ [37] [38]
 File: figures/projected speckle schematic.png Graphic file (type bmp)
 <figures/projected speckle schematic.png>
 File: figures/projected speckle pattern experiment.png Graphic file (type bmp)
 <figures/projected speckle pattern experiment.png>
-[38]
+ [39]
 File: figures/compressible jet setup.jpeg Graphic file (type bmp)
 <figures/compressible jet setup.jpeg>
- [39]
+ [40]
 
-LaTeX Warning: Citation 'Wisse2005' on page 40 undefined on input line 222.
-
-
-LaTeX Warning: Citation '' on page 40 undefined on input line 222.
+LaTeX Warning: Citation '' on page 41 undefined on input line 222.
 
 
-LaTeX Warning: Citation '' on page 40 undefined on input line 222.
+LaTeX Warning: Citation '' on page 41 undefined on input line 222.
 
 File: figures/aerospike camera setup.jpeg Graphic file (type bmp)
 <figures/aerospike camera setup.jpeg>
@@ -2388,25 +1738,19 @@ File: figures/aerospike model.jpeg Graphic file (type bmp)
 <figures/aerospike model.jpeg>
 File: figures/Aerospike technical drawing.jpg Graphic file (type bmp)
 <figures/Aerospike technical drawing.jpg>
-
-LaTeX Warning: Citation 'Wisse2005' on page 40 undefined on input line 252.
-
-
-LaTeX Warning: Citation 'Wisse2005' on page 40 undefined on input line 252.
-
-[40]
+[41]
 Overfull \hbox (25.4206pt too wide) in paragraph at lines 265--284
  [][] 
  []
 
 File: figures/WT experiment setup.jpg Graphic file (type bmp)
 <figures/WT experiment setup.jpg>
-) (mainmatter/06_results.tex [41]
+) (mainmatter/06_results.tex [42]
 Chapter 6.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[42
+[43
 
 ]
 
@@ -2415,25 +1759,12 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-LaTeX Warning: Citation 'JCGM2008' on page 43 undefined on input line 116.
-
-[43]
-
-LaTeX Warning: Citation 'JCGM2008' on page 44 undefined on input line 118.
-
-
-LaTeX Warning: Citation 'JCGM2008' on page 44 undefined on input line 122.
-
-
-LaTeX Warning: Citation 'JCGM2008' on page 44 undefined on input line 122.
-
-
+[44]
 Overfull \hbox (11.5911pt too wide) in paragraph at lines 145--158
  [][] 
  []
 
-[44]
+[45]
 File: figures/S vs l experimental.jpg Graphic file (type bmp)
 <figures/S vs l experimental.jpg>
 File: figures/S vs l slider experiment.jpg Graphic file (type bmp)
@@ -2442,90 +1773,25 @@ File: figures/S vs l slider experiment.jpg Graphic file (type bmp)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[45]
-
-LaTeX Warning: Citation 'Hamarova2016' on page 46 undefined on input line 190.
-
-
-Overfull \hbox (11.13521pt too wide) in paragraph at lines 190--191
-\TU/Arial(0)/m/n/10 tion limit and the ones obtained experimentally and compute
-d using Hamarová’s method [[]].
- []
-
-
-LaTeX Warning: Citation 'Goodman2020' on page 46 undefined on input line 192.
-
-[46]
-
-LaTeX Warning: Citation 'Hamarova2016' on page 47 undefined on input line 196.
-
-
-LaTeX Warning: Citation 'Hamarova2016' on page 47 undefined on input line 196.
-
-
-LaTeX Warning: Citation 'Hamarova2016' on page 47 undefined on input line 231.
-
-
-LaTeX Warning: Citation 'Hamarova2016' on page 47 undefined on input line 231.
-
-
-LaTeX Warning: Citation 'Hamarova2016' on page 47 undefined on input line 277.
-
+[46] [47]
 File: figures/speckle size per point.jpg Graphic file (type bmp)
 <figures/speckle size per point.jpg>
-
-LaTeX Warning: Citation 'Hamarova2016' on page 47 undefined on input line 282.
-
-
-LaTeX Warning: Citation 'Hamarova2016' on page 47 undefined on input line 282.
-
-[47] [48]
-
-LaTeX Warning: Citation 'Meier&Roesgen2013' on page 49 undefined on input line 
-288.
-
-
-LaTeX Warning: Citation 'JCGM2008' on page 49 undefined on input line 297.
-
-
-LaTeX Warning: Citation 'Hamarova2016' on page 49 undefined on input line 297.
-
-
-LaTeX Warning: Citation 'JCGM2008' on page 49 undefined on input line 297.
-
-
-LaTeX Warning: Citation 'Hamarova2016' on page 49 undefined on input line 297.
-
-
-LaTeX Warning: Citation 'Goodman2020' on page 49 undefined on input line 312.
-
-[49]
+ [48] [49] [50]
 File: figures/speckle exp f-number sweep.png Graphic file (type bmp)
 <figures/speckle exp f-number sweep.png>
- [50]
+ [51]
 File: figures/speckle exp mag sweep.jpg Graphic file (type bmp)
 <figures/speckle exp mag sweep.jpg>
 File: figures/Speckle d_GG Sweep.jpg Graphic file (type bmp)
 <figures/Speckle d_GG Sweep.jpg>
- [51]
+ [52]
 File: figures/Speckle pattern point 5.jpg Graphic file (type bmp)
 <figures/Speckle pattern point 5.jpg>
 File: figures/Speckle pattern point 8.jpg Graphic file (type bmp)
 <figures/Speckle pattern point 8.jpg>
 File: figures/Speckle pattern point 10.jpg Graphic file (type bmp)
 <figures/Speckle pattern point 10.jpg>
-
-
-LaTeX Warning: Citation 'Goodman2020' on page 52 undefined on input line 373.
-
-
-LaTeX Warning: Citation 'Cloud2007' on page 52 undefined on input line 373.
-
-
-LaTeX Warning: Citation 'NikitaFominBook' on page 52 undefined on input line 37
-3.
-
-[52]
+ [53]
 File: figures/jet displacement 3bar.png Graphic file (type bmp)
 <figures/jet displacement 3bar.png>
 File: figures/jet displacement 4bar.png Graphic file (type bmp)
@@ -2538,10 +1804,10 @@ File: figures/jet displacement 7bar.png Graphic file (type bmp)
 <figures/jet displacement 7bar.png>
 File: figures/jet displacement 8bar.png Graphic file (type bmp)
 <figures/jet displacement 8bar.png>
- [53]
+ [54]
 File: figures/Dataset f density gradients.jpg Graphic file (type bmp)
 <figures/Dataset f density gradients.jpg>
- [54]
+ [55]
 File: figures/centerline density gradient dataset a.png Graphic file (type bmp)
 
 <figures/centerline density gradient dataset a.png>
@@ -2560,43 +1826,9 @@ File: figures/centerline density gradient dataset e.png Graphic file (type bmp)
 File: figures/centerline density gradient dataset f.png Graphic file (type bmp)
 
 <figures/centerline density gradient dataset f.png>
-
-
-LaTeX Warning: Citation 'Powell2010' on page 55 undefined on input line 519.
-
-
-LaTeX Warning: Citation 'Emden1899' on page 55 undefined on input line 519.
-
-
-LaTeX Warning: Citation 'Hartmann1941' on page 55 undefined on input line 519.
-
 File: figures/shock cell lengths.jpg Graphic file (type bmp)
 <figures/shock cell lengths.jpg>
-
-LaTeX Warning: Citation 'Powell2010' on page 55 undefined on input line 524.
-
-
-LaTeX Warning: Citation 'Hartmann1941' on page 55 undefined on input line 524.
-
-
-LaTeX Warning: Citation 'Emden1899' on page 55 undefined on input line 524.
-
-
-LaTeX Warning: Citation 'Powell2010' on page 55 undefined on input line 524.
-
-
-LaTeX Warning: Citation 'Hartmann1941' on page 55 undefined on input line 524.
-
-
-LaTeX Warning: Citation 'Emden1899' on page 55 undefined on input line 524.
-
-
-LaTeX Warning: Citation 'Hartmann1941' on page 55 undefined on input line 529.
-
-
-LaTeX Warning: Citation 'Emden1899' on page 55 undefined on input line 529.
-
-[55]
+ [56]
 File: figures/density field dataset a.png Graphic file (type bmp)
 <figures/density field dataset a.png>
 File: figures/density field dataset b.png Graphic file (type bmp)
@@ -2609,110 +1841,54 @@ File: figures/density field dataset e.png Graphic file (type bmp)
 <figures/density field dataset e.png>
 File: figures/density field dataset f.png Graphic file (type bmp)
 <figures/density field dataset f.png>
-
-
-LaTeX Warning: Citation 'Dasch1992' on page 56 undefined on input line 586.
-
-
-LaTeX Warning: Citation 'Daun2006' on page 56 undefined on input line 586.
-
-
-LaTeX Warning: Citation 'Golub1979' on page 56 undefined on input line 586.
-
-[56] [57]
-
-LaTeX Warning: Citation 'Panda1999' on page 58 undefined on input line 590.
-
+ [57] [58]
 File: figures/centreline density e vs panda.png Graphic file (type bmp)
 <figures/centreline density e vs panda.png>
-
-LaTeX Warning: Citation 'Panda1999' on page 58 undefined on input line 595.
-
-
-LaTeX Warning: Citation 'Panda1999' on page 58 undefined on input line 595.
-
-[58]
-
-LaTeX Warning: Citation 'Ozawa2020' on page 59 undefined on input line 603.
-
-
-LaTeX Warning: Citation 'Ozawa2020' on page 59 undefined on input line 610.
-
-
-LaTeX Warning: Citation 'Seiner1980' on page 59 undefined on input line 610.
-
-
-LaTeX Warning: Citation 'Hartmann1941' on page 59 undefined on input line 610.
-
-
-LaTeX Warning: Citation 'Hartmann1941' on page 59 undefined on input line 613.
-
-
-LaTeX Warning: Citation 'Emden1899' on page 59 undefined on input line 613.
-
-
-LaTeX Warning: Citation 'Powell2010' on page 59 undefined on input line 613.
-
-
-LaTeX Warning: Citation 'Panda1999' on page 59 undefined on input line 613.
-
-
-Overfull \hbox (4.59048pt too wide) in paragraph at lines 613--614
-\TU/Arial(0)/m/n/10 shock cell lengths were compared to literature data from Ha
-rtmann-Lazarus and Emden [[],
- []
-
-) (mainmatter/07_conclusion.tex [59]
+ [59])
+(mainmatter/07_conclusion.tex [60]
 Chapter 7.
-)
-
-LaTeX Warning: Empty bibliography on input line 66.
-
-(appendix/appendix-a.tex [60
+) [61
 
 ]
+Overfull \hbox (0.64949pt too wide) in paragraph at lines 66--66
+[]\TU/Arial(0)/m/n/10 S. Debrus et al. “Ground Glass Differential Interferometr
+y”. In: \TU/Arial(0)/m/it/10 Applied Optics \TU/Arial(0)/m/n/10 11 (4 1972), pp
+. 853–
+ []
+
+
+Overfull \hbox (6.24594pt too wide) in paragraph at lines 66--66
+\TU/Arial(0)/m/n/10 ground oriented schlieren during image recording”. In: \TU/
+Arial(0)/m/it/10 Journal of Visualization \TU/Arial(0)/m/n/10 16 (3 2013), pp. 
+201–
+ []
+
+
+Overfull \hbox (40.00558pt too wide) in paragraph at lines 66--66
+\TU/Arial(0)/m/n/10 Monograph Vol. PM312. Bellingham, Washington, United States
+: SPIE Press, 2020. \TU/Arial(0)/m/sc/10 isbn\TU/Arial(0)/m/n/10 : 978151063148
+9. 
+ []
+
+[62
+
+] [63] (appendix/appendix-a.tex [64]
 Appendix A.
-
-LaTeX Warning: Citation 'Greenleaf1950' on page 61 undefined on input line 4.
-
 File: figures/CoC drawing.png Graphic file (type bmp)
 <figures/CoC drawing.png>
-[61
+[65
 
-]
-
-LaTeX Warning: Citation 'Greenleaf1950' on page 62 undefined on input line 53.
-
-) (appendix/appendix-b.tex
-Overfull \hbox (30.42302pt too wide) in paragraph at lines 53--1
-[]\TU/Arial(0)/m/n/10 The CoC is also in the core of another important paramete
-r in optics called depth of field (DoF) [[]].
- []
-
-[62]
+]) (appendix/appendix-b.tex [66]
 Appendix B.
 File: figures/Blurred Object geometry.png Graphic file (type bmp)
 <figures/Blurred Object geometry.png>
-[63
+[67
 
-]
-
-LaTeX Warning: Citation 'Gojani&Obayashi' on page 64 undefined on input line 47
-.
-
-
-LaTeX Warning: Citation 'Gojani&Obayashi' on page 64 undefined on input line 54
-.
-
-
-LaTeX Warning: Citation 'Schwarz&Braukmann' on page 64 undefined on input line 
-54.
-
-) (appendix/appendix-c.tex [64]
+]) (appendix/appendix-c.tex [68]
 Appendix C.
 File: figures/Px pitch and LFOV SBOS surf map.jpg Graphic file (type bmp)
 <figures/Px pitch and LFOV SBOS surf map.jpg>
-[65
+[69
 
 ]
 File: figures/Speckle size surf map BOS.jpg Graphic file (type bmp)
@@ -2725,7 +1901,7 @@ File: figures/Speckle size surf map SBOS 70mm.jpg Graphic file (type bmp)
 <figures/Speckle size surf map SBOS 70mm.jpg>
 File: figures/Speckle size surf map BOS 70mm.jpg Graphic file (type bmp)
 <figures/Speckle size surf map BOS 70mm.jpg>
-) [66] [67] [68] (report.aux)
+) [70] [71] [72] (report.aux)
  ***********
 LaTeX2e <2026-06-01>
 L3 programming layer <2026-07-20>
@@ -2735,23 +1911,18 @@ L3 programming layer <2026-07-20>
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: 6D15D2C28D12A3DEB1AD96B93B0E4901;9070.
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                report
-(biblatex)                and rerun LaTeX afterwards.
-
+(rerunfilecheck)             Checksum: 322E1705C11AFE054A53570FE8F822BF;9159.
 Package logreq Info: Writing requests to 'report.run.xml'.
 \openout1 = `report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 45721 strings out of 402619
- 974981 string characters out of 5438862
- 1890433 words of memory out of 5000000
- 74117 multiletter control sequences out of 15000+600000
- 633288 words of font info for 112 fonts, out of 8000000 for 9000
+ 45936 strings out of 402619
+ 984110 string characters out of 5438862
+ 1892454 words of memory out of 5000000
+ 74327 multiletter control sequences out of 15000+600000
+ 633296 words of font info for 113 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 111i,12n,111p,1874b,1965s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 107i,12n,108p,1850b,5763s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on report.pdf (76 pages).
+Output written on report.xdv (80 pages, 2210032 bytes).
