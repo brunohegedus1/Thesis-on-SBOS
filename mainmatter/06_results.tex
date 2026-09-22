@@ -648,14 +648,13 @@ Table \ref{tab: aerospike experimental results} collects the experimental detail
 
 The first 3 points only imaged the nozzle exhaust without a freestream supersonic flow. They varied the defocus configuration, with point 1 focusing in front of the test section, point 2 inside of it and point 3 behind it. The cross-correlation results shows the effect of defocus. Both positive and negative defocus captured larger displacements in pixels, however the image is scarred with noise, making it impossible to discern any structures in the flow. Meanwhile, the results of $l= 0$ is sharper and regions of more and less displacement corresponding to expansion or compression waves can be identified. However, Imaging the flow inside the test section means that the sensitivity cannot be estimated as $S=l \cdot M_{ag}$, which breaks the current model on how to transform the measured displacement field into a density gradient and subsequently a quantitative density field.
 
-A solution for that lies in Equation \ref{equation: S BOS}, as the sensitivity is also defined as the ratio between the measured displacement and deflection induced by the schlieren object $S = \Delta/\varepsilon$. If the same object of study is imaged with different sensitivities, the deflection $\varepsilon$ will be the same but the displacement measured will be different. The ratio between them will be the ratio of the sensitivities. Therefore, if a refractive object is imaged with a certain known sensitivity, a second sensitivity can be estimated by using the ratio of the measured displacements. Equation \ref{} summarizes this formulation.
+A solution for that lies in Equation \ref{equation: S BOS}, as the sensitivity is also defined as the ratio between the measured displacement and deflection induced by the schlieren object $S = \Delta/\varepsilon$. If the same object of study is imaged with different sensitivities, the deflection $\varepsilon$ will be the same but the displacement measured will be different. The ratio between them will be the ratio of the sensitivities. Therefore, if a refractive object is imaged with a certain known sensitivity, a second sensitivity can be estimated by using the ratio of the measured displacements. Equation \ref{equation: S ratio} summarizes this formulation.
 
 \begin{equation}
     \label{equation: S ratio}
     S_2 = \frac{\Delta_2}{\Delta_1} S_1
 \end{equation}
 
-
-
+The maximum measured displacement of points 1,2,3 were taken from the Cross-Correlation result and displayed in Table \ref{}. The sensitivity of point 1 was calculated based on the one of point 3 and vice-versa. Then, the sensitivity of point 2 was computed based on points 1 and 3. The deviation column shows that this method matches remarkably well the  $S= l \cdot M_{ag}$ formulation for the two defocused points. For the point inside the text section, the sensitivity estimate using either defocused point also yield similar results. The differences between them might come from differences in the schlieren object or uncertainties in the magnification estimate.
 
 %Add table for S ratio argument
