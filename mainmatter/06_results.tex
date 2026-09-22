@@ -617,11 +617,13 @@ The compressible jet experiments allowed the imaging of a real schlieren object 
 
 %All the lessons learned on previous campaigns were put to practice in this application
 
-The final experiment implemented the SBOS method in an high-speed wind tunnel setting to image the flow through a linear aerospike nozzle. The goal of this campaign was to test the design guidelines described in chaper \ref{chapter: methodology} in a real wind-tunnel environment and identify its limitations; to further investigate the effects in sensitivity and resolution of using different defocus positions, specially inside the test section; and to capture with sufficient detail the flow structures present at linear aerospike nozzle ramp. Table \ref{tab: aerospike experimental results} collects the experimental details of the imaged points. The distances were obtained from the pixel pitch resultant from DaVis' calibration output.
+The final experiment implemented the SBOS method to image the flow through a linear aerospike nozzle in a high-speed wind tunnel. The goal of this campaign was to test the design guidelines described in chaper \ref{chapter: methodology} in a real wind-tunnel environment and identify its limitations; further investigate the effects in sensitivity and resolution of using different defocus positions, specially inside the test section; and to capture with sufficient detail the flow structures present at linear aerospike nozzle ramp. 
+
+Table \ref{tab: aerospike experimental results} collects the experimental details of the imaged points. The distances were obtained from the pixel pitch resultant from DaVis' calibration output. It can be noticed that these distances differ from the ones in Table \ref{tab: aerospike test matrix}. This variation is mainly due to the use of a compound camera lens in the setup. The lens is not infinitely thin and there isn't a fixed point in the 200mm lens that can be considered a thin lens consistently for all the ranges of distances. For example, in the angled glass experiment, that point was identified as the mid-length of the lens, around 100mm behind the first external lens. However it looks like for distances above 1m, that point moves closer to the first external lens. That indicates a limitation of the design guidelines of chapter \ref{chapter: methodology}, as it is harder to reproduce the distances prescribed by it. Nevertheless, one of the take-aways from the same chapter was that the increase in field of view, and consequently the distances involved, makes the system magnification lower and the rate of change of performance parameters to $d_f$ also lower, so $S$ and $s_{min}$ end up not that different comparing Table \ref{tab: aerospike test matrix} and \ref{tab: aerospike experimental results}. The design methodology is therefore an useful tool to define preliminary variables but some variations on site have to be inevitably done to reach the desired field of view, sensitivity and resolution.
 
 \begin{table}[htbp]
     \centering
-    \caption{Experimental optical configurations of the aerospike campaign. $l$ is the defocus distance, $l_{eff}$ the effective lever arm, $d_f$ the distance from the camera lens to the in-focus plane, $M_{ag}$ the magnification measured with the calibration plate and $L_{FoV_{obj}}$ the field of view at the model. $S = l_{eff} \cdot M_{ag}$ is the sensitivity and $s_{min}$ the minimum distinguishable feature, which are not defined for the points with the in-focus plane inside the test section. ``Negative'' and ``Positive'' denote the in-focus plane lying respectively in front of or behind the model, while ``Inside TS'' denotes the in-focus plane inside the test section}
+    \caption{Experimental optical configurations of the aerospike campaign. $l$ is the defocus distance, $l_{eff}$ the effective lever arm, $d_f$ the distance from the camera lens to the in-focus plane, $M_{ag}$ the magnification measured with the calibration plate and $L_{FoV_{obj}}$ the field of view at the model. $S = l_{eff} \cdot M_{ag}$ is the sensitivity and $s_{min}$ the minimum distinguishable feature. ``Negative'' and ``Positive'' denote the in-focus plane lying respectively in front of or behind the model, while ``Inside TS'' denotes the focal plane inside the test section}
     \label{tab: aerospike experimental results}
     \begin{tabular}{lrrrrrrrrl}
         \toprule
@@ -629,7 +631,7 @@ The final experiment implemented the SBOS method in an high-speed wind tunnel se
               & [mm] & [mm] & [mm] & [--] & [mm] & [$\mu$s] & [mm] & [mm] & \\
         \midrule
          1 &  55 & 160 & 1139.1 & 0.213 & 75.19 & 480 & 34.1 & 0.638 & Negative \\
-         2 &   0 &   0 & 1261.0 & 0.189 & 74.48 & 480 &  0.0 & 0.000 & Inside TS \\
+         2 &   -105 &   0 & 1261.0 & 0.189 & 74.48 & 480 &  - & - & Inside TS \\
          3 &  60 & 165 & 1426.0 & 0.163 & 76.10 & 960 & 26.9 & 0.526 & Positive \\
         \midrule
          4 &  55 & 160 & 1038.0 & 0.239 & 67.90 & 480 & 38.2 & 0.701 & Negative \\
@@ -644,4 +646,16 @@ The final experiment implemented the SBOS method in an high-speed wind tunnel se
     \end{tabular}
 \end{table}
 
-The experimental campaign can be divided in two. The first 3 points only imaged the nozzle exhaust without a freestream supersonic flow. It varied the defocus configuration, focusing in front of the test secion, inside of it and behind it, represented by points 1-3 respectively.
+The first 3 points only imaged the nozzle exhaust without a freestream supersonic flow. They varied the defocus configuration, with point 1 focusing in front of the test section, point 2 inside of it and point 3 behind it. The cross-correlation results shows the effect of defocus. Both positive and negative defocus captured larger displacements in pixels, however the image is scarred with noise, making it impossible to discern any structures in the flow. Meanwhile, the results of $l= 0$ is sharper and regions of more and less displacement corresponding to expansion or compression waves can be identified. However, Imaging the flow inside the test section means that the sensitivity cannot be estimated as $S=l \cdot M_{ag}$, which breaks the current model on how to transform the measured displacement field into a density gradient and subsequently a quantitative density field.
+
+A solution for that lies in Equation \ref{equation: S BOS}, as the sensitivity is also defined as the ratio between the measured displacement and deflection induced by the schlieren object $S = \Delta/\varepsilon$. If the same object of study is imaged with different sensitivities, the deflection $\varepsilon$ will be the same but the displacement measured will be different. The ratio between them will be the ratio of the sensitivities. Therefore, if a refractive object is imaged with a certain known sensitivity, a second sensitivity can be estimated by using the ratio of the measured displacements. Equation \ref{} summarizes this formulation.
+
+\begin{equation}
+    \label{equation: S ratio}
+    S_2 = \frac{\Delta_2}{\Delta_1} S_1
+\end{equation}
+
+
+
+
+%Add table for S ratio argument
