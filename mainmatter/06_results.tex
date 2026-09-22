@@ -648,7 +648,7 @@ Table \ref{tab: aerospike experimental results} collects the experimental detail
 
 The first 3 points only imaged the nozzle exhaust without a freestream supersonic flow. They varied the defocus configuration, with point 1 focusing in front of the test section, point 2 inside of it and point 3 behind it. The cross-correlation results shows the effect of defocus. Both positive and negative defocus captured larger displacements in pixels, however the image is scarred with noise, making it impossible to discern any structures in the flow. Meanwhile, the results of $l= 0$ is sharper and regions of more and less displacement corresponding to expansion or compression waves can be identified. However, Imaging the flow inside the test section means that the sensitivity cannot be estimated as $S=l \cdot M_{ag}$, which breaks the current model on how to transform the measured displacement field into a density gradient and subsequently a quantitative density field.
 
-A solution for that lies in Equation \ref{equation: S BOS}, as the sensitivity is also defined as the ratio between the measured displacement and deflection induced by the schlieren object $S = \Delta/\varepsilon$. If the same object of study is imaged with different sensitivities, the deflection $\varepsilon$ will be the same but the displacement measured will be different. The ratio between them will be the ratio of the sensitivities. Therefore, if a refractive object is imaged with a certain known sensitivity, a second sensitivity can be estimated by using the ratio of the measured displacements. Equation \ref{} summarizes this formulation.
+A solution for that lies in Equation \ref{equation: S BOS}, as the sensitivity is also defined as the ratio between the measured displacement and deflection induced by the schlieren object $S = \Delta/\varepsilon$. If the same object of study is imaged with different sensitivities, the deflection $\varepsilon$ will be the same but the displacement measured will be different. The ratio between them will be the ratio of the sensitivities. Therefore, if a refractive object is imaged with a certain known sensitivity, a second sensitivity can be estimated by using the ratio of the measured displacements. Equation \ref{equation: S ratio} summarizes this formulation.
 
 \begin{equation}
     \label{equation: S ratio}
@@ -658,4 +658,18 @@ A solution for that lies in Equation \ref{equation: S BOS}, as the sensitivity i
 
 
 
-%Add table for S ratio argument
+\begin{table}[htbp]
+    \centering
+    \caption{Sensitivity of points 1 to 3 obtained through the geometry, $S = l \cdot M_{ag}$, and through the ratio of displacements of Equation \ref{equation: S ratio}. $\Delta_{max}$ is the maximum displacement measured in each point. The ratio method estimates the sensitivity of point 1 from point 3 and of point 3 from point 1, while point 2 is estimated from both. The deviation is the difference between the ratio method and the geometric sensitivity for points 1 and 3, and between the two estimates for point 2}
+    \label{tab: S ratio}
+    \begin{tabular}{lrrrr}
+        \toprule
+        Point & $\Delta_{max}$ & $S = l \cdot M_{ag}$ & $S$ (ratio method) & Deviation \\
+              & [px] & [mm] & [mm] & [mm] \\
+        \midrule
+        1 & 20.94 & 34.1 & 32.5 & $-1.5$ \\
+        2 & 14.96 & -- & \begin{tabular}[c]{@{}r@{}}24.4 (based on point 1)\\ 23.3 (based on point 3)\end{tabular} & $+1.1$ \\
+        3 & 17.32 & 26.9 & 28.2 & $+1.3$ \\
+        \bottomrule
+    \end{tabular}
+\end{table}
