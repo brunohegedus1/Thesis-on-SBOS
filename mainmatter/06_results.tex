@@ -646,13 +646,61 @@ Table \ref{tab: aerospike experimental results} collects the experimental detail
     \end{tabular}
 \end{table}
 
-The first 3 points only imaged the nozzle exhaust without a freestream supersonic flow. They varied the defocus configuration, with point 1 focusing in front of the test section, point 2 inside of it and point 3 behind it. The cross-correlation results in Figure \ref{} shows the effect of defocus. Both positive and negative defocus captured larger displacements in pixels, however the image is scarred with noise, making it impossible to discern any structures in the flow. Meanwhile, the results of $l = 0$ is sharper and regions of more and less displacement corresponding to expansion or compression waves can be identified. The noise in points 1 and 3 was probably a symptom of decorrelation due to blurring caused by the combination of strong density gradients together with the defocus distance.
+The first 3 points only imaged the nozzle exhaust without a freestream supersonic flow. They varied the defocus configuration, with point 1 focusing in front of the test section, point 2 inside of it and point 3 behind it. The cross-correlation results in Figure \ref{fig: aerospike displacement points 1-3} shows the effect of defocus. Both positive and negative defocus captured larger displacements in pixels, however the image is scarred with noise, making it impossible to discern any structures in the flow. Meanwhile, the results of $l = 0$ is sharper and regions of more and less displacement corresponding to expansion or compression waves can be identified. The noise in points 1 and 3 was probably a symptom of decorrelation due to blurring caused by the combination of strong density gradients together with the defocus distance.
 
-%Add sbos 1,2,3 displacements here
+\begin{figure}[htbp]
+    \centering
+    \begin{subfigure}[b]{0.32\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figures/aerospike displacement point 1.png}
+        \caption{Point 1, negative defocus}
+        \label{fig: aerospike displacement point 1}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.32\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figures/aerospike displacement point 2.png}
+        \caption{Point 2, focus inside the test section}
+        \label{fig: aerospike displacement point 2}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.32\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figures/aerospike displacement point 3.png}
+        \caption{Point 3, positive defocus}
+        \label{fig: aerospike displacement point 3}
+    \end{subfigure}
+    \caption{Displacement magnitude fields of the aerospike nozzle exhaust at $NPR = 8$ without freestream flow, obtained through cross-correlation for the three defocus configurations. The fields were rotated so that the top edge of the processed region is horizontal, each field uses its own color scale and masked regions are shown in grey}
+    \label{fig: aerospike displacement points 1-3}
+\end{figure}
 
-Figure \ref{} displays the flow pictures taken for points 1 on the left, 3 on the right and an schlieren image of the same flow condition in the middle, which focus inside the test section. The SBOS flow pictures are notably blurred, with almost no distinct speckle inside the flow. This blur probably caused decorrelation, which showed up in the results as noise. The blur cannot be only attributed to a defocus distance and seems to come from the flow itself. This is hinted by the schlieren image that, despite being sharper than the other two, still shows a very darkened and unclear flow. This predominance of dark regions means that the light was bent severely and is being blocked by the horizontal filter, indicating a large density gradient in those regions. This analysis shows a limitation of the defocus configuration but also an interesting feature of SBOS. It indicates that the defocused method might fail in flows with very strong density gradients, however, the technique allows focusing inside the test section, dynamically changing the sensitivity and resolution so that the blur can be reduced and the flow studied successfully.
+Figure \ref{fig: aerospike flow pictures} displays the flow pictures taken for points 1 on the left, 3 on the right and an schlieren image of the same flow condition in the middle, which focus inside the test section. The SBOS flow pictures are notably blurred, with almost no distinct speckle inside the flow. This blur probably caused decorrelation, which showed up in the results as noise. The blur cannot be only attributed to a defocus distance and seems to come from the flow itself. This is hinted by the schlieren image that, despite being sharper than the other two, still shows a very darkened and unclear flow. This predominance of dark regions means that the light was bent severely and is being blocked by the horizontal filter, indicating a large density gradient in those regions. This analysis shows a limitation of the defocus configuration but also an interesting feature of SBOS. It indicates that the defocused method might fail in flows with very strong density gradients, however, the technique allows focusing inside the test section, dynamically changing the sensitivity and resolution so that the blur can be reduced and the flow studied successfully.
 
-%Add flow pictures here
+\begin{figure}[htbp]
+    \centering
+    \begin{subfigure}[b]{0.277\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figures/aerospike flow picture point 1.jpg}
+        \caption{SBOS, point 1}
+        \label{fig: aerospike flow picture point 1}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.408\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figures/aerospike schlieren NPR8.png}
+        \caption{Schlieren}
+        \label{fig: aerospike schlieren NPR8}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.275\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figures/aerospike flow picture point 3.jpg}
+        \caption{SBOS, point 3}
+        \label{fig: aerospike flow picture point 3}
+    \end{subfigure}
+    \caption{Flow pictures of the aerospike nozzle exhaust at $NPR = 8$ without freestream flow. (a) SBOS picture of point 1, with negative defocus. (b) Schlieren image of the same flow condition, with the focus inside the test section. (c) SBOS picture of point 3, with positive defocus}
+    \label{fig: aerospike flow pictures}
+\end{figure}
  
 Nevertheless, imaging the flow inside the test section comes with its own limitations. Since there is no defocus distance $l$, it means that the sensitivity cannot be estimated as $S=l \cdot M_{ag}$, which breaks the current model on how to transform the measured displacement field into density gradients and subsequently a quantitative density field. A solution for that lies in Equation \ref{equation: S BOS}, as the sensitivity is also defined as the ratio between the measured displacement and deflection induced by the schlieren object $S = \Delta/\varepsilon$. If the same object of study is imaged with different sensitivities, the deflection $\varepsilon$ will be the same but the displacement measured will be different. The ratio between them will be the ratio of the sensitivities. Therefore, if a refractive object is imaged with a certain known sensitivity, a second sensitivity can be estimated by using the ratio of the measured displacements. Equation \ref{equation: S ratio} summarizes this formulation.
 
