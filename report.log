@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.5) (preloaded format=xelatex 2026.8.21)  22 SEP 2026 16:21
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.5) (preloaded format=xelatex 2026.8.21)  22 SEP 2026 17:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1838,7 +1838,7 @@ File: figures/density field dataset f.png Graphic file (type bmp)
 File: figures/centreline density e vs panda.png Graphic file (type bmp)
 <figures/centreline density e vs panda.png>
  [60] [61]
-Overfull \hbox (17.2482pt too wide) in paragraph at lines 628--647
+Overfull \hbox (27.04118pt too wide) in paragraph at lines 628--647
  [][] 
  []
 
@@ -1931,10 +1931,10 @@ Package logreq Info: Writing requests to 'report.run.xml'.
 Here is how much of TeX's memory you used:
  46094 strings out of 402619
  989479 string characters out of 5438862
- 1896068 words of memory out of 5000000
+ 1896226 words of memory out of 5000000
  74479 multiletter control sequences out of 15000+600000
  633296 words of font info for 113 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  107i,12n,108p,1850b,5763s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on report.xdv (83 pages, 2315928 bytes).
+Output written on report.xdv (83 pages, 2318028 bytes).
