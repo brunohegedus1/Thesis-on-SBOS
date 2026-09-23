@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.5) (preloaded format=xelatex 2026.8.21)  22 SEP 2026 17:11
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.5) (preloaded format=xelatex 2026.8.21)  23 SEP 2026 14:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1838,26 +1838,63 @@ File: figures/density field dataset f.png Graphic file (type bmp)
 File: figures/centreline density e vs panda.png Graphic file (type bmp)
 <figures/centreline density e vs panda.png>
  [60] [61]
-Overfull \hbox (27.04118pt too wide) in paragraph at lines 628--647
+Overfull \hbox (9.69075pt too wide) in paragraph at lines 633--652
  [][] 
  []
 
 File: figures/aerospike displacement point 1.png Graphic file (type bmp)
 <figures/aerospike displacement point 1.png>
+
+Overfull \hbox (14.34138pt too wide) in paragraph at lines 660--661
+ [][] 
+ []
+
 File: figures/aerospike displacement point 2.png Graphic file (type bmp)
 <figures/aerospike displacement point 2.png>
+
+Overfull \hbox (14.34138pt too wide) in paragraph at lines 666--667
+ [][] 
+ []
+
 File: figures/aerospike displacement point 3.png Graphic file (type bmp)
 <figures/aerospike displacement point 3.png>
+
+Overfull \hbox (14.34138pt too wide) in paragraph at lines 672--673
+ [][] 
+ []
+
+
+LaTeX Warning: Reference `' on page 62 undefined on input line 680.
+
 [62]
-File: figures/aerospike flow picture point 1.jpg Graphic file (type bmp)
-<figures/aerospike flow picture point 1.jpg>
-File: figures/aerospike schlieren NPR8.png Graphic file (type bmp)
-<figures/aerospike schlieren NPR8.png>
+File: figures/SBOS1_FLOW.jpg Graphic file (type bmp)
+<figures/SBOS1_FLOW.jpg>
 File: figures/aerospike flow picture point 3.jpg Graphic file (type bmp)
 <figures/aerospike flow picture point 3.jpg>
-) (mainmatter/07_conclusion.tex [63]
+ [63]
+File: figures/aerospike density gradient x.jpg Graphic file (type bmp)
+<figures/aerospike density gradient x.jpg>
+File: figures/aerospike density gradient y.jpg Graphic file (type bmp)
+<figures/aerospike density gradient y.jpg>
+
+
+LaTeX Warning: Reference `' on page 64 undefined on input line 754.
+
+
+LaTeX Warning: Reference `' on page 64 undefined on input line 754.
+
+File: figures/aerospike flow interpretation.png Graphic file (type bmp)
+<figures/aerospike flow interpretation.png>
+File: figures/aerospike schlieren NPR8.png Graphic file (type bmp)
+<figures/aerospike schlieren NPR8.png>
+[64]
+Overfull \hbox (17.25104pt too wide) in paragraph at lines 781--794
+ [][] 
+ []
+
+) (mainmatter/07_conclusion.tex [65]
 Chapter 7.
-) [64
+) [66
 
 ]
 Overfull \hbox (0.64949pt too wide) in paragraph at lines 66--66
@@ -1880,27 +1917,27 @@ Overfull \hbox (40.00558pt too wide) in paragraph at lines 66--66
 9. 
  []
 
-[65
+[67
 
-] [66] (appendix/appendix-a.tex [67]
+] [68] (appendix/appendix-a.tex [69]
 Appendix A.
 File: figures/CoC drawing.png Graphic file (type bmp)
 <figures/CoC drawing.png>
-[68
+[70
 
-]) (appendix/appendix-b.tex [69]
+]) (appendix/appendix-b.tex [71]
 Appendix B.
 File: figures/Blurred Object geometry.png Graphic file (type bmp)
 <figures/Blurred Object geometry.png>
-[70
+[72
 
-]) (appendix/appendix-c.tex [71]
+]) (appendix/appendix-c.tex [73]
 Appendix C.
 Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
 ine 4.
 File: figures/Px pitch and LFOV SBOS surf map.jpg Graphic file (type bmp)
 <figures/Px pitch and LFOV SBOS surf map.jpg>
-[72
+[74
 
 ]
 File: figures/Speckle size surf map BOS.jpg Graphic file (type bmp)
@@ -1913,7 +1950,7 @@ File: figures/Speckle size surf map SBOS 70mm.jpg Graphic file (type bmp)
 <figures/Speckle size surf map SBOS 70mm.jpg>
 File: figures/Speckle size surf map BOS 70mm.jpg Graphic file (type bmp)
 <figures/Speckle size surf map BOS 70mm.jpg>
-) [73] [74] [75] (report.aux)
+) [75] [76] [77] (report.aux)
  ***********
 LaTeX2e <2026-06-01>
 L3 programming layer <2026-07-20>
@@ -1923,18 +1960,18 @@ L3 programming layer <2026-07-20>
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: 834A9CAAB192D1A3DAEFAB0ABD0946B8;9159.
+(rerunfilecheck)             Checksum: F0CADEF57AD98D406E66B197F5653511;9159.
 Package logreq Info: Writing requests to 'report.run.xml'.
 \openout1 = `report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 46094 strings out of 402619
- 989479 string characters out of 5438862
- 1896226 words of memory out of 5000000
- 74479 multiletter control sequences out of 15000+600000
+ 46142 strings out of 402619
+ 991356 string characters out of 5438862
+ 1898662 words of memory out of 5000000
+ 74524 multiletter control sequences out of 15000+600000
  633296 words of font info for 113 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  107i,12n,108p,1850b,5763s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on report.xdv (83 pages, 2318028 bytes).
+Output written on report.xdv (85 pages, 2360544 bytes).

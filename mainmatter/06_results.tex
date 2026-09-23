@@ -730,14 +730,65 @@ The maximum measured displacement of points 1,2 and 3 were taken from the Cross-
     \end{tabular}
 \end{table}
 
-Now that the sensitivity of point 2 is known, the density gradient field can be obtained by assuming a 2D planar flow and applying Equation \ref{equation: In-plane displacement}. In this case, an effective lever arm was calculated by dividing the Sensitivity of Table \ref{tab: S ratio} with point 2's optical magnification, $l_{eff} = S/M_{ag} = 126,29$ mm. Figure \ref{} shows the x component of the gradient on \ref{} and the y component on \ref{}. The information of the two pictures allowed for the identification of compression and expansion waves in the flow, which were marked in Figure \ref{}. A very clear red line next to the exhaust in the x component marks a compression wave that reflects into another wave of the same family marked by a blue line in the y component. The compression wave hits the shear layer and becomes an expansion fan, signaled by the blue region in the x component. The following faintly red region indicates that the expansion waves reflect into very weak compression waves, until it reaches another expansion fan at the truncation lip, marked by a red region in the y component. This interpretation demonstrates the capability of SBOS to produce images with enough resolution to qualitatively interpret the flow structure at hand.
+Now that the sensitivity of point 2 is known, the density gradient field can be obtained by assuming a 2D planar flow and applying Equation \ref{equation: In-plane displacement}. In this case, an effective lever arm was calculated by dividing the Sensitivity of Table \ref{tab: S ratio} with point 2's optical magnification, $l_{eff} = S/M_{ag} = 126,29$ mm. Figure \ref{fig: aerospike density gradient fields} shows the x component of the gradient on \ref{fig: aerospike density gradient x} and the y component on \ref{fig: aerospike density gradient y}. The information of the two pictures allowed for the identification of compression and expansion waves in the flow, which were marked in Figure \ref{fig: aerospike flow interpretation}. A very clear red line next to the exhaust in the x component marks a compression wave that reflects into another wave of the same family marked by a blue line in the y component. The compression wave hits the shear layer and becomes an expansion fan, signaled by the blue region in the x component. The following faintly red region indicates that the expansion waves reflect into very weak compression waves, until it reaches another expansion fan at the truncation lip, marked by a red region in the y component. This interpretation demonstrates the capability of SBOS to produce images with enough resolution to qualitatively interpret the flow structure at hand.
 
-%Add density gradient fields
+\begin{figure}[htbp]
+    \centering
+    \begin{subfigure}[b]{0.49\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figures/aerospike density gradient x.jpg}
+        \caption{$\partial \rho / \partial x$}
+        \label{fig: aerospike density gradient x}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.49\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figures/aerospike density gradient y.jpg}
+        \caption{$\partial \rho / \partial y$}
+        \label{fig: aerospike density gradient y}
+    \end{subfigure}
+    \caption{Density gradient fields of point 2 obtained assuming a planar flow, for the aerospike nozzle exhaust at $NPR = 8$ without freestream flow. (a) Component in the $x$ direction. (b) Component in the $y$ direction. Masked regions are shown in grey}
+    \label{fig: aerospike density gradient fields}
+\end{figure}
 
-Comparing the Schlieren image of the same flow conditions in Figure \ref{} with the interpretation displayed in Figure \ref{} allows to validate the qualitative assessment of the flow structures, namely its type and position. The schlieren image displays a much more clear and sharp image than the SBOS density field, meaning that  it is superior in sensitivity and resolution. Nevertheless, the identification of the flow features made based on Figures \ref{} and \ref{} do not stray significantly from what can be seen through traditional schlieren. Furthermore, the SBOS displacement field can much more easily be used for a quantitative analysis than the intensity distribution of the classic method.
+Comparing the Schlieren image of the same flow conditions in Figure \ref{fig: aerospike schlieren interpretation} with the interpretation displayed in Figure \ref{fig: aerospike flow interpretation} allows to validate the qualitative assessment of the flow structures, namely its type and position. The schlieren image displays a much more clear and sharp image than the SBOS density field, meaning that  it is superior in sensitivity and resolution. Nevertheless, the identification of the flow features made based on Figures \ref{} and \ref{} do not stray significantly from what can be seen through traditional schlieren. Furthermore, the SBOS displacement field can much more easily be used for a quantitative analysis than the intensity distribution of the classic method.
 
-%Add flow interpretation and schlieren
+\begin{figure}[htbp]
+    \centering
+    \begin{subfigure}[b]{0.406\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figures/aerospike flow interpretation.png}
+        \caption{Interpretation of the SBOS result}
+        \label{fig: aerospike flow interpretation}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.554\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figures/aerospike schlieren NPR8.png}
+        \caption{Schlieren image}
+        \label{fig: aerospike schlieren interpretation}
+    \end{subfigure}
+    \caption{Flow structures of the aerospike nozzle exhaust at $NPR = 8$ without freestream flow. (a) Compression waves, expansion fans and Mach waves identified on the $x$ component of the density gradient. (b) Schlieren image of the same flow condition}
+    \label{fig: aerospike flow interpretation and schlieren}
+\end{figure}
 
-A verification of the density gradient field computation can also be done by comparing the fields obtained for points 1 and 3. Since point 1, 2 and 3 measure the same flow condition at 3 distinct independent moments, the comparison between their results allows to assess the right scaling from raw displacement to density gradients. An ideal comparison would be between samples of values in the same region at each individual picture. However, as it has been shown before, it is not possible to distinguish any features from the results of points 1 and 3, so that comparison would be nonphysical. Nevertheless, the scaling can be assessed by comparing the peaks of each density gradient field. The maximum density gradients were collected in Table \ref{} together with the average of the 100 highest values. The data shows that, all the maximum of the gradient components and the n peak averages match remarkably well, mantaining themselves below 10\%.
+A verification of the density gradient field computation can also be done by comparing the fields obtained for points 1 and 3. Since point 1, 2 and 3 measure the same flow condition at 3 distinct independent moments, the comparison between their results allows to assess the right scaling from raw displacement to density gradients. An ideal comparison would be between samples of values in the same region at each individual picture. However, as it has been shown before, it is not possible to distinguish any features from the results of points 1 and 3, so that comparison would be nonphysical. Nevertheless, the scaling can be assessed by comparing the peaks of each density gradient field. The maximum density gradients were collected in Table \ref{tab: aerospike gradient peaks} together with the average of the 100 highest values. The data shows that, all the maximum of the gradient components and the n peak averages match remarkably well, mantaining themselves below 10\%.
 
-%Add gradients table$
+\begin{table}[htbp]
+    \centering
+    \caption{Peak density gradients of points 1 to 3, which image the same flow condition at three independent moments. For each component, the peak is the maximum value of the field and the average is taken over its 100 highest values. The last row displays the maximum deviation between the three points. All values are in kg m$^{-3}$ mm$^{-1}$}
+    \label{tab: aerospike gradient peaks}
+    \begin{tabular}{lrrrrrr}
+        \toprule
+        Point & \multicolumn{2}{c}{$\partial \rho / \partial x$} & \multicolumn{2}{c}{$\partial \rho / \partial y$} & \multicolumn{2}{c}{$|\nabla \rho|$} \\
+        \cmidrule(lr){2-3} \cmidrule(lr){4-5} \cmidrule(lr){6-7}
+              & Peak & 100 peaks avg. & Peak & 100 peaks avg. & Peak & 100 peaks avg. \\
+        \midrule
+        1 & 0.0993 & 0.0840 & 0.1074 & 0.0952 & 0.1134 & 0.1010 \\
+        2 & 0.1088 & 0.0741 & 0.1150 & 0.0948 & 0.1218 & 0.1030 \\
+        3 & 0.0987 & 0.0772 & 0.1051 & 0.0945 & 0.1214 & 0.1044 \\
+        \midrule
+        Maximum deviation & 0.0101 & 0.0099 & 0.0099 & 0.0007 & 0.0084 & 0.0034 \\
+        \bottomrule
+    \end{tabular}
+\end{table}

@@ -1,17 +1,17 @@
 # Fdb version 4
-["biber report"] 1790089879.79887 "report.bcf" "report.bbl" "report" 1790089941.63985 0
-  "report.bcf" 1790089910.42849 124975 db75e215ded96368e22525c3322d1672 "xelatex"
+["biber report"] 1790165965.30323 "report.bcf" "report.bbl" "report" 1790166026.60742 0
+  "report.bcf" 1790165994.91634 125115 654d6d141ba1808525de44e435ba6831 "xelatex"
   "report.bib" 1789995382.03092 20307 992c045b95c54fa817ba15ac6f21e0c8 ""
   (generated)
   "report.bbl"
   "report.blg"
   (rewritten before read)
-["xdvipdfmx"] 1790089911.62583 "report.xdv" "report.pdf" "report" 1790089941.76806 0
-  "report.xdv" 1790089910.42849 2318028 46486cf2cf6c780a1416c2e6e0d1ca6b "xelatex"
+["xdvipdfmx"] 1790165996.07716 "report.xdv" "report.pdf" "report" 1790166026.73989 0
+  "report.xdv" 1790165994.91735 2360544 d85ef721fddf5858515aaa410f2a621d "xelatex"
   (generated)
   "report.pdf"
   (rewritten before read)
-["xelatex"] 1790089898.57194 "report.tex" "report.xdv" "report" 1790089941.64244 0
+["xelatex"] 1790165983.36709 "report.tex" "report.xdv" "report" 1790166026.60937 0
   "C:/Users/bruno/AppData/Local/MiKTeX/miktex/data/le/xetex/xelatex.fmt" 1787319360.28344 27216620 79343683421b64d37a355684079830c4 ""
   "C:/Users/bruno/AppData/Local/Programs/MiKTeX/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136801054 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "C:/Users/bruno/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
@@ -236,6 +236,7 @@
   "figures/S vs l slider experiment.jpg" 1789397620.24224 317323 1472e4e5933992dacdd350a8d265e96b ""
   "figures/SBOS setup ilustrated.png" 1787040728.67379 1874569 1f1261c6827bba54d8a4dac4854f8be2 ""
   "figures/SBOS title page image.png" 1789581954.38999 2680380 5bcfc84f170e85bc3bdab57529770884 ""
+  "figures/SBOS1_FLOW.jpg" 1790101092.85245 136150 01bdc301b55e00e847d74c18b7a952a5 ""
   "figures/Schlieren setup.png" 1787040728.70579 392577 7b8dbc417f28af9e1a0fddc8f2840475 ""
   "figures/Sensitivity and dav SBOS surf map.jpg" 1787040728.70879 323003 895ef3d2047e2501d28b241a3ba243a9 ""
   "figures/Sensitivity and smin BOS surf map 70mm.jpg" 1787040728.71279 355548 0a3d42edee8638b2799ea004461a5ccf ""
@@ -252,10 +253,12 @@
   "figures/Under over and perfect expanded jets.jpg" 1789816453.17953 62361 ce0e4723a37f16f72b5707db89a288f8 ""
   "figures/WT experiment setup.jpg" 1789984253.09313 102194 4c8cfeb0b61fe0e0d3b69925f833a28f ""
   "figures/aerospike camera setup.jpeg" 1789814897.41702 310701 222141322d872e48de58c4ee4caceaad ""
+  "figures/aerospike density gradient x.jpg" 1790165941.8192 133054 f30076f439b29a976f8214ddf299ec82 ""
+  "figures/aerospike density gradient y.jpg" 1790165941.86991 122816 94b3c3c5e12eec4c26836a59fef6d511 ""
   "figures/aerospike displacement point 1.png" 1790089275.38268 423378 4e4dbb3b0c799d5ac1dc35ea663e429a ""
   "figures/aerospike displacement point 2.png" 1790089875.19405 369948 a03538d6d65d68f3227750d8622b0343 ""
   "figures/aerospike displacement point 3.png" 1790089275.46313 393047 dee03bde0677fdd920d96b2e1a5749cb ""
-  "figures/aerospike flow picture point 1.jpg" 1790086865.07984 178623 282d4dc08f1e5ff196019bb3b28bb6f0 ""
+  "figures/aerospike flow interpretation.png" 1790165542.99627 907532 607a17b0c0d40a27ae4cffd585322ca1 ""
   "figures/aerospike flow picture point 3.jpg" 1790086865.11111 132196 9a24069447cc21099181db87b7494698 ""
   "figures/aerospike model.jpeg" 1789814897.43231 134279 3f944f89d5ba42b98ce1fb25973066ab ""
   "figures/aerospike schlieren NPR8.png" 1790086865.15799 129110 eb1d39b597f62e0aaf835c1d2e8fcb55 ""
@@ -302,20 +305,20 @@
   "frontmatter/nomenclature.tex" 1789394074.08346 4065 cf3f52f62a4779f90369e02a661635e3 ""
   "frontmatter/preface.tex" 1787040728.77893 217 a2eafe0749a39043e63492dcd41bf8e0 ""
   "frontmatter/summary.tex" 1787040728.77994 84 6aeec0ce56741e44e501255e14db693a ""
-  "frontmatter/title-thesis.tex" 1787143841.7113 2112 78ba1d0b9213a4a12ed10b4b0eb0bb8e ""
+  "frontmatter/title-thesis.tex" 1790165079.95007 2113 9a31d81c46502e44a3a94200e51857f4 ""
   "mainmatter/01_introduction.tex" 1789984253.12088 8120 7f65426e05ddd91ff20511a157a1c29a ""
-  "mainmatter/02_TheoreticalBackground.tex" 1790085529.11996 27356 e93e95e7b66da7e502bda42e596c449a ""
+  "mainmatter/02_TheoreticalBackground.tex" 1790165079.96696 27550 927f6c35157392c9a755b073eb1aaed5 ""
   "mainmatter/03_LiteratureReview.tex" 1789650626.69768 44378 c0dfd29e4856c3d6e67ff6eeee03e54b ""
   "mainmatter/04_methodology.tex" 1790012314.83889 40560 687d3de3a2a895e8e3b2e2b3fed51f80 ""
   "mainmatter/05_Methods.tex" 1790012682.87178 34601 56d4660d6f6d7e8a51d7a0afcddd46b7 ""
-  "mainmatter/06_results.tex" 1790089876.65915 94516 82b52263494898dc0ca8cd8d11dfecf2 ""
+  "mainmatter/06_results.tex" 1790165953.78971 100665 9de0fd740539703a59509c154ecb1542 ""
   "mainmatter/07_conclusion.tex" 1787998426.17559 55 d888d3c2b2e6d14c94a67acb7a84363a ""
-  "report.aux" 1790089910.36227 124925 c347d48440cc40b6364760a68a542f5d "xelatex"
-  "report.bbl" 1790089884.72002 95170 601d95c2e736f1d381694dd4db107374 "biber report"
-  "report.out" 1790089910.41183 9159 834a9caab192d1a3daefab0abd0946b8 "xelatex"
-  "report.run.xml" 1790089910.42849 2350 3aa6604a065aed1d7ae2817af42d008f "xelatex"
+  "report.aux" 1790165994.85126 128503 1c5a157c4bd25d2ece6c4e7b801d08d2 "xelatex"
+  "report.bbl" 1790165970.04138 95170 601d95c2e736f1d381694dd4db107374 "biber report"
+  "report.out" 1790165994.89254 9159 f0cadef57ad98d406e66b197f5653511 "xelatex"
+  "report.run.xml" 1790165994.91735 2350 3aa6604a065aed1d7ae2817af42d008f "xelatex"
   "report.tex" 1789581957.01859 2412 42c1306427543b842409572398e8348b ""
-  "report.toc" 1790089910.42849 4240 d7c0fc8d5f59172eee96612df7e36ca1 "xelatex"
+  "report.toc" 1790165994.91735 4240 7b1455e6826542e0edd3a3d2fc8f44fb "xelatex"
   "tudelft-report.cls" 1789546373.30447 9381 45e227fb4a6f63b84859ab9f8a84779e ""
   (generated)
   "report.aux"
