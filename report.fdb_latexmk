@@ -1,17 +1,17 @@
 # Fdb version 4
-["biber report"] 1790165965.30323 "report.bcf" "report.bbl" "report" 1790166026.60742 0
-  "report.bcf" 1790165994.91634 125115 654d6d141ba1808525de44e435ba6831 "xelatex"
+["biber report"] 1790178195.44182 "report.bcf" "report.bbl" "report" 1790178266.37857 0
+  "report.bcf" 1790178233.01156 125115 654d6d141ba1808525de44e435ba6831 "xelatex"
   "report.bib" 1789995382.03092 20307 992c045b95c54fa817ba15ac6f21e0c8 ""
   (generated)
   "report.bbl"
   "report.blg"
   (rewritten before read)
-["xdvipdfmx"] 1790165996.07716 "report.xdv" "report.pdf" "report" 1790166026.73989 0
-  "report.xdv" 1790165994.91735 2360544 d85ef721fddf5858515aaa410f2a621d "xelatex"
+["xdvipdfmx"] 1790178234.22572 "report.xdv" "report.pdf" "report" 1790178266.51961 0
+  "report.xdv" 1790178233.01656 2380224 440c7fe8afb3580e14e84253b80ff94a "xelatex"
   (generated)
   "report.pdf"
   (rewritten before read)
-["xelatex"] 1790165983.36709 "report.tex" "report.xdv" "report" 1790166026.60937 0
+["xelatex"] 1790178221.29075 "report.tex" "report.xdv" "report" 1790178266.38047 0
   "C:/Users/bruno/AppData/Local/MiKTeX/miktex/data/le/xetex/xelatex.fmt" 1787319360.28344 27216620 79343683421b64d37a355684079830c4 ""
   "C:/Users/bruno/AppData/Local/Programs/MiKTeX/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136801054 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "C:/Users/bruno/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
@@ -250,7 +250,7 @@
   "figures/Speckle size surf map BOS.jpg" 1789549879.08322 526669 34690865a782ad1dc5b3cacd7e7262dd ""
   "figures/Speckle size surf map SBOS 70mm.jpg" 1789549879.11648 371739 1c469fb93e1df04dfaa90f4534ab3295 ""
   "figures/Speckle size surf map SBOS.jpg" 1787040728.7233 228549 5ea759a50b82949ad8d812838eebb349 ""
-  "figures/Under over and perfect expanded jets.jpg" 1789816453.17953 62361 ce0e4723a37f16f72b5707db89a288f8 ""
+  "figures/Under over and perfect expanded jets.jpg" 1790177731.39763 65070 dd1acd5f1872f70d53b189cbd344fa8c ""
   "figures/WT experiment setup.jpg" 1789984253.09313 102194 4c8cfeb0b61fe0e0d3b69925f833a28f ""
   "figures/aerospike camera setup.jpeg" 1789814897.41702 310701 222141322d872e48de58c4ee4caceaad ""
   "figures/aerospike density gradient x.jpg" 1790165941.8192 133054 f30076f439b29a976f8214ddf299ec82 ""
@@ -258,10 +258,10 @@
   "figures/aerospike displacement point 1.png" 1790089275.38268 423378 4e4dbb3b0c799d5ac1dc35ea663e429a ""
   "figures/aerospike displacement point 2.png" 1790089875.19405 369948 a03538d6d65d68f3227750d8622b0343 ""
   "figures/aerospike displacement point 3.png" 1790089275.46313 393047 dee03bde0677fdd920d96b2e1a5749cb ""
-  "figures/aerospike flow interpretation.png" 1790165542.99627 907532 607a17b0c0d40a27ae4cffd585322ca1 ""
+  "figures/aerospike flow interpretation.png" 1790177731.41435 868101 415e435a87befcd3ece6ce0a6f66fe9f ""
   "figures/aerospike flow picture point 3.jpg" 1790086865.11111 132196 9a24069447cc21099181db87b7494698 ""
   "figures/aerospike model.jpeg" 1789814897.43231 134279 3f944f89d5ba42b98ce1fb25973066ab ""
-  "figures/aerospike schlieren NPR8.png" 1790086865.15799 129110 eb1d39b597f62e0aaf835c1d2e8fcb55 ""
+  "figures/aerospike schlieren NPR8.png" 1790177731.43095 112536 9d09a4ddc81a5115f1aea8f635abdd3b ""
   "figures/aerospike speckle generator setup2.jpeg" 1789814897.43372 259805 584de84b7358e07521b18e20af29bcb7 ""
   "figures/angled glass slider.jpeg" 1787240162.38695 94899 a0fd5b5d76f6d5a0ff229ef3eaf5ea26 ""
   "figures/angled laser schematic.png" 1787040728.7273 360735 18790dbea587a8d0a48ff559fa046387 ""
@@ -311,14 +311,14 @@
   "mainmatter/03_LiteratureReview.tex" 1789650626.69768 44378 c0dfd29e4856c3d6e67ff6eeee03e54b ""
   "mainmatter/04_methodology.tex" 1790012314.83889 40560 687d3de3a2a895e8e3b2e2b3fed51f80 ""
   "mainmatter/05_Methods.tex" 1790012682.87178 34601 56d4660d6f6d7e8a51d7a0afcddd46b7 ""
-  "mainmatter/06_results.tex" 1790165953.78971 100665 9de0fd740539703a59509c154ecb1542 ""
+  "mainmatter/06_results.tex" 1790178182.6487 103326 d05b2d0a4fc980201b304b928154a59c ""
   "mainmatter/07_conclusion.tex" 1787998426.17559 55 d888d3c2b2e6d14c94a67acb7a84363a ""
-  "report.aux" 1790165994.85126 128503 1c5a157c4bd25d2ece6c4e7b801d08d2 "xelatex"
-  "report.bbl" 1790165970.04138 95170 601d95c2e736f1d381694dd4db107374 "biber report"
-  "report.out" 1790165994.89254 9159 f0cadef57ad98d406e66b197f5653511 "xelatex"
-  "report.run.xml" 1790165994.91735 2350 3aa6604a065aed1d7ae2817af42d008f "xelatex"
+  "report.aux" 1790178232.94484 129983 3b43a3b4d4463629465955f39bc26261 "xelatex"
+  "report.bbl" 1790178207.45278 95170 601d95c2e736f1d381694dd4db107374 "biber report"
+  "report.out" 1790178232.99156 9159 a49df36e7bc2133d77e498ff6265a50a "xelatex"
+  "report.run.xml" 1790178233.01556 2350 3aa6604a065aed1d7ae2817af42d008f "xelatex"
   "report.tex" 1789581957.01859 2412 42c1306427543b842409572398e8348b ""
-  "report.toc" 1790165994.91735 4240 7b1455e6826542e0edd3a3d2fc8f44fb "xelatex"
+  "report.toc" 1790178233.01656 4240 0fa2ce218c4898a5cfe312a926d282b8 "xelatex"
   "tudelft-report.cls" 1789546373.30447 9381 45e227fb4a6f63b84859ab9f8a84779e ""
   (generated)
   "report.aux"
