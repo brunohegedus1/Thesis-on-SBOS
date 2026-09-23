@@ -793,9 +793,33 @@ A verification of the density gradient field computation can also be done by com
     \end{tabular}
 \end{table}
 
-Points 4 to 11 of Table \ref{tab: aerospike experimental results} imaged the aerospike nozzle influenced by an external Mach 2 flow created by the high-speed wind tunnel. Figure \ref{} compares the results taken with $NPR = 10$ from points 5 and 9 to an schlieren image taken with the same flow condition. The three photos are representative of the resolution and sensitivity of each configuration for the other $NPR$s. In this case, the flow captured with positive defocus experienced a considerably smaller blurring and the cross-correlation results already allowed the identification of some structures. Nevertheless, It is the results obtained with the focus inside the test section that truly yield remarkable resolution, capable of rivaling even the schlieren image.
+Points 4 to 11 of Table \ref{tab: aerospike experimental results} imaged the aerospike nozzle influenced by an external Mach 2 flow created by the high-speed wind tunnel. Figure \ref{fig: aerospike freestream NPR10} compares the results taken with $NPR = 10$ from points 5 and 9 to an schlieren image taken with the same flow condition. The three photos are representative of the resolution and sensitivity of each configuration for the other $NPR$s. In this case, the flow captured with positive defocus experienced a considerably smaller blurring and the cross-correlation results already allowed the identification of some structures. Nevertheless, It is the results obtained with the focus inside the test section that truly yield remarkable resolution, capable of rivaling even the schlieren image.
 
-%Add displacement magnitude of points 5, 9 and the schlieren correspondent.
+\begin{figure}[htbp]
+    \centering
+    \begin{subfigure}[b]{0.298\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figures/aerospike displacement point 5.jpg}
+        \caption{SBOS, point 5}
+        \label{fig: aerospike displacement point 5}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.298\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figures/aerospike displacement point 9.jpg}
+        \caption{SBOS, point 9}
+        \label{fig: aerospike displacement point 9}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.363\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figures/aerospike schlieren NPR10.png}
+        \caption{Schlieren}
+        \label{fig: aerospike schlieren NPR10}
+    \end{subfigure}
+    \caption{Aerospike nozzle exhaust at $NPR = 10$ with the Mach 2 freestream flow. (a) Displacement magnitude field of point 5, with negative defocus. (b) Displacement magnitude field of point 9, with the focus inside the test section. (c) Schlieren image of the same flow condition. Each field uses its own color scale and masked regions are shown in grey}
+    \label{fig: aerospike freestream NPR10}
+\end{figure}
 
 The S ratio method can be used to calculate the sensitivity and effective lever arm of points 8-11 with the maximum measured displacements. Table \ref{tab: S ratio points 4 to 11} collects the data necessary to compute these quantities. It shows that the ratio between displacements stays consistent throughout points 4-6 and 8-10, with only points 7 and 11 disagreeing considerably. This disagreement is to be expected as the flow imaged by point 7 is completely different from point 11 due to an error in the model assembly, which will be discussed later. The six viable points were used to calculate an averaged sensitivity and effective lever arm for points 8-11. With this result, the density gradient fields of each of these points can be calculated
 
@@ -824,7 +848,30 @@ The S ratio method can be used to calculate the sensitivity and effective lever 
     \end{tabular}
 \end{table}
 
-Similar as before, the peaks of points with the same flow condition were compared to verify if both density gradients match as they should. This calculation is displayed in Table \ref{}. Once again, the results are remarkably similar. The biggest deviation happened between points 4 and 8 in the peak of the y component of the density gradient, correspondent to 17,3\%. Nevertheless, this can be considered an outlier as the average of the 100 highest values of the two points showed an error below 10\%. The data in the table verifies the resultant density gradient fields by showing that two different routes will yield the same result. Another interesting observation is that points 4 and 8, that imaged an $NPR = 8$, showed considerably similar peaks and peak averages to points 1,2 and 3 which had the same $NPR$.
+Similar as before, the peaks of points with the same flow condition were compared to verify if both density gradients match as they should. This calculation is displayed in Table \ref{tab: aerospike gradient peaks freestream}. Once again, the results are remarkably similar. The biggest deviation happened between points 4 and 8 in the peak of the y component of the density gradient, correspondent to 17,3\%. Nevertheless, this can be considered an outlier as the average of the 100 highest values of the two points showed an error below 10\%. The data in the table verifies the resultant density gradient fields by showing that two different routes will yield the same result. Another interesting observation is that points 4 and 8, that imaged an $NPR = 8$, showed considerably similar peaks and peak averages to points 1,2 and 3 which had the same $NPR$.
 
-%Add peak comparions of the external flow points
+\begin{table}[htbp]
+    \centering
+    \caption{Peak density gradients of the points acquired with the freestream flow, grouped by pairs that image the same flow condition with the focus in front of and inside the test section. For each component, the peak is the maximum value of the field and the average is taken over its 100 highest values. The deviation row displays the difference between the two points of each pair. All values are in kg m$^{-3}$ mm$^{-1}$}
+    \label{tab: aerospike gradient peaks freestream}
+    \begin{tabular}{lrrrrrr}
+        \toprule
+        Point & \multicolumn{2}{c}{$\partial \rho / \partial x$} & \multicolumn{2}{c}{$\partial \rho / \partial y$} & \multicolumn{2}{c}{$|\nabla \rho|$} \\
+        \cmidrule(lr){2-3} \cmidrule(lr){4-5} \cmidrule(lr){6-7}
+              & Peak & 100 peaks avg. & Peak & 100 peaks avg. & Peak & 100 peaks avg. \\
+        \midrule
+         4 & 0.0969 & 0.0727 & 0.0992 & 0.0824 & 0.1290 & 0.0982 \\
+         8 & 0.0897 & 0.0653 & 0.1164 & 0.0905 & 0.1168 & 0.0944 \\
+        Deviation & $+0.0072$ & $+0.0074$ & $-0.0172$ & $-0.0081$ & $+0.0122$ & $+0.0038$ \\
+        \midrule
+         5 & 0.0710 & 0.0617 & 0.1014 & 0.0875 & 0.1127 & 0.0960 \\
+         9 & 0.0708 & 0.0629 & 0.1153 & 0.0833 & 0.1175 & 0.0874 \\
+        Deviation & $+0.0002$ & $-0.0012$ & $-0.0139$ & $+0.0042$ & $-0.0048$ & $+0.0086$ \\
+        \midrule
+         6 & 0.0930 & 0.0693 & 0.1015 & 0.0904 & 0.1110 & 0.0974 \\
+        10 & 0.0996 & 0.0767 & 0.0941 & 0.0813 & 0.1108 & 0.0907 \\
+        Deviation & $-0.0066$ & $-0.0074$ & $+0.0074$ & $+0.0091$ & $+0.0002$ & $+0.0067$ \\
+        \bottomrule
+    \end{tabular}
+\end{table}
 

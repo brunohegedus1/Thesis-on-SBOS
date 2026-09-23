@@ -1,17 +1,17 @@
 # Fdb version 4
-["biber report"] 1790178195.44182 "report.bcf" "report.bbl" "report" 1790178266.37857 0
-  "report.bcf" 1790178233.01156 125115 654d6d141ba1808525de44e435ba6831 "xelatex"
+["biber report"] 1790185390.59307 "report.bcf" "report.bbl" "report" 1790185455.32242 0
+  "report.bcf" 1790185420.78296 125115 654d6d141ba1808525de44e435ba6831 "xelatex"
   "report.bib" 1789995382.03092 20307 992c045b95c54fa817ba15ac6f21e0c8 ""
   (generated)
   "report.bbl"
   "report.blg"
   (rewritten before read)
-["xdvipdfmx"] 1790178234.22572 "report.xdv" "report.pdf" "report" 1790178266.51961 0
-  "report.xdv" 1790178233.01656 2380224 440c7fe8afb3580e14e84253b80ff94a "xelatex"
+["xdvipdfmx"] 1790185421.944 "report.xdv" "report.pdf" "report" 1790185455.45879 0
+  "report.xdv" 1790185420.78651 2409936 15a46526ae5483c2dfa81b683d19a5bd "xelatex"
   (generated)
   "report.pdf"
   (rewritten before read)
-["xelatex"] 1790178221.29075 "report.tex" "report.xdv" "report" 1790178266.38047 0
+["xelatex"] 1790185409.07903 "report.tex" "report.xdv" "report" 1790185455.32397 0
   "C:/Users/bruno/AppData/Local/MiKTeX/miktex/data/le/xetex/xelatex.fmt" 1787319360.28344 27216620 79343683421b64d37a355684079830c4 ""
   "C:/Users/bruno/AppData/Local/Programs/MiKTeX/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136801054 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "C:/Users/bruno/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
@@ -258,9 +258,12 @@
   "figures/aerospike displacement point 1.png" 1790089275.38268 423378 4e4dbb3b0c799d5ac1dc35ea663e429a ""
   "figures/aerospike displacement point 2.png" 1790089875.19405 369948 a03538d6d65d68f3227750d8622b0343 ""
   "figures/aerospike displacement point 3.png" 1790089275.46313 393047 dee03bde0677fdd920d96b2e1a5749cb ""
+  "figures/aerospike displacement point 5.jpg" 1790185371.49716 278921 d5a7b444cdda28c5e7b46f1a4a88b312 ""
+  "figures/aerospike displacement point 9.jpg" 1790185371.54886 244357 687e021a326cb44eafa196ce447f5ca8 ""
   "figures/aerospike flow interpretation.png" 1790177731.41435 868101 415e435a87befcd3ece6ce0a6f66fe9f ""
   "figures/aerospike flow picture point 3.jpg" 1790086865.11111 132196 9a24069447cc21099181db87b7494698 ""
   "figures/aerospike model.jpeg" 1789814897.43231 134279 3f944f89d5ba42b98ce1fb25973066ab ""
+  "figures/aerospike schlieren NPR10.png" 1790185371.58215 133549 b3f6fe8a47874bb6eb51366f417b8e07 ""
   "figures/aerospike schlieren NPR8.png" 1790177731.43095 112536 9d09a4ddc81a5115f1aea8f635abdd3b ""
   "figures/aerospike speckle generator setup2.jpeg" 1789814897.43372 259805 584de84b7358e07521b18e20af29bcb7 ""
   "figures/angled glass slider.jpeg" 1787240162.38695 94899 a0fd5b5d76f6d5a0ff229ef3eaf5ea26 ""
@@ -311,14 +314,14 @@
   "mainmatter/03_LiteratureReview.tex" 1789650626.69768 44378 c0dfd29e4856c3d6e67ff6eeee03e54b ""
   "mainmatter/04_methodology.tex" 1790012314.83889 40560 687d3de3a2a895e8e3b2e2b3fed51f80 ""
   "mainmatter/05_Methods.tex" 1790012682.87178 34601 56d4660d6f6d7e8a51d7a0afcddd46b7 ""
-  "mainmatter/06_results.tex" 1790178182.6487 103326 d05b2d0a4fc980201b304b928154a59c ""
+  "mainmatter/06_results.tex" 1790185378.16413 108078 22d165e7ac0eaa476c3c79f842bd401f ""
   "mainmatter/07_conclusion.tex" 1787998426.17559 55 d888d3c2b2e6d14c94a67acb7a84363a ""
-  "report.aux" 1790178232.94484 129983 3b43a3b4d4463629465955f39bc26261 "xelatex"
-  "report.bbl" 1790178207.45278 95170 601d95c2e736f1d381694dd4db107374 "biber report"
-  "report.out" 1790178232.99156 9159 a49df36e7bc2133d77e498ff6265a50a "xelatex"
-  "report.run.xml" 1790178233.01556 2350 3aa6604a065aed1d7ae2817af42d008f "xelatex"
+  "report.aux" 1790185420.71136 133182 bd3a299e42ad00b068116981ea5caef7 "xelatex"
+  "report.bbl" 1790185395.37166 95170 601d95c2e736f1d381694dd4db107374 "biber report"
+  "report.out" 1790185420.75613 9159 94dd4061d4e0d614e0f3f636be05917b "xelatex"
+  "report.run.xml" 1790185420.78651 2350 3aa6604a065aed1d7ae2817af42d008f "xelatex"
   "report.tex" 1789581957.01859 2412 42c1306427543b842409572398e8348b ""
-  "report.toc" 1790178233.01656 4240 0fa2ce218c4898a5cfe312a926d282b8 "xelatex"
+  "report.toc" 1790185420.78651 4240 b39659d17d064923c2602eea495d8584 "xelatex"
   "tudelft-report.cls" 1789546373.30447 9381 45e227fb4a6f63b84859ab9f8a84779e ""
   (generated)
   "report.aux"
