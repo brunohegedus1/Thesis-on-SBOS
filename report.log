@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.5) (preloaded format=xelatex 2026.8.21)  24 SEP 2026 19:01
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.5) (preloaded format=xelatex 2026.8.21)  24 SEP 2026 19:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1740,12 +1740,8 @@ File: figures/WT experiment setup.jpg Graphic file (type bmp)
 Chapter 6.
 [44
 
-] [45]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[46]
-Overfull \hbox (11.5911pt too wide) in paragraph at lines 154--167
+] [45] [46]
+Overfull \hbox (11.5911pt too wide) in paragraph at lines 156--169
  [][] 
  []
 
@@ -1780,11 +1776,11 @@ File: figures/SBOS speckle pattern comparison.jpg Graphic file (type bmp)
  [55]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 435.
+(hyperref)                removing `math shift' on input line 438.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 435.
+(hyperref)                removing `math shift' on input line 438.
 
 File: figures/jet displacement 3bar.png Graphic file (type bmp)
 <figures/jet displacement 3bar.png>
@@ -1839,7 +1835,7 @@ File: figures/density field dataset f.png Graphic file (type bmp)
 File: figures/centreline density e vs panda.png Graphic file (type bmp)
 <figures/centreline density e vs panda.png>
  [62]
-Overfull \hbox (9.69075pt too wide) in paragraph at lines 693--712
+Overfull \hbox (10.2518pt too wide) in paragraph at lines 696--715
  [][] 
  []
 
@@ -1847,21 +1843,21 @@ Overfull \hbox (9.69075pt too wide) in paragraph at lines 693--712
 File: figures/aerospike displacement point 1.png Graphic file (type bmp)
 <figures/aerospike displacement point 1.png>
 
-Overfull \hbox (14.34138pt too wide) in paragraph at lines 723--724
+Overfull \hbox (14.34138pt too wide) in paragraph at lines 726--727
  [][] 
  []
 
 File: figures/aerospike displacement point 2.png Graphic file (type bmp)
 <figures/aerospike displacement point 2.png>
 
-Overfull \hbox (14.34138pt too wide) in paragraph at lines 729--730
+Overfull \hbox (14.34138pt too wide) in paragraph at lines 732--733
  [][] 
  []
 
 File: figures/aerospike displacement point 3.png Graphic file (type bmp)
 <figures/aerospike displacement point 3.png>
 
-Overfull \hbox (14.34138pt too wide) in paragraph at lines 735--736
+Overfull \hbox (14.34138pt too wide) in paragraph at lines 738--739
  [][] 
  []
 
@@ -1879,21 +1875,21 @@ File: figures/aerospike flow interpretation.png Graphic file (type bmp)
 File: figures/aerospike schlieren NPR8.png Graphic file (type bmp)
 <figures/aerospike schlieren NPR8.png>
  [66]
-Overfull \hbox (17.25104pt too wide) in paragraph at lines 850--863
+Overfull \hbox (17.25104pt too wide) in paragraph at lines 856--869
  [][] 
  []
 
 File: figures/aerospike displacement point 5.jpg Graphic file (type bmp)
 <figures/aerospike displacement point 5.jpg>
 
-Overfull \hbox (30.47209pt too wide) in paragraph at lines 874--875
+Overfull \hbox (30.47209pt too wide) in paragraph at lines 880--881
  [][] 
  []
 
 File: figures/aerospike displacement point 9.jpg Graphic file (type bmp)
 <figures/aerospike displacement point 9.jpg>
 
-Overfull \hbox (15.23721pt too wide) in paragraph at lines 881--882
+Overfull \hbox (15.23721pt too wide) in paragraph at lines 887--888
  [][] 
  []
 
@@ -1902,11 +1898,11 @@ File: figures/aerospike schlieren NPR10.png Graphic file (type bmp)
 [67]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 950.
+(hyperref)                removing `math shift' on input line 957.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 950.
+(hyperref)                removing `math shift' on input line 957.
 
 [68]
 File: figures/aerospike flow interpretation point 8.png Graphic file (type bmp)
@@ -1914,7 +1910,6 @@ File: figures/aerospike flow interpretation point 8.png Graphic file (type bmp)
 <figures/aerospike flow interpretation point 8.png>
 File: figures/aerospike schlieren NPR7.png Graphic file (type bmp)
 <figures/aerospike schlieren NPR7.png>
- [69]
 File: figures/aerospike density gradient point 8.png Graphic file (type bmp)
 <figures/aerospike density gradient point 8.png>
 File: figures/aerospike density gradient point 9.png Graphic file (type bmp)
@@ -1923,7 +1918,7 @@ File: figures/aerospike density gradient point 10.png Graphic file (type bmp)
 <figures/aerospike density gradient point 10.png>
 File: figures/aerospike density gradient point 11.png Graphic file (type bmp)
 <figures/aerospike density gradient point 11.png>
-) (mainmatter/07_conclusion.tex [70] [71]
+ [69] [70]) (mainmatter/07_conclusion.tex [71]
 Chapter 7.
 ) [72
 
@@ -1991,7 +1986,7 @@ L3 programming layer <2026-07-20>
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: 957A3E6905899362625807C0CC91E6A6;12999.
+(rerunfilecheck)             Checksum: 4D26CD5FA7EE6FD0A023EF933C0DE0F9;12913.
 Package logreq Info: Writing requests to 'report.run.xml'.
 \openout1 = `report.run.xml'.
 
@@ -1999,10 +1994,10 @@ Package logreq Info: Writing requests to 'report.run.xml'.
 Here is how much of TeX's memory you used:
  46348 strings out of 402619
  1000178 string characters out of 5438862
- 1903848 words of memory out of 5000000
+ 1903753 words of memory out of 5000000
  74717 multiletter control sequences out of 15000+600000
  634841 words of font info for 119 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 107i,12n,108p,2274b,5756s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 107i,12n,108p,2282b,5756s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on report.xdv (91 pages, 2570148 bytes).
+Output written on report.xdv (91 pages, 2569948 bytes).
