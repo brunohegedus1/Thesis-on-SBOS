@@ -378,9 +378,26 @@ In the angled glass study, it was mentioned that a probable cause of the large s
     \label{fig: speckle patterns dGG}
 \end{figure}
 
-It is also valid to compare the speckles pattern with a typical background pattern used by standard BOS. For that, a leftover BOS background pattern was found at the lab and positioned at a certain positive defocus distance. Then the camera was focused on the same plane, verified with a calibration plate, and a picture was taken of the speckle pattern produced with f-stop 22. Figure \ref{} collects both images side-to-side. The difference is evident. SBOS provides a much smaller, denser and higher contrast background pattern. In practice, this means that SBOS allows for smaller interrogation windows, with a much more refined spatial resolution capable of imaging very small features in the flow. Therefore, this comparison shows that SBOS does not only produces a higher sensitivity than BOS, but also provides much more detailed results.
+It is also valid to compare the speckles pattern with a typical background pattern used by standard BOS. For that, a leftover BOS background pattern was found at the lab and positioned at a certain positive defocus distance. Then the camera was focused on the same plane, verified with a calibration plate, and a picture was taken of the speckle pattern produced with f-stop 22. Figure \ref{fig: BOS and SBOS pattern comparison} collects both images side-to-side. The difference is evident. SBOS provides a much smaller, denser and higher contrast background pattern. In practice, this means that SBOS allows for smaller interrogation windows, with a much more refined spatial resolution capable of imaging very small features in the flow. Therefore, this comparison shows that SBOS does not only produces a higher sensitivity than BOS, but also provides much more detailed results.
 
-%Add SBOS and BOS speckle comparison
+\begin{figure}[htbp]
+    \centering
+    \begin{subfigure}[b]{0.49\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figures/BOS background pattern.jpg}
+        \caption{Printed BOS background pattern}
+        \label{fig: BOS background pattern}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.49\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figures/SBOS speckle pattern comparison.jpg}
+        \caption{Laser speckle pattern}
+        \label{fig: SBOS speckle pattern comparison}
+    \end{subfigure}
+    \caption{Comparison between the background patterns of BOS and SBOS, both imaged at the same in-focus plane with $f_\# = 22$. (a) Leftover printed background pattern used by standard BOS. (b) Speckle pattern produced with the laser and the ground glass diffuser}
+    \label{fig: BOS and SBOS pattern comparison}
+\end{figure}
 
 The speckle pattern investigation campaign allowed for the study of the speckle generation process. It successfully reproduced finer speckles than the angled glass experiment, showed the dependence of the speckle size on the f-stop number, investigated the effect of a small incidence beam in the diffuser and compared direct with projected speckle. However, the data showed unexpected insensitivity to magnification variations and still deviated significantly from the speckle predicted through the Rayleigh limit. An explanation of that deviation was provided, pointing out that the thin lens assumption does not hold completely for a compound camera lens. Therefore, it was conjectured that another relationship different than equation \ref{equation: Rayleigh Limit} must exist for compound lenses. For now, the data at hand make it possible to define a laser speckle generator capable of producing speckles within the 2--5 pixel range. The findings of this campaign are enough to proceed to the correct application of Laser Speckled BOS to image a real schlieren object, in this case a compressible jet.
 
