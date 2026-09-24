@@ -1,17 +1,17 @@
 # Fdb version 4
-["biber report"] 1790185390.59307 "report.bcf" "report.bbl" "report" 1790185455.32242 0
-  "report.bcf" 1790185420.78296 125115 654d6d141ba1808525de44e435ba6831 "xelatex"
-  "report.bib" 1789995382.03092 20307 992c045b95c54fa817ba15ac6f21e0c8 ""
+["biber report"] 1790249326.00462 "report.bcf" "report.bbl" "report" 1790249393.74843 0
+  "report.bcf" 1790249356.81082 125583 5304d2b3410f81f2613c65e4406dde41 "xelatex"
+  "report.bib" 1790246024.3089 20468 5fb7c1d81f09d37bf7a6bf4f7b2ef727 ""
   (generated)
   "report.bbl"
   "report.blg"
   (rewritten before read)
-["xdvipdfmx"] 1790185421.944 "report.xdv" "report.pdf" "report" 1790185455.45879 0
-  "report.xdv" 1790185420.78651 2409936 15a46526ae5483c2dfa81b683d19a5bd "xelatex"
+["xdvipdfmx"] 1790249358.00875 "report.xdv" "report.pdf" "report" 1790249393.88583 0
+  "report.xdv" 1790249356.81482 2457080 7ce6ff3ab0dbf9ae1aded1ed1feb4088 "xelatex"
   (generated)
   "report.pdf"
   (rewritten before read)
-["xelatex"] 1790185409.07903 "report.tex" "report.xdv" "report" 1790185455.32397 0
+["xelatex"] 1790249344.88315 "report.tex" "report.xdv" "report" 1790249393.75026 0
   "C:/Users/bruno/AppData/Local/MiKTeX/miktex/data/le/xetex/xelatex.fmt" 1787319360.28344 27216620 79343683421b64d37a355684079830c4 ""
   "C:/Users/bruno/AppData/Local/Programs/MiKTeX/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136801054 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "C:/Users/bruno/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
@@ -253,6 +253,10 @@
   "figures/Under over and perfect expanded jets.jpg" 1790177731.39763 65070 dd1acd5f1872f70d53b189cbd344fa8c ""
   "figures/WT experiment setup.jpg" 1789984253.09313 102194 4c8cfeb0b61fe0e0d3b69925f833a28f ""
   "figures/aerospike camera setup.jpeg" 1789814897.41702 310701 222141322d872e48de58c4ee4caceaad ""
+  "figures/aerospike density gradient point 10.png" 1790246314.80892 580853 4d80d3656ee401a0be13b7d2a333996b ""
+  "figures/aerospike density gradient point 11.png" 1790246314.84194 650695 20268852a108adad764c231f36c929bd ""
+  "figures/aerospike density gradient point 8.png" 1790246314.74247 584487 408d44a24a765a3dda4e559f9eaa2f6a ""
+  "figures/aerospike density gradient point 9.png" 1790246314.77671 565142 0b14e8fa5f76498de5fe97ab32db21aa ""
   "figures/aerospike density gradient x.jpg" 1790165941.8192 133054 f30076f439b29a976f8214ddf299ec82 ""
   "figures/aerospike density gradient y.jpg" 1790165941.86991 122816 94b3c3c5e12eec4c26836a59fef6d511 ""
   "figures/aerospike displacement point 1.png" 1790089275.38268 423378 4e4dbb3b0c799d5ac1dc35ea663e429a ""
@@ -260,10 +264,12 @@
   "figures/aerospike displacement point 3.png" 1790089275.46313 393047 dee03bde0677fdd920d96b2e1a5749cb ""
   "figures/aerospike displacement point 5.jpg" 1790185371.49716 278921 d5a7b444cdda28c5e7b46f1a4a88b312 ""
   "figures/aerospike displacement point 9.jpg" 1790185371.54886 244357 687e021a326cb44eafa196ce447f5ca8 ""
+  "figures/aerospike flow interpretation point 8.png" 1790246684.88262 897876 71a7227502d619276b43432e72d989c0 ""
   "figures/aerospike flow interpretation.png" 1790177731.41435 868101 415e435a87befcd3ece6ce0a6f66fe9f ""
   "figures/aerospike flow picture point 3.jpg" 1790086865.11111 132196 9a24069447cc21099181db87b7494698 ""
   "figures/aerospike model.jpeg" 1789814897.43231 134279 3f944f89d5ba42b98ce1fb25973066ab ""
-  "figures/aerospike schlieren NPR10.png" 1790185371.58215 133549 b3f6fe8a47874bb6eb51366f417b8e07 ""
+  "figures/aerospike schlieren NPR10.png" 1790246024.24983 104258 86825b9e39e13276b0ae7acc25ab85ad ""
+  "figures/aerospike schlieren NPR7.png" 1790246684.92289 131101 068d337eee2eece62ad31c4f7f614f0e ""
   "figures/aerospike schlieren NPR8.png" 1790177731.43095 112536 9d09a4ddc81a5115f1aea8f635abdd3b ""
   "figures/aerospike speckle generator setup2.jpeg" 1789814897.43372 259805 584de84b7358e07521b18e20af29bcb7 ""
   "figures/angled glass slider.jpeg" 1787240162.38695 94899 a0fd5b5d76f6d5a0ff229ef3eaf5ea26 ""
@@ -310,18 +316,18 @@
   "frontmatter/summary.tex" 1787040728.77994 84 6aeec0ce56741e44e501255e14db693a ""
   "frontmatter/title-thesis.tex" 1790165079.95007 2113 9a31d81c46502e44a3a94200e51857f4 ""
   "mainmatter/01_introduction.tex" 1789984253.12088 8120 7f65426e05ddd91ff20511a157a1c29a ""
-  "mainmatter/02_TheoreticalBackground.tex" 1790165079.96696 27550 927f6c35157392c9a755b073eb1aaed5 ""
+  "mainmatter/02_TheoreticalBackground.tex" 1790246024.27564 27562 0d0e288e80e125929735187eb09a2ce0 ""
   "mainmatter/03_LiteratureReview.tex" 1789650626.69768 44378 c0dfd29e4856c3d6e67ff6eeee03e54b ""
   "mainmatter/04_methodology.tex" 1790012314.83889 40560 687d3de3a2a895e8e3b2e2b3fed51f80 ""
-  "mainmatter/05_Methods.tex" 1790012682.87178 34601 56d4660d6f6d7e8a51d7a0afcddd46b7 ""
-  "mainmatter/06_results.tex" 1790185378.16413 108078 22d165e7ac0eaa476c3c79f842bd401f ""
+  "mainmatter/05_Methods.tex" 1790246024.28301 34610 72d9f90a361e999db57a2be0334f4b5e ""
+  "mainmatter/06_results.tex" 1790249313.00628 114696 1b2084071a1eb82aa12f0cd510335707 ""
   "mainmatter/07_conclusion.tex" 1787998426.17559 55 d888d3c2b2e6d14c94a67acb7a84363a ""
-  "report.aux" 1790185420.71136 133182 bd3a299e42ad00b068116981ea5caef7 "xelatex"
-  "report.bbl" 1790185395.37166 95170 601d95c2e736f1d381694dd4db107374 "biber report"
-  "report.out" 1790185420.75613 9159 94dd4061d4e0d614e0f3f636be05917b "xelatex"
-  "report.run.xml" 1790185420.78651 2350 3aa6604a065aed1d7ae2817af42d008f "xelatex"
-  "report.tex" 1789581957.01859 2412 42c1306427543b842409572398e8348b ""
-  "report.toc" 1790185420.78651 4240 b39659d17d064923c2602eea495d8584 "xelatex"
+  "report.aux" 1790249356.73482 138619 75be897acc46e55d7623323d80b8eb35 "xelatex"
+  "report.bbl" 1790249330.95905 96293 76a9b5362f7f917791fd143cdfa1078b "biber report"
+  "report.out" 1790249356.79082 9159 efe8de15f56cac7d992ad04aea26a181 "xelatex"
+  "report.run.xml" 1790249356.81482 2350 3aa6604a065aed1d7ae2817af42d008f "xelatex"
+  "report.tex" 1790246024.31636 2395 67f606003e7cd185b6d5956ef66a72ae ""
+  "report.toc" 1790249356.81482 4240 37942de210084cb517e48aa5483c3713 "xelatex"
   "tudelft-report.cls" 1789546373.30447 9381 45e227fb4a6f63b84859ab9f8a84779e ""
   (generated)
   "report.aux"

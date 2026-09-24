@@ -882,11 +882,59 @@ Similar as before, the peaks of points with the same flow condition were compare
     \end{tabular}
 \end{table}
 
-It is possible to once again use the x and y components of the density gradient to briefly interpret the flow's structures. For that, Point 8 was selected and its gradients, displayed in Figure \ref{}, were carefully analyzed to produce Figure \ref{}. A striking red line next to the exhaust in Figure \ref{} marks a compression wave. This wave reflects at the ramp into another compression wave signaled by a strong blue line in Figure \ref{} and goes to the shear layer. In the shear layer, the wave is reflected into expansion fans, marked by a continuous expansion zone in blue in Figure \ref{}. At the tip, a strong blue line in the y component and faint red dots in x mark a compression wave, which is followed below by an expansion wave signaled by a strong red line in y. There was no Schlieren image available for comparison with the SBOS result with the same $NPR = 8$, only for $NPR = 7$. Nevertheless, the comparison is valid, as it is possible to see that the structures identified in SBOS match the Schlieren image and are only shifted slightly to the left due to the lower $NPR$.
+It is possible to once again use the x and y components of the density gradient to briefly interpret the flow's structures. For that, Point 8 was selected and its gradients, displayed in Figure \ref{fig: aerospike density gradient point 8}, were carefully analyzed to produce Figure \ref{fig: aerospike flow interpretation point 8}. A striking red line next to the exhaust in Figure \ref{} marks a compression wave. This wave reflects at the ramp into another compression wave signaled by a strong blue line in Figure \ref{} and goes to the shear layer. In the shear layer, the wave is reflected into expansion fans, marked by a continuous expansion zone in blue in Figure \ref{}. At the tip, a strong blue line in the y component and faint red dots in x mark a compression wave, which is followed below by an expansion wave signaled by a strong red line in y. There was no Schlieren image available for comparison with the SBOS result with the same $NPR = 8$, only for $NPR = 7$. Nevertheless, the comparison is valid, as it is possible to see that the structures identified in SBOS match the Schlieren image and are only shifted slightly to the left due to the lower $NPR$.
 
-%Add Flow interpretation + Schlieren
+\begin{figure}[htbp]
+    \centering
+    \begin{subfigure}[b]{0.421\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figures/aerospike flow interpretation point 8.png}
+        \caption{Interpretation of the SBOS result}
+        \label{fig: aerospike flow interpretation point 8}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.539\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figures/aerospike schlieren NPR7.png}
+        \caption{Schlieren image}
+        \label{fig: aerospike schlieren NPR7}
+    \end{subfigure}
+    \caption{Flow structures of the aerospike nozzle exhaust with the Mach 2 freestream flow. (a) Compression waves, expansion fans and the compression and expansion at the truncation tip identified on the $x$ component of the density gradient of point 8. (b) Schlieren image of the closest flow condition available, acquired at $NPR = 7$}
+    \label{fig: aerospike flow interpretation point 8 and schlieren}
+\end{figure}
 
-The effect of $NPR$ in the flow's structures of the linear aerospike can be assessed by plotting the density gradients of points 8-11, as done in Figure \ref{}. Comparing the four plot pairs, it becomes evident that an increase in nozzle pressure ratio leads to the initial compression wave to extend further downstream and shift the reflections to the right, similar to the trend documented for the free jet. Another notable observation is that the expansion fan in the tip starts to point more sharply down with increasing $NPR$, indicating the tendency to close the truncation base flow as mentioned by Wisse \cite{Wisse2005}. Unfortunately the effect couldn't be observed, as the flow changed dramatically at $NPR > 14$ impeding the base flow to close, as shown by picture \ref{}. The cause of the change was the absence of a model extension which created a low pressure zone at the end of the model. The difference between the mounted model and the designed one can be seen in Figures \ref{fig: aerospike model} and Figure \ref{fig: aerospike technical drawing}. With the increase in $NPR$, the pressure difference between the nozzle exit and the low pressure zone grew, until a standing shock was formed at the ramp's edge. The discrepancy between point 7 and 11 can be explained by this. Point 11 was probably captured at a larger $NPR$ than point 7, so the shock was formed in the former, while the same did not happen for the latter.
+The effect of $NPR$ in the flow's structures of the linear aerospike can be assessed by plotting the density gradients of points 8-11, as done in Figure \ref{fig: aerospike density gradients NPR sweep}. Comparing the four plot pairs, it becomes evident that an increase in nozzle pressure ratio leads to the initial compression wave to extend further downstream and shift the reflections to the right, similar to the trend documented for the free jet. Another notable observation is that the expansion fan in the tip starts to point more sharply down with increasing $NPR$, indicating the tendency to close the truncation base flow as mentioned by Wisse \cite{Wisse2005}. Unfortunately the effect couldn't be observed, as the flow changed dramatically at $NPR > 14$ impeding the base flow to close, as shown by picture \ref{}. The cause of the change was the absence of a model extension which created a low pressure zone at the end of the model. The difference between the mounted model and the designed one can be seen in Figures \ref{fig: aerospike model} and Figure \ref{fig: aerospike technical drawing}. With the increase in $NPR$, the pressure difference between the nozzle exit and the low pressure zone grew, until a standing shock was formed at the ramp's edge. The discrepancy between point 7 and 11 can be explained by this. Point 11 was probably captured at a larger $NPR$ than point 7, so the shock was formed in the former, while the same did not happen for the latter.
 
 
-%Add density gradients of points 8-11
+\begin{figure}[htbp]
+    \centering
+    \begin{subfigure}[b]{\textwidth}
+        \centering
+        \includegraphics[width=0.97\textwidth]{figures/aerospike density gradient point 8.png}
+        \caption{Point 8, $NPR = 8$}
+        \label{fig: aerospike density gradient point 8}
+    \end{subfigure}
+
+    \begin{subfigure}[b]{\textwidth}
+        \centering
+        \includegraphics[width=0.97\textwidth]{figures/aerospike density gradient point 9.png}
+        \caption{Point 9, $NPR = 10$}
+        \label{fig: aerospike density gradient point 9}
+    \end{subfigure}
+
+    \begin{subfigure}[b]{\textwidth}
+        \centering
+        \includegraphics[width=0.97\textwidth]{figures/aerospike density gradient point 10.png}
+        \caption{Point 10, $NPR = 12$}
+        \label{fig: aerospike density gradient point 10}
+    \end{subfigure}
+
+    \begin{subfigure}[b]{\textwidth}
+        \centering
+        \includegraphics[width=0.97\textwidth]{figures/aerospike density gradient point 11.png}
+        \caption{Point 11, $NPR = 14$}
+        \label{fig: aerospike density gradient point 11}
+    \end{subfigure}
+    \caption{Density gradient fields of points 8 to 11, obtained assuming a planar flow with the effective lever arm of Table \ref{tab: S ratio points 4 to 11}. Each row displays the component in the $x$ direction on the left and the component in the $y$ direction on the right, for one nozzle pressure ratio. Each field uses its own color scale and masked regions are shown in grey}
+    \label{fig: aerospike density gradients NPR sweep}
+\end{figure}

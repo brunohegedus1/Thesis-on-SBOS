@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.5) (preloaded format=xelatex 2026.8.21)  23 SEP 2026 19:43
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.5) (preloaded format=xelatex 2026.8.21)  24 SEP 2026 13:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1724,9 +1724,6 @@ File: figures/projected speckle pattern experiment.png Graphic file (type bmp)
 File: figures/compressible jet setup.jpeg Graphic file (type bmp)
 <figures/compressible jet setup.jpeg>
  [40]
-
-LaTeX Warning: Citation '' on page 41 undefined on input line 222.
-
 File: figures/aerospike camera setup.jpeg Graphic file (type bmp)
 <figures/aerospike camera setup.jpeg>
 File: figures/aerospike speckle generator setup2.jpeg Graphic file (type bmp)
@@ -1735,7 +1732,7 @@ File: figures/aerospike model.jpeg Graphic file (type bmp)
 <figures/aerospike model.jpeg>
 File: figures/Aerospike technical drawing.jpg Graphic file (type bmp)
 <figures/Aerospike technical drawing.jpg>
-[41]
+ [41]
 File: figures/WT experiment setup.jpg Graphic file (type bmp)
 <figures/WT experiment setup.jpg>
 ) (mainmatter/06_results.tex [42] [43]
@@ -1821,7 +1818,7 @@ File: figures/centerline density gradient dataset f.png Graphic file (type bmp)
 <figures/centerline density gradient dataset f.png>
 File: figures/shock cell lengths.jpg Graphic file (type bmp)
 <figures/shock cell lengths.jpg>
- [57]
+ [57] [58]
 File: figures/density field dataset a.png Graphic file (type bmp)
 <figures/density field dataset a.png>
 File: figures/density field dataset b.png Graphic file (type bmp)
@@ -1834,41 +1831,40 @@ File: figures/density field dataset e.png Graphic file (type bmp)
 <figures/density field dataset e.png>
 File: figures/density field dataset f.png Graphic file (type bmp)
 <figures/density field dataset f.png>
- [58] [59]
 File: figures/centreline density e vs panda.png Graphic file (type bmp)
 <figures/centreline density e vs panda.png>
- [60] [61]
-Overfull \hbox (9.69075pt too wide) in paragraph at lines 633--652
+ [59] [60] [61]
+Overfull \hbox (9.69075pt too wide) in paragraph at lines 640--659
  [][] 
  []
 
+[62]
 File: figures/aerospike displacement point 1.png Graphic file (type bmp)
 <figures/aerospike displacement point 1.png>
 
-Overfull \hbox (14.34138pt too wide) in paragraph at lines 660--661
+Overfull \hbox (14.34138pt too wide) in paragraph at lines 667--668
  [][] 
  []
 
 File: figures/aerospike displacement point 2.png Graphic file (type bmp)
 <figures/aerospike displacement point 2.png>
 
-Overfull \hbox (14.34138pt too wide) in paragraph at lines 666--667
+Overfull \hbox (14.34138pt too wide) in paragraph at lines 673--674
  [][] 
  []
 
 File: figures/aerospike displacement point 3.png Graphic file (type bmp)
 <figures/aerospike displacement point 3.png>
 
-Overfull \hbox (14.34138pt too wide) in paragraph at lines 672--673
+Overfull \hbox (14.34138pt too wide) in paragraph at lines 679--680
  [][] 
  []
 
-[62]
 File: figures/SBOS1_FLOW.jpg Graphic file (type bmp)
 <figures/SBOS1_FLOW.jpg>
 File: figures/aerospike flow picture point 3.jpg Graphic file (type bmp)
 <figures/aerospike flow picture point 3.jpg>
- [63]
+[63]
 File: figures/aerospike density gradient x.jpg Graphic file (type bmp)
 <figures/aerospike density gradient x.jpg>
 File: figures/aerospike density gradient y.jpg Graphic file (type bmp)
@@ -1877,20 +1873,57 @@ File: figures/aerospike flow interpretation.png Graphic file (type bmp)
 <figures/aerospike flow interpretation.png>
 File: figures/aerospike schlieren NPR8.png Graphic file (type bmp)
 <figures/aerospike schlieren NPR8.png>
- [64]
-Overfull \hbox (17.25104pt too wide) in paragraph at lines 781--794
+ [64] [65]
+Overfull \hbox (17.25104pt too wide) in paragraph at lines 788--801
  [][] 
  []
 
 File: figures/aerospike displacement point 5.jpg Graphic file (type bmp)
 <figures/aerospike displacement point 5.jpg>
+
+Overfull \hbox (30.47209pt too wide) in paragraph at lines 809--810
+ [][] 
+ []
+
 File: figures/aerospike displacement point 9.jpg Graphic file (type bmp)
 <figures/aerospike displacement point 9.jpg>
+
+Overfull \hbox (15.23721pt too wide) in paragraph at lines 816--817
+ [][] 
+ []
+
 File: figures/aerospike schlieren NPR10.png Graphic file (type bmp)
 <figures/aerospike schlieren NPR10.png>
-[65]) (mainmatter/07_conclusion.tex [66] [67]
+[66]
+
+LaTeX Warning: Reference `' on page 67 undefined on input line 885.
+
+
+LaTeX Warning: Reference `' on page 67 undefined on input line 885.
+
+
+LaTeX Warning: Reference `' on page 67 undefined on input line 885.
+
+File: figures/aerospike flow interpretation point 8.png Graphic file (type bmp)
+
+<figures/aerospike flow interpretation point 8.png>
+File: figures/aerospike schlieren NPR7.png Graphic file (type bmp)
+<figures/aerospike schlieren NPR7.png>
+
+LaTeX Warning: Reference `' on page 67 undefined on input line 906.
+
+[67]
+File: figures/aerospike density gradient point 8.png Graphic file (type bmp)
+<figures/aerospike density gradient point 8.png>
+File: figures/aerospike density gradient point 9.png Graphic file (type bmp)
+<figures/aerospike density gradient point 9.png>
+File: figures/aerospike density gradient point 10.png Graphic file (type bmp)
+<figures/aerospike density gradient point 10.png>
+File: figures/aerospike density gradient point 11.png Graphic file (type bmp)
+<figures/aerospike density gradient point 11.png>
+) (mainmatter/07_conclusion.tex [68] [69]
 Chapter 7.
-) [68
+) [70
 
 ]
 Overfull \hbox (0.64949pt too wide) in paragraph at lines 66--66
@@ -1913,27 +1946,27 @@ Overfull \hbox (40.00558pt too wide) in paragraph at lines 66--66
 9. 
  []
 
-[69
+[71
 
-] [70] (appendix/appendix-a.tex [71]
+] [72] (appendix/appendix-a.tex [73]
 Appendix A.
 File: figures/CoC drawing.png Graphic file (type bmp)
 <figures/CoC drawing.png>
-[72
+[74
 
-]) (appendix/appendix-b.tex [73]
+]) (appendix/appendix-b.tex [75]
 Appendix B.
 File: figures/Blurred Object geometry.png Graphic file (type bmp)
 <figures/Blurred Object geometry.png>
-[74
+[76
 
-]) (appendix/appendix-c.tex [75]
+]) (appendix/appendix-c.tex [77]
 Appendix C.
 Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
 ine 4.
 File: figures/Px pitch and LFOV SBOS surf map.jpg Graphic file (type bmp)
 <figures/Px pitch and LFOV SBOS surf map.jpg>
-[76
+[78
 
 ]
 File: figures/Speckle size surf map BOS.jpg Graphic file (type bmp)
@@ -1946,7 +1979,7 @@ File: figures/Speckle size surf map SBOS 70mm.jpg Graphic file (type bmp)
 <figures/Speckle size surf map SBOS 70mm.jpg>
 File: figures/Speckle size surf map BOS 70mm.jpg Graphic file (type bmp)
 <figures/Speckle size surf map BOS 70mm.jpg>
-) [77] [78] [79] (report.aux)
+) [79] [80] [81] (report.aux)
  ***********
 LaTeX2e <2026-06-01>
 L3 programming layer <2026-07-20>
@@ -1956,18 +1989,18 @@ L3 programming layer <2026-07-20>
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: 94DD4061D4E0D614E0F3F636BE05917B;9159.
+(rerunfilecheck)             Checksum: EFE8DE15F56CAC7D992AD04AEA26A181;9159.
 Package logreq Info: Writing requests to 'report.run.xml'.
 \openout1 = `report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 46186 strings out of 402619
- 993264 string characters out of 5438862
- 1900782 words of memory out of 5000000
- 74565 multiletter control sequences out of 15000+600000
+ 46274 strings out of 402619
+ 997439 string characters out of 5438862
+ 1903143 words of memory out of 5000000
+ 74647 multiletter control sequences out of 15000+600000
  633296 words of font info for 113 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 107i,12n,108p,1934b,5763s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 107i,12n,108p,1934b,5756s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on report.xdv (87 pages, 2409936 bytes).
+Output written on report.xdv (89 pages, 2457080 bytes).

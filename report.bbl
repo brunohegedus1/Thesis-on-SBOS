@@ -763,6 +763,33 @@
       \field{title}{Photographic Optics}
       \field{year}{1950}
     \endentry
+    \entry{Gupta2026}{thesis}{}{}
+      \name{author}{1}{}{%
+        {{hash=796b95248d966831ab3dda86edbc961f}{%
+           family={gupta},
+           familyi={g\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Delft University of Technology}%
+      }
+      \strng{namehash}{796b95248d966831ab3dda86edbc961f}
+      \strng{fullhash}{796b95248d966831ab3dda86edbc961f}
+      \strng{fullhashraw}{796b95248d966831ab3dda86edbc961f}
+      \strng{bibnamehash}{796b95248d966831ab3dda86edbc961f}
+      \strng{authorbibnamehash}{796b95248d966831ab3dda86edbc961f}
+      \strng{authornamehash}{796b95248d966831ab3dda86edbc961f}
+      \strng{authorfullhash}{796b95248d966831ab3dda86edbc961f}
+      \strng{authorfullhashraw}{796b95248d966831ab3dda86edbc961f}
+      \field{sortinit}{g}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Linear Aerospike Nozzle}
+      \field{type}{phdthesis}
+      \field{year}{2026}
+    \endentry
     \entry{Hagemann1998}{article}{}{}
       \name{author}{4}{}{%
         {{hash=3b4be20c12f07a3288c66392337c33a2}{%
