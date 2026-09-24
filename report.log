@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.5) (preloaded format=xelatex 2026.8.21)  24 SEP 2026 16:01
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.5) (preloaded format=xelatex 2026.8.21)  24 SEP 2026 19:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1745,7 +1745,7 @@ Chapter 6.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [46]
-Overfull \hbox (11.5911pt too wide) in paragraph at lines 148--161
+Overfull \hbox (11.5911pt too wide) in paragraph at lines 154--167
  [][] 
  []
 
@@ -1754,10 +1754,10 @@ File: figures/S vs l experimental.jpg Graphic file (type bmp)
 <figures/S vs l experimental.jpg>
 File: figures/S vs l slider experiment.jpg Graphic file (type bmp)
 <figures/S vs l slider experiment.jpg>
- [48] [49] [50]
+ [48] [49]
 File: figures/speckle size per point.jpg Graphic file (type bmp)
 <figures/speckle size per point.jpg>
- [51]
+ [50] [51]
 File: figures/speckle exp f-number sweep.png Graphic file (type bmp)
 <figures/speckle exp f-number sweep.png>
  [52]
@@ -1766,18 +1766,26 @@ File: figures/speckle exp mag sweep.jpg Graphic file (type bmp)
  [53]
 File: figures/Speckle d_GG Sweep.jpg Graphic file (type bmp)
 <figures/Speckle d_GG Sweep.jpg>
+ [54]
 File: figures/Speckle pattern point 5.jpg Graphic file (type bmp)
 <figures/Speckle pattern point 5.jpg>
 File: figures/Speckle pattern point 8.jpg Graphic file (type bmp)
 <figures/Speckle pattern point 8.jpg>
 File: figures/Speckle pattern point 10.jpg Graphic file (type bmp)
 <figures/Speckle pattern point 10.jpg>
- [54]
 File: figures/BOS background pattern.jpg Graphic file (type bmp)
 <figures/BOS background pattern.jpg>
 File: figures/SBOS speckle pattern comparison.jpg Graphic file (type bmp)
 <figures/SBOS speckle pattern comparison.jpg>
  [55]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 435.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 435.
+
 File: figures/jet displacement 3bar.png Graphic file (type bmp)
 <figures/jet displacement 3bar.png>
 File: figures/jet displacement 4bar.png Graphic file (type bmp)
@@ -1790,7 +1798,7 @@ File: figures/jet displacement 7bar.png Graphic file (type bmp)
 <figures/jet displacement 7bar.png>
 File: figures/jet displacement 8bar.png Graphic file (type bmp)
 <figures/jet displacement 8bar.png>
- [56]
+[56]
 File: figures/Dataset f density gradients.jpg Graphic file (type bmp)
 <figures/Dataset f density gradients.jpg>
  [57]
@@ -1814,7 +1822,7 @@ File: figures/centerline density gradient dataset f.png Graphic file (type bmp)
 <figures/centerline density gradient dataset f.png>
 File: figures/shock cell lengths.jpg Graphic file (type bmp)
 <figures/shock cell lengths.jpg>
- [58]
+ [58] [59]
 File: figures/density field dataset a.png Graphic file (type bmp)
 <figures/density field dataset a.png>
 File: figures/density field dataset b.png Graphic file (type bmp)
@@ -1827,42 +1835,41 @@ File: figures/density field dataset e.png Graphic file (type bmp)
 <figures/density field dataset e.png>
 File: figures/density field dataset f.png Graphic file (type bmp)
 <figures/density field dataset f.png>
- [59] [60]
+ [60] [61]
 File: figures/centreline density e vs panda.png Graphic file (type bmp)
 <figures/centreline density e vs panda.png>
- [61]
-Overfull \hbox (9.69075pt too wide) in paragraph at lines 660--679
+ [62]
+Overfull \hbox (9.69075pt too wide) in paragraph at lines 693--712
  [][] 
  []
 
-[62]
+[63]
 File: figures/aerospike displacement point 1.png Graphic file (type bmp)
 <figures/aerospike displacement point 1.png>
 
-Overfull \hbox (14.34138pt too wide) in paragraph at lines 690--691
+Overfull \hbox (14.34138pt too wide) in paragraph at lines 723--724
  [][] 
  []
 
 File: figures/aerospike displacement point 2.png Graphic file (type bmp)
 <figures/aerospike displacement point 2.png>
 
-Overfull \hbox (14.34138pt too wide) in paragraph at lines 696--697
+Overfull \hbox (14.34138pt too wide) in paragraph at lines 729--730
  [][] 
  []
 
 File: figures/aerospike displacement point 3.png Graphic file (type bmp)
 <figures/aerospike displacement point 3.png>
 
-Overfull \hbox (14.34138pt too wide) in paragraph at lines 702--703
+Overfull \hbox (14.34138pt too wide) in paragraph at lines 735--736
  [][] 
  []
 
-[63]
 File: figures/SBOS1_FLOW.jpg Graphic file (type bmp)
 <figures/SBOS1_FLOW.jpg>
 File: figures/aerospike flow picture point 3.jpg Graphic file (type bmp)
 <figures/aerospike flow picture point 3.jpg>
- [64]
+[64] [65]
 File: figures/aerospike density gradient x.jpg Graphic file (type bmp)
 <figures/aerospike density gradient x.jpg>
 File: figures/aerospike density gradient y.jpg Graphic file (type bmp)
@@ -1871,46 +1878,43 @@ File: figures/aerospike flow interpretation.png Graphic file (type bmp)
 <figures/aerospike flow interpretation.png>
 File: figures/aerospike schlieren NPR8.png Graphic file (type bmp)
 <figures/aerospike schlieren NPR8.png>
- [65]
-Overfull \hbox (17.25104pt too wide) in paragraph at lines 811--824
+ [66]
+Overfull \hbox (17.25104pt too wide) in paragraph at lines 850--863
  [][] 
  []
 
 File: figures/aerospike displacement point 5.jpg Graphic file (type bmp)
 <figures/aerospike displacement point 5.jpg>
 
-Overfull \hbox (30.47209pt too wide) in paragraph at lines 832--833
+Overfull \hbox (30.47209pt too wide) in paragraph at lines 874--875
  [][] 
  []
 
 File: figures/aerospike displacement point 9.jpg Graphic file (type bmp)
 <figures/aerospike displacement point 9.jpg>
 
-Overfull \hbox (15.23721pt too wide) in paragraph at lines 839--840
+Overfull \hbox (15.23721pt too wide) in paragraph at lines 881--882
  [][] 
  []
 
 File: figures/aerospike schlieren NPR10.png Graphic file (type bmp)
 <figures/aerospike schlieren NPR10.png>
-[66]
+[67]
 
-LaTeX Warning: Reference `' on page 67 undefined on input line 908.
-
-
-LaTeX Warning: Reference `' on page 67 undefined on input line 908.
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 950.
 
 
-LaTeX Warning: Reference `' on page 67 undefined on input line 908.
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 950.
 
+[68]
 File: figures/aerospike flow interpretation point 8.png Graphic file (type bmp)
 
 <figures/aerospike flow interpretation point 8.png>
 File: figures/aerospike schlieren NPR7.png Graphic file (type bmp)
 <figures/aerospike schlieren NPR7.png>
-
-LaTeX Warning: Reference `' on page 67 undefined on input line 929.
-
-[67] [68]
+ [69]
 File: figures/aerospike density gradient point 8.png Graphic file (type bmp)
 <figures/aerospike density gradient point 8.png>
 File: figures/aerospike density gradient point 9.png Graphic file (type bmp)
@@ -1919,9 +1923,9 @@ File: figures/aerospike density gradient point 10.png Graphic file (type bmp)
 <figures/aerospike density gradient point 10.png>
 File: figures/aerospike density gradient point 11.png Graphic file (type bmp)
 <figures/aerospike density gradient point 11.png>
-) (mainmatter/07_conclusion.tex [69] [70]
+) (mainmatter/07_conclusion.tex [70] [71]
 Chapter 7.
-) [71
+) [72
 
 ]
 Overfull \hbox (0.64949pt too wide) in paragraph at lines 66--66
@@ -1944,27 +1948,27 @@ Overfull \hbox (40.00558pt too wide) in paragraph at lines 66--66
 9. 
  []
 
-[72
+[73
 
-] [73] (appendix/appendix-a.tex [74]
+] [74] (appendix/appendix-a.tex [75]
 Appendix A.
 File: figures/CoC drawing.png Graphic file (type bmp)
 <figures/CoC drawing.png>
-[75
+[76
 
-]) (appendix/appendix-b.tex [76]
+]) (appendix/appendix-b.tex [77]
 Appendix B.
 File: figures/Blurred Object geometry.png Graphic file (type bmp)
 <figures/Blurred Object geometry.png>
-[77
+[78
 
-]) (appendix/appendix-c.tex [78]
+]) (appendix/appendix-c.tex [79]
 Appendix C.
 Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
 ine 4.
 File: figures/Px pitch and LFOV SBOS surf map.jpg Graphic file (type bmp)
 <figures/Px pitch and LFOV SBOS surf map.jpg>
-[79
+[80
 
 ]
 File: figures/Speckle size surf map BOS.jpg Graphic file (type bmp)
@@ -1977,7 +1981,7 @@ File: figures/Speckle size surf map SBOS 70mm.jpg Graphic file (type bmp)
 <figures/Speckle size surf map SBOS 70mm.jpg>
 File: figures/Speckle size surf map BOS 70mm.jpg Graphic file (type bmp)
 <figures/Speckle size surf map BOS 70mm.jpg>
-) [80] [81] [82] (report.aux)
+) [81] [82] [83] (report.aux)
  ***********
 LaTeX2e <2026-06-01>
 L3 programming layer <2026-07-20>
@@ -1987,18 +1991,18 @@ L3 programming layer <2026-07-20>
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: E9D92BB328C8E7ACF45377057B108A8D;9159.
+(rerunfilecheck)             Checksum: 957A3E6905899362625807C0CC91E6A6;12999.
 Package logreq Info: Writing requests to 'report.run.xml'.
 \openout1 = `report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 46302 strings out of 402619
- 998597 string characters out of 5438862
- 1898006 words of memory out of 5000000
- 74673 multiletter control sequences out of 15000+600000
- 633296 words of font info for 113 fonts, out of 8000000 for 9000
+ 46348 strings out of 402619
+ 1000178 string characters out of 5438862
+ 1903848 words of memory out of 5000000
+ 74717 multiletter control sequences out of 15000+600000
+ 634841 words of font info for 119 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 107i,12n,108p,1934b,5756s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 107i,12n,108p,2274b,5756s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on report.xdv (90 pages, 2495244 bytes).
+Output written on report.xdv (91 pages, 2570148 bytes).

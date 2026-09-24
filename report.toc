@@ -35,16 +35,31 @@
 \contentsline {section}{\numberline {5.4}Aerospike Experiment}{40}{section.5.4}%
 \contentsline {chapter}{\numberline {6}Results}{44}{chapter.6}%
 \contentsline {section}{\numberline {6.1}Angled Glass Experiment Results}{44}{section.6.1}%
+\contentsline {subsection}{\numberline {6.1.1}Displacement and Sensitivity Results}{44}{subsection.6.1.1}%
+\contentsline {subsection}{\numberline {6.1.2}Uncertainty Budgets}{46}{subsection.6.1.2}%
+\contentsline {subsection}{\numberline {6.1.3}Comparison of Defocus Configurations}{48}{subsection.6.1.3}%
+\contentsline {subsection}{\numberline {6.1.4}Speckle Size Discrepancy}{49}{subsection.6.1.4}%
 \contentsline {section}{\numberline {6.2}Speckle Pattern Investigation Results}{50}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}Measured Speckle Sizes and Uncertainty}{50}{subsection.6.2.1}%
+\contentsline {subsection}{\numberline {6.2.2}Aperture and Magnification Dependence}{52}{subsection.6.2.2}%
+\contentsline {subsection}{\numberline {6.2.3}Effect of the Beam Diameter at the Diffuser}{54}{subsection.6.2.3}%
+\contentsline {subsection}{\numberline {6.2.4}Comparison with a BOS Background Pattern}{55}{subsection.6.2.4}%
 \contentsline {section}{\numberline {6.3}Compressible Jet Experiment Results}{56}{section.6.3}%
-\contentsline {subsection}{\numberline {6.3.1}Quantitative Density Field}{59}{subsection.6.3.1}%
-\contentsline {section}{\numberline {6.4}Aerospike Experiment Results}{62}{section.6.4}%
-\contentsline {chapter}{\numberline {7}Conclusion}{71}{chapter.7}%
-\contentsline {chapter}{References}{72}{chapter*.75}%
-\contentsline {chapter}{\numberline {A}Derivation of the Circle of Confusion}{75}{appendix.A}%
-\contentsline {chapter}{\numberline {B}Optics of a Blurred Object}{77}{appendix.B}%
-\contentsline {chapter}{\numberline {C}Extended Design Space Surface Maps}{79}{appendix.C}%
-\contentsline {section}{\numberline {C.1}Pixel density and in-focus field of view}{79}{appendix.C.1}%
-\contentsline {section}{\numberline {C.2}Speckle size for positive defocus}{80}{appendix.C.2}%
-\contentsline {section}{\numberline {C.3}Surface maps for a 7 cm field of view}{80}{appendix.C.3}%
+\contentsline {subsection}{\numberline {6.3.1}Displacement Fields and $NPR$ Estimation}{56}{subsection.6.3.1}%
+\contentsline {subsection}{\numberline {6.3.2}Density Gradients and Shock Cell Lengths}{57}{subsection.6.3.2}%
+\contentsline {subsection}{\numberline {6.3.3}Quantitative Density Field}{60}{subsection.6.3.3}%
+\contentsline {section}{\numberline {6.4}Aerospike Experiment Results}{63}{section.6.4}%
+\contentsline {subsection}{\numberline {6.4.1}Optical Configurations and Defocus Comparison}{63}{subsection.6.4.1}%
+\contentsline {subsection}{\numberline {6.4.2}Sensitivity from the Displacement Ratio}{64}{subsection.6.4.2}%
+\contentsline {subsection}{\numberline {6.4.3}Density Gradient Fields and Verification}{65}{subsection.6.4.3}%
+\contentsline {subsection}{\numberline {6.4.4}Results with the Mach 2 Freestream Flow}{67}{subsection.6.4.4}%
+\contentsline {subsection}{\numberline {6.4.5}Flow Structure and Effect of $NPR$}{68}{subsection.6.4.5}%
+\contentsline {chapter}{\numberline {7}Conclusion}{72}{chapter.7}%
+\contentsline {chapter}{References}{73}{chapter*.75}%
+\contentsline {chapter}{\numberline {A}Derivation of the Circle of Confusion}{76}{appendix.A}%
+\contentsline {chapter}{\numberline {B}Optics of a Blurred Object}{78}{appendix.B}%
+\contentsline {chapter}{\numberline {C}Extended Design Space Surface Maps}{80}{appendix.C}%
+\contentsline {section}{\numberline {C.1}Pixel density and in-focus field of view}{80}{appendix.C.1}%
+\contentsline {section}{\numberline {C.2}Speckle size for positive defocus}{81}{appendix.C.2}%
+\contentsline {section}{\numberline {C.3}Surface maps for a 7 cm field of view}{81}{appendix.C.3}%
 \contentsfinish 

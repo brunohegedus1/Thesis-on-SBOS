@@ -11,6 +11,9 @@ Together with chapter \ref{chapter: methodology}, this chapter groups the inform
 \label{section: Angled Glass Experiment Results}
 The Angled Glass Experiment aimed to validate the methodology and compare the different defocus configurations treated in Chapter \ref{chapter: methodology}. This section presents the data gathered, describes how it was treated, discusses the uncertainty of the results, and concludes whether these objectives have been achieved. The tables that follow give an overview of the results.
 
+\subsection{Displacement and Sensitivity Results}
+\label{subsection: Angled Glass Displacement and Sensitivity}
+
 Table \ref{tab: angled glass displacement results} compares the displacements measured through SBOS with the predicted shift induced by the angled glass. $\Delta_x$ is the mean of the cross-correlation vector field in pixels, $\Delta x_{SBOS}$ is the latter transferred to mm in the focal plane and $\Delta x_{glass}$ is the glass-induced ray shift, calculated through Equation \ref{equation: Displacement of angled glass}. Since the glass piece produces a uniform displacement field, the standard deviation of the cross-correlation field $\sigma_\Delta$ quantifies the precision of the SBOS measurement, while the relative error quantifies the accuracy of the method. The last column displays the total combined uncertainty of measurement of $\Delta x$, which will be treated in more detail later this section.
 
 The table allows the comparison of the measurement error with its inherent uncertainty. In general terms, the error obtained is below the combined uncertainty, with the exception of points 1, 17 and 18. Only point 1, however, differs significantly from the uncertainty, with a difference of 4.76 percentage points, while 17 and 18 deviate by less than 0.5 percentage points. Regarding point 1, an error of $1.26^{\circ}$ in the glass angle measurement would be needed to cause its deviation of 7.87\%, which exceeds the reading uncertainty of the protractor. The cause for such error could be a misread angle or an unnoticed movement that changed the angle when setting it in the rail.
@@ -116,6 +119,9 @@ The data collected during the experimental campaign allows the assessment of sen
     \end{tabular}
 \end{table}
 
+\subsection{Uncertainty Budgets}
+\label{subsection: Angled Glass Uncertainty Budgets}
+
 \par Tables \ref{tab: angled glass displacement results} and \ref{tab: sensitivity comparison} both show total uncertainties that were obtained to better assess the measurement error. These values were computed through uncertainty budgets following the Guide to the Expression of Uncertainty in Measurement \cite{JCGM2008}. The campaign compared a displacement obtained by Equation \ref{equation: Displacement of angled glass} against the displacement measured by cross-correlation. Therefore, two budgets were constructed, one for the glass displacement and another for the CC measurement. Afterwards, the collected uncertainties were combined to obtain the sensitivity uncertainty. A description of each budget and the formulas used to assess the total contribution follows.
 
 The glass displacement's uncertainty budget is summarized in Table \ref{tab: angled glass uncertainty}. It focuses on the three inputs of the angled glass displacement estimate, namely the plate thickness $T$, the plate angle $\theta$ and the refractive index $n$. Thickness was measured with a caliper and the angle was set with a protractor, while the refractive index was obtained from the literature for common glass. Each input was treated as a rectangular probability distribution of half-width $a$ with a standard uncertainty of $u = a/\sqrt{3}$. The sensitivity coefficients and contributions of each input variable regarding the two glass angles were also estimated based on Equation \ref{equation: Displacement of angled glass}. These coefficients measure how much a change in each variable affects the final displacement. They are also used to calculate the contribution of each variable to the combined uncertainty as it is equal to the sensitivity coefficient times uncertainty \cite{JCGM2008}. These quantities are presented in Table \ref{tab: angled glass uncertainty}, where the half-width and the standard uncertainty are listed for every input, followed by its contribution at each glass angle. The combined uncertainty for each angle is given at the bottom row and corresponds to the root of the sum of squares of the above percentages.
@@ -163,6 +169,9 @@ The glass displacement's uncertainty budget is summarized in Table \ref{tab: ang
 
 \par The total uncertainties that follow from the budgets are reported per point in the last column of their respective tables. The first total concerns the comparison between the predicted and the measured displacement. It combines the prediction budget with the scatter and the magnification, and it ranges from 3.11\% at point 1 to 6.49\% at point 2. The second total concerns the sensitivity $S_{\Delta}$, which stays within 3.19\% to 6.75\%. It reaches its largest values at points 11 and 16, for which the defocus distance of only 10 mm makes the contribution of $l$ dominant. Points 2, 6 and 7 sit above 5\% in both totals. In each case the cross-correlation scatter is the dominant contribution.
 
+\subsection{Comparison of Defocus Configurations}
+\label{subsection: Defocus Configuration Comparison}
+
 % REVIEW: points 7 and 8 used the f = 105 mm lens (Table 6.2), so they cannot be among the f = 200 mm points of Figure 6.1(a). State which points are plotted.
 Regarding the research objectives, one of the goals of the experimental campaign was the comparison of the new capacities of SBOS to a standard BOS configuration. With the data at hand it is possible to compare the performance of a setup that uses negative defocus to another with positive defocus, effectively answering the experiment's objective. Figure \ref{fig: S vs l experimental} plots the sensitivity versus defocus distance of points 1 to 9 that were captured with $f=200$ mm, with error bars corresponding to the standard deviation divided by the mean cross-correlation displacement times the sensitivity values.
 
@@ -189,6 +198,9 @@ Figure \ref{fig: S vs l experimental} replicates one of the predictions of Chapt
 
 
 Points 10 to 20 of Tables \ref{tab: angled glass displacement results} and \ref{tab: sensitivity comparison} show the results of the experiment where the angled glass was positioned in a linear slider with a fixed magnification and only the defocus position was changed. Figure \ref{fig: S vs l slider experiment} plots the resulting sensitivity against the defocusing distance. The points are symmetric around the Y-axis, which means that the mechanism that makes a negative defocus configuration more powerful than its positive counterpart is not the negative distance per se but the increased magnification that comes with a shorter focal distance to the camera. Therefore, the mechanism making negative defocus more sensitive than standard defocus is the higher magnification that comes with a shorter focal distance.
+
+\subsection{Speckle Size Discrepancy}
+\label{subsection: Angled Glass Speckle Size}
 
 Section \ref{section: Angled Glass Experiment} mentioned a discrepancy between the speckle size obtained through the Rayleigh diffraction limit and the ones obtained experimentally and computed using Hamarová's method \cite{Hamarova2016}. Table \ref{tab: angled glass speckle results} displays both quantities side by side together with the $f_\#$ and $M_{ag}$ used at each point. The $\Delta s$ deviation shows that at some points the discrepancy exceeds the theoretical value several times. The data gives some clues on what has happened and what could be improved for a next experiment.
 
@@ -277,6 +289,9 @@ Faced with the difficulties in creating a satisfactory speckle pattern in the fi
     \end{tabular}
 \end{table}
 
+\subsection{Measured Speckle Sizes and Uncertainty}
+\label{subsection: Measured Speckle Sizes}
+
 Table \ref{tab: speckle results} and Figure \ref{fig: speckle size per point} show the average speckle size obtained experimentally for each point. They present the experimental speckle sizes obtained using DaVis' function together with the ones computed through Hamarová et al.'s autocorrelation method \cite{Hamarova2016}. A comparison between the two methods yielded some differences in magnitudes, with DaVis ranging from 1.19 to 2.41 px, while the autocorrelation spans from 1.59 to 4.59 px. Despite this difference, both methods reproduce the same trends reliably as shown by Figure \ref{fig: speckle size per point}. Since it is known how the estimator of Hamarová et al. works, contrary to the DaVis estimator, and both reproduce the same behavior, from now on the discussion will focus only on the results obtained with the autocorrelation method.
 
 \begin{figure}[htbp]
@@ -312,6 +327,9 @@ To better judge the deviation of the experiment, an uncertainty budget was const
 \end{table}
 
 
+\subsection{Aperture and Magnification Dependence}
+\label{subsection: Speckle Aperture and Magnification}
+
 Now that the error and uncertainties of the results have been discussed, the data can be plotted to better understand its behavior, such as f-stop dependency. The various $f_\#$ sweeps made during the experimental campaign allow the evaluation of whether the interference waves became diffraction limited at the pupil. Figure \ref{fig: speckle f-number sweep} shows the trend of average speckle size with f-stop number for four different configurations. All lines follow the characteristic increasing trend of a developed subjective speckle, which follows Equation \ref{equation: Rayleigh Limit}, and signals that the interference front is becoming diffraction limited at the lens pupil \cite{Goodman2020}. The figure shows some promising trends as there is a clear dependence on $f_\#$ and it indicates a tendency of projected speckles to be smaller than direct ones. However, it also shows an insensitivity to the optical magnification, contradicting Equation \ref{equation: Rayleigh Limit}, and the effect of $d_{GG}$. These trends will be further discussed next.
 
 \begin{figure}[htbp]
@@ -338,6 +356,9 @@ The dependency on magnification in Equation \ref{equation: Rayleigh Limit} comes
     \caption{Average speckle size versus optical magnification for points 14--28 of Table \ref{tab: speckle results}, acquired at a fixed $f_\# = 22.63$ and $d_{GG} = 300$ mm. The magnification of these points was obtained from the distance marks of the camera lens rather than with the calibration plate}
     \label{fig: speckle magnification sweep}
 \end{figure}
+
+\subsection{Effect of the Beam Diameter at the Diffuser}
+\label{subsection: Speckle Beam Diameter}
 
 Figure \ref{fig: speckle f-number sweep} also hints to the effect of the distance between the ground glass and the beam expansion lens $d_{GG}$ in the speckle generation. By comparing the purple line with red and yellow, it appears that a lower distance increased the speckle pattern, with purple exceeding red by 0.68, 0.25 and 0.32 px for $f_\#$ = 4, 11.31 and 22.63, respectively. Although the difference is only subpixel. The blue line seems smaller than yellow, even tho it has a supposedly higher magnification, but that could be due to errors in the interpolation. To better assess the effect of $d_{GG}$ and consequently the beam diameter that hits the diffuser, Figure \ref{fig: speckle dGG sweep} displays the data obtained by varying only the distance between the ground glass and the expanding optics.
 
@@ -378,6 +399,9 @@ In the angled glass study, it was mentioned that a probable cause of the large s
     \label{fig: speckle patterns dGG}
 \end{figure}
 
+\subsection{Comparison with a BOS Background Pattern}
+\label{subsection: BOS Background Comparison}
+
 It is also valid to compare the speckles pattern with a typical background pattern used by standard BOS. For that, a leftover BOS background pattern was found at the lab and positioned at a certain positive defocus distance. Then the camera was focused on the same plane, verified with a calibration plate, and a picture was taken of the speckle pattern produced with f-stop 22. Figure \ref{fig: BOS and SBOS pattern comparison} collects both images side-to-side. The difference is evident. SBOS provides a much smaller, denser and higher contrast background pattern. In practice, this means that SBOS allows for smaller interrogation windows, with a much more refined spatial resolution capable of imaging very small features in the flow. Therefore, this comparison shows that SBOS does not only produces a higher sensitivity than BOS, but also provides much more detailed results.
 
 \begin{figure}[htbp]
@@ -407,6 +431,9 @@ The speckle pattern investigation campaign allowed for the study of the speckle 
 \label{section: Compressible Jet Experiment Results}
 
 An under-expanded compressible jet was chosen as the object of study for the implementation of SBOS to a real schlieren object. The goal of this experiment was to image the jet at various nozzle pressure ratios ($NPR$), post-process the raw displacement data into a quantitative density field, analyze the jet structure and study the influence of an increase in nozzle pressure. The setup of this experiment was explained in Section \ref{section: Compressible jet experiment}. Figure \ref{fig: compressible jet displacement fields} displays the results of the cross correlation for the 6 different gauge pressures set at the wall air tap. The result is shown in pixels but DaVis also makes available the displacement at the focal plane, $ \Delta \xi =\Delta \cdot l_{px}/M_{ag} = \varepsilon \cdot l$.
+
+\subsection{Displacement Fields and $NPR$ Estimation}
+\label{subsection: Jet Displacement and NPR}
 
 \begin{figure}[htbp]
     \centering
@@ -490,6 +517,9 @@ The $NPR$ estimates displayed in Table \ref{tab: compressible jet NPR estimates}
     \caption{Density gradient fields of dataset f obtained assuming a planar field. The top plot displays the density gradient in the n direction, the middle plot the density gradient in the s direction and the bottom plot the magnitude of the density gradient vector. The s axis is aligned with the jet axis with its origin at the nozzle exit, while n is normal to it}
     \label{fig: dataset f density gradients}
 \end{figure}
+
+\subsection{Density Gradients and Shock Cell Lengths}
+\label{subsection: Jet Density Gradients}
 
 % REVIEW: the lever arm is written l + W/2 here but l_0 + W/2 (l_0 = 30 mm) in the density field subsection; use one symbol. The background removal and axis alignment are described after the results they produced; consider moving them to the start of the paragraph.
 The density gradient field was obtained using the displacements in the focal plane assuming a planar field, through Equation \ref{equation: In-plane displacement} \cite{Dalziel2000, vanHinsberg2014}. This result corresponds to the projection of the axisymmetric body. In reality, the thickness of the object $W$ and the density gradient vary with the radius, so this solution will underestimate the density gradients at the borders of the jet. Nevertheless, it is useful to qualitatively study the shock cell structure, as the periodicity of the cell and the gradient signs are maintained in the projection. So, it was assumed that the deflection angle comes from the midplane of the jet and an effective lever arm was applied $l_{eff} = l+W/2$ to compute the density gradients. Figure \ref{fig: dataset f density gradients} shows the gradients for dataset f in the two directions s and n together with the magnitude of the vector. For this application, the background of the image was removed by calculating the median vector of a window only containing the background, then the image was rotated and translated such that the jet axis is horizontal and corresponds to n = 0.
@@ -653,6 +683,9 @@ The compressible jet experiments allowed the imaging of a real schlieren object 
 
 The final experiment implemented the SBOS method to image the flow through a linear aerospike nozzle in a high-speed wind tunnel. The goal of this campaign was to test the design guidelines described in chaper \ref{chapter: methodology} in a real wind-tunnel environment and identify its limitations; further investigate the effects in sensitivity and resolution of using different defocus positions, specially inside the test section; and to capture with sufficient detail the flow structures present at linear aerospike nozzle ramp.
 
+\subsection{Optical Configurations and Defocus Comparison}
+\label{subsection: Aerospike Optical Configurations}
+
 \begin{table}[htbp]
     \centering
     \caption{Experimental optical configurations of the aerospike campaign. $l$ is the defocus distance, $l_{eff}$ the effective lever arm, $d_f$ the distance from the camera lens to the in-focus plane, $M_{ag}$ the magnification measured with the calibration plate, $L_{FoV_{obj}}$ the field of view at the model and $\Delta t_{exp}$ is the exposure time with which the images were captured. $S = l_{eff} \cdot M_{ag}$ is the sensitivity, $s_{min}$ the minimum distinguishable feature, $\Delta s$ the speckle size and $NPR$ the nozzle pressure ratio. ``Negative'' and ``Positive'' denote the in-focus plane lying respectively in front of or behind the model, while ``Inside TS'' denotes the focal plane inside the test section}
@@ -735,6 +768,9 @@ Figure \ref{fig: aerospike flow pictures} displays the flow pictures taken for p
     \label{fig: aerospike flow pictures}
 \end{figure}
  
+\subsection{Sensitivity from the Displacement Ratio}
+\label{subsection: Aerospike S Ratio}
+
 Nevertheless, imaging the flow inside the test section comes with its own limitations. Since there is no defocus distance $l$, it means that the sensitivity cannot be estimated as $S=l \cdot M_{ag}$, which breaks the current model on how to transform the measured displacement field into density gradients and subsequently a quantitative density field. A solution for that lies in Equation \ref{equation: S BOS}, as the sensitivity is also defined as the ratio between the measured displacement and deflection induced by the schlieren object $S = \Delta/\varepsilon$. If the same object of study is imaged with different sensitivities, the deflection $\varepsilon$ will be the same but the displacement measured will be different. The ratio between the measured displacements will be the ratio of the sensitivities. Therefore, if a refractive object is imaged with a certain known sensitivity, a second sensitivity can be estimated by using the ratio of the measured displacements. Equation \ref{equation: S ratio} summarizes this formulation.
 
 \begin{equation}
@@ -759,6 +795,9 @@ The maximum measured displacement of points 1,2 and 3 were taken from the Cross-
         \bottomrule
     \end{tabular}
 \end{table}
+
+\subsection{Density Gradient Fields and Verification}
+\label{subsection: Aerospike Gradient Verification}
 
 Now that the sensitivity of point 2 is known, the density gradient field can be obtained by assuming a 2D planar flow and applying Equation \ref{equation: In-plane displacement}. In this case, an effective lever arm was calculated by dividing the Sensitivity of Table \ref{tab: S ratio} with point 2's optical magnification, $l_{eff} = S/M_{ag} = 126,29$ mm. Figure \ref{fig: aerospike density gradient fields} shows the x component of the gradient on \ref{fig: aerospike density gradient x} and the y component on \ref{fig: aerospike density gradient y}. The information of the two pictures allowed the identification of compression and expansion waves in the flow, which were marked in Figure \ref{fig: aerospike flow interpretation}. A very clear red line next to the exhaust in the x component signals a compression wave that reflects into another wave of the same family marked by a blue line in the y component. The compression wave hits the shear layer and becomes an expansion fan, hinted by the blue region in the x component. A pocket of red in the y component on the right of the blue hints that the expansion fan reflects into waves of the same family when it hit the ramp. Next, a faintly red region emerges both in the y and x components, indicating that the expansion waves reflect at the shear layer into very weak compression waves, until they reach another expansion fan at the truncation lip, marked by a red homogeneous region in the y component. It seems that the waves behave as predicted by the theory displayed in chapter \ref{chapter: Theory}, reflecting into waves of the same family in the ramp and shifting its type when interacting with the shear layer. This interpretation demonstrates the capacity of SBOS to produce images with enough resolution and sensitivity to qualitatively interpret the flow structure at hand.
 
@@ -822,6 +861,9 @@ A verification of the density gradient field computation can also be done by com
         \bottomrule
     \end{tabular}
 \end{table}
+
+\subsection{Results with the Mach 2 Freestream Flow}
+\label{subsection: Aerospike Freestream Results}
 
 Points 4--11 imaged the aerospike nozzle influenced by an external Mach 2 flow created by the high-speed wind tunnel. Figure \ref{fig: aerospike freestream NPR10} compares the results taken with $NPR = 10$ from points 5 and 9 to an schlieren image taken with the same flow condition. The three photos are representative of the resolution and sensitivity of each configuration for the other $NPR$s. In this case, the flow captured with negative defocus experienced a considerably smaller blurring than the no freestream case, supporting the claim that the flow had a part in the decorrelation. Also, its cross-correlation result already shows some of the flow structures. Nevertheless, It is the results obtained with the focus inside the test section that truly yield remarkable resolution, capable of rivaling even the schlieren image.
 
@@ -904,6 +946,9 @@ Similar as before, the peaks of points with the same flow condition were compare
         \bottomrule
     \end{tabular}
 \end{table}
+
+\subsection{Flow Structure and Effect of $NPR$}
+\label{subsection: Aerospike Flow Structure}
 
 It is possible to once again use the x and y components of the density gradient to briefly interpret the flow's structures. For that, Point 8 was selected and its gradients, displayed in Figure \ref{fig: aerospike density gradient point 8}, were carefully analyzed to produce Figure \ref{fig: aerospike flow interpretation point 8}. A striking red line next to the exhaust in the x component marks a compression wave. This wave reflects at the ramp into another compression wave signaled by a strong blue line in the y component and goes to the shear layer. In the shear layer, the wave is reflected into expansion fans, marked by a continuous expansion zone in blue in the x gradient. At the tip, a strong blue line in the y component and faint red dots in x mark a compression wave, which is followed below by an expansion wave signaled by a strong red line in y. There was no Schlieren image available for comparison with the SBOS result with the same $NPR = 8$, only for $NPR = 7$. Nevertheless, the comparison is valid, as it is possible to see that the structures identified in SBOS match the Schlieren image and are only shifted slightly to the left due to the lower $NPR$.
 

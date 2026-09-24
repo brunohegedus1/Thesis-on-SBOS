@@ -704,6 +704,12 @@ INPUT .\figures\BOS background pattern.jpg
 INPUT .\figures\SBOS speckle pattern comparison.jpg
 INPUT .\figures\SBOS speckle pattern comparison.jpg
 INPUT .\figures\SBOS speckle pattern comparison.jpg
+INPUT C:\Users\bruno\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
+INPUT C:\Users\bruno\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi12.tfm
+INPUT C:\Users\bruno\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
+INPUT C:\Users\bruno\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmex10.tfm
+INPUT C:\Users\bruno\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Users\bruno\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT .\figures\jet displacement 3bar.png
 INPUT .\figures\jet displacement 3bar.png
 INPUT .\figures\jet displacement 3bar.png
