@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.5) (preloaded format=xelatex 2026.8.21)  24 SEP 2026 19:28
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.5) (preloaded format=xelatex 2026.8.21)  24 SEP 2026 19:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1816,9 +1816,10 @@ File: figures/centerline density gradient dataset e.png Graphic file (type bmp)
 File: figures/centerline density gradient dataset f.png Graphic file (type bmp)
 
 <figures/centerline density gradient dataset f.png>
+ [58]
 File: figures/shock cell lengths.jpg Graphic file (type bmp)
 <figures/shock cell lengths.jpg>
- [58] [59]
+ [59]
 File: figures/density field dataset a.png Graphic file (type bmp)
 <figures/density field dataset a.png>
 File: figures/density field dataset b.png Graphic file (type bmp)
@@ -1874,11 +1875,12 @@ File: figures/aerospike flow interpretation.png Graphic file (type bmp)
 <figures/aerospike flow interpretation.png>
 File: figures/aerospike schlieren NPR8.png Graphic file (type bmp)
 <figures/aerospike schlieren NPR8.png>
- [66]
+
 Overfull \hbox (17.25104pt too wide) in paragraph at lines 856--869
  [][] 
  []
 
+[66] [67]
 File: figures/aerospike displacement point 5.jpg Graphic file (type bmp)
 <figures/aerospike displacement point 5.jpg>
 
@@ -1895,7 +1897,6 @@ Overfull \hbox (15.23721pt too wide) in paragraph at lines 887--888
 
 File: figures/aerospike schlieren NPR10.png Graphic file (type bmp)
 <figures/aerospike schlieren NPR10.png>
-[67]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 957.
@@ -1918,7 +1919,7 @@ File: figures/aerospike density gradient point 10.png Graphic file (type bmp)
 <figures/aerospike density gradient point 10.png>
 File: figures/aerospike density gradient point 11.png Graphic file (type bmp)
 <figures/aerospike density gradient point 11.png>
- [69] [70]) (mainmatter/07_conclusion.tex [71]
+ [69]) (mainmatter/07_conclusion.tex [70] [71]
 Chapter 7.
 ) [72
 
@@ -1994,10 +1995,10 @@ Package logreq Info: Writing requests to 'report.run.xml'.
 Here is how much of TeX's memory you used:
  46348 strings out of 402619
  1000178 string characters out of 5438862
- 1903753 words of memory out of 5000000
+ 1904753 words of memory out of 5000000
  74717 multiletter control sequences out of 15000+600000
  634841 words of font info for 119 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  107i,12n,108p,2282b,5756s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on report.xdv (91 pages, 2569948 bytes).
+Output written on report.xdv (91 pages, 2577928 bytes).

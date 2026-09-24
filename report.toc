@@ -52,7 +52,7 @@
 \contentsline {subsection}{\numberline {6.4.1}Comparison of Defocus Configurations}{63}{subsection.6.4.1}%
 \contentsline {subsection}{\numberline {6.4.2}In-Focus Sensitivity from the Displacement Ratio}{64}{subsection.6.4.2}%
 \contentsline {subsection}{\numberline {6.4.3}Nozzle Flow against Static Freestream}{65}{subsection.6.4.3}%
-\contentsline {subsection}{\numberline {6.4.4}Nozzle Flow against mach 2 Freestream}{67}{subsection.6.4.4}%
+\contentsline {subsection}{\numberline {6.4.4}Nozzle Flow against mach 2 Freestream}{66}{subsection.6.4.4}%
 \contentsline {subsection}{\numberline {6.4.5}Flow Structure and Effect of $NPR$}{68}{subsection.6.4.5}%
 \contentsline {chapter}{\numberline {7}Conclusion}{72}{chapter.7}%
 \contentsline {chapter}{References}{73}{chapter*.75}%
