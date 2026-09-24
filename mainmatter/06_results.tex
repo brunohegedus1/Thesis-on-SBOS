@@ -663,17 +663,17 @@ The final experiment implemented the SBOS method to image the flow through a lin
               & [mm] & [mm] & [mm] & [--] & [mm] & [$\mu$s] & [mm] & [mm] & [px] & [--] & \\
         \midrule
          1 &  55 & 160 & 1139.1 & 0.213 & 75.19 & 960 & 34.1 & 0.638 & 3.65 &  8 & Negative \\
-         2 &   -105 &   0 & 1261.0 & 0.189 & 74.48 & 480 &  - & - & 2.23 &  8 & Inside TS \\
+         2 &   -105 &   - & 1261.0 & 0.189 & 74.48 & 480 &  - & - & 2.23 &  8 & Inside TS \\
          3 &  60 & 165 & 1426.0 & 0.163 & 76.10 & 960 & 26.9 & 0.526 & 3.55 &  8 & Positive \\
         \midrule
          4 &  55 & 160 & 1038.0 & 0.239 & 67.90 & 480 & 38.2 & 0.701 & 3.52 &  8 & Negative \\
          5 &  55 & 160 & 1038.0 & 0.239 & 67.90 & 480 & 38.2 & 0.701 & 3.52 & 10 & Negative \\
          6 &  55 & 160 & 1038.0 & 0.239 & 67.90 & 480 & 38.2 & 0.701 & 3.52 & 12 & Negative \\
          7 &  55 & 160 & 1038.0 & 0.239 & 67.90 & 480 & 38.2 & 0.701 & 3.52 & 14 & Negative \\
-         8 & $-15$ & 90 & 1107.5 & 0.220 & 68.88 & 480 & -- & -- & 2.32 &  8 & Inside TS \\
-         9 & $-15$ & 90 & 1107.5 & 0.220 & 68.88 & 480 & -- & -- & 2.32 & 10 & Inside TS \\
-        10 & $-15$ & 90 & 1107.5 & 0.220 & 68.88 & 480 & -- & -- & 2.32 & 12 & Inside TS \\
-        11 & $-15$ & 90 & 1107.5 & 0.220 & 68.88 & 480 & -- & -- & 2.32 & 14 & Inside TS \\
+         8 & $-15$ & - & 1107.5 & 0.220 & 68.88 & 480 & -- & -- & 2.32 &  8 & Inside TS \\
+         9 & $-15$ & - & 1107.5 & 0.220 & 68.88 & 480 & -- & -- & 2.32 & 10 & Inside TS \\
+        10 & $-15$ & - & 1107.5 & 0.220 & 68.88 & 480 & -- & -- & 2.32 & 12 & Inside TS \\
+        11 & $-15$ & - & 1107.5 & 0.220 & 68.88 & 480 & -- & -- & 2.32 & 14 & Inside TS \\
         \bottomrule
     \end{tabular}
 \end{table}
@@ -742,7 +742,7 @@ Nevertheless, imaging the flow inside the test section comes with its own limita
     S_2 = \frac{\Delta_2}{\Delta_1} S_1
 \end{equation}
 
-The maximum measured displacement of points 1,2 and 3 were taken from the Cross-Correlation result and displayed in Table \ref{tab: S ratio}. The sensitivity of point 1 was calculated based on the one of point 3 and vice-versa in the "ratio method" column. Then, the sensitivity of point 2 was computed based on points 1 and 3. The deviation column shows that this method matches remarkably well the  $S= l \cdot M_{ag}$ formulation for the two defocused points. For the point inside the test section, the sensitivity estimate using either defocused point also yield similar results with less than 5\% of difference. These deviations between the two sensitivity estimates might come from errors in the schlieren object such as $NPR$ fluctuations, which affect $\varepsilon$ and $\Delta_{max}$ or in the magnification and distance measurements. Nevertheless, this small demonstration shows the simplicity and promise of this method, enabling SBOS images to be taken with the refractive object in focus.
+The maximum measured displacement of points 1,2 and 3 were taken from the Cross-Correlation result and displayed in Table \ref{tab: S ratio}. The sensitivity of point 1 was calculated based on the one of point 3 and vice-versa in the ratio method column. Then, the sensitivity of point 2 was computed based on points 1 and 3. The deviation column shows that this method matches remarkably well the  $S= l \cdot M_{ag}$ formulation for the two defocused points, with less than 5\% of error. For the point inside the test section, the sensitivity estimate using either defocused point also yield similar results with less than 5\% of difference. These deviations between the two sensitivity estimates might come from errors in the schlieren object such as $NPR$ fluctuations, that affect $\varepsilon$ and $\Delta_{max}$, or in the magnification and distance measurements. Nevertheless, this small demonstration shows the simplicity and promise of this method, enabling SBOS images to be taken with the refractive object in focus.
 
 \begin{table}[htbp]
     \centering
@@ -802,7 +802,7 @@ Comparing the Schlieren image of the same flow conditions in Figure \ref{fig: ae
     \label{fig: aerospike flow interpretation and schlieren}
 \end{figure}
 
-A verification of the density gradient field computation can also be done by comparing the fields obtained for points 1 and 3. Since point 1, 2 and 3 measure the same flow condition at 3 distinct independent moments, the comparison between their results allows to assess the right scaling from raw displacement to density gradients. An ideal comparison would be between samples of values in the same region at each individual picture. However, as it has been shown before, it is not possible to distinguish any features from the results of points 1 and 3, so that comparison would be nonphysical. Nevertheless, the scaling can be assessed by comparing the peaks of each density gradient field. The maximum density gradients were collected in Table \ref{tab: aerospike gradient peaks} together with the average of the 100 highest values. The data shows that, all the maximum of the gradient components and the n peak averages match remarkably well, maintaining themselves below 10\%.
+A verification of the density gradient field computation can also be done by comparing the fields obtained for points 1 and 3. Since point 1, 2 and 3 measure the same flow condition at 3 distinct independent moments, the comparison between their results allows to assess the right scaling from raw displacement to density gradients. An ideal comparison would be between samples of values in the same region at each individual picture. However, as it has been shown before, it is not possible to distinguish any features from the results of points 1 and 3, so that comparison would be nonphysical. Nevertheless, the scaling can be assessed by comparing the peaks of each density gradient field. The maximum density gradients were collected in Table \ref{tab: aerospike gradient peaks} together with the average of the 100 highest values. The data shows that, all the maximum of the gradient components and the n peak averages match well, maintaining themselves below 13.4\%.
 
 \begin{table}[htbp]
     \centering
@@ -823,7 +823,7 @@ A verification of the density gradient field computation can also be done by com
     \end{tabular}
 \end{table}
 
-Points 4--11 imaged the aerospike nozzle influenced by an external Mach 2 flow created by the high-speed wind tunnel. Figure \ref{fig: aerospike freestream NPR10} compares the results taken with $NPR = 10$ from points 5 and 9 to an schlieren image taken with the same flow condition. The three photos are representative of the resolution and sensitivity of each configuration for the other $NPR$s. In this case, the flow captured with positive defocus experienced a considerably smaller blurring and the cross-correlation results already allowed the identification of some structures. Nevertheless, It is the results obtained with the focus inside the test section that truly yield remarkable resolution, capable of rivaling even the schlieren image.
+Points 4--11 imaged the aerospike nozzle influenced by an external Mach 2 flow created by the high-speed wind tunnel. Figure \ref{fig: aerospike freestream NPR10} compares the results taken with $NPR = 10$ from points 5 and 9 to an schlieren image taken with the same flow condition. The three photos are representative of the resolution and sensitivity of each configuration for the other $NPR$s. In this case, the flow captured with negative defocus experienced a considerably smaller blurring than the no freestream case, supporting the claim that the flow had a part in the decorrelation. Also, its cross-correlation result already shows some of the flow structures. Nevertheless, It is the results obtained with the focus inside the test section that truly yield remarkable resolution, capable of rivaling even the schlieren image.
 
 \begin{figure}[htbp]
     \centering
@@ -966,4 +966,4 @@ SBOS can be successfully applied to supersonic wind tunnel using a very simple o
     \label{fig: aerospike density gradients NPR sweep}
 \end{figure}
 
-Taken together, the four experimental campaigns gathered the necessary data to answer the research question and sub-questions posed in chapter \ref{chapter: introduction}.
+The four experimental campaigns described in this chapter gathered the necessary data to answer the research question and sub-questions posed in Chapter \ref{chapter: introduction}. The first experiment compared different defocus configurations obtained with the design methodology of chapter \ref{chapter: methodology}. It showed that positive defocus SBOS is capable of reaching higher magnifications than standard standard BOS, that allows it to reach a better sensitivity-resolution trade-off. The reproduction of the trends present in the design surface maps also validated the methodology. The speckle pattern investigation tried to verify the literature reported effect of certain parameters in the average speckle size \cite{Barker&Fourney, NikitaFominBook, Meier&Roesgen2013}. It confirmed the dependency of the lens aperture in the speckle formation and the size of the beam diameter as it hits the diffuser but reported an insensitivity to the magnification, which lead to the conjecture that the Rayleigh limit cannot be used for compound lens in the format of Equation \ref{equation: Rayleigh Limit}. Its findings enabled the construction of a laser speckle generator capable of reproducing speckles in the 2--5 range, as recommended by the literature. With this pattern, the compressible jet experiment converted a measured displacement field from SBOS into quantitative density fields, that were validated against the shock cell correlations of Hartmann-Lazarus \cite{Hartmann1941} and against the centerline density of Panda and Seasholtz \cite{Panda1999}. at last, the aerospike campaign sucessfully implemented the method in the ST-15 wind tunnel, introduced the possibility of imaging with the refractive object in focus and compared the results against traditional schlieren of the same flow. Nevertheless, the experiment also exposed the limitations of the technique, specially the blur decorrelation suffered by the defocused configurations in flows with strong density gradients and turbulence. These results, together with the recommendations for future work, will be used to answer the research questions in Chapter \ref{chapter: Conclusion}.
