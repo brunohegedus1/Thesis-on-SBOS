@@ -645,7 +645,7 @@ The Reynolds number can be used to assess the development of a boundary layer an
 The jets in the transition regime between laminar and turbulent jets experience large differences in the boundary layer shape, as investigated by Ozawa et al. \cite{Ozawa2020}. Figure 12 of their work shows that, for larger Reynolds number (Re = $10^6$), the velocity along the centerline decays faster, while it stays more persistently high at low Reynolds ($Re = 10^5$), meaning that higher Reynolds effects do indeed increase decay downstream. Further literature agrees with these findings. Seiner and Norum \cite{Seiner1980} have reported that the spread of the viscous mixing layer shifts the shock positions predicted by inviscid solutions and weakens the shock strength further downstream. Moreover, the fact that Hartmann-Lazarus formulation matched this work's data can also be explained by Reynolds similarity as the range of $M_j$ was similar ($NPR$ around 4) and their nozzle diameter ranged from 4mm to 6mm, yielding a $Re \approx 2.7-4.0 \cdot 10^5$ \cite{Hartmann1941}.
 
 % REVIEW: "The density results were validated against the centerline density data of Panda and Seasholtz" overstates the comparison, which matched the first cell only.
-The compressible jet experiments allowed the imaging of a real schlieren object using Laser-Speckled Background Oriented Schlieren, resulting in a displacement field which was later processed into quantitative density data. The CC results yielded a high spatial resolution, which made possible the identification of the small jet's shock cell structural features and the comparison between different $NPR$s. The shock cell lengths were compared to literature data from Hartmann-Lazarus and Emden \cite{Hartmann1941, Emden1899, Powell2010}, validating the $NPR$ estimates made by measuring the shear layer angle at the nozzle lip. Abel inversion with Tikhonov regularization was then implemented to obtain quantitative density fields of the jets. The density results were validated against the centerline density data of Panda and Seasholtz \cite{Panda1999}. The unusually small diameter of the nozzle used also permitted the visualization of Reynolds effects when compared to the larger exit diameters common in the study of underexpanded jets. Therefore, the experiment shows that SBOS can be used to image small flows with high resolution and to extract meaningful quantitative data using a relatively simple setup. 
+The compressible jet experiments allowed the imaging of a real schlieren object using Laser-Speckled Background Oriented Schlieren, resulting in a displacement field which was later processed into quantitative density data. The CC results yielded a high spatial resolution, which made possible the identification of the small jet's shock cell structural features and the comparison between different $NPR$s. The shock cell lengths were compared to literature data from Hartmann-Lazarus and Emden \cite{Hartmann1941, Emden1899, Powell2010}, validating the $NPR$ estimates made by measuring the shear layer angle at the nozzle lip. Abel inversion with Tikhonov regularization was then implemented to obtain quantitative density fields of the jets \cite{Abel1826,Dasch1992, Daun2006, Golub1979}. The density results were validated against the centerline density data of Panda and Seasholtz \cite{Panda1999}. The unusually small diameter of the nozzle used also permitted the visualization of Reynolds effects when compared to the larger exit diameters common in the study of under-expanded jets. Therefore, the experiment shows that SBOS can be used to image small flows with high resolution and to extract meaningful quantitative data using a relatively simple setup. 
 
 \section{Aerospike Experiment Results}
 \label{section: Aerospike Experiment Results}
@@ -914,14 +914,14 @@ The effect of $NPR$ in the flow's structures of the linear aerospike can be asse
     \begin{subfigure}[b]{0.58\textwidth}
         \centering
         \includegraphics[width=\textwidth]{figures/aerospike flow interpretation point 8.png}
-        \caption{Interpretation of the SBOS's point 8 result}
+        \caption{Interpretation of the SBOS's point 8}
         \label{fig: aerospike flow interpretation point 8}
     \end{subfigure}
     \hfill
     \begin{subfigure}[b]{0.4\textwidth}
         \centering
         \includegraphics[width=\textwidth]{figures/aerospike schlieren NPR7.png}
-        \caption{Schlieren image}
+        \caption{Schlieren image, credit to Gupta \cite{Gupta2026}}
         \label{fig: aerospike schlieren NPR7}
     \end{subfigure}
     \caption{Flow structures of the aerospike nozzle exhaust with the Mach 2 freestream flow. (a) Compression and expansion flow structures were identified in as black lines on the $x$ component of the density gradient of point 8 ($NPR = 8$), the arrows show roughly the density gradient direction across the structures. (b) Schlieren image of the closest flow condition available, acquired at $NPR = 7$}
@@ -929,6 +929,9 @@ The effect of $NPR$ in the flow's structures of the linear aerospike can be asse
 \end{figure}
 
 %ending paragraph and connection to the conclusions
+
+The aerospike experiment implemented the SBOS method in a high-speed wind tunnel environment, showcasing the challenges and strengths of the technique in a complex experimental setting. The prescribed distances by the design methodology of chapter \ref{chapter: methodology} could not be exactly replicated due to the behavior of the compound camera lens. Nevertheless, the resulting setup performance was not much different than the selected one and it set a good starting point for further tweaking at the test site, which demonstrates the usefulness of the methodology as a preliminary design tool. The results allowed the comparison of different defocus configurations, highlighting the unique SBOS capability of dynamically changing the sensitivity and resolution through simple modifications in the optical setup. The section also demonstrated that SBOS can be successfully applied with the camera focus inside the test section by using the S ratio method developed and validated by this work. In-focus SBOS provides remarkable spatial resolution, capable of rivaling even the traditional and well-stablished schlieren technique. The raw displacement fields obtained where then treated into density gradient fields that permitted a qualitative interpretation of the flow's compression and expansion structures. This qualitative analysis can be easily turned into a quantitative result through the integration of the density gradient field. Furthermore, the method was able to capture physical trends across an $NPR$ sweep, showing the initial compression wave extending further downstream and the tip expansion fan turning more sharply with increasing nozzle pressure ratio, consistent with the free jet trend and Wisse \cite{Wisse2005}. Therefore, the experiment demonstrates that
+SBOS can be successfully applied to supersonic wind tunnel using a very simple optical arrangement and a low power laser. Finally, it establishes SBOS as a method capable to reproduce resolutions and sensitivities comparable to traditional schlieren while still providing the ease of quantitative measurements present in BOS.
 
 \begin{figure}[htbp]
     \centering
@@ -963,3 +966,4 @@ The effect of $NPR$ in the flow's structures of the linear aerospike can be asse
     \label{fig: aerospike density gradients NPR sweep}
 \end{figure}
 
+Taken together, the four experimental campaigns gathered the necessary data to answer the research question and sub-questions posed in chapter \ref{chapter: introduction}.
