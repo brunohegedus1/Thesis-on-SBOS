@@ -11,7 +11,7 @@ Together with chapter \ref{chapter: methodology}, this chapter groups the inform
 \label{section: Angled Glass Experiment Results}
 The Angled Glass Experiment aimed to validate the methodology and compare the different defocus configurations treated in Chapter \ref{chapter: methodology}. This section presents the data gathered, describes how it was treated, discusses the uncertainty of the results, and concludes whether these objectives have been achieved. The tables that follow give an overview of the results.
 
-\subsection{Displacement and Sensitivity Results}
+\subsection{Displacement and Sensitivity}
 \label{subsection: Angled Glass Displacement and Sensitivity}
 
 Table \ref{tab: angled glass displacement results} compares the displacements measured through SBOS with the predicted shift induced by the angled glass. $\Delta_x$ is the mean of the cross-correlation vector field in pixels, $\Delta x_{SBOS}$ is the latter transferred to mm in the focal plane and $\Delta x_{glass}$ is the glass-induced ray shift, calculated through Equation \ref{equation: Displacement of angled glass}. Since the glass piece produces a uniform displacement field, the standard deviation of the cross-correlation field $\sigma_\Delta$ quantifies the precision of the SBOS measurement, while the relative error quantifies the accuracy of the method. The last column displays the total combined uncertainty of measurement of $\Delta x$, which will be treated in more detail later this section.
@@ -327,7 +327,7 @@ To better judge the deviation of the experiment, an uncertainty budget was const
 \end{table}
 
 
-\subsection{Aperture and Magnification Dependence}
+\subsection{F-stop and Magnification Dependence}
 \label{subsection: Speckle Aperture and Magnification}
 
 Now that the error and uncertainties of the results have been discussed, the data can be plotted to better understand its behavior, such as f-stop dependency. The various $f_\#$ sweeps made during the experimental campaign allow the evaluation of whether the interference waves became diffraction limited at the pupil. Figure \ref{fig: speckle f-number sweep} shows the trend of average speckle size with f-stop number for four different configurations. All lines follow the characteristic increasing trend of a developed subjective speckle, which follows Equation \ref{equation: Rayleigh Limit}, and signals that the interference front is becoming diffraction limited at the lens pupil \cite{Goodman2020}. The figure shows some promising trends as there is a clear dependence on $f_\#$ and it indicates a tendency of projected speckles to be smaller than direct ones. However, it also shows an insensitivity to the optical magnification, contradicting Equation \ref{equation: Rayleigh Limit}, and the effect of $d_{GG}$. These trends will be further discussed next.
@@ -518,7 +518,7 @@ The $NPR$ estimates displayed in Table \ref{tab: compressible jet NPR estimates}
     \label{fig: dataset f density gradients}
 \end{figure}
 
-\subsection{Density Gradients and Shock Cell Lengths}
+\subsection{Density Gradients and Shock Cell Length}
 \label{subsection: Jet Density Gradients}
 
 % REVIEW: the lever arm is written l + W/2 here but l_0 + W/2 (l_0 = 30 mm) in the density field subsection; use one symbol. The background removal and axis alignment are described after the results they produced; consider moving them to the start of the paragraph.
@@ -680,10 +680,9 @@ The compressible jet experiments allowed the imaging of a real schlieren object 
 \section{Aerospike Experiment Results}
 \label{section: Aerospike Experiment Results}
 
+The final experiment implemented the SBOS method to image the flow through a linear aerospike nozzle in a high-speed wind tunnel. The goal of this campaign was to test the design guidelines described in chapter \ref{chapter: methodology} in a real wind-tunnel environment and identify its limitations; further investigate the effects in sensitivity and resolution of using different defocus positions, specially inside the test section; and to capture with sufficient detail the flow structures present at linear aerospike nozzle ramp.
 
-The final experiment implemented the SBOS method to image the flow through a linear aerospike nozzle in a high-speed wind tunnel. The goal of this campaign was to test the design guidelines described in chaper \ref{chapter: methodology} in a real wind-tunnel environment and identify its limitations; further investigate the effects in sensitivity and resolution of using different defocus positions, specially inside the test section; and to capture with sufficient detail the flow structures present at linear aerospike nozzle ramp.
-
-\subsection{Optical Configurations and Defocus Comparison}
+\subsection{Comparison of Defocus Configurations}
 \label{subsection: Aerospike Optical Configurations}
 
 \begin{table}[htbp]
@@ -768,7 +767,7 @@ Figure \ref{fig: aerospike flow pictures} displays the flow pictures taken for p
     \label{fig: aerospike flow pictures}
 \end{figure}
  
-\subsection{Sensitivity from the Displacement Ratio}
+\subsection{In-Focus Sensitivity from the Displacement Ratio}
 \label{subsection: Aerospike S Ratio}
 
 Nevertheless, imaging the flow inside the test section comes with its own limitations. Since there is no defocus distance $l$, it means that the sensitivity cannot be estimated as $S=l \cdot M_{ag}$, which breaks the current model on how to transform the measured displacement field into density gradients and subsequently a quantitative density field. A solution for that lies in Equation \ref{equation: S BOS}, as the sensitivity is also defined as the ratio between the measured displacement and deflection induced by the schlieren object $S = \Delta/\varepsilon$. If the same object of study is imaged with different sensitivities, the deflection $\varepsilon$ will be the same but the displacement measured will be different. The ratio between the measured displacements will be the ratio of the sensitivities. Therefore, if a refractive object is imaged with a certain known sensitivity, a second sensitivity can be estimated by using the ratio of the measured displacements. Equation \ref{equation: S ratio} summarizes this formulation.
@@ -796,7 +795,7 @@ The maximum measured displacement of points 1,2 and 3 were taken from the Cross-
     \end{tabular}
 \end{table}
 
-\subsection{Density Gradient Fields and Verification}
+\subsection{Nozzle Flow against Static Freestream}
 \label{subsection: Aerospike Gradient Verification}
 
 Now that the sensitivity of point 2 is known, the density gradient field can be obtained by assuming a 2D planar flow and applying Equation \ref{equation: In-plane displacement}. In this case, an effective lever arm was calculated by dividing the Sensitivity of Table \ref{tab: S ratio} with point 2's optical magnification, $l_{eff} = S/M_{ag} = 126,29$ mm. Figure \ref{fig: aerospike density gradient fields} shows the x component of the gradient on \ref{fig: aerospike density gradient x} and the y component on \ref{fig: aerospike density gradient y}. The information of the two pictures allowed the identification of compression and expansion waves in the flow, which were marked in Figure \ref{fig: aerospike flow interpretation}. A very clear red line next to the exhaust in the x component signals a compression wave that reflects into another wave of the same family marked by a blue line in the y component. The compression wave hits the shear layer and becomes an expansion fan, hinted by the blue region in the x component. A pocket of red in the y component on the right of the blue hints that the expansion fan reflects into waves of the same family when it hit the ramp. Next, a faintly red region emerges both in the y and x components, indicating that the expansion waves reflect at the shear layer into very weak compression waves, until they reach another expansion fan at the truncation lip, marked by a red homogeneous region in the y component. It seems that the waves behave as predicted by the theory displayed in chapter \ref{chapter: Theory}, reflecting into waves of the same family in the ramp and shifting its type when interacting with the shear layer. This interpretation demonstrates the capacity of SBOS to produce images with enough resolution and sensitivity to qualitatively interpret the flow structure at hand.
@@ -862,7 +861,7 @@ A verification of the density gradient field computation can also be done by com
     \end{tabular}
 \end{table}
 
-\subsection{Results with the Mach 2 Freestream Flow}
+\subsection{Nozzle Flow against mach 2 Freestream}
 \label{subsection: Aerospike Freestream Results}
 
 Points 4--11 imaged the aerospike nozzle influenced by an external Mach 2 flow created by the high-speed wind tunnel. Figure \ref{fig: aerospike freestream NPR10} compares the results taken with $NPR = 10$ from points 5 and 9 to an schlieren image taken with the same flow condition. The three photos are representative of the resolution and sensitivity of each configuration for the other $NPR$s. In this case, the flow captured with negative defocus experienced a considerably smaller blurring than the no freestream case, supporting the claim that the flow had a part in the decorrelation. Also, its cross-correlation result already shows some of the flow structures. Nevertheless, It is the results obtained with the focus inside the test section that truly yield remarkable resolution, capable of rivaling even the schlieren image.
@@ -975,9 +974,6 @@ The effect of $NPR$ in the flow's structures of the linear aerospike can be asse
 
 %ending paragraph and connection to the conclusions
 
-The aerospike experiment implemented the SBOS method in a high-speed wind tunnel environment, showcasing the challenges and strengths of the technique in a complex experimental setting. The prescribed distances by the design methodology of chapter \ref{chapter: methodology} could not be exactly replicated due to the behavior of the compound camera lens. Nevertheless, the resulting setup performance was not much different than the selected one and it set a good starting point for further tweaking at the test site, which demonstrates the usefulness of the methodology as a preliminary design tool. The results allowed the comparison of different defocus configurations, highlighting the unique SBOS capability of dynamically changing the sensitivity and resolution through simple modifications in the optical setup. The section also demonstrated that SBOS can be successfully applied with the camera focus inside the test section by using the S ratio method developed and validated by this work. In-focus SBOS provides remarkable spatial resolution, capable of rivaling even the traditional and well-stablished schlieren technique. The raw displacement fields obtained where then treated into density gradient fields that permitted a qualitative interpretation of the flow's compression and expansion structures. This qualitative analysis can be easily turned into a quantitative result through the integration of the density gradient field. Furthermore, the method was able to capture physical trends across an $NPR$ sweep, showing the initial compression wave extending further downstream and the tip expansion fan turning more sharply with increasing nozzle pressure ratio, consistent with the free jet trend and Wisse \cite{Wisse2005}. Therefore, the experiment demonstrates that
-SBOS can be successfully applied to supersonic wind tunnel using a very simple optical arrangement and a low power laser. Finally, it establishes SBOS as a method capable to reproduce resolutions and sensitivities comparable to traditional schlieren while still providing the ease of quantitative measurements present in BOS.
-
 \begin{figure}[htbp]
     \centering
     \begin{subfigure}[b]{\textwidth}
@@ -1010,5 +1006,7 @@ SBOS can be successfully applied to supersonic wind tunnel using a very simple o
     \caption{Density gradient fields of points 8 to 11, obtained assuming a planar flow with the effective lever arm of Table \ref{tab: S ratio points 4 to 11}. Each row displays the component in the $x$ direction on the left and the component in the $y$ direction on the right, for one nozzle pressure ratio. Each field uses its own color scale and masked regions are shown in grey}
     \label{fig: aerospike density gradients NPR sweep}
 \end{figure}
+
+The aerospike experiment implemented the SBOS method in a high-speed wind tunnel environment, showcasing the challenges and strengths of the technique in a complex experimental setting. The prescribed distances by the design methodology of chapter \ref{chapter: methodology} could not be exactly replicated due to the behavior of the compound camera lens. Nevertheless, the resulting setup performance was not much different than the selected one and it set a good starting point for further tweaking at the test site, which demonstrates the usefulness of the methodology as a preliminary design tool. The results allowed the comparison of different defocus configurations, highlighting the unique SBOS capability of dynamically changing the sensitivity and resolution through simple modifications in the optical setup. The section also demonstrated that SBOS can be successfully applied with the camera focus inside the test section by using the S ratio method developed and validated by this work. In-focus SBOS provides remarkable spatial resolution, capable of rivaling even the traditional and well-stablished schlieren technique. The raw displacement fields obtained where then treated into density gradient fields that permitted a qualitative interpretation of the flow's compression and expansion structures. This qualitative analysis can be easily turned into a quantitative result through the integration of the density gradient field. Furthermore, the method was able to capture physical trends across an $NPR$ sweep, showing the initial compression wave extending further downstream and the tip expansion fan turning more sharply with increasing nozzle pressure ratio, consistent with the free jet trend and Wisse \cite{Wisse2005}. Therefore, the experiment demonstrates that SBOS can be successfully applied to supersonic wind tunnel using a very simple optical arrangement and a low power laser. Finally, it establishes SBOS as a method capable to reproduce resolutions and sensitivities comparable to traditional schlieren while still providing the ease of quantitative measurements present in BOS.
 
 The four experimental campaigns described in this chapter gathered the necessary data to answer the research question and sub-questions posed in Chapter \ref{chapter: introduction}. The first experiment compared different defocus configurations obtained with the design methodology of chapter \ref{chapter: methodology}. It showed that positive defocus SBOS is capable of reaching higher magnifications than standard standard BOS, that allows it to reach a better sensitivity-resolution trade-off. The reproduction of the trends present in the design surface maps also validated the methodology. The speckle pattern investigation tried to verify the literature reported effect of certain parameters in the average speckle size \cite{Barker&Fourney, NikitaFominBook, Meier&Roesgen2013}. It confirmed the dependency of the lens aperture in the speckle formation and the size of the beam diameter as it hits the diffuser but reported an insensitivity to the magnification, which lead to the conjecture that the Rayleigh limit cannot be used for compound lens in the format of Equation \ref{equation: Rayleigh Limit}. Its findings enabled the construction of a laser speckle generator capable of reproducing speckles in the 2--5 range, as recommended by the literature. With this pattern, the compressible jet experiment converted a measured displacement field from SBOS into quantitative density fields, that were validated against the shock cell correlations of Hartmann-Lazarus \cite{Hartmann1941} and against the centerline density of Panda and Seasholtz \cite{Panda1999}. at last, the aerospike campaign sucessfully implemented the method in the ST-15 wind tunnel, introduced the possibility of imaging with the refractive object in focus and compared the results against traditional schlieren of the same flow. Nevertheless, the experiment also exposed the limitations of the technique, specially the blur decorrelation suffered by the defocused configurations in flows with strong density gradients and turbulence. These results, together with the recommendations for future work, will be used to answer the research questions in Chapter \ref{chapter: Conclusion}.
