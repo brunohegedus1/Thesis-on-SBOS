@@ -321,7 +321,14 @@ In order to directly compare the projected speckle result with directed speckles
     \label{fig: speckle f-number sweep}
 \end{figure}
 
-The Magnification effect can be assessed through the comparison of the red and yellow lines in Figure \ref{fig: speckle f-number sweep}, as the two configurations only vary in magnification. It appears that the increased magnification of the red line caused practically no effect in the average speckle size, displaying almost the same values as the yellow line. The same insensitivity to magnification was also experienced through points 14--28 shown in Figure \ref{fig: speckle magnification sweep}, where magnification was swept by modifying the focal distance through signaled by marks of the camera lens. These method of defining the distance to the focal plane is less accurate to the calibration method used in the other points, so it is to be expected that the magnification figure in these points are less accurate.  Nevertheless, the figure shows, for a different $d_{GG}$, the same speckle size insensitivity to optical magnification that was identified in Figure \ref{fig: speckle f-number sweep}. That effectively contradicts the Rayleigh diffraction limit equation and reduces the number of control variables an experimentalist would have when designing the experimental setup. Since the dependency to magnification in Equation \ref{equation: Rayleigh Limit} comes to the thin lens assumption, it could be that the use of a compound lens changes the behavior of this trend. 
+The Magnification effect can be assessed through the comparison of the red and yellow lines in Figure \ref{fig: speckle f-number sweep}, as the two configurations only vary in magnification. It appears that the increased magnification of the red line caused practically no effect in the average speckle size, displaying almost the same values as the yellow line. The same insensitivity to magnification was also experienced through points 14--28 shown in Figure \ref{fig: speckle magnification sweep}, where magnification was swept by modifying the focal distance through signaled by marks of the camera lens. These method of defining the distance to the focal plane is less accurate to the calibration method used in the other points, so it is to be expected that the magnification figure in these points are less accurate.  Nevertheless, the figure shows, for a different $d_{GG}$, the same speckle size insensitivity to optical magnification that was identified in Figure \ref{fig: speckle f-number sweep}, which effectively contradicts the Rayleigh diffraction limit of Equation \ref{equation: Rayleigh Limit}. The cause of this contradiction might come from the violation of one fundamental assumption used to derive the equation for subjective speckles.
+
+The dependency on magnification in Equation \ref{equation: Rayleigh Limit} comes from the thin lens assumption \cite{NikitaFominBook}. Two types of speckle formation schemes exist: objective is how the plain pattern projection on a surface is described, and subjective is the name given when a lens is used to image the pattern. Equation \ref{equation: Rayleigh limit objective} shows the Rayleigh limit for objective speckles, with Z being the distance between the diffuser surface and the observer. In a subjective speckle, a lens is used, so Z becomes the distance between the lens and the image plane. This distance can be calculated as $Z = f(1 + M_{ag})$ through the thin lens equation. By substituting it into Equation \ref{equation: Rayleigh limit objective}, the Rayleigh limit for subjective speckles of Equation \ref{equation: Rayleigh Limit} is derived. Since a compound camera is being used to image the speckles in this work, the distance between the lens and the image is not the same as it would be for a thin lens and the substitution does not hold. Therefore, that must be another equation that better describes the behavior of speckles for a compound lens.
+
+\begin{equation}
+    \label{equation: Rayleigh limit objective}
+    \Delta s = 1.22\lambda\frac{Z}{D}
+\end{equation}
 
 \begin{figure}[htbp]
     \centering
@@ -765,7 +772,7 @@ Comparing the Schlieren image of the same flow conditions in Figure \ref{fig: ae
     \begin{subfigure}[b]{0.49\textwidth}
         \centering
         \includegraphics[width=\textwidth]{figures/aerospike schlieren NPR8.png}
-        \caption{Schlieren image}
+        \caption{Schlieren image, credit to Gupta \cite{Gupta2026}}
         \label{fig: aerospike schlieren interpretation}
     \end{subfigure}
     \caption{Flow structures of the aerospike nozzle exhaust at $NPR = 8$ without freestream flow. (a) Compression waves, expansion fans and Mach waves are identified as black lines on the $x$ component of the density gradient, the arrows identify the general direction of the density gradient. (b) Schlieren image of the same flow condition}
@@ -797,24 +804,24 @@ Points 4 to 11 of Table \ref{tab: aerospike experimental results} imaged the aer
 
 \begin{figure}[htbp]
     \centering
-    \begin{subfigure}[b]{0.298\textwidth}
+    \begin{subfigure}[b]{0.34\textwidth}
         \centering
-        \includegraphics[width=\textwidth]{figures/aerospike displacement point 5.jpg}
+        \includegraphics[width=1.2\textwidth]{figures/aerospike displacement point 5.jpg}
         \caption{SBOS, point 5}
         \label{fig: aerospike displacement point 5}
     \end{subfigure}
     \hfill
-    \begin{subfigure}[b]{0.298\textwidth}
+    \begin{subfigure}[b]{0.34\textwidth}
         \centering
-        \includegraphics[width=\textwidth]{figures/aerospike displacement point 9.jpg}
+        \includegraphics[width=1.1\textwidth]{figures/aerospike displacement point 9.jpg}
         \caption{SBOS, point 9}
         \label{fig: aerospike displacement point 9}
     \end{subfigure}
     \hfill
-    \begin{subfigure}[b]{0.363\textwidth}
+    \begin{subfigure}[b]{0.26\textwidth}
         \centering
         \includegraphics[width=\textwidth]{figures/aerospike schlieren NPR10.png}
-        \caption{Schlieren}
+        \caption{Schlieren, credit to Gupta \cite{Gupta2026}}
         \label{fig: aerospike schlieren NPR10}
     \end{subfigure}
     \caption{Aerospike nozzle exhaust at $NPR = 10$ with the Mach 2 freestream flow. (a) Displacement magnitude field of point 5, with negative defocus. (b) Displacement magnitude field of point 9, with the focus inside the test section. (c) Schlieren image of the same flow condition. Each field uses its own color scale and masked regions are shown in grey}
@@ -848,7 +855,7 @@ The S ratio method can be used to calculate the sensitivity and effective lever 
     \end{tabular}
 \end{table}
 
-Similar as before, the peaks of points with the same flow condition were compared to verify if both density gradients match as they should. This calculation is displayed in Table \ref{tab: aerospike gradient peaks freestream}. Once again, the results are remarkably similar. The biggest deviation happened between points 4 and 8 in the peak of the y component of the density gradient, correspondent to 17,3\%. Nevertheless, this can be considered an outlier as the average of the 100 highest values of the two points showed an error below 10\%. The data in the table verifies the resultant density gradient fields by showing that two different routes will yield the same result. Another interesting observation is that points 4 and 8, that imaged an $NPR = 8$, showed considerably similar peaks and peak averages to points 1,2 and 3 which had the same $NPR$.
+Similar as before, the peaks of points with the same flow condition were compared to verify if both density gradients match as they should. This calculation is displayed in Table \ref{tab: aerospike gradient peaks freestream}. Once again, the results are remarkably similar. The biggest deviation happened between points 4 and 8 in the peak of the y component of the density gradient, correspondent to 17,3\%. Nevertheless, this can be considered an outlier as the average of the 100 highest values of the two points showed an error below 10\%. Another interesting observation is that points 4 and 8, that imaged an $NPR = 8$, showed considerably similar peaks and peak averages to points 1,2 and 3 which had the same $NPR$. The data in the table verifies the resulting density gradient fields by showing that two different routes will yield the same result. With the data verified, the results for the different NPRS correspondent to points 8-11 can be shown.
 
 \begin{table}[htbp]
     \centering
@@ -875,3 +882,11 @@ Similar as before, the peaks of points with the same flow condition were compare
     \end{tabular}
 \end{table}
 
+It is possible to once again use the x and y components of the density gradient to briefly interpret the flow's structures. For that, Point 8 was selected and its gradients, displayed in Figure \ref{}, were carefully analyzed to produce Figure \ref{}. A striking red line next to the exhaust in Figure \ref{} marks a compression wave. This wave reflects at the ramp into another compression wave signaled by a strong blue line in Figure \ref{} and goes to the shear layer. In the shear layer, the wave is reflected into expansion fans, marked by a continuous expansion zone in blue in Figure \ref{}. At the tip, a strong blue line in the y component and faint red dots in x mark a compression wave, which is followed below by an expansion wave signaled by a strong red line in y. There was no Schlieren image available for comparison with the SBOS result with the same $NPR = 8$, only for $NPR = 7$. Nevertheless, the comparison is valid, as it is possible to see that the structures identified in SBOS match the Schlieren image and are only shifted slightly to the left due to the lower $NPR$.
+
+%Add Flow interpretation + Schlieren
+
+The effect of $NPR$ in the flow's structures of the linear aerospike can be assessed by plotting the density gradients of points 8-11, as done in Figure \ref{}. Comparing the four plot pairs, it becomes evident that an increase in nozzle pressure ratio leads to the initial compression wave to extend further downstream and shift the reflections to the right, similar to the trend documented for the free jet. Another notable observation is that the expansion fan in the tip starts to point more sharply down with increasing $NPR$, indicating the tendency to close the truncation base flow as mentioned by Wisse \cite{Wisse2005}. Unfortunately the effect couldn't be observed, as the flow changed dramatically at $NPR > 14$ impeding the base flow to close, as shown by picture \ref{}. The cause of the change was the absence of a model extension which created a low pressure zone at the end of the model. The difference between the mounted model and the designed one can be seen in Figures \ref{fig: aerospike model} and Figure \ref{fig: aerospike technical drawing}. With the increase in $NPR$, the pressure difference between the nozzle exit and the low pressure zone grew, until a standing shock was formed at the ramp's edge. The discrepancy between point 7 and 11 can be explained by this. Point 11 was probably captured at a larger $NPR$ than point 7, so the shock was formed in the former, while the same did not happen for the latter.
+
+
+%Add density gradients of points 8-11
