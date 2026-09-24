@@ -1,7 +1,7 @@
 \chapter{Results}
 \label{chapter: Results}
 
-Chapter \ref{chapter: Results} presents the raw results obtained with the experimental setups described in Chapter \ref{chapter: Experimental Setups}. The data collected was processed, its associated uncertainty quantified and analyzed, an interpretation of the results was supplied and their implication to the research questions discussed. In total, 4 experiments were conducted which allowed a comprehensive study of each of the 3 main aspects of the SBOS technique, namely its optical configuration, speckle pattern formation and schlieren object, to finally implement the method in a wind tunnel setting.
+Chapter \ref{chapter: Results} presents the results obtained with the experimental setups described in Chapter \ref{chapter: Experimental Setups}. The data collected was processed, its associated uncertainty quantified and analyzed, an interpretation of the results was supplied and their implication to the research questions discussed. In total, 4 experiments were conducted which allowed a comprehensive study of each of the 3 main aspects of the SBOS technique, namely its optical configuration, speckle pattern formation and schlieren object, to finally implement the method in a wind tunnel setting.
 
 The first experiment imaged a simple refractive object with the goal of comparing different optical configurations and validating the design guidelines presented in Chapter \ref{chapter: methodology}. The second campaign tackled the speckle formation and studied the parameters that affect it as reported by the literature. When a sufficient speckle pattern was obtained, an under-expanded jet was imaged using SBOS. The displacement data collected were then turned into quantitative density fields and validated against literature. The lessons learned in each of these applications culminated in the final implementation of SBOS in the study of the flow through a linear aerospike nozzle in a high-speed wind tunnel. The raw displacements were processed into density gradients that allowed the interpretation of compression and expansion structures. These results were then compared and validated against traditional schlieren images of the same flow.
 
@@ -771,7 +771,7 @@ Figure \ref{fig: aerospike flow pictures} displays the flow pictures taken for p
     \label{fig: aerospike flow pictures}
 \end{figure}
  
-\subsection{In-Focus Sensitivity from the Displacement Ratio}
+\subsection{In-Focus Sensitivity from Displacement Ratio}
 \label{subsection: Aerospike S Ratio}
 
 Nevertheless, imaging the flow inside the test section comes with its own limitations. Since there is no defocus distance $l$, it means that the sensitivity cannot be estimated as $S=l \cdot M_{ag}$, which breaks the current model on how to transform the measured displacement field into density gradients and subsequently a quantitative density field. A solution for that lies in Equation \ref{equation: S BOS}, as the sensitivity is also defined as the ratio between the measured displacement and deflection induced by the schlieren object $S = \Delta/\varepsilon$. If the same object of study is imaged with different sensitivities, the deflection $\varepsilon$ will be the same but the displacement measured will be different. The ratio between the measured displacements will be the ratio of the sensitivities. Therefore, if a refractive object is imaged with a certain known sensitivity, a second sensitivity can be estimated by using the ratio of the measured displacements. Equation \ref{equation: S ratio} summarizes this formulation.
@@ -800,7 +800,7 @@ The maximum measured displacement of points 1, 2 and 3 were taken from the Cross
     \end{tabular}
 \end{table}
 
-\subsection{Nozzle Flow against Static Freestream}
+\subsection{Nozzle Flow against Static Freestream Flow}
 \label{subsection: Aerospike Gradient Verification}
 
 % REVIEW: l_eff = 126.29 mm here, while Table 6.10 leaves l_eff undefined for point 2. Since l + G + W/2 = 0 for that point, the geometric model predicts S = 0 and therefore no displacement, yet 14.96 px was measured. That is a result about the limits of the effective lever arm, not only a gap in the formula. Also, the wave identification relies on colour alone; naming the sign of the gradient would survive a greyscale print.
@@ -868,7 +868,7 @@ A verification of the density gradient field computation can also be done by com
     \end{tabular}
 \end{table}
 
-\subsection{Nozzle Flow against mach 2 Freestream}
+\subsection{Nozzle Flow against Mach 2 Freestream Flow}
 \label{subsection: Aerospike Freestream Results}
 
 Points 4--11 imaged the aerospike nozzle influenced by an external Mach 2 flow created by the high-speed wind tunnel. Figure \ref{fig: aerospike freestream NPR10} compares the results taken with $NPR = 10$ from points 5 and 9 to a schlieren image taken with the same flow condition. The three photos are representative of the resolution and sensitivity of each configuration for the other $NPR$s. In this case, the flow captured with negative defocus experienced a considerably smaller blurring than the no freestream case, supporting the claim that the flow had a part in the decorrelation. Also, its cross-correlation result already shows some of the flow structures. Nevertheless, it is the results obtained with the focus inside the test section that truly yield remarkable resolution, capable of rivaling even the schlieren image.
