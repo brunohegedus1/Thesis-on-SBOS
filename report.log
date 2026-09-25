@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.5) (preloaded format=xelatex 2026.8.21)  25 SEP 2026 12:26
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.5) (preloaded format=xelatex 2026.8.21)  25 SEP 2026 13:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1613,13 +1613,9 @@ bmp)
 File: figures/Diagrams of light refraction.png Graphic file (type bmp)
 <figures/Diagrams of light refraction.png>
  [10]
-
-LaTeX Warning: Reference `equation: integral of epsilon' on page 11 undefined o
-n input line 256.
-
 File: figures/AbelTransform.png Graphic file (type bmp)
 <figures/AbelTransform.png>
-[11]) (mainmatter/03_LiteratureReview.tex [12]
+ [11]) (mainmatter/03_LiteratureReview.tex [12]
 Chapter 3.
 File: figures/Hooke shadowgraphy setup.png Graphic file (type bmp)
 <figures/Hooke shadowgraphy setup.png>
@@ -1982,10 +1978,6 @@ File: figures/Speckle size surf map BOS 70mm.jpg Graphic file (type bmp)
 LaTeX2e <2026-06-01>
 L3 programming layer <2026-07-20>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `report.out' has not changed.
 (rerunfilecheck)             Checksum: 6F3D0AD575CB0688310DE46EC364A264;12939.
 Package logreq Info: Writing requests to 'report.run.xml'.
@@ -1993,12 +1985,12 @@ Package logreq Info: Writing requests to 'report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 46347 strings out of 402619
- 1000165 string characters out of 5438862
- 1903772 words of memory out of 5000000
- 74716 multiletter control sequences out of 15000+600000
+ 46348 strings out of 402619
+ 1000203 string characters out of 5438862
+ 1903867 words of memory out of 5000000
+ 74717 multiletter control sequences out of 15000+600000
  634841 words of font info for 119 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  107i,12n,108p,2282b,5756s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on report.xdv (92 pages, 2588804 bytes).
+Output written on report.xdv (92 pages, 2591132 bytes).
