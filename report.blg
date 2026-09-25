@@ -1,15 +1,15 @@
 [0] Config.pm:328> INFO - This is Biber 2.21
 [0] Config.pm:331> INFO - Logfile is 'report.blg'
-[181] biber-MSWIN64:342> INFO - === 
-[248] Biber.pm:421> INFO - Reading 'report.bcf'
-[539] Biber.pm:1002> INFO - Found 58 citekeys in bib section 0
-[566] Biber.pm:4487> INFO - Processing section 0
-[581] Biber.pm:4678> INFO - Looking for bibtex file 'report.bib' for section 0
-[679] bibtex.pm:1713> INFO - LaTeX decoding ...
-[799] bibtex.pm:1519> INFO - Found BibTeX data source 'report.bib'
-[1363] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1364] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1364] Biber.pm:4307> INFO - Sorting list 'nty/global//global/global/global' of type 'entry' with template 'nty' and locale 'en-US'
-[1364] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
-[1467] bbl.pm:676> INFO - Writing 'report.bbl' with encoding 'UTF-8'
-[1515] bbl.pm:779> INFO - Output to report.bbl
+[351] biber-MSWIN64:342> INFO - === 
+[486] Biber.pm:421> INFO - Reading 'report.bcf'
+[782] Biber.pm:1002> INFO - Found 58 citekeys in bib section 0
+[813] Biber.pm:4487> INFO - Processing section 0
+[841] Biber.pm:4678> INFO - Looking for bibtex file 'report.bib' for section 0
+[949] bibtex.pm:1713> INFO - LaTeX decoding ...
+[1062] bibtex.pm:1519> INFO - Found BibTeX data source 'report.bib'
+[1777] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1777] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1777] Biber.pm:4307> INFO - Sorting list 'nty/global//global/global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[1777] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
+[1947] bbl.pm:676> INFO - Writing 'report.bbl' with encoding 'UTF-8'
+[1997] bbl.pm:779> INFO - Output to report.bbl

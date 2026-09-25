@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.5) (preloaded format=xelatex 2026.8.21)  24 SEP 2026 19:45
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.5) (preloaded format=xelatex 2026.8.21)  25 SEP 2026 12:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1584,78 +1584,78 @@ Chapter 1.
 [1
 
 
-]) (mainmatter/02_TheoreticalBackground.tex [2]
+]) [2] (mainmatter/02_TheoreticalBackground.tex [3]
 Chapter 2.
 File: figures/Moving sound waves.png Graphic file (type bmp)
 <figures/Moving sound waves.png>
-[3
+[4
 
 ]
 File: figures/Oblique shock geometry.png Graphic file (type bmp)
 <figures/Oblique shock geometry.png>
- [4] [5]
+ [5] [6]
 File: figures/Under over and perfect expanded jets.jpg Graphic file (type bmp)
 <figures/Under over and perfect expanded jets.jpg>
 File: figures/under-expanded planar jet.jpg Graphic file (type bmp)
 <figures/under-expanded planar jet.jpg>
- [6]
+ [7]
 File: figures/moderately under-expanded jet.jpg Graphic file (type bmp)
 <figures/moderately under-expanded jet.jpg>
 File: figures/highly under-expanded jet.jpg Graphic file (type bmp)
 <figures/highly under-expanded jet.jpg>
 File: figures/unique barrel under-expanded jet.jpg Graphic file (type bmp)
 <figures/unique barrel under-expanded jet.jpg>
- [7]
+ [8]
 File: figures/under perfect and over expanded aerospike.jpg Graphic file (type 
 bmp)
 <figures/under perfect and over expanded aerospike.jpg>
- [8]
+ [9]
 File: figures/Diagrams of light refraction.png Graphic file (type bmp)
 <figures/Diagrams of light refraction.png>
- [9]
+ [10]
 
-LaTeX Warning: Reference `equation: integral of epsilon' on page 10 undefined o
+LaTeX Warning: Reference `equation: integral of epsilon' on page 11 undefined o
 n input line 256.
 
 File: figures/AbelTransform.png Graphic file (type bmp)
 <figures/AbelTransform.png>
-[10]) (mainmatter/03_LiteratureReview.tex [11]
+[11]) (mainmatter/03_LiteratureReview.tex [12]
 Chapter 3.
 File: figures/Hooke shadowgraphy setup.png Graphic file (type bmp)
 <figures/Hooke shadowgraphy setup.png>
-[12
+[13
 
 ]
 File: figures/Schlieren setup.png Graphic file (type bmp)
 <figures/Schlieren setup.png>
 File: figures/laser speckled interferometry.png Graphic file (type bmp)
 <figures/laser speckled interferometry.png>
- [13]
+ [14]
 File: figures/Raffel BOS setup.png Graphic file (type bmp)
 <figures/Raffel BOS setup.png>
- [14]
+ [15]
 File: figures/Gojani cone of light diagram.jpg Graphic file (type bmp)
 <figures/Gojani cone of light diagram.jpg>
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[15] [16] [17] [18]
+[16] [17] [18] [19]
 File: figures/Meier and Roesgen single pass setup.jpg Graphic file (type bmp)
 <figures/Meier and Roesgen single pass setup.jpg>
- [19]
+ [20]
 File: figures/SBOS setup ilustrated.png Graphic file (type bmp)
 <figures/SBOS setup ilustrated.png>
- [20] [21]) (mainmatter/04_methodology.tex [22]
+ [21] [22]) (mainmatter/04_methodology.tex [23]
 Chapter 4.
 File: figures/BOS setup.png Graphic file (type bmp)
 <figures/BOS setup.png>
-[23
+[24
 
-] [24]
+] [25]
 File: figures/negative defocus BOS configuration.jpg Graphic file (type bmp)
 <figures/negative defocus BOS configuration.jpg>
- [25]
+ [26]
 Overfull \hbox (44.56898pt too wide) in paragraph at lines 143--144
 \TU/Arial(0)/m/n/10 would solve the system for a given combinations of P = ($\O
 ML/cmm/m/it/10 f[]; l; f$\TU/Arial(0)/m/n/10 ) and compute X = ($\OML/cmm/m/it/
@@ -1663,13 +1663,13 @@ ML/cmm/m/it/10 f[]; l; f$\TU/Arial(0)/m/n/10 ) and compute X = ($\OML/cmm/m/it/
 (0)/m/n/10 ).
  []
 
-[26]
+[27]
 File: figures/Sensitivity and dav SBOS surf map.jpg Graphic file (type bmp)
 <figures/Sensitivity and dav SBOS surf map.jpg>
- [27]
+ [28]
 File: figures/M,m,df surfmaps SBOS.jpg Graphic file (type bmp)
 <figures/M,m,df surfmaps SBOS.jpg>
- [28]
+ [29]
 File: figures/Speckle size surf map SBOS.jpg Graphic file (type bmp)
 <figures/Speckle size surf map SBOS.jpg>
 File: figures/Sensitivity and smin BOS surf map.jpg Graphic file (type bmp)
@@ -1678,7 +1678,7 @@ File: figures/Sensitivity and smin BOS surf map.jpg Graphic file (type bmp)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[29]
+[30]
 File: figures/M,m,df surfmaps BOS.jpg Graphic file (type bmp)
 <figures/M,m,df surfmaps BOS.jpg>
 
@@ -1694,37 +1694,37 @@ File: figures/Sensitivity and smin BOS surf map 70mm.jpg Graphic file (type bmp
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[30] [31] [32]) (mainmatter/05_Methods.tex [33]
+[31] [32] [33]) (mainmatter/05_Methods.tex [34]
 Chapter 5.
 File: figures/small sbos setup with captions.png Graphic file (type bmp)
 <figures/small sbos setup with captions.png>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[34
+[35
 
 ]
 File: figures/angled laser schematic.png Graphic file (type bmp)
 <figures/angled laser schematic.png>
- [35]
+ [36]
 File: figures/angled glass slider.jpeg Graphic file (type bmp)
 <figures/angled glass slider.jpeg>
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[36]
+[37]
 File: figures/speckle pattern investigation.jpg Graphic file (type bmp)
 <figures/speckle pattern investigation.jpg>
- [37] [38]
+ [38] [39]
 File: figures/projected speckle schematic.png Graphic file (type bmp)
 <figures/projected speckle schematic.png>
 File: figures/projected speckle pattern experiment.png Graphic file (type bmp)
 <figures/projected speckle pattern experiment.png>
- [39]
+ [40]
 File: figures/compressible jet setup.jpeg Graphic file (type bmp)
 <figures/compressible jet setup.jpeg>
- [40]
+ [41]
 File: figures/aerospike camera setup.jpeg Graphic file (type bmp)
 <figures/aerospike camera setup.jpeg>
 File: figures/aerospike speckle generator setup2.jpeg Graphic file (type bmp)
@@ -1733,36 +1733,36 @@ File: figures/aerospike model.jpeg Graphic file (type bmp)
 <figures/aerospike model.jpeg>
 File: figures/Aerospike technical drawing.jpg Graphic file (type bmp)
 <figures/Aerospike technical drawing.jpg>
- [41]
+ [42]
 File: figures/WT experiment setup.jpg Graphic file (type bmp)
 <figures/WT experiment setup.jpg>
-) (mainmatter/06_results.tex [42] [43]
+) (mainmatter/06_results.tex [43] [44]
 Chapter 6.
-[44
+[45
 
-] [45] [46]
+] [46] [47]
 Overfull \hbox (11.5911pt too wide) in paragraph at lines 156--169
  [][] 
  []
 
-[47]
+[48]
 File: figures/S vs l experimental.jpg Graphic file (type bmp)
 <figures/S vs l experimental.jpg>
 File: figures/S vs l slider experiment.jpg Graphic file (type bmp)
 <figures/S vs l slider experiment.jpg>
- [48] [49]
+ [49] [50]
 File: figures/speckle size per point.jpg Graphic file (type bmp)
 <figures/speckle size per point.jpg>
- [50] [51]
+ [51] [52]
 File: figures/speckle exp f-number sweep.png Graphic file (type bmp)
 <figures/speckle exp f-number sweep.png>
- [52]
+ [53]
 File: figures/speckle exp mag sweep.jpg Graphic file (type bmp)
 <figures/speckle exp mag sweep.jpg>
- [53]
+ [54]
 File: figures/Speckle d_GG Sweep.jpg Graphic file (type bmp)
 <figures/Speckle d_GG Sweep.jpg>
- [54]
+ [55]
 File: figures/Speckle pattern point 5.jpg Graphic file (type bmp)
 <figures/Speckle pattern point 5.jpg>
 File: figures/Speckle pattern point 8.jpg Graphic file (type bmp)
@@ -1773,7 +1773,7 @@ File: figures/BOS background pattern.jpg Graphic file (type bmp)
 <figures/BOS background pattern.jpg>
 File: figures/SBOS speckle pattern comparison.jpg Graphic file (type bmp)
 <figures/SBOS speckle pattern comparison.jpg>
- [55]
+ [56]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 438.
@@ -1794,10 +1794,10 @@ File: figures/jet displacement 7bar.png Graphic file (type bmp)
 <figures/jet displacement 7bar.png>
 File: figures/jet displacement 8bar.png Graphic file (type bmp)
 <figures/jet displacement 8bar.png>
-[56]
+[57]
 File: figures/Dataset f density gradients.jpg Graphic file (type bmp)
 <figures/Dataset f density gradients.jpg>
- [57]
+ [58]
 File: figures/centerline density gradient dataset a.png Graphic file (type bmp)
 
 <figures/centerline density gradient dataset a.png>
@@ -1816,10 +1816,10 @@ File: figures/centerline density gradient dataset e.png Graphic file (type bmp)
 File: figures/centerline density gradient dataset f.png Graphic file (type bmp)
 
 <figures/centerline density gradient dataset f.png>
- [58]
+ [59]
 File: figures/shock cell lengths.jpg Graphic file (type bmp)
 <figures/shock cell lengths.jpg>
- [59]
+ [60]
 File: figures/density field dataset a.png Graphic file (type bmp)
 <figures/density field dataset a.png>
 File: figures/density field dataset b.png Graphic file (type bmp)
@@ -1832,15 +1832,15 @@ File: figures/density field dataset e.png Graphic file (type bmp)
 <figures/density field dataset e.png>
 File: figures/density field dataset f.png Graphic file (type bmp)
 <figures/density field dataset f.png>
- [60] [61]
+ [61] [62]
 File: figures/centreline density e vs panda.png Graphic file (type bmp)
 <figures/centreline density e vs panda.png>
- [62]
+ [63]
 Overfull \hbox (10.2518pt too wide) in paragraph at lines 696--715
  [][] 
  []
 
-[63]
+[64]
 File: figures/aerospike displacement point 1.png Graphic file (type bmp)
 <figures/aerospike displacement point 1.png>
 
@@ -1866,7 +1866,7 @@ File: figures/SBOS1_FLOW.jpg Graphic file (type bmp)
 <figures/SBOS1_FLOW.jpg>
 File: figures/aerospike flow picture point 3.jpg Graphic file (type bmp)
 <figures/aerospike flow picture point 3.jpg>
-[64] [65]
+[65] [66]
 File: figures/aerospike density gradient x.jpg Graphic file (type bmp)
 <figures/aerospike density gradient x.jpg>
 File: figures/aerospike density gradient y.jpg Graphic file (type bmp)
@@ -1880,7 +1880,7 @@ Overfull \hbox (17.25104pt too wide) in paragraph at lines 856--869
  [][] 
  []
 
-[66] [67]
+[67] [68]
 File: figures/aerospike displacement point 5.jpg Graphic file (type bmp)
 <figures/aerospike displacement point 5.jpg>
 
@@ -1905,7 +1905,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 957.
 
-[68]
+[69]
 File: figures/aerospike flow interpretation point 8.png Graphic file (type bmp)
 
 <figures/aerospike flow interpretation point 8.png>
@@ -1919,9 +1919,9 @@ File: figures/aerospike density gradient point 10.png Graphic file (type bmp)
 <figures/aerospike density gradient point 10.png>
 File: figures/aerospike density gradient point 11.png Graphic file (type bmp)
 <figures/aerospike density gradient point 11.png>
- [69]) (mainmatter/07_conclusion.tex [70] [71]
+ [70]) (mainmatter/07_conclusion.tex [71] [72]
 Chapter 7.
-) [72
+) [73
 
 ]
 Overfull \hbox (0.64949pt too wide) in paragraph at lines 66--66
@@ -1944,27 +1944,27 @@ Overfull \hbox (40.00558pt too wide) in paragraph at lines 66--66
 9. 
  []
 
-[73
+[74
 
-] [74] (appendix/appendix-a.tex [75]
+] [75] (appendix/appendix-a.tex [76]
 Appendix A.
 File: figures/CoC drawing.png Graphic file (type bmp)
 <figures/CoC drawing.png>
-[76
+[77
 
-]) (appendix/appendix-b.tex [77]
+]) (appendix/appendix-b.tex [78]
 Appendix B.
 File: figures/Blurred Object geometry.png Graphic file (type bmp)
 <figures/Blurred Object geometry.png>
-[78
+[79
 
-]) (appendix/appendix-c.tex [79]
+]) (appendix/appendix-c.tex [80]
 Appendix C.
 Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
 ine 4.
 File: figures/Px pitch and LFOV SBOS surf map.jpg Graphic file (type bmp)
 <figures/Px pitch and LFOV SBOS surf map.jpg>
-[80
+[81
 
 ]
 File: figures/Speckle size surf map BOS.jpg Graphic file (type bmp)
@@ -1977,7 +1977,7 @@ File: figures/Speckle size surf map SBOS 70mm.jpg Graphic file (type bmp)
 <figures/Speckle size surf map SBOS 70mm.jpg>
 File: figures/Speckle size surf map BOS 70mm.jpg Graphic file (type bmp)
 <figures/Speckle size surf map BOS 70mm.jpg>
-) [81] [82] [83] (report.aux)
+) [82] [83] [84] (report.aux)
  ***********
 LaTeX2e <2026-06-01>
 L3 programming layer <2026-07-20>
@@ -1987,18 +1987,18 @@ L3 programming layer <2026-07-20>
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: 4D26CD5FA7EE6FD0A023EF933C0DE0F9;12913.
+(rerunfilecheck)             Checksum: 6F3D0AD575CB0688310DE46EC364A264;12939.
 Package logreq Info: Writing requests to 'report.run.xml'.
 \openout1 = `report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 46348 strings out of 402619
- 1000178 string characters out of 5438862
- 1904753 words of memory out of 5000000
- 74717 multiletter control sequences out of 15000+600000
+ 46347 strings out of 402619
+ 1000165 string characters out of 5438862
+ 1903772 words of memory out of 5000000
+ 74716 multiletter control sequences out of 15000+600000
  634841 words of font info for 119 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  107i,12n,108p,2282b,5756s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on report.xdv (91 pages, 2577928 bytes).
+Output written on report.xdv (92 pages, 2588512 bytes).
