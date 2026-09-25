@@ -12,7 +12,7 @@
 \contentsline {section}{\numberline {3.1}Classical Methods}{13}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Background Oriented Schlieren}{15}{section.3.2}%
 \contentsline {subsection}{\numberline {3.2.1}Optical Spatial Resolution}{16}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Imaging Hardware and Post-Processing}{18}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.2}Imaging Hardware and Post-Processing}{17}{subsection.3.2.2}%
 \contentsline {subsection}{\numberline {3.2.3}Variants of BOS}{19}{subsection.3.2.3}%
 \contentsline {section}{\numberline {3.3}Laser Speckled Background Oriented Schlieren}{20}{section.3.3}%
 \contentsline {subsection}{\numberline {3.3.1}Limitations, Accuracy and Uncertainty of SBOS}{21}{subsection.3.3.1}%
