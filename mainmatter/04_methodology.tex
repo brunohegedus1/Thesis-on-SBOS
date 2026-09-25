@@ -94,17 +94,21 @@ A design strategy was then envisioned to define the setup variables and explore 
     \label{fig: SBOS with negative l}
 \end{figure}
 
-\par Another difference from BOS to SBOS is the speckle generation. Chapter \ref{chapter: LiteratureReview} mentioned the difference between objective and subjective speckles, as the former is a plain projection of the speckle in a surface and the latter uses a lens to image it. Nikita Fomin \cite{NikitaFominBook} described the quantity $\Delta s$ given by Equation \ref{equation: Rayleigh Limit objectve} as the average speckle size for the objective case, where Z is the distance between the projection plane and the observer. For subjective speckles, he showed that the thin lens equation can be used substitute the distance between the lens and the image with $Z = f(M_{ag}+1)$, arriving to the Rayleigh diffraction limit Equation \ref{equation: Rayleigh Limit}. This is the same equation that Barker and Fourney \cite{Barker&Fourney} to quantify the minimum speckle size when working with laser interferometry for subjective speckles. Since it has been used before in the literature, Equation \ref{equation: Rayleigh Limit} will be the equation used to define the average speckle size.
+\par Another difference from BOS to SBOS is the speckle generation. Chapter \ref{chapter: LiteratureReview} mentioned the difference between objective and subjective speckles, as the former is a plain projection of the speckle in a surface and the latter uses a lens to image it. Nikita Fomin \cite{NikitaFominBook} described the quantity $\Delta s$ given by Equation \ref{equation: Rayleigh Limit objective} as the average speckle size for the objective case, where Z is the distance between the projection plane and the observer. For subjective speckles, he showed that the thin lens equation can be used substitute the distance between the lens and the image with $Z = f(M_{ag}+1)$, arriving to the Rayleigh diffraction limit Equation \ref{equation: Rayleigh Limit}. Both equations are summarised in Table \ref{tab: Rayleigh limit speckles}. This is the same equation that Barker and Fourney \cite{Barker&Fourney} to quantify the minimum speckle size when working with laser interferometry for subjective speckles. Since it has been used before in the literature, Equation \ref{equation: Rayleigh Limit} will be the equation used to define the average speckle size.
 
-\begin{equation}
-   \label{equation: Rayleigh Limit}
-   \Delta s = 1.22 \lambda \frac{Z}{D} 
-\end{equation}
-
-\begin{equation}
-   \label{equation: Rayleigh Limit}
-   \Delta s = 1.22 \lambda f_\#(1+M_{ag}) 
-\end{equation}
+\begin{table}[htbp]
+    \centering
+    \caption{Average speckle size given by the Rayleigh limit for objective and subjective speckles \cite{NikitaFominBook}. For objective speckles, $Z$ is the distance between the projection plane and the observer and $D$ the diameter of the illuminated area. For subjective speckles, the thin lens equation gives $Z = f(1+M_{ag})$ and $D$ becomes the lens aperture}
+    \label{tab: Rayleigh limit speckles}
+    \begin{tabular}{llcr}
+        \toprule
+        Speckle type & Formation & Average speckle size & \\
+        \midrule
+        Objective & Free propagation to a surface & $\Delta s = 1.22 \lambda \dfrac{Z}{D}$ & \refstepcounter{equation}\label{equation: Rayleigh Limit objective}(\theequation) \\[0.8em]
+        Subjective & Imaged by a lens & $\Delta s = 1.22 \lambda f_\#(1+M_{ag})$ & \refstepcounter{equation}\label{equation: Rayleigh Limit}(\theequation) \\[0.4em]
+        \bottomrule
+    \end{tabular}
+\end{table}
 
 \par As mentioned in Chapter \ref{chapter: LiteratureReview}, the negative defocus configuration provides a better sensitivity for the same spatial resolution than standard BOS. This might be explained through a careful analysis of the setup geometry and the equations that govern it. In Equation \ref{equation: S BOS}, $S$ is directly proportional to $M_{ag}$, while in Equation \ref{equation: M}, $M_{ag}$ is inversely proportional to $d_f$. Comparing Figure \ref{fig: Geometry BOS} and Figure \ref{fig: SBOS with negative l}, it is clear that for the same defocus distance, $d_f$ is smaller in the latter case. Consequently, $M_{ag}$ is larger and the sensitivity is higher. However, since $CoC$ also depends on $M_{ag}$, it is not immediately obvious whether the gain in sensitivity is offset by the additional blur.
 
