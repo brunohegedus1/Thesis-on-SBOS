@@ -102,7 +102,26 @@
 \subsection{Imaging Hardware and Post-Processing}
 \label{subsection: Image processing}
 
-%Add a picture on image processing?
+\begin{figure}[htbp]
+    \centering
+    \begin{subfigure}[b]{\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figures/BOS algorithm comparison ground truth.png}
+        \caption{Reference image, ground truth vertical displacement and a zoom of the marked region}
+        \label{fig: BOS algorithm ground truth}
+    \end{subfigure}
+
+    \vspace{0.6em}
+
+    \begin{subfigure}[b]{\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figures/BOS algorithm comparison results.png}
+        \caption{The same field recovered with (a)/(e) CC, (b)/(f) ILS, (c)/(g) OF and (d)/(h) FCD}
+        \label{fig: BOS algorithm results}
+    \end{subfigure}
+    \caption{Comparison of BOS processing algorithms on synthetic images of buoyancy-driven turbulence. The bottom row of each block zooms into the region marked in red. CC and ILS undersample the sharp gradients, while OF and FCD remain close to the ground truth. Credit to Schmidt et al. \cite{Schmidt2025}}
+    \label{fig: BOS processing algorithms}
+\end{figure}
 
 \par On the imaging hardware level, the main parameter that influences resolution is the pixel density, which quantifies how many pixels correspond to a millimeter in the image. It is related to the magnification but also the size of the sensor and its pixels \cite{Schmidt2025, Gojani&Obayashi}. A smaller pixel size and higher magnification provide a higher pixel density, which means that a smaller feature can be imaged with more pixels, providing more detail. It is worth noting that there is no use in having a higher spatial distribution of pixels if the blur limits the size of the smallest distinguishable feature. Consequently, an optimization must take place where the optical spatial resolution matches the hardware and post-processing resolution, so that the setup resources are used efficiently. Schwarz and Braukmann make precisely this comparison by expressing both the circle of confusion and the interrogation window in the object domain and evaluating each against the size of the structure under study \cite{Schwarz&Braukmann}.
 
@@ -110,7 +129,7 @@
 
 \par The inheritance from PIV comes with its drawbacks. Schmidt et al. \cite{Schmidt2025} point out two differences between the applications. Displacements in BOS are of the order of a few pixels rather than the ten to twenty typical of PIV \cite{Schmidt2025, Raffel2015}, so the dynamic range that CC is designed to deliver goes largely unused while its penalty in accuracy and resolution is still present. Raffel notes that although displacements below half a pixel can still be determined with high accuracy, the smaller signal leaves BOS with relative errors of the order of 2--3\% of full scale against roughly 1\% for PIV \cite{Raffel2015}. Moreover, the background is manufactured in BOS as a field of discrete bright dots imitating tracer particles, which is not the best suited pattern to resolve a smooth displacement field \cite{Schmidt2025, CakirEtAl}.
 
-\par These shortcomings motivated several alternatives. Iterative least squares (ILS) uses CC to locate the integer-pixel displacement and computes the subpixel part through a separate fit. This improves subpixel accuracy and reduces sensitivity to imaging noise. Optical flow (OF) abandons windows altogether and solves for the whole field at once, returning a vector at every pixel, at a computational cost roughly an order of magnitude above CC. Fourier demodulation (FCD) recovers the deflections from phase shifts in the Fourier domain and is faster than either, but demands a periodic background such as a sinusoid or a checkerboard. On idealized synthetic images OF and FCD reproduce the ground truth almost exactly, while CC and ILS visibly undersample sharp gradients \cite{Schmidt2025}, a ranking supported by Cakir et al. \cite{CakirEtAl}, who report a clear advantage of OF over CC in both accuracy and the range of resolvable density gradient amplitudes on a Prandtl-Meyer expansion fan.
+\par These shortcomings motivated several alternatives. Iterative least squares (ILS) uses CC to locate the integer-pixel displacement and computes the subpixel part through a separate fit. This improves subpixel accuracy and reduces sensitivity to imaging noise. Optical flow (OF) abandons windows altogether and solves for the whole field at once, returning a vector at every pixel, at a computational cost roughly an order of magnitude above CC. Fourier demodulation (FCD) recovers the deflections from phase shifts in the Fourier domain and is faster than either, but demands a periodic background such as a sinusoid or a checkerboard. On idealized synthetic images OF and FCD reproduce the ground truth almost exactly, while CC and ILS visibly undersample sharp gradients \cite{Schmidt2025}, as displayed in Figure \ref{fig: BOS processing algorithms}, a ranking supported by Cakir et al. \cite{CakirEtAl}, who report a clear advantage of OF over CC in both accuracy and the range of resolvable density gradient amplitudes on a Prandtl-Meyer expansion fan.
 
 \par Those margins narrow considerably in practice. Schmidt et al. observe that the advantage of a higher-fidelity algorithm is realized mainly when small-scale structures dominate and the images are essentially free of noise, and that defocusing can turn the advantages obsolete by blurring the fine scales out before processing begins \cite{Schmidt2025}. Schwarz and Braukmann reach the same conclusion independently, reporting that in their own evaluations with synthetic BOS images they could not reliably match the resolution and accuracy of a $12 \times 12$ pixel cross-correlation using optical flow \cite{Schwarz&Braukmann}. Since a BOS setup is deliberately defocused on the refractive object, this technicality applies directly. Combined with the periodic pattern FCD demands, which a laser speckle field cannot provide, the computational cost of OF and the absence of both from commercially available packages, the practical balance favors cross-correlation with a potential iterative least squares refinement.
 
