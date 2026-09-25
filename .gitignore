@@ -1,0 +1,27 @@
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.lof
+*.log
+*.lot
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
+*.xdv
+
+# Overleaf sync leftovers
+*-SAVE-ERROR
+
+# Compiled output (rebuild with: latexmk -xelatex report.tex)
+report.pdf
+texput.*
+
+# Editor and OS clutter
+.DS_Store
+Thumbs.db
+desktop.ini
