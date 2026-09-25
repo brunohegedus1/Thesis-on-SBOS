@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.5) (preloaded format=xelatex 2026.8.21)  25 SEP 2026 14:25
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.5) (preloaded format=xelatex 2026.8.21)  25 SEP 2026 15:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1639,7 +1639,11 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [16] [17] [18] [19]
 File: figures/Meier and Roesgen single pass setup.jpg Graphic file (type bmp)
 <figures/Meier and Roesgen single pass setup.jpg>
- [20]
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[20]
 File: figures/SBOS setup ilustrated.png Graphic file (type bmp)
 <figures/SBOS setup ilustrated.png>
  [21] [22]) (mainmatter/04_methodology.tex [23]
@@ -1979,18 +1983,18 @@ LaTeX2e <2026-06-01>
 L3 programming layer <2026-07-20>
  ***********
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: 6F3D0AD575CB0688310DE46EC364A264;12939.
+(rerunfilecheck)             Checksum: DD718AD54C3B2788140E82B40EA48D88;12939.
 Package logreq Info: Writing requests to 'report.run.xml'.
 \openout1 = `report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 46348 strings out of 402619
- 1000203 string characters out of 5438862
- 1903867 words of memory out of 5000000
- 74717 multiletter control sequences out of 15000+600000
+ 46354 strings out of 402619
+ 1000380 string characters out of 5438862
+ 1905361 words of memory out of 5000000
+ 74723 multiletter control sequences out of 15000+600000
  634841 words of font info for 119 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  107i,12n,108p,2282b,5756s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on report.xdv (92 pages, 2591712 bytes).
+Output written on report.xdv (92 pages, 2594496 bytes).

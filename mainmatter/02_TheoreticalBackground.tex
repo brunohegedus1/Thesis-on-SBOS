@@ -9,14 +9,14 @@
 
 \par The ability of a fluid to change its density is called compressibility. Air is a gas mixture, so its molecules are distanced enough that they are able to move closer together when some pressure is applied. Due to this, air is classified as having high compressibility. When objects move slowly through it, changes in pressure throughout the flow field are small enough that the effect can be neglected as an engineering approximation, and density can be assumed constant. This is the incompressible assumption, and it can be expressed through the relation between density $\rho$ and pressure $p$ via the compressibility coefficient $\tau$, as shown in the equation: $d \rho =\rho \tau dp$.
 
-\par When high speeds are achieved, the pressure gradients through the flow field become larger, leading to a significant change in density that needs to be accounted for. A normal threshold for compressible flows is when the Mach Number ($M$) surpasses 0.3, which marks the point where density changes are higher than $5\%$ \cite{TheBookOfAnderson}. The Mach number is a non-dimensional quantity, defined by Equation \ref{equation:Mach Number}, that governs the behavior of waves traveling faster than the speed of sound. This behavior was discovered in 1885 by Ernst Mach and Wentzel when working on such structures with schlieren imaging \cite{Settles2001}.
+\par When high speeds are achieved, the pressure gradients through the flow field become larger, leading to a significant change in density that needs to be accounted for. A normal threshold for compressible flows is when the Mach Number ($M$) surpasses 0.3, which marks the point where density changes are higher than $5\%$ \cite{TheBookOfAnderson}. The Mach number is a non-dimensional quantity, defined by Equation \ref{equation:Mach Number}, that governs the behavior of waves traveling faster than the speed of sound. This behavior was discovered in 1885 by Ernst Mach and Wentzel when working on shock waves with schlieren imaging \cite{Settles2001}.
 
 \begin{equation}
     \label{equation:Mach Number}
     M = \frac{V}{a}
 \end{equation}
 
-\par These supersonic waves were described before by Riemann, and they form when an object moves faster than the sound waves emitted by it. This makes the sound waves pile up and coalesce, forming a standing wave in front of the body \cite{TheBookOfAnderson}, as illustrated in Figure \ref{fig: Moving sound wave}. 
+\par These supersonic waves had been described earlier by Riemann \cite{Settles2001}, and they form when an object moves faster than the sound waves emitted by it. This makes the sound waves pile up and coalesce, forming a standing wave in front of the body \cite{TheBookOfAnderson}, as illustrated in Figure \ref{fig: Moving sound wave}. 
 
 \begin{figure}[htbp]
     \centering
@@ -25,14 +25,14 @@
     \label{fig: Moving sound wave}
 \end{figure}
 
-\par Figure \ref{fig: Moving sound wave} shows an object leaving point A at a speed faster than the speed of sound, after a time interval $t$ it has traveled $Vt$, while the first emitted wave has only propagated a distance $at$. A supersonic wave is created tangentially to the emitted sound waves and has an oblique angle $\mu$ called the Mach Angle. The picture allows the following geometric relationship to be derived:
+\par Figure \ref{fig: Moving sound wave} shows an object leaving point A at a speed faster than the speed of sound. After a time interval $t$ it has traveled $Vt$, while the first emitted wave has only propagated a distance $at$. A supersonic wave is created tangentially to the emitted sound waves and has an oblique angle $\mu$ called the Mach Angle. The picture allows the following geometric relationship to be derived:
 \begin{equation}
     \sin \mu = \frac{a t}{V t} = \frac{1}{M}
 \quad \Leftrightarrow \quad
 \mu = \arcsin\!\left(\frac{1}{M}\right)
 \end{equation}
 
-\par The coalescence of the emitted waves creates an extremely thin region (of the order of $10^{-7}$ m) where the flow properties change drastically, in an almost explosive compression process that originates a seemingly discontinuous pressure increase across it \cite{TheBookOfAnderson}. When the emitted sound from the object becomes stronger, an oblique shock wave with an angle $\beta$ from the freestream air is formed, where $\beta > \mu$. Through this oblique shock wave, the pressure, density, temperature and entropy of the flow increase, while the total pressure, Mach number and velocity decrease. These relationships are described by the continuity, momentum and energy equations for oblique shocks, summarized by Equation \ref{equation: oblique continuity}, \ref{equation: oblique momentum} and \ref{equation: oblique energy} respectively, given the geometry of Figure \ref{fig: Oblique shock geometry}.
+\par The coalescence of the emitted waves creates an extremely thin region (of the order of $10^{-7}$ m) where the flow properties change drastically, in an almost explosive compression process that produces a seemingly discontinuous pressure increase across it \cite{TheBookOfAnderson}. When the emitted sound from the object becomes stronger, an oblique shock wave with an angle $\beta$ from the freestream air is formed, where $\beta > \mu$. Through this oblique shock wave, the pressure, density, temperature and entropy of the flow increase, while the total pressure, Mach number and velocity decrease. These relationships are described by the continuity, momentum and energy equations for oblique shocks, summarized by Equations \ref{equation: oblique continuity}, \ref{equation: oblique momentum} and \ref{equation: oblique energy} respectively, given the geometry of Figure \ref{fig: Oblique shock geometry}.
 
 \begin{figure}[htbp]
     \centering
@@ -66,7 +66,7 @@ M_{n,2}^{2}
 \left(M_{n,1}^{2} - 1\right).
 \end{align}
 
-\par These are important equations, as they allow the computation of the conditions after the shock by only knowing the initial flow conditions. Another important relationship defines the flow direction $\theta$ after it has passed through the oblique shock, called the $\theta-\beta-M$ relation. This equation gives two solutions for flows over concave wedges, defining a weak shock and strong shock pairing of $M_1$ and $\beta$. The classification of a shock as strong or weak relates to the pressure drop across it, the bigger the total pressure drop, the stronger the shock. Consequently, the bigger the density gradient as well. This relationship is shown below and, together with Equation \ref{equation: oblique density ratio}, shows how strong density gradients naturally appear in supersonic flow across shock waves.
+\par These are important equations, as they allow the computation of the conditions after the shock by only knowing the initial flow conditions. Another important relationship defines the flow direction $\theta$ after it has passed through the oblique shock, called the $\theta-\beta-M$ relation. This equation gives two solutions for flows over concave wedges, defining a weak shock and strong shock pairing of $M_1$ and $\beta$. The classification of a shock as strong or weak relates to the pressure drop across it: the bigger the total pressure drop, the stronger the shock. Consequently, the bigger the density gradient as well. This relationship is shown below and, together with Equation \ref{equation: oblique density ratio}, shows how strong density gradients naturally appear in supersonic flow across shock waves.
 
 \begin{equation}
 \label{equation:theta-beta-M}
@@ -103,7 +103,7 @@ M_{n,2}^{2}
 \section{Compressible Jets}
 \label{section: Compressible Jet Theory}
 
-\par One important study case of compressible aerodynamics is the flow structure of a high pressure jet. Jets are produced by a flow coming from a high pressure reservoir that passes through a nozzle outlet and meets a lower pressure environment. When the pressure between the nozzle inlet and the ambient air surpasses a certain threshold, the critical pressure ratio $NPR_c$, the Mach number at the minimum cross-section of the nozzle becomes 1 and the mass flow through the nozzle hits its maximum. The pressure ratio can continue to increase but the throat Mach number and mass flow will remain the same for that given geometry; this condition is called choked flow. If the geometry of the nozzle after the throat diverges, the flow expands, a favorable pressure gradient is established and the flow accelerates, increasing the Mach number. Depending on the pressure at the exit of the nozzle, a jet can be described as under-expanded, if $p_e > p_a$; perfectly expanded, if $p_e = p_a$; or over-expanded, if $p_e < p_a$. Figure \ref{fig: jet expansion regimes} shows the visual difference between these different cases. This section will focus on the flow structure of an under-expanded jet as it will be used later as a study case of the experimental campaign.
+\par One important study case of compressible aerodynamics is the flow structure of a high pressure jet. Jets are produced by a flow coming from a high pressure reservoir that passes through a nozzle outlet and meets a lower pressure environment. When the pressure between the nozzle inlet and the ambient air surpasses a certain threshold, the critical pressure ratio $NPR_c$, the Mach number at the minimum cross-section of the nozzle becomes 1 and the mass flow through the nozzle hits its maximum. The pressure ratio can continue to increase but the throat Mach number and mass flow will remain the same for that given geometry; this condition is called choked flow. If the geometry of the nozzle after the throat diverges, the flow expands, a favorable pressure gradient is established and the flow accelerates, increasing the Mach number. Depending on the pressure at the exit of the nozzle, a jet can be described as under-expanded, if $p_e > p_a$; perfectly expanded, if $p_e = p_a$; or over-expanded, if $p_e < p_a$. Figure \ref{fig: jet expansion regimes} shows the visual difference between these cases. This section will focus on the flow structure of an under-expanded jet as it will be used later as a study case of the experimental campaign.
 
 \begin{figure}[htbp]
     \centering
@@ -118,11 +118,11 @@ M_{n,2}^{2}
 \begin{figure}[htbp]
     \centering
     \includegraphics[width=\textwidth]{figures/under-expanded planar jet.jpg}
-    \caption{Analytical solution of a planar under-expanded jet obtained using the Method of Characteristics with $M_e = 2$ and $p_e = 2 \cdot p_\infty$. The expansion waves leaving the nozzle lips (black) cross at the axis of symmetry, reflect at the jet boundary and return as compression waves (red), which converge and coalesce into a shock in the black dots at x= $19$mm}
+    \caption{Analytical solution of a planar under-expanded jet obtained using the Method of Characteristics with $M_e = 2$ and $p_e = 2 \cdot p_\infty$. The expansion waves leaving the nozzle lips (black) cross at the axis of symmetry, reflect at the jet boundary and return as compression waves (red), which converge and coalesce into a shock in the black dots at $x = 19$ mm}
     \label{fig: planar underexpanded jet}
 \end{figure}
 
-\par The three Figures \ref{fig: moderately underexpanded jet}, \ref{fig: highly underexpanded jet} and \ref{fig: unique barrel underexpanded jet} show sketches of under-expanded circular jets at different $NPR$s \cite{Duronio2023}. Due to its axisymmetry, the circular jet has a different structure to the planar case, displaying an early formation of an oblique shock extending from the lip to the jet axis, often called \emph{Intercepting shock}. When the $NPR$ is between 2 and 4, as in Figure \ref{fig: moderately underexpanded jet}, this oblique shock reflects at the jet axis and goes to the shear layer, where it turns into an expansion fan, thus forming an "X" shape at each shock cell. For higher $NPR$s between 4 and 7, Figure \ref{fig: highly underexpanded jet}, the intercepting shock transitions to a singular reflection and produces a normal shock called \emph{Mach disk}, which gives each shock cell a "barrel" shape. For even higher $NPR$s, Figure \ref{fig: unique barrel underexpanded jet}, the jet is dominated by a single barrel. The last case is marked by a decreased jet boundary diameter and a very long plume caused by entraining air.
+\par The three Figures \ref{fig: moderately underexpanded jet}, \ref{fig: highly underexpanded jet} and \ref{fig: unique barrel underexpanded jet} show sketches of under-expanded circular jets at different $NPR$s \cite{Duronio2023}. Due to its axisymmetry, the circular jet has a different structure from the planar case, displaying an early formation of an oblique shock extending from the lip to the jet axis, often called \emph{Intercepting shock}. When the $NPR$ is between 2 and 4, as in Figure \ref{fig: moderately underexpanded jet}, this oblique shock reflects at the jet axis and goes to the shear layer, where it turns into an expansion fan, thus forming an ``X'' shape at each shock cell. For higher $NPR$s between 4 and 7, Figure \ref{fig: highly underexpanded jet}, the intercepting shock transitions to a singular reflection and produces a normal shock called \emph{Mach disk}, which gives each shock cell a ``barrel'' shape. For even higher $NPR$s, Figure \ref{fig: unique barrel underexpanded jet}, the jet is dominated by a single barrel. The last case is marked by a decreased jet boundary diameter and a very long plume caused by entraining air.
 
 \begin{figure}[htbp]
     \centering
@@ -143,14 +143,14 @@ M_{n,2}^{2}
     \begin{subfigure}[b]{0.32\textwidth}
         \centering
         \includegraphics[width=\textwidth]{figures/unique barrel under-expanded jet.jpg}
-        \caption{Single Barrel Structure, $NPR > 7$}
+        \caption{Single barrel structure, $NPR > 7$}
         \label{fig: unique barrel underexpanded jet}
     \end{subfigure}
     \caption{Sketches of circular under-expanded jets at increasing nozzle pressure ratio, credit to Duronio et al. \cite{Duronio2023}}
     \label{fig: circular underexpanded jets}
 \end{figure}
 
-\par As hinted by the scale of the sketches in Figure \ref{fig: circular underexpanded jets}, the $NPR$ also changes the length of the shock cells, $L_s$. Robert Emden was the first to correlate a weighted average of the $L_s$ of under-expanded choked jets with the $NPR$ in 1899 \cite{Powell2010, Emden1899}. After a series of experiments he reached the format of Equation \ref{equation: Emden Formula}, where $k$ is a numerical coefficient that varies with the nozzle geometry and $NPR$ range. The value of $k$ changed from 0.77 to 1.02 during the campaign, so Emden averaged the results of different nozzles to obtain $k = 0.88$. Later, Hartmann \& Lazarus \cite{Hartmann1941} used Emden's format with the average of all the cells except the first, achieving $k = 1.06$. They also correlated only the first shock cell length and introduced a constant term independent of $NPR$, obtaining the format of Equation \ref{equation: Lazarus-Hartmann Formula}, with $a = 0.98$ and $b = 0.3$.
+\par As hinted by the scale of the sketches in Figure \ref{fig: circular underexpanded jets}, the $NPR$ also changes the length of the shock cells, $L_s$. Robert Emden was the first to correlate a weighted average of the $L_s$ of under-expanded choked jets with the $NPR$ in 1899 \cite{Powell2010, Emden1899}. After a series of experiments he reached the format of Equation \ref{equation: Emden Formula}, where $k$ is a numerical coefficient that varies with the nozzle geometry and $NPR$ range. The value of $k$ changed from 0.77 to 1.02 during the campaign, so Emden averaged the results of different nozzles to obtain $k = 0.88$. Later, Hartmann and Lazarus \cite{Hartmann1941} used Emden's format with the average of all the cells except the first, achieving $k = 1.06$. They also correlated only the first shock cell length and introduced a constant term independent of $NPR$, obtaining the format of Equation \ref{equation: Lazarus-Hartmann Formula}, with $a = 0.98$ and $b = 0.3$.
 \begin{equation}
     \label{equation: Emden Formula}
     \frac{L_s}{d_N} = k\sqrt{NPR - NPR_c}
@@ -165,7 +165,7 @@ M_{n,2}^{2}
 
 \section{Aerospike Nozzle Flow}
 \label{section: aerospike nozzle theory}
-\par The distinct feature of an aerospike nozzle is the presence of its ramp right after its exhaust. The ramp is designed so that the expansion fan anchored at the outside lip is not disturbed by the reflection of its own waves \cite{Wisse2005}. In the design condition, the flow expands through these waves, accelerating and reducing its static pressure, until design conditions are met, $M_{design}$ and $(p/p_a)_{design}$. In under-expanded condition, the same pressure adaptation process that happened in the free under-expanded jet now occurs in the ramp, where the flow is redirected to be parallel to the centerline. The result is a passive pressure adaptation mechanism that allows an aerospike to keep its thrust efficiency for a wide range of ambient pressures. In over-expanded condition, the flow is expanded below ambient pressure and the maximum turning angle of the fan increases, redirecting part of the exhaust flow sideways. Also, a shock may appear downstream so that ambient pressure is reached. Both mechanisms lead to a loss in thrust efficiency, so engineers try to avoid this condition and favor under-expanded and perfectly expanded flow. Figure \ref{fig: aerospike expansion regimes} shows the flow structure of an aerospike in under-expanded, perfectly expanded and over-expanded conditions.
+\par The distinct feature of an aerospike nozzle is the presence of its ramp right after its exhaust. The ramp is designed so that the expansion fan anchored at the outside lip is not disturbed by the reflection of its own waves \cite{Wisse2005}. In the design condition, the flow expands through these waves, accelerating and reducing its static pressure, until design conditions are met, $M_\mathrm{design}$ and $(p/p_a)_\mathrm{design}$. In the under-expanded condition, the same pressure adaptation process that happened in the free under-expanded jet now occurs in the ramp, where the flow is redirected to be parallel to the centerline. The result is a passive pressure adaptation mechanism that allows an aerospike to keep its thrust efficiency for a wide range of ambient pressures. In the over-expanded condition, the flow is expanded below ambient pressure and the maximum turning angle of the fan increases, redirecting part of the exhaust flow sideways. Also, a shock may appear downstream so that ambient pressure is reached. Both mechanisms lead to a loss in thrust efficiency, so engineers try to avoid this condition and favor under-expanded and perfectly expanded flow. Figure \ref{fig: aerospike expansion regimes} shows the flow structure of an aerospike in under-expanded, perfectly expanded and over-expanded conditions.
 
 \begin{figure}[htbp]
     \centering
@@ -174,17 +174,17 @@ M_{n,2}^{2}
     \label{fig: aerospike expansion regimes}
 \end{figure}
 
-\par It is the pressure adaptation feature present in an aerospike at under-expanded condition that makes it interesting for Single Stage to Orbit (SSTO) vehicles \cite{Wisse2005}. As shown in Figure \ref{fig: aerospike expansion regimes}, the process resembles the succession of expansion and compression waves present in the free under-expanded jet of Figure \ref{fig: planar underexpanded jet}. The mechanism always begins with an expansion wave at the outside lip of the exhaust exit. These waves reach the ramp and due to its concave geometry, the flow is compressed and reflects as compression waves. In the shear layer, the compression waves reflect into waves of the other type and are redirected to the ramp. At this stage however, the curvature of the ramp is less accentuated and the waves reflect at the ramp into ones of the same family. The process continues with waves changing their type at the jet boundary and maintaining it when hitting the ramp, gradually fluctuating the ramp pressure around ambient conditions. This way, the flow is directed to be parallel to the centerline and there are no abrupt pressure differences capable of producing strong loss inducing shocks.
+\par It is the pressure adaptation feature present in an aerospike at under-expanded condition that makes it interesting for Single Stage to Orbit (SSTO) vehicles \cite{Wisse2005}. As shown in Figure \ref{fig: aerospike expansion regimes}, the process resembles the succession of expansion and compression waves present in the free under-expanded jet of Figure \ref{fig: planar underexpanded jet}. The mechanism always begins with an expansion wave at the outside lip of the exhaust exit. These waves reach the ramp and due to its concave geometry, the flow is compressed and reflects as compression waves. In the shear layer, the compression waves reflect into waves of the other type and are redirected to the ramp. At this stage, however, the curvature of the ramp is less accentuated and the waves reflect at the ramp into ones of the same family. The process continues with waves changing their type at the jet boundary and maintaining it when hitting the ramp, gradually fluctuating the ramp pressure around ambient conditions. This way, the flow is directed to be parallel to the centerline and there are no abrupt pressure differences capable of producing strong loss-inducing shocks.
 
 %The flow through the ramp of an aerospike nozzle will be investigated later using SBOS as a demonstration of the imaging method capabilities
 
-\par The flow through the ramp of an aerospike nozzle will be investigated later using SBOS to demonstrate the imaging method capabilities. In that context, the description of the flow physics will be of utmost importance to assess if the method has sufficient resolution and sensitivity to correctly study such a complex flow field. It is now clear from the previous sections how high speeds and geometry lead to different flow structures that vary the fluid's density. The next section will explain how density influences the bending of light moving through a fluid, which is the fundamental principle behind optical density measurement techniques.
+\par The flow through the ramp of an aerospike nozzle will be investigated later using SBOS to demonstrate the imaging method capabilities. In that context, the description of the flow physics will be of utmost importance to assess whether the method has sufficient resolution and sensitivity to correctly study such a complex flow field. It is now clear from the previous sections how high speeds and geometry lead to different flow structures that vary the fluid's density. The next section will explain how density influences the bending of light moving through a fluid, which is the fundamental principle behind optical density measurement techniques.
 
 \section{Refraction}
 \label{section: Refraction}
 \par Refraction is the change in direction of a light ray as it propagates through a medium with spatially varying refractive index. This index is the ratio between the speed of light through vacuum, $c_0 \approx 3 \cdot 10^8$ m/s, and the speed of light through the medium $c$, so that $n = c_0/c$.
 
-\par The refractive index is a function of the light's wavelength $\lambda$, and the thermochemical state of the environment it passes through. If $n$ is known at a certain wavelength and thermochemical state, it can be extrapolated to other states through the Lorentz-Lorentz equation, where $A$ is the molar refractivity, dependent on the wavelength, and $W_M$ the mean molecular weight \cite{Schmidt2025}.
+\par The refractive index is a function of the light's wavelength $\lambda$ and the thermochemical state of the environment it passes through. If $n$ is known at a certain wavelength and thermochemical state, it can be extrapolated to other states through the Lorentz-Lorentz equation, where $A$ is the molar refractivity, dependent on the wavelength, and $W_M$ the mean molecular weight \cite{Schmidt2025}.
 
 \begin{equation}
     \frac{n^2 - 1}{\rho \left(n^2 + 2\right)}
@@ -200,9 +200,9 @@ M_{n,2}^{2}
     n = 1 + G \rho
 \end{equation}
 
-\par This relationship directly links density with the refractive index, which in turn can be given by the distortion of light through the medium. $G$ is the Gladstone-Dale coefficient \cite{Head2021, Settles2001}.
+\par This relationship directly links density with the refractive index, and the refractive index in turn can be obtained from the distortion of light through the medium. $G$ is the Gladstone-Dale coefficient \cite{Head2021, Settles2001}.
 
-\par As shown in Figure \ref{fig: Diagrams of light refraction}, when light passes from one medium to another it can behave differently depending on the refractive index field of the subsequent medium. The light's interaction between two homogeneous media, shown in Figure \ref{fig: Diagrams of light refraction}a, is given by Snell's Law of Refraction, with $\alpha_1$ and $\alpha_2$ the angles to the interface normal in each medium, labeled $\varepsilon_1$ and $\varepsilon_2$ in the figure.
+\par As shown in Figure \ref{fig: Diagrams of light refraction}, when light passes from one medium to another it can behave differently depending on the refractive index field of the subsequent medium. The light's interaction between two homogeneous media, shown in Figure \ref{fig: Diagrams of light refraction}a, is given by Snell's Law of Refraction, with $\alpha_1$ and $\alpha_2$ the angles to the interface normal in each medium.
 
 \begin{equation}
     n_1 \sin{\alpha_1} = n_2 \sin{\alpha_2}
@@ -211,7 +211,7 @@ M_{n,2}^{2}
 \begin{figure}[htbp]
     \centering
     \includegraphics[width=0.8\textwidth]{figures/Diagrams of light refraction.png}
-    \caption{Diagrams of Light refraction: (a) Change in the beam's direction between two homogeneous media as described by Snell's Law and (b) light refraction through an irregularly distributed refractive index environment. Credit to Schmidt et al. \cite{Schmidt2025}}
+    \caption{Diagrams of Light refraction: (a) Change in the beam's direction between two homogeneous media as described by Snell's Law and (b) light refraction through an irregularly distributed refractive index environment. Adapted from Schmidt et al. \cite{Schmidt2025}, with the incidence and refraction angles relabeled $\alpha_1$ and $\alpha_2$}
     \label{fig: Diagrams of light refraction}
 \end{figure}
 
@@ -221,7 +221,7 @@ M_{n,2}^{2}
     d\varepsilon_x = \frac{1}{n_0}\frac{\partial n}{\partial x}\,dz
 \end{equation}
 
-\par The total deflection is the integral of $d\varepsilon$ along the ray path, as is shown below. An analogous equation exists for $y$, obtained by substituting $y$ for $x$.
+\par The total deflection is the integral of $d\varepsilon$ along the ray path, as shown below. An analogous equation exists for $y$, obtained by substituting $y$ for $x$.
 
 \begin{equation}
 \label{equation: displacement integral}
@@ -241,7 +241,7 @@ M_{n,2}^{2}
 \int \nabla \rho \, dz
 \end{equation}
 
-\par Equation \ref{equation:epsilon-nabla rho} directly links the light deviation vector to the density gradient through media. Thus, in order to obtain a quantitative measure of the density field through a test section, one could employ a method to measure the displacement of light after passing through it. If the transversal refractive gradients are independent of the line of sight direction, such as a 2D planar flow, Equation \ref{equation:epsilon-nabla rho} can be simplified into Equation \ref{equation: Displacement and Density Gradient} for $x$, where $W$ is the refractive object thickness \cite{RajendranDotTracking}.
+\par Equation \ref{equation:epsilon-nabla rho} directly links the light deviation vector to the density gradient through the medium. Thus, in order to obtain a quantitative measure of the density field through a test section, one could employ a method to measure the displacement of light after passing through it. If the transversal refractive gradients are independent of the line of sight direction, such as a 2D planar flow, Equation \ref{equation:epsilon-nabla rho} can be simplified into Equation \ref{equation: Displacement and Density Gradient} for $x$, where $W$ is the refractive object thickness \cite{RajendranDotTracking}.
 
 \begin{equation}
     \label{equation: Displacement and Density Gradient}
@@ -253,7 +253,7 @@ M_{n,2}^{2}
 \section{Axisymmetric Refractive Field}
 \label{subsection: Axisymmetric Refractive Field}
 
-\par When a refractive object is axially symmetric, it is possible to reconstruct its whole density distribution with only a 2D snapshot of the light displacements through it. In such a scenario, the image is a 2D projection of a 3D axisymmetric body, and the inverse Abel transform can be used to obtain its radial and axial profile \cite{Abel1826}. Consider the case in Figure \ref{fig: Abel transform} and Equation \ref{equation: displacement integral} for y; it can be integrated in y on both sides into Equation \ref{equation: integral of epsilon}, which removes the partial derivative through the fundamental theorem of calculus. Here $R$ is the outer radius of the refractive object, beyond which the refractive index returns to its ambient value $n_0$.
+\par When a refractive object is axially symmetric, it is possible to reconstruct its whole density distribution with only a 2D snapshot of the light displacements through it. In such a scenario, the image is a 2D projection of a 3D axisymmetric body, and the inverse Abel transform can be used to obtain its radial and axial profile \cite{Abel1826}. Consider the case in Figure \ref{fig: Abel transform} and Equation \ref{equation: displacement integral} for $y$; it can be integrated in $y$ on both sides into Equation \ref{equation: integral of epsilon}, which removes the partial derivative through the fundamental theorem of calculus. Here $R$ is the outer radius of the refractive object, beyond which the refractive index returns to its ambient value $n_0$.
 
 \begin{figure}[htbp]
     \centering
