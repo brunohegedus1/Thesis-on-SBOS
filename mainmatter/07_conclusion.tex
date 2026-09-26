@@ -8,61 +8,52 @@ This thesis investigated the implementation of Laser-Speckled Background Oriente
 
 The first research sub-question intended to discover what should be the practical guidelines for designing a SBOS setup. Chapter \ref{chapter: methodology} partially answered this question by summarizing the design guidelines resulting from the analysis of the design space surface maps. These recommendations survived the implementation in real experimental setups. However, further recommendations were collected throughout the duration of the thesis and can now be presented as a whole to aid the implementation of this technique by other researchers.
 
-\subsection{Optical Configuration}
-\label{subsection: guidelines optical}
-
-The recommendations below follow from the design space analysis of Chapter \ref{chapter: methodology} and were confirmed, or qualified, by the angled glass campaign of Section \ref{section: Angled Glass Experiment Results}.
+\textbf{Optical configuration.} The recommendations below follow from the design space analysis of Chapter \ref{chapter: methodology} and were confirmed, or qualified, by the angled glass campaign of Section \ref{section: Angled Glass Experiment Results}.
 
 \begin{itemize}
-    \item \textbf{Prefer a negative defocus configuration.} For the same object field of view it reaches a higher optical magnification, which raises the sensitivity-resolution ratio of Equation \ref{equation: S over smin}. The slider experiment showed that the advantage comes from the shorter focal distance rather than from the sign of $l$, as the measured sensitivities are symmetric about the axis in Figure \ref{fig: S vs l slider experiment}.
+    \item \textbf{A negative defocus configuration is preferable to a positive one.} For the same object field of view it reaches a higher optical magnification, which raises the sensitivity-resolution ratio of Equation \ref{equation: S over smin}. The slider experiment showed that the advantage comes from the shorter focal distance rather than from the sign of $l$, as the measured sensitivities are symmetric about the axis in Figure \ref{fig: S vs l slider experiment}.
 
-    \item \textbf{Set the f-stop as high as the speckle size allows.} A larger $f_\#$ improves the trade-off without altering any physical distance, which makes it the most convenient parameter to adjust. It also reduces the illumination reaching the sensor and enlarges the speckle through Equation \ref{equation: Rayleigh Limit}, so it should be raised only while the pattern remains within the 2--5 pixel range.
+    \item \textbf{A higher f-stop is desirable, within the limits imposed by the speckle size.} A larger $f_\#$ improves the trade-off without altering any physical distance, which makes it the most convenient parameter to adjust. It also reduces the illumination reaching the sensor and enlarges the speckle through Equation \ref{equation: Rayleigh Limit}, so it should be raised only while the pattern remains within the 2--5 pixel range.
 
-    \item \textbf{Choose a long focal length for robustness.} A longer $f$ widens the spacing between isolines in the design space, so the performance parameters become less sensitive to positioning errors during assembly. It also raises the sensitivity ceiling of a positive defocus setup, given by Equation \ref{equation: BOS Sensitivity limit}. A moderately shorter lens can be adopted when the physical size of the setup is constrained, at little cost in sensitivity and spatial resolution.
+    \item \textbf{A longer focal length tends to make the setup more robust.} A longer $f$ widens the spacing between isolines in the design space, so the performance parameters become less sensitive to positioning errors during assembly. It also raises the sensitivity ceiling of a positive defocus setup, given by Equation \ref{equation: BOS Sensitivity limit}. A moderately shorter lens can be adopted when the physical size of the setup is constrained, at little cost in sensitivity and spatial resolution.
 
-    \item \textbf{Use the SR criterion to match the optical and processing resolutions.} Equation \ref{equation: SR} expresses the minimum distinguishable feature in pixels, which allows the interrogation window to be selected so that neither the optics nor the cross-correlation limits the measurement unnecessarily.
+    \item \textbf{The SR criterion can be used to match the optical and processing resolutions.} Equation \ref{equation: SR} expresses the minimum distinguishable feature in pixels, which allows the interrogation window to be selected so that neither the optics nor the cross-correlation limits the measurement unnecessarily.
 
-    \item \textbf{Avoid very short defocus distances.} Although a short $|l|$ is favorable in a negatively defocused setup, the uncertainty budget of Table \ref{tab: measurement uncertainty} shows the contribution of $l$ becoming dominant below roughly 10 mm, where the combined uncertainty reaches 6.75\%.
+    \item \textbf{Very short defocus distances are better avoided.} Although a short $|l|$ is favorable in a negatively defocused setup, the uncertainty budget of Table \ref{tab: measurement uncertainty} shows the contribution of $l$ becoming dominant below roughly 10 mm, where the combined uncertainty reaches 6.75\%.
 
-    \item \textbf{Measure the magnification on site.} The distances prescribed by the design methodology could not be reproduced exactly with a compound camera lens, since the equivalent thin lens position shifts with the imaging distance. The optical magnification should therefore be taken from a calibration target at the in-focus plane rather than from the design values.
+    \item \textbf{The magnification is better measured on site than taken from the design.} The distances prescribed by the design methodology could not be reproduced exactly with a compound camera lens, since the equivalent thin lens position shifts with the imaging distance. The optical magnification should therefore be taken from a calibration target at the in-focus plane rather than from the design values.
 \end{itemize}
 
-\subsection{Speckle Generator}
-\label{subsection: guidelines speckle}
-
-The recommendations below were obtained from the speckle pattern investigation of Section \ref{section: Speckle Pattern Experiment Results}, and several of them correct assumptions made before that campaign.
+\textbf{Speckle generator.} The recommendations below were obtained from the speckle pattern investigation of Section \ref{section: Speckle Pattern Experiment Results}, and several of them correct assumptions made before that campaign.
 
 \begin{itemize}
     \item \textbf{A low power laser is sufficient.} The class 2 continuous laser of 0.5 mW used in this work produced a pattern of adequate contrast, because the speckle field is imaged directly rather than reflected from a printed background. The high luminous contrast also permits the short exposure times required to freeze fast phenomena.
 
-    \item \textbf{Size the diffuser and the beam to the field of view.} The diffuser must be large enough to cover the desired object field of view, and the beam must be expanded to illuminate it. A beam that is too narrow becomes diffraction limited at the diffuser rather than at the lens pupil, which enlarges the speckle and removes its dependence on the aperture. This was the cause of the oversized speckles of the first campaign, where a diffuser of 1.27 cm was used with an unexpanded beam, and it is quantified in Figure \ref{fig: speckle dGG sweep}.
+    \item \textbf{The diffuser and the beam should be sized to the field of view.} The diffuser should be large enough to cover the desired object field of view, and the beam should be expanded to illuminate it. A beam that is too narrow becomes diffraction limited at the diffuser rather than at the lens pupil, which enlarges the speckle and removes its dependence on the aperture. This was the cause of the oversized speckles of the first campaign, where a diffuser of 1.27 cm was used with an unexpanded beam, and it is quantified in Figure \ref{fig: speckle dGG sweep}.
 
-    \item \textbf{Tune the speckle size with the f-stop.} The measured speckle size followed the aperture as expected, whereas sweeping the optical magnification produced almost no change, as displayed in Section \ref{subsection: Speckle Aperture and Magnification}. With a compound camera lens the aperture is therefore the only reliable handle on the speckle size.
+    \item \textbf{The speckle size is best tuned with the f-stop.} The measured speckle size followed the aperture as expected, whereas sweeping the optical magnification produced almost no change, as displayed in Section \ref{subsection: Speckle Aperture and Magnification}. With a compound camera lens the aperture appears to be the only reliable handle on the speckle size.
 
-    \item \textbf{Treat the Rayleigh limit as a preliminary estimate.} Once the beam was properly expanded the measured sizes fell within the same order of magnitude as Equation \ref{equation: Rayleigh Limit}, but deviations of up to 2.88 px remained. The relation is useful for sizing a setup and should not be relied upon for a final figure.
+    \item \textbf{The Rayleigh limit is better treated as a preliminary estimate.} Once the beam was properly expanded the measured sizes fell within the same order of magnitude as Equation \ref{equation: Rayleigh Limit}, but deviations of up to 2.88 px remained. The relation is useful for sizing a setup and should not be relied upon for a final figure.
 
     \item \textbf{Either generation method may be used.} Projected and directed speckles produced patterns of comparable size and deviation, so the choice depends on practical considerations. Projected speckles suit applications with a single optical access or a laser powerful enough to damage the sensor, while directed speckles provide more intensity and therefore shorter exposures.
 
-    \item \textbf{Isolate the diffuser from vibration.} Any movement of the diffuser displaces the whole pattern, which introduces a spurious uniform shift and may lead to decorrelation.
+    \item \textbf{The diffuser should be isolated from vibration.} Any movement of the diffuser displaces the whole pattern, which introduces a spurious uniform shift and may lead to decorrelation.
 \end{itemize}
 
-\subsection{Refractive Object}
-\label{subsection: guidelines object}
-
-The final set of recommendations concerns the object under study, and follows from the compressible jet and aerospike campaigns of Sections \ref{section: Compressible Jet Experiment Results} and \ref{section: Aerospike Experiment Results}.
+\textbf{Refractive object.} The final set of recommendations concerns the object under study, and follows from the compressible jet and aerospike campaigns of Sections \ref{section: Compressible Jet Experiment Results} and \ref{section: Aerospike Experiment Results}.
 
 \begin{itemize}
-    \item \textbf{Match the defocus to the strength of the density gradients.} In a flow with strong gradients and considerable turbulence, the defocused configurations blurred the speckle pattern to the point of decorrelation, and the resulting displacement fields were dominated by noise, as shown in Figure \ref{fig: aerospike displacement points 1-3}. The blur originates partly from the flow itself and cannot be removed by reducing the aperture alone.
+    \item \textbf{The defocus should be matched to the strength of the density gradients.} In a flow with strong gradients and considerable turbulence, the defocused configurations blurred the speckle pattern to the point of decorrelation, and the resulting displacement fields were dominated by noise, as shown in Figure \ref{fig: aerospike displacement points 1-3}. The blur originates partly from the flow itself and cannot be removed by reducing the aperture alone.
 
-    \item \textbf{Focus inside the test section when the gradients are strong.} Placing the in-focus plane within the flow removed the decorrelation and produced the most detailed results of the aerospike campaign, capable of rivaling the schlieren images of the same condition.
+    \item \textbf{Focusing inside the test section might be preferable when the gradients are strong.} Placing the in-focus plane within the flow removed the decorrelation and produced the most detailed results of the aerospike campaign, capable of rivaling the schlieren images of the same condition.
 
-    \item \textbf{Recover the sensitivity from the ratio of measured displacements.} When the in-focus plane lies inside the test section the sensitivity cannot be estimated as $S = l \cdot M_{ag}$. If the same flow is imaged at a second configuration of known sensitivity, Equation \ref{equation: S ratio} provides an estimate, which agreed with the geometric value within 5\% in Table \ref{tab: S ratio}.
+    \item \textbf{The sensitivity can be recovered from the ratio of measured displacements.} When the in-focus plane lies inside the test section the sensitivity cannot be estimated as $S = l \cdot M_{ag}$. If the same flow is imaged at a second configuration of known sensitivity, Equation \ref{equation: S ratio} provides an estimate, which agreed with the geometric value within 5\% in Table \ref{tab: S ratio}.
 
-    \item \textbf{Account for the thickness of the test section.} Where the flow is separated from the camera by windows, the lever arm becomes $l_{eff} = l + G + W/2$, which degrades the spatial resolution. In the wind tunnel campaign this doubled the minimum distinguishable feature from 10 to 20 pixels, and it should be included in the design rather than added afterwards.
+    \item \textbf{The thickness of the test section should be accounted for.} Where the flow is separated from the camera by windows, the lever arm becomes $l_{eff} = l + G + W/2$, which degrades the spatial resolution. In the wind tunnel campaign this doubled the minimum distinguishable feature from 10 to 20 pixels, and it should be included in the design rather than added afterwards.
 
-    \item \textbf{Verify the density gradients through an independent configuration.} Imaging the same flow condition twice, with different optical arrangements, allows the scaling from displacement to density gradient to be checked by comparing the peak values, as presented in Table \ref{tab: aerospike gradient peaks}.
+    \item \textbf{The density gradients can be verified through an independent configuration.} Imaging the same flow condition twice, with different optical arrangements, allows the scaling from displacement to density gradient to be checked by comparing the peak values, as presented in Table \ref{tab: aerospike gradient peaks}.
 
-    \item \textbf{Do not rely on the nominal flow conditions.} The nozzle pressure ratios estimated from the wall gauge disagreed with the observed shock cell structure, and the losses through the line exceeded 40\%. A ratio estimated from the flow itself, in this case from the shear layer angle at the nozzle lip, proved considerably more reliable, as displayed in Table \ref{tab: compressible jet NPR estimates}.
+    \item \textbf{The nominal flow conditions might not be reliable.} The nozzle pressure ratios estimated from the wall gauge disagreed with the observed shock cell structure, and the losses through the line exceeded 40\%. A ratio estimated from the flow itself, in this case from the shear layer angle at the nozzle lip, proved considerably more reliable, as displayed in Table \ref{tab: compressible jet NPR estimates}.
 \end{itemize}
 
 
