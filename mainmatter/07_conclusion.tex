@@ -1,40 +1,68 @@
 \chapter{Conclusion}
 \label{chapter: Conclusion}
 
-This thesis investigated the implementation of Laser-Speckled Background Oriented schlieren in a supersonic wind-tunnel. The method was approached through four experimental campaigns of increasing complexity that tackle each of its three main components: the optical configuration, the speckle generator and the refractive object. First, Chapter \ref{chapter: methodology} presented a design methodology developed to balance the sensitivity and spatial resolution of a SBOS setup to reach an optimal physical layout. This methodology was applied, tested and refined to design the experimental setups described in Chapter \ref{chapter: Experimental Setups}. Different optical configurations were tested to image the distortions produced by a simple refractive object, which allowed for the validation of the methodology and comparison of the various setups' performance parameters. A dedicated campaign investigated the production of speckle patterns, arriving at a configuration capable of producing speckles with average diameters between 2--5 px. Then, An under-expanded compressible jet served as a test subject for the quantitative density reconstruction of a real schlieren object using displacements fields obtained through SBOS. The final experimental campaign used the method to study the flow of a linear aerospike nozzle in a high-speed wind tunnel environment. The results gathered and discussed in Chapter \ref{chapter: Results} allowed it to answer the main research question and five sub-questions posed at the start of this thesis in Chapter \ref{chapter: introduction}.
+This thesis investigated the implementation of Laser-Speckled Background Oriented Schlieren in a supersonic wind tunnel. The method was approached through four experimental campaigns of increasing complexity that tackle each of its three main components: the optical configuration, the speckle generator and the refractive object. First, Chapter \ref{chapter: methodology} presented a design methodology developed to balance the sensitivity and spatial resolution of a SBOS setup to reach an optimal physical layout. This methodology was applied, tested and refined to design the experimental setups described in Chapter \ref{chapter: Experimental Setups}. Different optical configurations were tested to image the distortions produced by a simple refractive object, which allowed for the validation of the methodology and comparison of the various setups' performance parameters. A dedicated campaign investigated the production of speckle patterns, arriving at a configuration capable of producing speckles with average diameters between 2--5 px. Then, an under-expanded compressible jet served as a test subject for the quantitative density reconstruction of a real schlieren object using displacement fields obtained through SBOS. The final experimental campaign used the method to study the flow of a linear aerospike nozzle in a high-speed wind tunnel environment. The results gathered and discussed in Chapter \ref{chapter: Results} make it possible to answer the main research question and the five sub-questions posed at the start of this thesis in Chapter \ref{chapter: introduction}.
 
 \section{Practical guidelines for the design of a SBOS setup}
 \label{section: Research question 1}
 
-the first research sub-question intended to discover what should be the practical guidelines for designing an SBOS setup. Chapter \ref{chapter: methodology} partially responded this question by summarizing the design guidelines resultant from the analysis of the design space surface maps. These recommendations survived the implementation to real experimental setups. However, further recommendations were collected through the duration thesis an can now be presented as a whole to aid the implementation of this technique by any other researcher.
+The first research sub-question intended to discover what should be the practical guidelines for designing a SBOS setup. Chapter \ref{chapter: methodology} partially answered this question by summarizing the design guidelines resulting from the analysis of the design space surface maps. These recommendations survived the implementation in real experimental setups. However, further recommendations were collected throughout the duration of the thesis and can now be presented as a whole to aid the implementation of this technique by other researchers.
 
-Regarding the Optical setup:
+\subsection{Optical Configuration}
+\label{subsection: guidelines optical}
 
-- A negative defocus configuration is preferable than positive defocus given that it provides a higher magnification for the same defocus distance, this way improving the Sensitivity-Resolution trade-off presented in Equation \ref{equation: S over smin}
+The recommendations below follow from the design space analysis of Chapter \ref{chapter: methodology} and were confirmed, or qualified, by the angled glass campaign of Section \ref{section: Angled Glass Experiment Results}.
 
-- A higher $f_\#$ is desirable as it allows to easily achieve a better sensitivity-resolution trade-off. However, the smaller aperture might reduce contrast and require larger exposure times, which increase motion blur. SBOS uses a laser directly pointed at the camera, which produces high luminous contrast, allowing for very small exposure times.
+\begin{description}
+    \item[Prefer a negative defocus configuration.] For the same object field of view it reaches a higher optical magnification, which raises the sensitivity-resolution ratio of Equation \ref{equation: S over smin}. The slider experiment showed that the advantage comes from the shorter focal distance rather than from the sign of $l$, as the measured sensitivities are symmetric about the axis in Figure \ref{fig: S vs l slider experiment}.
 
-- Higher focal length increases the robustness to positional errors and increases the sensitivity limit for BOS, Equation \ref{equation: BOS Sensitivity limit}. A moderately lower $f$ can be used for a more compact setup without huge penalties in Sensitivity and resolution.
+    \item[Set the f-stop as high as the speckle size allows.] A larger $f_\#$ improves the trade-off without altering any physical distance, which makes it the most convenient parameter to adjust. It also reduces the illumination reaching the sensor and enlarges the speckle through Equation \ref{equation: Rayleigh Limit}, so it should be raised only while the pattern remains within the 2--5 pixel range.
 
-- The SR criterion of Equation \ref{equation: SR} can be used to select the setup that gives the best balance between the optical and software related spatial resolution.
+    \item[Choose a long focal length for robustness.] A longer $f$ widens the spacing between isolines in the design space, so the performance parameters become less sensitive to positioning errors during assembly. It also raises the sensitivity ceiling of a positive defocus setup, given by Equation \ref{equation: BOS Sensitivity limit}. A moderately shorter lens can be adopted when the physical size of the setup is constrained, at little cost in sensitivity and spatial resolution.
 
-- Expect the prescribed distances to shift with a compound lens. So always use the magnification given by the target calibration.
+    \item[Use the SR criterion to match the optical and processing resolutions.] Equation \ref{equation: SR} expresses the minimum distinguishable feature in pixels, which allows the interrogation window to be selected so that neither the optics nor the cross-correlation limits the measurement unnecessarily.
 
-Regarding the Speckle Generator:
+    \item[Avoid very short defocus distances.] Although a short $|l|$ is favorable in a negatively defocused setup, the uncertainty budget of Table \ref{tab: measurement uncertainty} shows the contribution of $l$ becoming dominant below roughly 10 mm, where the combined uncertainty reaches 6.75\%.
 
-- A low power class 2 0.5mW laser can be used to generate the speckles.
+    \item[Measure the magnification on site.] The distances prescribed by the design methodology could not be reproduced exactly with a compound camera lens, since the equivalent thin lens position shifts with the imaging distance. The optical magnification should therefore be taken from a calibration target at the in-focus plane rather than from the design values.
+\end{description}
 
-- Any ground glass diffuser is probably enough to generate the speckles.
+\subsection{Speckle Generator}
+\label{subsection: guidelines speckle}
 
-- The ground glass diffuser must be large enough to fill all the desired field of view. 
+The recommendations below were obtained from the speckle pattern investigation of Section \ref{section: Speckle Pattern Experiment Results}, and several of them correct assumptions made before that campaign.
 
-- The laser beam must be expanded to fill the whole ground glass diffuser.
+\begin{description}
+    \item[A low power laser is sufficient.] The class 2 continuous laser of 0.5 mW used in this work produced a pattern of adequate contrast, because the speckle field is imaged directly rather than reflected from a printed background. The high luminous contrast also permits the short exposure times required to freeze fast phenomena.
 
-- A Small beam hitting the ground glass diffuser will lead to larger speckles.
+    \item[Size the diffuser and the beam to the field of view.] The diffuser must be large enough to cover the desired object field of view, and the beam must be expanded to illuminate it. A beam that is too narrow becomes diffraction limited at the diffuser rather than at the lens pupil, which enlarges the speckle and removes its dependence on the aperture. This was the cause of the oversized speckles of the first campaign, where a diffuser of 1.27 cm was used with an unexpanded beam, and it is quantified in Figure \ref{fig: speckle dGG sweep}.
 
-- Speckle size can be tuned with f-stop. but seem to be insensitive to optical magnification when a compound lens is used.
+    \item[Tune the speckle size with the f-stop.] The measured speckle size followed the aperture as expected, whereas sweeping the optical magnification produced almost no change, as displayed in Section \ref{subsection: Speckle Aperture and Magnification}. With a compound camera lens the aperture is therefore the only reliable handle on the speckle size.
 
-- Either projected or directed speckles can be used to successfully produce speckles. Their choice will come down to practical considerations of the experiment at hand.
+    \item[Treat the Rayleigh limit as a preliminary estimate.] Once the beam was properly expanded the measured sizes fell within the same order of magnitude as Equation \ref{equation: Rayleigh Limit}, but deviations of up to 2.88 px remained. The relation is useful for sizing a setup and should not be relied upon for a final figure.
 
-- Avoid placing the diffuser where it could vibrate. This will lead the pattern to move, potentially leading to decorrelation.
+    \item[Either generation method may be used.] Projected and directed speckles produced patterns of comparable size and deviation, so the choice depends on practical considerations. Projected speckles suit applications with a single optical access or a laser powerful enough to damage the sensor, while directed speckles provide more intensity and therefore shorter exposures.
+
+    \item[Isolate the diffuser from vibration.] Any movement of the diffuser displaces the whole pattern, which introduces a spurious uniform shift and may lead to decorrelation.
+\end{description}
+
+\subsection{Refractive Object}
+\label{subsection: guidelines object}
+
+The final set of recommendations concerns the object under study, and follows from the compressible jet and aerospike campaigns of Sections \ref{section: Compressible Jet Experiment Results} and \ref{section: Aerospike Experiment Results}.
+
+\begin{description}
+    \item[Match the defocus to the strength of the density gradients.] In a flow with strong gradients and considerable turbulence, the defocused configurations blurred the speckle pattern to the point of decorrelation, and the resulting displacement fields were dominated by noise, as shown in Figure \ref{fig: aerospike displacement points 1-3}. The blur originates partly from the flow itself and cannot be removed by reducing the aperture alone.
+
+    \item[Focus inside the test section when the gradients are strong.] Placing the in-focus plane within the flow removed the decorrelation and produced the most detailed results of the aerospike campaign, capable of rivaling the schlieren images of the same condition.
+
+    \item[Recover the sensitivity from the ratio of measured displacements.] When the in-focus plane lies inside the test section the sensitivity cannot be estimated as $S = l \cdot M_{ag}$. If the same flow is imaged at a second configuration of known sensitivity, Equation \ref{equation: S ratio} provides an estimate, which agreed with the geometric value within 5\% in Table \ref{tab: S ratio}.
+
+    \item[Account for the thickness of the test section.] Where the flow is separated from the camera by windows, the lever arm becomes $l_{eff} = l + G + W/2$, which degrades the spatial resolution. In the wind tunnel campaign this doubled the minimum distinguishable feature from 10 to 20 pixels, and it should be included in the design rather than added afterwards.
+
+    \item[Verify the density gradients through an independent configuration.] Imaging the same flow condition twice, with different optical arrangements, allows the scaling from displacement to density gradient to be checked by comparing the peak values, as presented in Table \ref{tab: aerospike gradient peaks}.
+
+    \item[Do not rely on the nominal flow conditions.] The nozzle pressure ratios estimated from the wall gauge disagreed with the observed shock cell structure, and the losses through the line exceeded 40\%. A ratio estimated from the flow itself, in this case from the shear layer angle at the nozzle lip, proved considerably more reliable, as displayed in Table \ref{tab: compressible jet NPR estimates}.
+\end{description}
+
 
