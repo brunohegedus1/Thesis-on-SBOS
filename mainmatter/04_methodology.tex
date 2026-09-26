@@ -243,9 +243,9 @@ Further trends that can be generally mentioned are the effect on $M_{ag}$, $m$, 
 \section{SR Criterion}
 \label{section: SR criteria}
 
-Historically, $M_{ag}$ has been used by researchers to provide insight on how much detail the camera can capture, as it defines how much pixels per millimeter are imaged through pixel density of Equation \ref{equation: Px density} \cite{Schmidt2025, Gojani&Obayashi}. However, since the object is blurred, it is not necessarily true that a higher pixel density will lead to a better spatial resolution as the number of pixels per millimeter may increase together with the blur, as per Equation \ref{equation: CoC BOS}. Moreover, given that the object is out of focus, its size differs from the one it would have if it were in focus, so there are two magnifications at play in the setup, one for the blurred object and another for the in-focus plane (see Appendix \ref{Appendix: Blurred Object}). 
+%However, since the object is blurred, it is not necessarily true that a higher pixel density will lead to a better spatial resolution as the number of pixels per millimeter may increase together with the blur, as per Equation \ref{equation: CoC BOS}
 
-The amount of detail truly captured by the camera is constrained by $M_{ag_{obj}}$, fixed by the defined object field of view. It also defines how many pixels can image a mm of the object, through the pixel density (Equation \ref{equation: Px density}) and influences the blur of the image, via Equation \ref{equation: smin px}. Consequently, a trade-off must be done, where the level of blur is balanced with the pixel density such that the setup resources can be used efficiently.
+Historically, $M_{ag}$ has been used by researchers to provide insight on how much detail the camera can capture \cite{Schmidt2025, Gojani&Obayashi}, as it defines how much pixels per millimeter are imaged through pixel density of Equation \ref{equation: Px density}. However, given that the object is out of focus, its size differs from the one it would have if it were in focus, so there is another magnifications at play in the setup: the blurred object magnification $M_{ag_{obj}}$(see Appendix \ref{Appendix: Blurred Object}). This object magnification is fixed by the field of view of the object through Equation \ref{equation: M obj}, it is present in the quantity that truly defines how many pixels can image a millimeter of the object, $\rho_{px_{obj}}$ in Equation \ref{equation: Px density}, And it influences the blur of the image, via Equation \ref{equation: smin}. Moreover, it is not necessarily true that a higher pixel density will lead to a better spatial resolution as the number of pixels per millimeter may increase together with the blur of the object, as per Equation \ref{equation: CoC BOS}. Consequently, a compromise must be done, where the level of blur is balanced with the pixel density, so that the setup resources can be used efficiently
 
 \begin{equation}
     \label{equation: Px density}
@@ -254,7 +254,7 @@ The amount of detail truly captured by the camera is constrained by $M_{ag_{obj}
     \rho_{px_{obj}} = \frac{M_{ag_{obj}}}{l_{px}}
 \end{equation}
 
-\par One way to make this trade-off is to express $s_{min}$ in pixels via Equation \ref{equation: smin px}, which combines the pixel density with the spatial blur. Dividing the sensor dimension by this quantity gives the ratio $SR$ (Equation \ref{equation: SR}), which is equivalent to $L_{FoV_{obj}}/s_{min}$ and therefore represents the number of resolvable features across the object field of view. Specifying $SR$ thus fixes how finely the flow is sampled, and with it the number of pixels available to image each feature. For example, $s_{min[px]} = 10$ px ($SR = 216$) could be selected: the feature is then spanned by 2–3 speckles and correlated with a 32 px interrogation window at 75\% overlap, giving a vector spacing of 8 px and ensuring the feature is resolved by the vector field.
+\par One way to make this trade-off is to express $s_{min}$ in pixels via Equation \ref{equation: smin px}, which combines the pixel density with the optical blur. Dividing the sensor dimension by this quantity gives the Spatial-Resolution Ratio $SR$ displayed in equation \ref{equation: SR}. This ratio is equivalent to $L_{FoV_{obj}}/s_{min}$, so it represents the number of resolvable features across the object field of view. Specifying $SR$ fixes how finely the flow is sampled, and with it the number of pixels available to image each feature. Used together with the interrogation window size, it tells if the window is too small and fitting blur or whether it is too big and resolution is wasted. For example, $s_{min[px]} = 10$ px ($SR = 216$) could be selected: the feature is then spanned by 2–3 speckles and correlated with a 12 px interrogation window at 75\% overlap, ensuring the feature is resolved by the vector field.
 
 \begin{equation}
     \label{equation: smin px}
@@ -271,14 +271,15 @@ The amount of detail truly captured by the camera is constrained by $M_{ag_{obj}
 \section{Summary of Design Guidelines}
 \label{section: Summary of Practical Guidelines}
 
-\par Taken together, the geometric analysis of Section \ref{section: Geometries of a SBOS optical setup}, the discussion of Section \ref{section: Sensitivity-Resolution Ratio}, the design space exploration of Section \ref{section: Design Strategy} and the SR design criterion of Section \ref{section: SR criteria} establish a consistent set of guidelines for both BOS and SBOS setups: 
+\par Taken together, the geometric analysis of Section \ref{section: Geometries of a SBOS optical setup}, the discussion of Section \ref{section: Sensitivity-Resolution Ratio}, the design space exploration of Section \ref{section: Design Strategy} and the SR design criterion of Section \ref{section: SR criteria} establish a consistent set of guidelines for the design of both BOS and SBOS setups: 
 
 \begin{itemize}
-    \item Higher focal lengths make the SBOS system more robust to positional errors and increase the sensitivity limit for BOS. If size is a constraint, a lower $f$ can result in a more compact setup
-    \item A higher f-stop number is desirable. However, it should be such that an ideal speckle size of 2--5 pixels is still achieved
-    \item Negatively defocused configuration favors a lower defocus distance to exploit its inherent sensitivity advantage over standard BOS
-    \item If $f$ and $f_\#$ are maximized, the $SR$ criterion can be used to select the setup that gives the best balance between the optical and CC spatial resolution
-    \item SBOS allows for finer speckle sizes than printed BOS, making it possible to apply SBOS to highly magnified problems ($M_{ag}\approx1$).
+    \item Higher focal lengths make the SBOS system more robust to positional errors and increase the sensitivity limit for BOS. In case there are geometrical constraints, a lower $f$ can result in a more compact setup.
+    \item A higher f-stop number is desirable. However, it should be such that an ideal speckle size of 2--5 pixels is still achieved.
+    \item A lower defocus distance is favored by negative defocus configurations because it reduces blur and maintains a sensitivity advantage over standard BOS.
+    \item Maintaining high sensitivity at low defocus distances makes the negative defocus particularly more advantageous at large fields of view, where a higher $l$ is needed to achieve the same $S$ of a small field of view. 
+    \item The performance parameters of large $L_{FoV}$ are also more robust to positioning errors.
+    \item If $f$ and $f_\#$ are maximized, the $SR$ criterion can be used to select the setup that gives the best balance between the optical and CC spatial resolution.
 \end{itemize}
 
 \par Taken together, these design guidelines constitute the answer to the first research sub-question posed in Chapter \ref{chapter: introduction}, namely what the practical guidelines for the design of a SBOS setup should be when balancing the trade-off between sensitivity and spatial resolution. They were used to select the design point of the first experimental campaign, balancing sensitivity and spatial resolution. The following chapter describes the resulting experimental setups, built as a proof of concept to validate this design strategy before the method is applied to the more demanding wind tunnel environment. 
