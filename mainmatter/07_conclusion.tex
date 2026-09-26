@@ -3,4 +3,38 @@
 
 This thesis investigated the implementation of Laser-Speckled Background Oriented schlieren in a supersonic wind-tunnel. The method was approached through four experimental campaigns of increasing complexity that tackle each of its three main components: the optical configuration, the speckle generator and the refractive object. First, Chapter \ref{chapter: methodology} presented a design methodology developed to balance the sensitivity and spatial resolution of a SBOS setup to reach an optimal physical layout. This methodology was applied, tested and refined to design the experimental setups described in Chapter \ref{chapter: Experimental Setups}. Different optical configurations were tested to image the distortions produced by a simple refractive object, which allowed for the validation of the methodology and comparison of the various setups' performance parameters. A dedicated campaign investigated the production of speckle patterns, arriving at a configuration capable of producing speckles with average diameters between 2--5 px. Then, An under-expanded compressible jet served as a test subject for the quantitative density reconstruction of a real schlieren object using displacements fields obtained through SBOS. The final experimental campaign used the method to study the flow of a linear aerospike nozzle in a high-speed wind tunnel environment. The results gathered and discussed in Chapter \ref{chapter: Results} allowed it to answer the main research question and five sub-questions posed at the start of this thesis in Chapter \ref{chapter: introduction}.
 
+\section{Practical guidelines for the design of a SBOS setup}
+\label{section: Research question 1}
+
+the first research sub-question intended to discover what should be the practical guidelines for designing an SBOS setup. Chapter \ref{chapter: methodology} partially responded this question by summarizing the design guidelines resultant from the analysis of the design space surface maps. These recommendations survived the implementation to real experimental setups. However, further recommendations were collected through the duration thesis an can now be presented as a whole to aid the implementation of this technique by any other researcher.
+
+Regarding the Optical setup:
+
+- A negative defocus configuration is preferable than positive defocus given that it provides a higher magnification for the same defocus distance, this way improving the Sensitivity-Resolution trade-off presented in Equation \ref{equation: S over smin}
+
+- A higher $f_\#$ is desirable as it allows to easily achieve a better sensitivity-resolution trade-off. However, the smaller aperture might reduce contrast and require larger exposure times, which increase motion blur. SBOS uses a laser directly pointed at the camera, which produces high luminous contrast, allowing for very small exposure times.
+
+- Higher focal length increases the robustness to positional errors and increases the sensitivity limit for BOS, Equation \ref{equation: BOS Sensitivity limit}. A moderately lower $f$ can be used for a more compact setup without huge penalties in Sensitivity and resolution.
+
+- The SR criterion of Equation \ref{equation: SR} can be used to select the setup that gives the best balance between the optical and software related spatial resolution.
+
+- Expect the prescribed distances to shift with a compound lens. So always use the magnification given by the target calibration.
+
+Regarding the Speckle Generator:
+
+- A low power class 2 0.5mW laser can be used to generate the speckles.
+
+- Any ground glass diffuser is probably enough to generate the speckles.
+
+- The ground glass diffuser must be large enough to fill all the desired field of view. 
+
+- The laser beam must be expanded to fill the whole ground glass diffuser.
+
+- A Small beam hitting the ground glass diffuser will lead to larger speckles.
+
+- Speckle size can be tuned with f-stop. but seem to be insensitive to optical magnification when a compound lens is used.
+
+- Either projected or directed speckles can be used to successfully produce speckles. Their choice will come down to practical considerations of the experiment at hand.
+
+- Avoid placing the diffuser where it could vibrate. This will lead the pattern to move, potentially leading to decorrelation.
 
