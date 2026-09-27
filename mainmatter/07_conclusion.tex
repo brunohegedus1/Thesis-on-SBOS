@@ -44,7 +44,10 @@ Regarding the \textbf{refractive object:}
 
 \begin{itemize}
     \item the strength of the density gradients can lead to excessive blur that must be counteracted with a smaller defocus. In a flow with strong gradients and considerable turbulence, the defocused configurations blurred the speckle pattern to the point of decorrelation. Consequently, the resulting displacement fields were dominated by noise, as shown in Figure \ref{fig: aerospike displacement points 1-3}. Moving the in-focus plane closer to the test section or even inside of it, proved effective to reduce the blur and be capable to image the flow.
+
 \end{itemize}
+
+%    \item The thickness of the test section should be taken into account when designing the setup. The design methodology presented in Chapter \ref{chapter: Methodology} was limited to an infinitely thin test section to define the spatial resolution and sensitivity. However, the thick wind-tunnel test section increased the effective defocus distance, which worsened considerably the $s_{min}$ figure. 
 
 %Connection paragraph
 
@@ -68,3 +71,14 @@ This thesis had the care to identify and quantify the main sources of uncertaint
 The density gradient fields obtained through the measured displacements faced uncertainties mainly from the vector field scatter resultant of the cross-correlation technique and the defocus distance measurement. This becomes evident through the uncertainty budget showed in Table \ref{tab: measurement uncertainty}, where the contribution of the CC to the uncertainty ranged from 2.01 \% to 6.06\% considering the deviations of Table \ref{tab: angled glass displacement results}. However relative scatter $\sigma_\Delta/\Delta_x$ performed better, ranging from 2.6\% to 2.89\%. The contribution of the defocus distance $l$ is also presented in Table \ref{tab: measurement uncertainty} spanning from 0.38\% to 5.77\%. It is also possible to understand both as clear sources of uncertainties through equation \ref{equation: In-plane displacement} where only $l_{eff}$ and $\Delta \xi$ are truly dependent on the method implementation compared to the Gladstone-Dale constant and the reference refractive index $n_0$. The error associated with $l$ is mitigated by the precise measurement of the distance, while the CC scatter can be dealt by reducing blur and avoiding decorrelation.
 
 Meier and Rösgen \cite{Meier&Roesgen2013} and Buhlman \cite{Buhlmann2020} had already cited decorrelation as one of the mains drawbacks of SBOS. This effect can be caused by vibrations in the speckle generator, which move the diffuser relative to the laser and change the speckled pattern. Or by the flow itself, as reported by Bühlmann and experienced here in the wind-tunnel, where deformation of the speckled image by strong gradients causes the cross-correlation to fail. It makes this work the third to have experienced decorrelation using SBOS, which makes it a true drawback of the method. However, the effect can be mitigated by certain measures. During the compressible jet and wind-tunnel campaign, extra care was done to isolate the speckle pattern generator to the refractive object, therefore mitigating  decorrelation induced by vibration. Moreover, reducing the blur by lowering the defocus proved and effective method to combat the decorrelation induced by it. This effect must then be taken into consideration when designing the experimental setup.
+
+
+Another limitation was experienced during the speckle pattern investigation, when the attempt to replicate the Rayleigh limit for average speckle sized failed to note an effect of the optical magnification
+
+%
+
+\section{Final Considerations}
+
+%Talk about future work
+
+%
