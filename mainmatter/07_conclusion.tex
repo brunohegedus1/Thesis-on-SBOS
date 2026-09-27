@@ -93,4 +93,52 @@ This section concerned the verity and bounds of the conclusions by reiterating t
 \section{Final Considerations}
 \label{section: Final Considerations}
 
-Final considerations can be made regarding the strengths and the weaknesses of SBOS. Each item of Table \ref{} has been discussed and verified during the duration of this thesis. They span every aspect of the method, from the optical configuration, to speckle pattern generation and the refractive object. The rows are paired 
+Final considerations can be made regarding the strengths and the weaknesses of SBOS. Each item of Table \ref{tab: SBOS strengths and weaknesses} has been discussed and verified during the duration of this thesis. They span every aspect of the method, from the optical configuration, to speckle pattern generation and the refractive object. The rows are paired 
+
+
+\begin{table}[htbp]
+    \centering
+    \caption{Strengths and weaknesses of SBOS identified in this work. Each row pairs a capability of the method with the cost that the same property imposes. The aspects follow the structure of the thesis, from the optical configuration to the speckle pattern and the refractive object}
+    \label{tab: SBOS strengths and weaknesses}
+    \begin{tabularx}{\textwidth}{@{}>{\raggedright\arraybackslash}p{0.18\textwidth} >{\raggedright\arraybackslash}X >{\raggedright\arraybackslash}X@{}}
+        \toprule
+        Aspect & Strength & Weakness \\
+        \midrule
+        Background &
+        The background is virtual, so the reference plane may lie arbitrarily close to the test section, or within it &
+        The pattern is interferometric, so path length changes alter it rather than displace it, causing decorrelation \\[0.5em]
+
+        Sensitivity ceiling &
+        Negative defocus escapes the BOS limit $\lim_{l \to \infty} S = f$ by raising magnification at a shorter focal distance &
+        Windows add $G + W/2$ to the lever arm, doubling $s_{min}$ from 10 to 20 px in the wind tunnel \\[0.5em]
+
+        Trade-off control &
+        Sensitivity and resolution are traded by displacing the in-focus plane alone &
+        With the focus inside the test section, $S = l_{eff} M_{ag}$ fails and a second, matched measurement is required \\[0.5em]
+
+        Aperture &
+        The f-stop adjusts $S/s_{min}$ without altering any physical distance &
+        A higher f-stop reduces illumination and enlarges the speckle, confining $S/s_{min}$ to a fixed interval \\[0.5em]
+
+        Field of view &
+        The advantage over BOS grows with the field of view, as negative defocus sustains a high $S$ at low $l$ &
+        An oversized speckle requires a larger interrogation window, degrading the spatial resolution \\[0.5em]
+
+        Pattern quality &
+        The speckle is finer, denser and of higher contrast than a printed pattern &
+        The measured size departed from the Rayleigh limit and proved insensitive to magnification with a compound lens \\[0.5em]
+
+        Illumination &
+        A 0.5 mW class 2 laser sufficed, permitting exposures of 480 $\mu$s &
+        The higher sensitivity increases vibration susceptibility, as any diffuser motion displaces the entire pattern \\[0.5em]
+
+        Spatial resolution &
+        In-focus SBOS resolved the same wave structures identified in the corresponding schlieren images &
+        Under strong gradients and turbulence, the defocused configurations blurred the pattern to decorrelation \\[0.5em]
+
+        Quantitative route &
+        The displacement field yields a density field more directly than a schlieren intensity image &
+        The conversion inherits the cross-correlation scatter, 2.01 to 6.04\%, and the defocus uncertainty, 0.38 to 5.77\% \\
+        \bottomrule
+    \end{tabularx}
+\end{table}
