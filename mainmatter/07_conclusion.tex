@@ -11,6 +11,8 @@ The first research sub-question intended to discover what should be the practica
 Regarding the \textbf{optical setup}: 
 
 \begin{itemize}
+    \item The equations collected here and the surface maps constructed by solving them display the main trends of a SBOS optical setup. These serve as useful tools for preliminary design, as has been validated through its implementation in the four experimental campaigns.
+
     \item A negative defocus configuration is preferable to positive defocus. It provides a higher magnification for the same defocus distance, this way improving the Sensitivity-Resolution trade-off presented in Equation \ref{equation: S over smin}.
 
     \item A higher $f_\#$ is preferable as it allows to easily achieve a better sensitivity-resolution trade-off. However, the smaller aperture might reduce contrast and require larger exposure times, which increase motion blur. SBOS uses a laser directly pointed at the camera, which produces high luminous contrast, allowing for very small exposure times.
@@ -35,7 +37,7 @@ Regarding the \textbf{speckle generator:}
 
     \item Either Projected and directed speckles can be used. Both methods produced patterns of comparable size and deviation, so the choice depends on practical considerations. Projected speckles suit applications with a single optical access or a laser powerful enough to damage the sensor, while directed speckles provide more intensity.
 
-    \item The speckle generator should be isolated from vibrations. Any movement of the diffuser displaces the whole pattern, which introduces a shift that may lead to decorrelation.
+    \item The speckle generator should be ideally isolated from the flow. Any movement of the diffuser displaces the whole pattern, which introduces shifts that may lead to decorrelation.
 \end{itemize}
 
 Regarding the \textbf{refractive object:}
@@ -44,8 +46,9 @@ Regarding the \textbf{refractive object:}
     \item the strength of the density gradients can lead to excessive blur that must be counteracted with a smaller defocus. In a flow with strong gradients and considerable turbulence, the defocused configurations blurred the speckle pattern to the point of decorrelation. Consequently, the resulting displacement fields were dominated by noise, as shown in Figure \ref{fig: aerospike displacement points 1-3}. Moving the in-focus plane closer to the test section or even inside of it, proved effective to reduce the blur and be capable to image the flow.
 \end{itemize}
 
+%Connection paragraph
 
-\section{SBOS compared to BOS and Schlieren}
+\section{SBOS compared to other techniques}
 \label{section: Research question 2}
 
 This work sought to answer how SBOS compares to traditional BOS. The main difference is the ability to dynamically modify the reference position by adjusting the in-focus distance. The design methodology already noticed the advantage, when it was identified that negative defocus provided a better sensitivity-resolution ratio than positive defocus. The angled glass experiment validated this claim by comparing multiple optical configurations. Later, different defocus configurations were also tested during the high-speed wind tunnel experiment, which also allowed the method to be compared with traditional schlieren. Together, these experiments allow us to answer the second research sub-question and see how the performance of SBOS setups fares against traditional techniques.
@@ -58,3 +61,10 @@ Traditional schlieren was also compared to the results obtained with SBOS during
 
 The evidence collected during this thesis shows how SBOS compares to traditional techniques. Its unique capability of dynamically changing the in-focus plane allows it to reach resolutions comparable to schlieren and increase the sensitivity beyond what's possible for BOS. Moreover, its high luminous background allows for smaller exposure times, making it suitable for high-speed flows. The method's increased resolution and sensitivity also permits the imaging of small fields of view that would be unfeasible through standard BOS. The next section will address the main uncertainties and limitations faced by the method.
 
+\section{Uncertainties and Limitations of SBOS}
+
+This thesis had the care to identify and quantify the main sources of uncertainties of the methods applied, together with validation and verification of the results obtained. The design methodology was validated against the sensitivity values of various optical setups in the angled glass campaign. Furthermore, the same campaign counted with uncertainty budgets of the measured displacements and sensitivity. Similar budgets were also build for the autocorrelation method used to compute the average speckle size in the the speckle pattern investigation. In the compressible jet experiment, a verification of the $NPR$ estimate lead to notable agreement with the $L_s$ data of Hartmann and Lazarus \cite{Hartmann1941}. The quantitative density field obtained through Abel inversion with Tikhonov regularization presented a close match to the first cell's maximum and minimum of a compressible jet with the same $M_j$ but different Re, which showed the capability of SBOS to produce accurate quantitative measurements. In the wind tunnel experiment, the data obtained was validated through it's comparison with schlieren images of the same flow condition. Later, the proposed method to compute the sensitivity of in-focus SBOS through the ratio of the displacements was verified by the comparison of the result through two independent routes.
+
+The density gradient fields obtained through the measured displacements faced uncertainties mainly from the vector field scatter resultant of the cross-correlation technique and the defocus distance measurement. This becomes evident through the uncertainty budget showed in Table \ref{tab: measurement uncertainty}, where the contribution of the CC to the uncertainty ranged from 2.01 \% to 6.06\% considering the deviations of Table \ref{tab: angled glass displacement results}. However relative scatter $\sigma_\Delta/\Delta_x$ performed better, ranging from 2.6\% to 2.89\%. The contribution of the defocus distance $l$ is also presented in Table \ref{tab: measurement uncertainty} spanning from 0.38\% to 5.77\%. It is also possible to understand both as clear sources of uncertainties through equation \ref{equation: In-plane displacement} where only $l_{eff}$ and $\Delta \xi$ are truly dependent on the method implementation compared to the Gladstone-Dale constant and the reference refractive index $n_0$. The error associated with $l$ is mitigated by the precise measurement of the distance, while the CC scatter can be dealt by reducing blur and avoiding decorrelation.
+
+Meier and Rösgen \cite{Meier&Roesgen2013} and Buhlman \cite{Buhlmann2020} had already cited decorrelation as one of the mains drawbacks of SBOS. This effect can be caused by vibrations in the speckle generator, which move the diffuser relative to the laser and change the speckled pattern. Or by the flow itself, as reported by Bühlmann and experienced here in the wind-tunnel, where deformation of the speckled image by strong gradients causes the cross-correlation to fail. It makes this work the third to have experienced decorrelation using SBOS, which makes it a true drawback of the method. However, the effect can be mitigated by certain measures. During the compressible jet and wind-tunnel campaign, extra care was done to isolate the speckle pattern generator to the refractive object, therefore mitigating  decorrelation induced by vibration. Moreover, reducing the blur by lowering the defocus proved and effective method to combat the decorrelation induced by it. This effect must then be taken into consideration when designing the experimental setup.
