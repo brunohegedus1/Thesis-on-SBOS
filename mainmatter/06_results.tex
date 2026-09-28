@@ -27,7 +27,7 @@ The slider experimental error is also worth a remark due to the distinct behavio
 
 \begin{table}[htbp]
     \centering
-    \caption{Displacements measured in the angled glass campaigns. $\Delta_x$ is the mean displacement returned by the cross-correlation, $\sigma_\Delta$ its standard deviation over the vector field, $\Delta x_{SBOS}$ is that displacement referred to the focal plane, $\Delta x_{glass}$ the value calculated by Equation \ref{equation: Displacement of angled glass} for a plate of thickness $T = 2$ mm and refractive index $n = 1.52$ at the measured angle $\theta$. The $\Delta x_{SBOS}$ dev. column is the relative deviation of the two. Points 1 to 9 follow the fixed field of view configurations of Table \ref{tab: angled glass test matrix}; points 10 to 20 follow the linear slider configurations of the same table. The column $u_{tot}$ gives the combined standard uncertainty of the comparison between $\Delta x_{SBOS}$ and $\Delta x_{glass}$ calculated from the budgets of Tables \ref{tab: angled glass uncertainty} and \ref{tab: measurement uncertainty}.}
+    \caption[Displacements measured in the angled glass campaigns]{Displacements measured in the angled glass campaigns. $\Delta_x$ is the mean displacement returned by the cross-correlation, $\sigma_\Delta$ its standard deviation over the vector field, $\Delta x_{SBOS}$ is that displacement referred to the focal plane, $\Delta x_{glass}$ the value calculated by Equation \ref{equation: Displacement of angled glass} for a plate of thickness $T = 2$ mm and refractive index $n = 1.52$ at the measured angle $\theta$. The $\Delta x_{SBOS}$ dev. column is the relative deviation of the two. Points 1 to 9 follow the fixed field of view configurations of Table \ref{tab: angled glass test matrix}; points 10 to 20 follow the linear slider configurations of the same table. The column $u_{tot}$ gives the combined standard uncertainty of the comparison between $\Delta x_{SBOS}$ and $\Delta x_{glass}$ calculated from the budgets of Tables \ref{tab: angled glass uncertainty} and \ref{tab: measurement uncertainty}.}
     \label{tab: angled glass displacement results}
     \begin{tabular}{lrrrrrrr}
         \toprule
@@ -63,7 +63,7 @@ Through Table \ref{tab: df and Mag angled glass results}, the design strategy of
 
 \begin{table}[htbp]
     \centering
-    \caption{Optical design values against measured values of the experimental campaign. $d_{f,th}$ and $M_{ag_{th}}$ are, respectively, the focal distance and optical magnification prescribed by the design methodology of Chapter \ref{chapter: methodology} and listed in Table \ref{tab: angled glass test matrix}. $M_{ag_{exp}}$ was measured with a calibration plate at the in-focus plane and $d_{f,exp}$ was calculated through $d_f = f(M_{ag_{exp}}+1)/M_{ag_{exp}}$. The $d_f$ and $M_{ag}$ deviation columns are the relative difference with respect to the design value. $L_{FoV_{obj}}$ is the field of view achieved at the refractive object, obtained from Equation \ref{equation: LFoVobj BOS} with the experimental magnification. Its deviation was taken with respect to the 17 mm $L_{FoV_{obj}}$ enforced during the design.}
+    \caption[Design against measured focal distance and magnification]{Optical design values against measured values of the experimental campaign. $d_{f,th}$ and $M_{ag_{th}}$ are, respectively, the focal distance and optical magnification prescribed by the design methodology of Chapter \ref{chapter: methodology} and listed in Table \ref{tab: angled glass test matrix}. $M_{ag_{exp}}$ was measured with a calibration plate at the in-focus plane and $d_{f,exp}$ was calculated through $d_f = f(M_{ag_{exp}}+1)/M_{ag_{exp}}$. The $d_f$ and $M_{ag}$ deviation columns are the relative difference with respect to the design value. $L_{FoV_{obj}}$ is the field of view achieved at the refractive object, obtained from Equation \ref{equation: LFoVobj BOS} with the experimental magnification. Its deviation was taken with respect to the 17 mm $L_{FoV_{obj}}$ enforced during the design.}
     \label{tab: df and Mag angled glass results}
     \begin{tabular}{lrrrrrrrr}
         \toprule
@@ -88,7 +88,7 @@ The data collected during the experimental campaign allows the assessment of sen
 
 \begin{table}[htbp]
     \centering
-    \caption{Sensitivity obtained by two routes compared to theoretical sensitivity. $S_{th} = l M_{ag_{th}}$ is the design sensitivity of Table \ref{tab: angled glass test matrix}. $S_{geom} = l M_{ag_{exp}}$ is the sensitivity measured with the calibration plate, carrying the same deviation of Table \ref{tab: df and Mag angled glass results}. $S_{\Delta} = \Delta_x \cdot l_{px} / \varepsilon_{glass}$ follows from the displacements measured. The $S_{geom}$ dev. and $S_{\Delta}$ dev. columns give the deviation of $S_{geom}$ and $S_{\Delta}$ to $S_{th}$. The column $u_{tot}$ displays the combined standard uncertainty on $S_{\Delta}$ for each point, obtained from the budgets of Tables \ref{tab: angled glass uncertainty} and \ref{tab: measurement uncertainty}.}
+    \caption[Sensitivity obtained by two routes against theory]{Sensitivity obtained by two routes compared to theoretical sensitivity. $S_{th} = l M_{ag_{th}}$ is the design sensitivity of Table \ref{tab: angled glass test matrix}. $S_{geom} = l M_{ag_{exp}}$ is the sensitivity measured with the calibration plate, carrying the same deviation of Table \ref{tab: df and Mag angled glass results}. $S_{\Delta} = \Delta_x \cdot l_{px} / \varepsilon_{glass}$ follows from the displacements measured. The $S_{geom}$ dev. and $S_{\Delta}$ dev. columns give the deviation of $S_{geom}$ and $S_{\Delta}$ to $S_{th}$. The column $u_{tot}$ displays the combined standard uncertainty on $S_{\Delta}$ for each point, obtained from the budgets of Tables \ref{tab: angled glass uncertainty} and \ref{tab: measurement uncertainty}.}
     \label{tab: sensitivity comparison}
     \begin{tabular}{lrrrrrr}
         \toprule
@@ -129,7 +129,7 @@ The glass displacement's uncertainty budget is summarized in Table \ref{tab: ang
 
 \begin{table}[htbp]
     \centering
-    \caption{Uncertainty budget for the displacement predicted by Equation \ref{equation: Displacement of angled glass}. The three input variables are described under the Source column together with the instrument used to measure them in the instrument column. Each input is treated as a rectangular distribution of half-width $a$, so that $u = a/\sqrt{3}$ \cite{JCGM2008}. The contributions $c_i$ are the sensitivity coefficients, computed by inspecting the deviation in $\Delta x_{glass}$ after a small difference of each variable, multiplied by the uncertainty $u$. On the bottom row, the combined uncertainty of $\Delta x_{glass}$ can be found together with the formula used to compute it.}
+    \caption[Uncertainty budget of the predicted glass displacement]{Uncertainty budget for the displacement predicted by Equation \ref{equation: Displacement of angled glass}. The three input variables are described under the Source column together with the instrument used to measure them in the instrument column. Each input is treated as a rectangular distribution of half-width $a$, so that $u = a/\sqrt{3}$ \cite{JCGM2008}. The contributions $c_i$ are the sensitivity coefficients, computed by inspecting the deviation in $\Delta x_{glass}$ after a small difference of each variable, multiplied by the uncertainty $u$. On the bottom row, the combined uncertainty of $\Delta x_{glass}$ can be found together with the formula used to compute it.}
     \label{tab: angled glass uncertainty}
     \begin{tabular}{llrrrr}
         \toprule
@@ -150,7 +150,7 @@ The glass displacement's uncertainty budget is summarized in Table \ref{tab: ang
 
 \begin{table}[htbp]
     \centering
-    \caption{Uncertainty budget for the displacement measured by cross-correlation and sensitivity. The scatter of the vector field is evaluated from the data of Table \ref{tab: angled glass displacement results} and varies per point. For the magnification, DaVis calibration residual was used as its uncertainty which slightly varies per point, so the maximum was taken here. The pixel pitch is common to the whole campaign. The defocus distance was obtained with a metric tape and judged by about $\pm$ 1 mm. The contributions were obtained as explained in Table \ref{tab: angled glass uncertainty}. The bottom rows show the combined uncertainty for $\Delta x$ and $S_\Delta$ together with the formulas used to compute them. Since the values vary per point, its range is presented here but they can be found in Tables \ref{tab: angled glass displacement results} and \ref{tab: sensitivity comparison}, respectively.}
+    \caption[Uncertainty budget of the measured displacement and sensitivity]{Uncertainty budget for the displacement measured by cross-correlation and sensitivity. The scatter of the vector field is evaluated from the data of Table \ref{tab: angled glass displacement results} and varies per point. For the magnification, DaVis calibration residual was used as its uncertainty which slightly varies per point, so the maximum was taken here. The pixel pitch is common to the whole campaign. The defocus distance was obtained with a metric tape and judged by about $\pm$ 1 mm. The contributions were obtained as explained in Table \ref{tab: angled glass uncertainty}. The bottom rows show the combined uncertainty for $\Delta x$ and $S_\Delta$ together with the formulas used to compute them. Since the values vary per point, its range is presented here but they can be found in Tables \ref{tab: angled glass displacement results} and \ref{tab: sensitivity comparison}, respectively.}
     \label{tab: measurement uncertainty}
     \begin{tabular}{llrrr}
         \toprule
@@ -190,7 +190,7 @@ Regarding the research objectives, one of the goals of the experimental campaign
         \caption{}
         \label{fig: S vs l slider experiment}
     \end{subfigure}
-    \caption{Sensitivity versus defocus distance for a camera lens of $f = 200$ mm. (a) Points obtained with $f_\# = 11$ and $f_\# = 16$ for an enforced $L_{FoV_{obj}} = 17$ mm. (b) Points obtained in the slider experiment, with a fixed measured magnification of $M_{ag} = 0.746$}
+    \caption[Sensitivity against defocus distance]{Sensitivity versus defocus distance for a camera lens of $f = 200$ mm. (a) Points obtained with $f_\# = 11$ and $f_\# = 16$ for an enforced $L_{FoV_{obj}} = 17$ mm. (b) Points obtained in the slider experiment, with a fixed measured magnification of $M_{ag} = 0.746$}
     \label{fig: S vs l experiments}
 \end{figure}
 
@@ -208,7 +208,7 @@ From Table \ref{tab: angled glass speckle results}, it seems that the f-stop num
 
 \begin{table}[htbp]
     \centering
-    \caption{Speckle sizes measured during the angled glass campaign, for the configurations of Table \ref{tab: angled glass test matrix}. $M_{ag_{exp}}$ is the magnification measured with the calibration plate, $\Delta s_{th}$ the size predicted by the Rayleigh limit of Equation \ref{equation: Rayleigh Limit} and $\Delta s_{exp}$ the size returned by the one-dimensional autocorrelation method of Hamarová et al. \cite{Hamarova2016}. The last column is the difference between the two.}
+    \caption[Speckle sizes of the angled glass campaign]{Speckle sizes measured during the angled glass campaign, for the configurations of Table \ref{tab: angled glass test matrix}. $M_{ag_{exp}}$ is the magnification measured with the calibration plate, $\Delta s_{th}$ the size predicted by the Rayleigh limit of Equation \ref{equation: Rayleigh Limit} and $\Delta s_{exp}$ the size returned by the one-dimensional autocorrelation method of Hamarová et al. \cite{Hamarova2016}. The last column is the difference between the two.}
     \label{tab: angled glass speckle results}
     \begin{tabular}{lrrrrr}
         \toprule
@@ -243,7 +243,7 @@ Faced with the difficulties in creating a satisfactory speckle pattern in the fi
 
 \begin{table}[htbp]
     \centering
-    \caption{Speckle sizes measured during the experimental campaign, using the optical configurations of Table \ref{tab: speckle investigation matrix}. $M_{ag_{exp}}$ is the magnification measured with the calibration plate for points 1--13 and 29--31. $\Delta s_{th}$ is the size predicted by the Rayleigh limit and $\Delta s_{exp}$ is the estimated experimental size, reported both by the DaVis function and by the method of Hamarová et al. \cite{Hamarova2016}. The deviation columns give the difference of each measurement from the prediction. The column $u_{tot}$ is the combined standard uncertainty of $\Delta s_{exp}$. Points 1 to 13 vary the aperture and the ground glass distance, whereas points 14 to 28 hold both fixed and sweep the magnification. Points 29 to 31 were obtained with projected speckles, using the parameters of Table \ref{tab: projected speckle matrix}.}
+    \caption[Speckle sizes of the speckle pattern investigation]{Speckle sizes measured during the experimental campaign, using the optical configurations of Table \ref{tab: speckle investigation matrix}. $M_{ag_{exp}}$ is the magnification measured with the calibration plate for points 1--13 and 29--31. $\Delta s_{th}$ is the size predicted by the Rayleigh limit and $\Delta s_{exp}$ is the estimated experimental size, reported both by the DaVis function and by the method of Hamarová et al. \cite{Hamarova2016}. The deviation columns give the difference of each measurement from the prediction. The column $u_{tot}$ is the combined standard uncertainty of $\Delta s_{exp}$. Points 1 to 13 vary the aperture and the ground glass distance, whereas points 14 to 28 hold both fixed and sweep the magnification. Points 29 to 31 were obtained with projected speckles, using the parameters of Table \ref{tab: projected speckle matrix}.}
     \label{tab: speckle results}
     \begin{tabular}{lrrrrrrrrr}
         \toprule
@@ -297,7 +297,7 @@ Table \ref{tab: speckle results} and Figure \ref{fig: speckle size per point} sh
 \begin{figure}[htbp]
     \centering
     \includegraphics[width=\textwidth]{figures/speckle size per point.jpg}
-    \caption{Average speckle size of every point of Table \ref{tab: speckle results}, computed with the autocorrelation method of Hamarová et al. \cite{Hamarova2016} and with the DaVis function. The dashed lines separate the $f_\#$ and $d_{GG}$ sweeps, the magnification sweep and the projected speckle points. DaVis returned no value for point 10}
+    \caption[Average speckle size across the speckle investigation campaign]{Average speckle size of every point of Table \ref{tab: speckle results}, computed with the autocorrelation method of Hamarová et al. \cite{Hamarova2016} and with the DaVis function. The dashed lines separate the $f_\#$ and $d_{GG}$ sweeps, the magnification sweep and the projected speckle points. DaVis returned no value for point 10}
     \label{fig: speckle size per point}
 \end{figure}
 
@@ -313,7 +313,7 @@ To better judge the deviation of the experiment, an uncertainty budget was const
 
 \begin{table}[htbp]
     \centering
-    \caption{Uncertainty budget for the average speckle size obtained by the autocorrelation method. The flattening filter width is not measured with an instrument; it is selected by driving the tail of the autocorrelation to zero, so its half-width $a$ is the range of widths for which that tail remains within its noise floor, taken as $1/\sqrt{N_s}$ for a frame holding $N_s$ speckles. As in Table \ref{tab: angled glass uncertainty}, the width is treated as a rectangular distribution so that $u = a/\sqrt{3}$ \cite{JCGM2008}, and the contribution $c_\sigma$ is the sensitivity $\partial \Delta s_{exp} / \partial \sigma$, obtained by re-evaluating the speckle size one pixel either side of the selected width, multiplied by $u$. The estimator contribution is the spread between the two-dimensional, the average one-dimensional and the long vector estimators reported by Hamarová et al. \cite{Hamarova2016}. Both terms vary per point, so their range over the 31 points is given here and the totals are listed per point in Table \ref{tab: speckle results}.}
+    \caption[Uncertainty budget of the average speckle size]{Uncertainty budget for the average speckle size obtained by the autocorrelation method. The flattening filter width is not measured with an instrument; it is selected by driving the tail of the autocorrelation to zero, so its half-width $a$ is the range of widths for which that tail remains within its noise floor, taken as $1/\sqrt{N_s}$ for a frame holding $N_s$ speckles. As in Table \ref{tab: angled glass uncertainty}, the width is treated as a rectangular distribution so that $u = a/\sqrt{3}$ \cite{JCGM2008}, and the contribution $c_\sigma$ is the sensitivity $\partial \Delta s_{exp} / \partial \sigma$, obtained by re-evaluating the speckle size one pixel either side of the selected width, multiplied by $u$. The estimator contribution is the spread between the two-dimensional, the average one-dimensional and the long vector estimators reported by Hamarová et al. \cite{Hamarova2016}. Both terms vary per point, so their range over the 31 points is given here and the totals are listed per point in Table \ref{tab: speckle results}.}
     \label{tab: speckle size uncertainty}
     \begin{tabular}{llrrr}
         \toprule
@@ -336,7 +336,7 @@ Now that the error and uncertainties of the results have been discussed, the dat
 \begin{figure}[htbp]
     \centering
     \includegraphics[width=\textwidth]{figures/speckle exp f-number sweep.png}
-    \caption{Average speckle size versus f-stop number for the four aperture sweeps of the speckle investigation campaign. The red and yellow lines correspond to points 1--3 and 4--6, which share $d_{GG} = 740$ mm at two different magnifications. The purple line corresponds to points 11--13, acquired at $d_{GG} = 300$ mm, and the green line to points 29--31, obtained with projected speckles at the same $d_{GG}$. The light blue line shows direct speckles interpolated to match the configuration of points 29--31.}
+    \caption[Average speckle size against f-stop number]{Average speckle size versus f-stop number for the four aperture sweeps of the speckle investigation campaign. The red and yellow lines correspond to points 1--3 and 4--6, which share $d_{GG} = 740$ mm at two different magnifications. The purple line corresponds to points 11--13, acquired at $d_{GG} = 300$ mm, and the green line to points 29--31, obtained with projected speckles at the same $d_{GG}$. The light blue line shows direct speckles interpolated to match the configuration of points 29--31.}
     \label{fig: speckle f-number sweep}
 \end{figure}
 
@@ -349,7 +349,7 @@ As explained in chapter \ref{chapter: methodology}, the dependency on magnificat
 \begin{figure}[htbp]
     \centering
     \includegraphics[width=\textwidth]{figures/speckle exp mag sweep.jpg}
-    \caption{Average speckle size versus optical magnification for points 14--28 of Table \ref{tab: speckle results}, acquired at a fixed $f_\# = 22.63$ and $d_{GG} = 300$ mm. The magnification of these points was obtained from the distance marks of the camera lens rather than with the calibration plate}
+    \caption[Average speckle size against optical magnification]{Average speckle size versus optical magnification for points 14--28 of Table \ref{tab: speckle results}, acquired at a fixed $f_\# = 22.63$ and $d_{GG} = 300$ mm. The magnification of these points was obtained from the distance marks of the camera lens rather than with the calibration plate}
     \label{fig: speckle magnification sweep}
 \end{figure}
 
@@ -361,7 +361,7 @@ Figure \ref{fig: speckle f-number sweep} also hints to the effect of the distanc
 \begin{figure}[htbp]
     \centering
     \includegraphics[width=\textwidth]{figures/Speckle d_GG Sweep.jpg}
-    \caption{Average speckle size versus the distance between the beam expander lens and the ground glass diffuser, for points 5 and 7--10 of Table \ref{tab: speckle results}, all acquired at $f_\# = 11.31$ and $M_{ag_{exp}} = 0.296$}
+    \caption[Average speckle size against beam expander distance]{Average speckle size versus the distance between the beam expander lens and the ground glass diffuser, for points 5 and 7--10 of Table \ref{tab: speckle results}, all acquired at $f_\# = 11.31$ and $M_{ag_{exp}} = 0.296$}
     \label{fig: speckle dGG sweep}
 \end{figure}
 
@@ -391,7 +391,7 @@ In the angled glass study, it was mentioned that a probable cause of the large s
         \caption{Point 10, $d_{GG} = 100$ mm}
         \label{fig: speckle pattern point 10}
     \end{subfigure}
-    \caption{Raw speckle patterns captured at $f_\# = 11.31$ and $M_{ag_{exp}} = 0.296$ for three distances between the beam expander lens and the ground glass diffuser. As $d_{GG}$ decreases, the illuminated area on the diffuser shrinks and the speckle pattern contracts from filling the sensor to a small bright spot}
+    \caption[Raw speckle patterns at three diffuser distances]{Raw speckle patterns captured at $f_\# = 11.31$ and $M_{ag_{exp}} = 0.296$ for three distances between the beam expander lens and the ground glass diffuser. As $d_{GG}$ decreases, the illuminated area on the diffuser shrinks and the speckle pattern contracts from filling the sensor to a small bright spot}
     \label{fig: speckle patterns dGG}
 \end{figure}
 
@@ -415,7 +415,7 @@ It is also valid to compare the speckles pattern with a typical background patte
         \caption{Laser speckle pattern}
         \label{fig: SBOS speckle pattern comparison}
     \end{subfigure}
-    \caption{Comparison between the background patterns of BOS and SBOS, both imaged at the same in-focus plane with $f_\# = 22$. (a) Leftover printed background pattern used by standard BOS. (b) Speckle pattern produced with the laser and the ground glass diffuser}
+    \caption[BOS and SBOS background patterns compared]{Comparison between the background patterns of BOS and SBOS, both imaged at the same in-focus plane with $f_\# = 22$. (a) Leftover printed background pattern used by standard BOS. (b) Speckle pattern produced with the laser and the ground glass diffuser}
     \label{fig: BOS and SBOS pattern comparison}
 \end{figure}
 
@@ -476,7 +476,7 @@ An under-expanded compressible jet was chosen as the object of study for the imp
         \caption{$p_g = 8$ bar, with respective $NPR_g = 8.90$}
         \label{fig: jet displacement 8bar}
     \end{subfigure}
-    \caption{SBOS results for a compressible jet. Displacement magnitude fields obtained through cross-correlation for air tap gauge pressures from 3 bar to 8 bar with a step of 1 bar. Respective Nozzle Pressure ratio from the gauge pressures are obtained as $NPR_g = (p_g+p_a)/p_a$, with the ambient pressure $p_a = 1.013$ bar. All fields share the same color scale and masked vectors are shown in grey}
+    \caption[Displacement fields of the compressible jet]{SBOS results for a compressible jet. Displacement magnitude fields obtained through cross-correlation for air tap gauge pressures from 3 bar to 8 bar with a step of 1 bar. Respective Nozzle Pressure ratio from the gauge pressures are obtained as $NPR_g = (p_g+p_a)/p_a$, with the ambient pressure $p_a = 1.013$ bar. All fields share the same color scale and masked vectors are shown in grey}
     \label{fig: compressible jet displacement fields}
 \end{figure}
 
@@ -487,7 +487,7 @@ The strategy envisioned to better estimate the nozzle pressure ratio builds on t
 
 \begin{table}[htbp]
     \centering
-    \caption{Estimated jet conditions for each Prandtl-Meyer angle $\nu$. $M_j$ is the jet Mach number, $NPR$ the nozzle pressure ratio and $p_0$ the absolute total pressure. The uncertainties $u_{M_j}$, $u_{NPR}$ and $u_{p_0}$ are given relative to their respective values. The data is organized in letters from ``a)'' to ``f)'', corresponding to the order of the images in Figure \ref{fig: compressible jet displacement fields}}
+    \caption[Jet conditions estimated from the Prandtl-Meyer angle]{Estimated jet conditions for each Prandtl-Meyer angle $\nu$. $M_j$ is the jet Mach number, $NPR$ the nozzle pressure ratio and $p_0$ the absolute total pressure. The uncertainties $u_{M_j}$, $u_{NPR}$ and $u_{p_0}$ are given relative to their respective values. The data is organized in letters from ``a)'' to ``f)'', corresponding to the order of the images in Figure \ref{fig: compressible jet displacement fields}}
     \label{tab: compressible jet NPR estimates}
     \begin{tabular}{lrrrrrrr}
         \toprule
@@ -510,7 +510,7 @@ The $NPR$ estimates displayed in Table \ref{tab: compressible jet NPR estimates}
 \begin{figure}[htbp]
     \centering
     \includegraphics[width=\textwidth]{figures/Dataset f density gradients.jpg}
-    \caption{Density gradient fields of dataset f obtained assuming a planar field. The top plot displays the density gradient in the n direction, the middle plot the density gradient in the s direction and the bottom plot the magnitude of the density gradient vector. The s axis is aligned with the jet axis with its origin at the nozzle exit, while n is normal to it}
+    \caption[Density gradient fields of the compressible jet at the highest $NPR$]{Density gradient fields of dataset f obtained assuming a planar field. The top plot displays the density gradient in the n direction, the middle plot the density gradient in the s direction and the bottom plot the magnitude of the density gradient vector. The s axis is aligned with the jet axis with its origin at the nozzle exit, while n is normal to it}
     \label{fig: dataset f density gradients}
 \end{figure}
 
@@ -572,7 +572,7 @@ Following the middle plot of Figure \ref{fig: dataset f density gradients}, corr
         \caption{Dataset f, with respective $NPR = 3.875$ and $L_s = 5.00$ mm}
         \label{fig: centerline density gradient dataset f}
     \end{subfigure}
-    \caption{Centerline density gradient in the s direction for datasets a to f, obtained assuming a planar field. The light blue line is the gradient at the axis row $n = 0$ and the dark blue line its mean over $|n| \leq 0.25$ mm. Red upward triangles mark the compression peaks, black downward triangles the expansion valleys, green circles the density minima and orange squares the density maxima detected along the centerline. The dashed orange line marks the end of the first shock cell, $L_s$}
+    \caption[Centerline density gradients of the compressible jet across the $NPR$ sweep]{Centerline density gradient in the s direction for datasets a to f, obtained assuming a planar field. The light blue line is the gradient at the axis row $n = 0$ and the dark blue line its mean over $|n| \leq 0.25$ mm. Red upward triangles mark the compression peaks, black downward triangles the expansion valleys, green circles the density minima and orange squares the density maxima detected along the centerline. The dashed orange line marks the end of the first shock cell, $L_s$}
     \label{fig: centerline density gradients}
 \end{figure}
 
@@ -585,7 +585,7 @@ The fitted curves using Emden's and Hartmann-Lazarus' formulations are displayed
 \begin{figure}[htbp]
     \centering
     \includegraphics[width=\textwidth]{figures/shock cell lengths.jpg}
-    \caption{First shock cell length $L_s$ and average length of the following shock cells $L_{s,avg}$ of datasets a to f, normalized by the jet diameter, against $\sqrt{NPR - NPR_c}$. The measurements are displayed together with the formulations of Emden ($k = 0.88$) and Hartmann-Lazarus for the first cell ($a = 0.98$, $b = 0.30$) and for the following cells ($k = 1.06$), with the Emden format fitted to $L_{s,avg}$ and the Hartmann-Lazarus format fitted to $L_s$ \cite{Powell2010, Hartmann1941, Emden1899}}
+    \caption[Shock cell lengths against nozzle pressure ratio]{First shock cell length $L_s$ and average length of the following shock cells $L_{s,avg}$ of datasets a to f, normalized by the jet diameter, against $\sqrt{NPR - NPR_c}$. The measurements are displayed together with the formulations of Emden ($k = 0.88$) and Hartmann-Lazarus for the first cell ($a = 0.98$, $b = 0.30$) and for the following cells ($k = 1.06$), with the Emden format fitted to $L_{s,avg}$ and the Hartmann-Lazarus format fitted to $L_s$ \cite{Powell2010, Hartmann1941, Emden1899}}
     \label{fig: shock cell lengths}
 \end{figure}
 
@@ -641,7 +641,7 @@ One of the goals of the compressible jet experiment was the quantitative reprodu
         \caption{Dataset f, with respective $NPR = 3.875$}
         \label{fig: density field jet dataset f}
     \end{subfigure}
-    \caption{Density fields of datasets a to f obtained through the Abel inversion with Tikhonov regularization. The s axis is aligned with the jet axis with its origin at the nozzle exit, while n is normal to it. Datasets a and b use a color scale from 1 to 2.2 kg m$^{-3}$, while datasets c to f use a color scale from 0.5 to 3.1 kg m$^{-3}$.}
+    \caption[Density fields of the compressible jet across the $NPR$ sweep]{Density fields of datasets a to f obtained through the Abel inversion with Tikhonov regularization. The s axis is aligned with the jet axis with its origin at the nozzle exit, while n is normal to it. Datasets a and b use a color scale from 1 to 2.2 kg m$^{-3}$, while datasets c to f use a color scale from 0.5 to 3.1 kg m$^{-3}$.}
     \label{fig: density fields jets}
 \end{figure}
 
@@ -655,7 +655,7 @@ To validate the density fields obtained, a similar example from the literature w
 \begin{figure}[htbp]
     \centering
     \includegraphics[width=\textwidth]{figures/centreline density e vs panda.png}
-    \caption{Centerline density of dataset e, normalized by the fully expanded jet density $\rho_j$, against the downstream distance normalized by the nozzle diameter. The data of Panda and Seasholtz \cite{Panda1999} for $M_j = 1.43$ is displayed for comparison, and the dotted line marks $\rho/\rho_j = 1$}
+    \caption[Centerline density of the compressible jet against Panda and Seasholtz]{Centerline density of dataset e, normalized by the fully expanded jet density $\rho_j$, against the downstream distance normalized by the nozzle diameter. The data of Panda and Seasholtz \cite{Panda1999} for $M_j = 1.43$ is displayed for comparison, and the dotted line marks $\rho/\rho_j = 1$}
     \label{fig: centerline density e vs panda}
 \end{figure}
 
@@ -685,7 +685,7 @@ The final experiment implemented the SBOS method to image the flow through a lin
 
 \begin{table}[htbp]
     \centering
-    \caption{Experimental optical configurations of the aerospike campaign. $l$ is the defocus distance, $l_{eff}$ the effective lever arm, $d_f$ the distance from the camera lens to the in-focus plane, $M_{ag}$ the magnification measured with the calibration plate, $L_{FoV_{obj}}$ the field of view at the model and $\Delta t_{exp}$ is the exposure time with which the images were captured. $S = l_{eff} \cdot M_{ag}$ is the sensitivity, $s_{min}$ the minimum distinguishable feature, $\Delta s$ the speckle size and $NPR$ the nozzle pressure ratio. ``Negative'' and ``Positive'' denote the in-focus plane lying respectively in front of or behind the model, while ``Inside TS'' denotes the focal plane inside the test section}
+    \caption[Optical configurations measured on site for the aerospike campaign]{Experimental optical configurations of the aerospike campaign. $l$ is the defocus distance, $l_{eff}$ the effective lever arm, $d_f$ the distance from the camera lens to the in-focus plane, $M_{ag}$ the magnification measured with the calibration plate, $L_{FoV_{obj}}$ the field of view at the model and $\Delta t_{exp}$ is the exposure time with which the images were captured. $S = l_{eff} \cdot M_{ag}$ is the sensitivity, $s_{min}$ the minimum distinguishable feature, $\Delta s$ the speckle size and $NPR$ the nozzle pressure ratio. ``Negative'' and ``Positive'' denote the in-focus plane lying respectively in front of or behind the model, while ``Inside TS'' denotes the focal plane inside the test section}
     \label{tab: aerospike experimental results}
     \begin{tabular}{lrrrrrrrrrrl}
         \toprule
@@ -733,7 +733,7 @@ The first three points only imaged the nozzle exhaust without a freestream super
         \caption{Point 3, positive defocus}
         \label{fig: aerospike displacement point 3}
     \end{subfigure}
-    \caption{Displacement magnitude of the aerospike nozzle exhaust at $NPR = 8$ without freestream flow, obtained through cross-correlation for the three defocus configurations.}
+    \caption[Displacement fields at three defocus positions, without freestream]{Displacement magnitude of the aerospike nozzle exhaust at $NPR = 8$ without freestream flow, obtained through cross-correlation for the three defocus configurations.}
     \label{fig: aerospike displacement points 1-3}
 \end{figure}
 
@@ -761,7 +761,7 @@ Figure \ref{fig: aerospike flow pictures} displays the flow pictures taken for p
         \caption{SBOS flow picture, point 3}
         \label{fig: aerospike flow picture point 3}
     \end{subfigure}
-    \caption{Flow pictures of the aerospike nozzle exhaust at $NPR = 8$ without freestream flow. (a) SBOS picture of point 1, with negative defocus. (b) SBOS picture of point 3, with positive defocus}
+    \caption[Flow pictures showing blur at positive and negative defocus]{Flow pictures of the aerospike nozzle exhaust at $NPR = 8$ without freestream flow. (a) SBOS picture of point 1, with negative defocus. (b) SBOS picture of point 3, with positive defocus}
     \label{fig: aerospike flow pictures}
 \end{figure}
  
@@ -780,7 +780,7 @@ The maximum measured displacement of points 1, 2 and 3 were taken from the Cross
 
 \begin{table}[htbp]
     \centering
-    \caption{Sensitivity of points 1 to 3 obtained through the geometry, $S = l \cdot M_{ag}$, and through the ratio of displacements of Equation \ref{equation: S ratio}. $\Delta_{max}$ is the maximum displacement measured at each point. The ratio method estimates the sensitivity of point 1 from point 3 and of point 3 from point 1, while point 2 is estimated from both. The deviation is the difference between the ratio method and the geometric sensitivity for points 1 and 3, and between the two estimates for point 2}
+    \caption[Sensitivity by geometry and by displacement ratio, without freestream]{Sensitivity of points 1 to 3 obtained through the geometry, $S = l \cdot M_{ag}$, and through the ratio of displacements of Equation \ref{equation: S ratio}. $\Delta_{max}$ is the maximum displacement measured at each point. The ratio method estimates the sensitivity of point 1 from point 3 and of point 3 from point 1, while point 2 is estimated from both. The deviation is the difference between the ratio method and the geometric sensitivity for points 1 and 3, and between the two estimates for point 2}
     \label{tab: S ratio}
     \begin{tabular}{lrrrr}
         \toprule
@@ -817,7 +817,7 @@ The density gradients fields were then obtained using Equation \ref{equation: In
         \caption{$\partial \rho / \partial y$}
         \label{fig: aerospike density gradient y}
     \end{subfigure}
-    \caption{Density gradient fields of point 2 obtained assuming a planar flow, for the aerospike nozzle exhaust at $NPR = 8$ without freestream flow. (a) Component in the $x$ direction. (b) Component in the $y$ direction. Masked regions are shown in grey}
+    \caption[Density gradient fields with the focus inside the test section]{Density gradient fields of point 2 obtained assuming a planar flow, for the aerospike nozzle exhaust at $NPR = 8$ without freestream flow. (a) Component in the $x$ direction. (b) Component in the $y$ direction. Masked regions are shown in grey}
     \label{fig: aerospike density gradient fields}
 \end{figure}
 
@@ -838,7 +838,7 @@ Comparing the schlieren image of the same flow conditions in Figure \ref{fig: ae
         \caption{schlieren image, credit to Gupta \cite{Gupta2026}}
         \label{fig: aerospike schlieren interpretation}
     \end{subfigure}
-    \caption{Flow structures of the aerospike nozzle exhaust at $NPR = 8$ without freestream flow. (a) Compression waves, expansion fans and Mach waves are identified as black lines on the $x$ component of the density gradient, the arrows identify the general direction of the density gradient. (b) schlieren image of the same flow condition}
+    \caption[Flow structures without freestream against schlieren]{Flow structures of the aerospike nozzle exhaust at $NPR = 8$ without freestream flow. (a) Compression waves, expansion fans and Mach waves are identified as black lines on the $x$ component of the density gradient, the arrows identify the general direction of the density gradient. (b) schlieren image of the same flow condition}
     \label{fig: aerospike flow interpretation and schlieren}
 \end{figure}
 
@@ -847,7 +847,7 @@ A verification of the density gradient field computation can also be done by com
 
 \begin{table}[htbp]
     \centering
-    \caption{Peak density gradients of points 1 to 3. The three points image the same flow condition at three independent moments. For each component, the peak is the maximum value of the field. To avoid the chance of the match being due to an outlier, the average is taken over the 100 highest values. The last row displays the maximum deviation between the three points. All values are in kg m$^{-3}$ mm$^{-1}$}
+    \caption[Peak density gradients of three repeated acquisitions of the same flow]{Peak density gradients of points 1 to 3. The three points image the same flow condition at three independent moments. For each component, the peak is the maximum value of the field. To avoid the chance of the match being due to an outlier, the average is taken over the 100 highest values. The last row displays the maximum deviation between the three points. All values are in kg m$^{-3}$ mm$^{-1}$}
     \label{tab: aerospike gradient peaks}
     \begin{tabular}{lrrrrrr}
         \toprule
@@ -891,7 +891,7 @@ Points 4--11 imaged the aerospike nozzle influenced by an external Mach 2 flow c
         \caption{schlieren, credit to Gupta \cite{Gupta2026}}
         \label{fig: aerospike schlieren NPR10}
     \end{subfigure}
-    \caption{Aerospike nozzle exhaust at $NPR = 10$ with the Mach 2 freestream flow. (a) Displacement magnitude field of point 5, with negative defocus. (b) Displacement magnitude field of point 9, with the focus inside the test section. (c) schlieren image of the same flow condition. Each field uses its own color scale and masked regions are shown in grey}
+    \caption[Aerospike exhaust at $NPR = 10$ with freestream]{Aerospike nozzle exhaust at $NPR = 10$ with the Mach 2 freestream flow. (a) Displacement magnitude field of point 5, with negative defocus. (b) Displacement magnitude field of point 9, with the focus inside the test section. (c) schlieren image of the same flow condition. Each field uses its own color scale and masked regions are shown in grey}
     \label{fig: aerospike freestream NPR10}
 \end{figure}
 
@@ -903,7 +903,7 @@ As before, the peaks of points with the same flow condition were compared to ver
 
 \begin{table}[htbp]
     \centering
-    \caption{Sensitivity of points 8 to 11 obtained with the ratio method of Equation \ref{equation: S ratio}, using the maximum displacements of points 4 to 7. $\Delta_{max}$ is the maximum displacement measured at each point and $S = l \cdot M_{ag}$ is the geometric sensitivity. Avg corresponds to the average of the sensitivities obtained by the ratio method and $l_{eff} = S_{avg}/M_{ag}$.}
+    \caption[Sensitivity by displacement ratio for the in-focus points, with freestream]{Sensitivity of points 8 to 11 obtained with the ratio method of Equation \ref{equation: S ratio}, using the maximum displacements of points 4 to 7. $\Delta_{max}$ is the maximum displacement measured at each point and $S = l \cdot M_{ag}$ is the geometric sensitivity. Avg corresponds to the average of the sensitivities obtained by the ratio method and $l_{eff} = S_{avg}/M_{ag}$.}
     \label{tab: S ratio points 4 to 11}
     \begin{tabular}{lrrrrr}
         \toprule
@@ -925,7 +925,7 @@ As before, the peaks of points with the same flow condition were compared to ver
 
 \begin{table}[htbp]
     \centering
-    \caption{Peak density gradients of the points acquired with the freestream flow, grouped by pairs that image the same flow condition with the focus in front of and inside the test section. For each component, the peak is the maximum value of the field and the average is taken over its 100 highest values. The deviation row displays the difference between the two points of each pair. All values are in kg m$^{-3}$ mm$^{-1}$}
+    \caption[Peak density gradients of the same flow imaged defocused and in focus]{Peak density gradients of the points acquired with the freestream flow, grouped by pairs that image the same flow condition with the focus in front of and inside the test section. For each component, the peak is the maximum value of the field and the average is taken over its 100 highest values. The deviation row displays the difference between the two points of each pair. All values are in kg m$^{-3}$ mm$^{-1}$}
     \label{tab: aerospike gradient peaks freestream}
     \begin{tabular}{lrrrrrr}
         \toprule
@@ -971,7 +971,7 @@ The effect of $NPR$ in the flow's structures of the linear aerospike can be asse
         \caption{schlieren image, credit to Gupta \cite{Gupta2026}}
         \label{fig: aerospike schlieren NPR7}
     \end{subfigure}
-    \caption{Flow structures of the aerospike nozzle exhaust with the Mach 2 freestream flow. (a) Compression and expansion flow structures were identified in as black lines on the $x$ component of the density gradient of point 8 ($NPR = 8$), the arrows show roughly the density gradient direction across the structures. (b) schlieren image of the closest flow condition available, acquired at $NPR = 7$}
+    \caption[Flow structures with freestream against schlieren]{Flow structures of the aerospike nozzle exhaust with the Mach 2 freestream flow. (a) Compression and expansion flow structures were identified in as black lines on the $x$ component of the density gradient of point 8 ($NPR = 8$), the arrows show roughly the density gradient direction across the structures. (b) schlieren image of the closest flow condition available, acquired at $NPR = 7$}
     \label{fig: aerospike flow interpretation point 8 and schlieren}
 \end{figure}
 
@@ -1006,7 +1006,7 @@ The effect of $NPR$ in the flow's structures of the linear aerospike can be asse
         \caption{Point 11, $NPR = 14$}
         \label{fig: aerospike density gradient point 11}
     \end{subfigure}
-    \caption{Density gradient fields of points 8 to 11, obtained assuming a planar flow with the effective lever arm of Table \ref{tab: S ratio points 4 to 11}. Each row displays the component in the $x$ direction on the left and the component in the $y$ direction on the right, for one nozzle pressure ratio. Each field uses its own color scale and masked regions are shown in grey}
+    \caption[Density gradient fields across the $NPR$ sweep]{Density gradient fields of points 8 to 11, obtained assuming a planar flow with the effective lever arm of Table \ref{tab: S ratio points 4 to 11}. Each row displays the component in the $x$ direction on the left and the component in the $y$ direction on the right, for one nozzle pressure ratio. Each field uses its own color scale and masked regions are shown in grey}
     \label{fig: aerospike density gradients NPR sweep}
 \end{figure}
 

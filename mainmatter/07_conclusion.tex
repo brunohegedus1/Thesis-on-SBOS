@@ -70,7 +70,7 @@ The evidence collected during this thesis shows how SBOS compares to traditional
 
 Defocus is an inherent part of BOS, meaning that worse spatial resolution than techniques that focus on the test section, such as schlieren and interferometry, is inevitable. To avoid the blur dominating the image, BOS has been mainly applied to large scale applications. The need for a physical background and the dependence of the sensitivity to the defocus distance never permitted the method to have zero defocus until SBOS emerged. Indeed, in-focus SBOS has been tried before by Meier and Rösgen with their double-pass technique \cite{Meier&Roesgen2013}. However, their technique derived an equation that could survive a zero defocus distance $l = 0$. No instance was found in the literature reviewed in Chapter \ref{chapter: LiteratureReview} of SBOS being used with the focus inside the test section through simple projected or directed speckles, where the sensitivity is retrieved as $S = l_{eff}\cdot M_{ag}$, since $l = 0$ would lead to $S = 0$ and imply that no displacement would be measured.
 
-Displacements with focus inside the test section can in fact be measured, given the thickness of the test section. However, they do not follow the $S = l_{eff} \cdot M_{ag}$ model and a different method to retrieve the sensitivity must be used. This work presented a simple way to compute this quantity through the ratio of the displacements of the same flow condition taken with two distinct sensitivities. Since DaVis computes the in-plane displacement using the magnification calibration, $l_{eff}$ was computed through the ratio of sensitivity and magnification $l_{eff} = S/M_{ag}$ to obtain the density gradients through Equation \ref{equation: In-plane displacement}. The same process was done with two independent points, which agreed within 5\%. Moreover, The discrepancy observed between the $l_{eff}$ obtained through this method and the usual formulation for defocus points $l_{eff} = l+G+W/2$ further demonstrates that the previous model will break for references inside the test section. 
+Displacements with focus inside the test section can in fact be measured, given the thickness of the test section. However, they do not follow the $S = l_{eff} \cdot M_{ag}$ model and a different method to retrieve the sensitivity must be used. This work presented a simple way to compute this quantity through the ratio of the displacements of the same flow condition taken with two distinct sensitivities. Since DaVis computes the in-plane displacement using the magnification calibration, $l_{eff}$ was computed through the ratio of sensitivity and magnification $l_{eff} = S/M_{ag}$ to obtain the density gradients through Equation \ref{equation: In-plane displacement}. The same process was done with two independent points, which agreed within 5\%. Moreover, the discrepancy observed between the $l_{eff}$ obtained through this method and the usual formulation for defocus points $l_{eff} = l+G+W/2$ further demonstrates that the previous model will break for references inside the test section.
 
 As a consequence of using in-focus SBOS, blur dropped sharply and produced a much clearer displacement field. Nevertheless, the sensitivity was lower and the method's accuracy was dependent on a second measurement where the flow's conditions must be as similar as possible to the in-focus conditions. One solution could be the simultaneous imaging of the flow. This could be done with the use of a split diopter lens, which allows the capture of two different magnifications in the same image, or two cameras imaging the same flow simultaneously set at different focus. All in all, in-focus SBOS provides high spatial resolution and similar ease for quantitative measurements as BOS, but adds a complication to the image capturing procedure. The last two sections addressed the advantages of the SBOS method, by comparing it to other methods and presenting the potential of this new in-focus SBOS. Now, the limitations and the uncertainties associated with SBOS will be discussed.
 
@@ -93,12 +93,12 @@ This section concerned the verity and bounds of the conclusions by reiterating t
 \section{Final Considerations}
 \label{section: Final Considerations}
 
-Final considerations can be made regarding the strengths and the weaknesses of SBOS. Each item of Table \ref{tab: SBOS strengths and weaknesses} has been discussed and verified during the duration of this thesis. They span every aspect of the method treated in this work, from the optical configuration, the speckle pattern and the refractive object. It highlights the many strengths of the method but shows that there is much to be improved, specially given the small quantity of publications and how recent they are.
+Final considerations can be made regarding the strengths and the weaknesses of SBOS. Each item of Table \ref{tab: SBOS strengths and weaknesses} has been discussed and verified during the duration of this thesis. They span every aspect of the method treated in this work, from the optical configuration and the speckle pattern to the measurements obtained. It highlights the many strengths of the method but shows that there is much to be improved, especially given the small quantity of publications and how recent they are.
 
 
 \begin{table}[htbp]
     \centering
-    \caption{Strengths and weaknesses of SBOS identified in this work. Each row pairs a capability of the method with the cost that the same property imposes. The aspects follow the structure of the thesis, from the optical configuration to the speckle pattern and the refractive object}
+    \caption[Strengths and weaknesses of SBOS]{Strengths and weaknesses of SBOS identified in this work. Each row pairs a capability of the method with the cost that the same property imposes. The aspects cover the optical configuration, the speckle pattern, the measurements obtained and the practical demands of the method}
     \label{tab: SBOS strengths and weaknesses}
     \begin{tabularx}{\textwidth}{@{}>{\raggedright\arraybackslash}p{0.18\textwidth} >{\raggedright\arraybackslash}X >{\raggedright\arraybackslash}X@{}}
         \toprule
@@ -106,47 +106,55 @@ Final considerations can be made regarding the strengths and the weaknesses of S
         \midrule
         Background &
         The background is virtual, so the reference plane may lie arbitrarily close to the test section, or even inside of it &
-        The speckle pattern is interferometric, so perturbations alter it, causing decorrelation \\[1em]
+        The speckle pattern is interferometric, so perturbations alter it, causing decorrelation \\
+        \midrule
 
         Sensitivity ceiling &
         Negative defocus escapes the BOS limit $\lim_{l \to \infty} S = f$ through different defocus configurations, which allow higher magnifications and increase sensitivity&
-        With the focus inside the test section, $S = l_{eff} M_{ag}$ fails and a second, matched measurement is required \\[1em]
+        Windows add $G + W/2$ to the lever arm, which doubled $s_{min}$ from 10 to 20 px in the wind tunnel \\
+        \midrule
 
         Sensitivity-Resolution trade-off &
         Sensitivity and resolution can be dynamically changed by displacing the focus of the camera &
-        With the focus inside the test section, $S = l_{eff} M_{ag}$ fails and a second measurement at equal deflection flow angle  $\varepsilon$ is required \\[1em]
+        With the focus inside the test section, $S = l_{eff} M_{ag}$ fails and a second measurement at equal deflection flow angle  $\varepsilon$ is required \\
+        \midrule
 
         Aperture &
-        The f-stop adjusts $S/s_{min}$ without altering any physical distance. &
-        A higher f-stop reduces enlarges the speckle, confining $S/s_{min}$ to a fixed interval \\[1em]
+        The f-stop adjusts $S/s_{min}$ without altering any physical distance &
+        A higher f-stop enlarges the speckle, confining $S/s_{min}$ to a fixed interval \\
+        \midrule
 
         Pattern quality &
         The speckle is finer, denser and of higher contrast than a printed pattern. It can also be modified through the optical setup alone&
-        The measured size departed from the Rayleigh limit and proved insensitive to magnification with a compound lens \\[1em]
+        The measured size departed from the Rayleigh limit and proved insensitive to magnification with a compound lens \\
+        \midrule
 
         Illumination &
-        A 0.5 mW class 2 laser was used for the whole duration of the thesis, permitting exposures of 300-480 $\mu$s &
-        Illumination is reduced by a higher f-stop, which is needed to improve the sensitivity-resolution trade-off \\[1em]
+        A 0.5 mW class 2 laser was used for the whole duration of the thesis, permitting exposures of 300--480 $\mu$s &
+        Illumination is reduced by a higher f-stop, which is needed to improve the sensitivity-resolution trade-off \\
+        \midrule
 
         Spatial resolution &
         In-focus SBOS resolved with similar quality the same wave structures identified in the corresponding schlieren images &
-        Under strong gradients and turbulence, the defocused configurations blurred the pattern to decorrelation \\[1em]
+        Under strong gradients and turbulence, the defocused configurations blurred the pattern to decorrelation \\
+        \midrule
 
         Quantitative measurements &
         The displacement field allows the calculation of a density field more directly than a schlieren intensity image &
-        The conversion inherits the cross-correlation scatter, and the defocus uncertainty \\[1em]
+        The conversion inherits the cross-correlation scatter, and the defocus uncertainty \\
+        \midrule
 
         Complexity &
-        The setup needs fewer and smaller elements than schlieren. A low power laser can be used.&
-        It trades the simple background of SBOS to a laser and a diffuser that must match the field of view.\\[1em]
+        The setup needs fewer and smaller elements than schlieren, and a low power laser is sufficient&
+        It trades the simple background of BOS for a laser and a diffuser that must match the field of view\\
+        \midrule
 
         Small scales &
-        The gain in resolution and sensitivity permits small fields of view that standard BOS cannot reach	& An oversized speckle forces a correspondingly larger interrogation window, which degrades the spatial resolution\\[1em]
-        
+        The gain in resolution and sensitivity permits small fields of view that standard BOS cannot reach & An oversized speckle forces a correspondingly larger interrogation window, which degrades the spatial resolution\\
         \bottomrule
     \end{tabularx}
 \end{table}
 
-This work's limitations and the weaknesses collected in Table \ref{tab: SBOS strenghts... } highlight the main aspects of the method that could be improved. First, the average speckle size insensitivity to magnification has not been fully explained. Section \ref{section: Angled Glass Experiment Results} attributed it to the use of a commercial compound lens, however that has not been completely proven nor investigated in this work. Further assessment of that dependency would be useful, as it provides another parameter to tune the speckle pattern quality. Furthermore, a deeper theoretical study of the sensitivity of in-focus SBOS could lead to a better route to estimate that performance parameter that do not involve a second measurement. More practical solutions that still use the $S$ ratio method can also be tested, as the use of a split diopter lens or a second camera simultaneously imaging the flow at a different sensitivity.
+This work's limitations and the weaknesses collected in Table \ref{tab: SBOS strengths and weaknesses} highlight the main aspects of the method that could be improved. First, the average speckle size insensitivity to magnification has not been fully explained. Section \ref{section: Angled Glass Experiment Results} attributed it to the use of a commercial compound lens, however that has not been completely proven nor investigated in this work. Further assessment of that dependency would be useful, as it provides another parameter to tune the speckle pattern quality. Furthermore, a deeper theoretical study of the sensitivity of in-focus SBOS could lead to a better route to estimate that performance parameter that does not involve a second measurement. More practical solutions that still use the $S$ ratio method can also be tested, as the use of a split diopter lens or a second camera simultaneously imaging the flow at a different sensitivity.
 
-The strengths of the method also positions it as an interesting measurement technique for various applications. The gain in resolution and sensitivity allows the method to be used in smaller scales than traditional BOS. Laser speckles have already been used to image blood flow as reported by Boas and Dunn \cite{Boas&Dunn2010} but it could also be used in microfluidic applications. This could be done by improving the work of Sun and Hsiao \cite{}, who placed a lithographed photomask over the channel. Replacing that photomask with a speckle pattern would remove the need for a background in contact with the chip, which is the constraint that currently sets the geometry of such measurements. Reactive flows are equally promising, as Michalski et al. \cite{Michalski2018} have already demonstrated that SBOS can be used for a light-emitting flow, when he studied the calorimetry of an electrical spark discharge. The narrowband laser background can be separated from the flame emission with a simple filter. Additionaly, its luminosity permit the short exposures that suit the unsteadiness of combustion. In all of these cases the guidelines gathered here will provide a starting point for the design of the setup.
+The strengths of the method also position it as an interesting measurement technique for various applications. The gain in resolution and sensitivity allows the method to be used in smaller scales than traditional BOS. Laser speckles have already been used to image blood flow as reported by Boas and Dunn \cite{Boas&Dunn2010} but it could also be used in microfluidic applications. This could be done by improving the work of Sun and Hsiao \cite{Sun&Hsiao2014}, who placed a lithographed photomask over the channel. Replacing that photomask with a speckle pattern would remove the need for a background in contact with the chip, which is the constraint that currently sets the geometry of such measurements. Reactive flows are equally promising, as Michalski et al. \cite{Michalski2018} have already demonstrated that SBOS can be used for a light-emitting flow, when he studied the calorimetry of an electrical spark discharge. The narrowband laser background can be separated from the flame emission with a simple filter. Additionally, its luminosity permits the short exposures that suit the unsteadiness of combustion. In all of these cases the guidelines gathered here will provide a starting point for the design of the setup.
