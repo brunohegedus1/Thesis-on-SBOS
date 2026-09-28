@@ -197,10 +197,10 @@ M_{n,2}^{2}
 \par The Gladstone-Dale relation is the linearization of this relationship for gases, where $n$ is almost 1 \cite{Head2021}. 
 
 \begin{equation}
-    n = 1 + G \rho
+    n = 1 + K \rho
 \end{equation}
 
-\par This relationship directly links density with the refractive index, and the refractive index in turn can be obtained from the distortion of light through the medium. $G$ is the Gladstone-Dale coefficient \cite{Head2021, Settles2001}.
+\par This relationship directly links density with the refractive index, and the refractive index in turn can be obtained from the distortion of light through the medium. $K$ is the Gladstone-Dale coefficient \cite{Head2021, Settles2001}.
 
 \par As shown in Figure \ref{fig: Diagrams of light refraction}, when light passes from one medium to another it can behave differently depending on the refractive index field of the subsequent medium. The light's interaction between two homogeneous media, shown in Figure \ref{fig: Diagrams of light refraction}a, is given by Snell's Law of Refraction, with $\alpha_1$ and $\alpha_2$ the angles to the interface normal in each medium.
 
@@ -237,7 +237,7 @@ M_{n,2}^{2}
 \label{equation:epsilon-nabla rho}
     \vec{\varepsilon}
 =
-\frac{G}{n_0}
+\frac{K}{n_0}
 \int \nabla \rho \, dz
 \end{equation}
 
@@ -245,7 +245,7 @@ M_{n,2}^{2}
 
 \begin{equation}
     \label{equation: Displacement and Density Gradient}
-    \varepsilon_x = \frac{G\cdot W}{n_0} \frac{\partial \rho}{\partial x}
+    \varepsilon_x = \frac{K\cdot W}{n_0} \frac{\partial \rho}{\partial x}
 \end{equation}
 
 \par The equation shows that light bends in the direction of the density gradient, that is, the direction of highest density. For a 2D planar flow, if the displacements caused by light passing through it are measured in a plane, the object density gradient can be computed and integrated to obtain a density field. For a more complex 3D flow, multiple lines of sight must be used to reconstruct a tomographic image of the density. However, some 3D flows can be reconstructed with only a 2D view due to their symmetry. An axisymmetric body is one such case, which occurs frequently in various applications. The next section will demonstrate how axisymmetry can be used to obtain the 3D density field using 2D displacement vectors.
