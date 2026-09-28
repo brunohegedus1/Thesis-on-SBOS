@@ -5,8 +5,8 @@
 
 A design strategy was then envisioned to define the setup variables and explore how they interact across the feasible design space. Rather than solving the system for a single configuration, a MATLAB script was developed to compute the full set of variables X = ($S, s_{min}, \Delta s, d_f, Z, M_{ag}, CoC, m$) for a range of combinations of the parameters P = ($f_\#, l, f$). This design space exploration, presented in Section \ref{section: Design Strategy}, allows the main trends that govern the optical arrangement to be visualized through intuitive surface maps. It provides important insight into how focal length, defocus distance and f-stop number affect the trade-off between sensitivity and spatial resolution. The strategy is applied first to the SBOS configuration (Section \ref{subsection: Surface Maps for SBOS}), then compared to the standard BOS configuration (Section \ref{subsection: Surface maps for BOS}), before the effect of the object field of view is examined in Section \ref{subsection: Effects of FoV}. Finally, Section \ref{section: Summary of Practical Guidelines} collects the outcomes of this exploration into a single set of design guidelines. Together, these sections establish the reasoning behind the final design points used in the experimental setups described in Chapter \ref{chapter: Experimental Setups}.
 
-\section{Geometries of a SBOS Optical Setup}
-\label{section: Geometries of a SBOS optical setup}
+\section{Geometries of an SBOS Optical Setup}
+\label{section: Geometries of an SBOS optical setup}
 \par Laser-Speckled Background Oriented Schlieren opens the possibility of novel and unusual optical configurations that would be otherwise unfeasible for a standard BOS setup. A description of the geometry of a normal BOS configuration is given below, followed by the detailing of the negative defocus position. This section presents and compares the equations used for both setups. These formulas will be used to assess the difference in performance of a standard BOS setup and an exclusive SBOS configuration.
 
 \subsection{Positive Defocus Setup}
@@ -85,12 +85,12 @@ A design strategy was then envisioned to define the setup variables and explore 
 
 \subsection{Negative Defocus Setup}
 \label{subsection: Negative defocus geometry}
-\par Figure \ref{fig: SBOS with negative l} describes the geometry of a SBOS setting with negative defocus distance, which means that the in-focus plane is in front of the test subject. All the equations from the previous section remain valid in this case, that is, Equations \ref{equation: df}, \ref{equation: Thin Lens equation}, \ref{equation: M}, \ref{equation: S BOS}, \ref{equation: CoC BOS}, \ref{equation: smin} and \ref{equation: LFoVobj BOS}. The single difference is that $l$ is now negative, so that Equation \ref{equation: df} places the in-focus plane in front of the refractive object, as shown in Figure \ref{fig: SBOS with negative l}.
+\par Figure \ref{fig: SBOS with negative l} describes the geometry of an SBOS setting with negative defocus distance, which means that the in-focus plane is in front of the test subject. All the equations from the previous section remain valid in this case, that is, Equations \ref{equation: df}, \ref{equation: Thin Lens equation}, \ref{equation: M}, \ref{equation: S BOS}, \ref{equation: CoC BOS}, \ref{equation: smin} and \ref{equation: LFoVobj BOS}. The single difference is that $l$ is now negative, so that Equation \ref{equation: df} places the in-focus plane in front of the refractive object, as shown in Figure \ref{fig: SBOS with negative l}.
  
 \begin{figure}[htbp]
     \centering
     \includegraphics[width=0.8\textwidth]{figures/negative defocus BOS configuration.jpg}
-    \caption[Geometry of a negative defocus SBOS setup]{Geometry of a SBOS setup with in-focus plane before the test subject (negative defocus) }
+    \caption[Geometry of a negative defocus SBOS setup]{Geometry of an SBOS setup with in-focus plane before the test subject (negative defocus) }
     \label{fig: SBOS with negative l}
 \end{figure}
 
@@ -155,7 +155,7 @@ follow from Equations \ref{equation: smin} and \ref{equation: Rayleigh Limit}. T
 \begin{figure}[htbp]
     \centering
     \includegraphics[width=1\textwidth]{figures/Sensitivity and dav SBOS surf map.jpg}
-    \caption[Surface maps of $S$ and $s_{min}$, negative defocus]{Surface maps of $S$ and $s_{min}$ for $f_\# \in $ [11,16,22],  $f \in $ (0.035,0.200) and $l \in$ (0.005,0.15) for a negative defocus setup, with the red isoline representing the points where $s_{min}$ =0.0004 m and the white line showing $S=0.02$.}
+    \caption[Surface maps of $S$ and $s_{min}$, negative defocus]{Surface maps of $S$ and $s_{min}$ for $f_\# \in $ [11,16,22],  $f \in $ (0.035,0.200) and $l \in$ (0.005,0.15) for a negative defocus setup, with the red isoline representing the points where $s_{min}$ =0.0004 m and the white line showing $S=0.02$}
     \label{fig: S and dav design surfmap SBOS}
 \end{figure}
 
@@ -168,7 +168,7 @@ follow from Equations \ref{equation: smin} and \ref{equation: Rayleigh Limit}. T
 \begin{figure}[htbp]
     \centering
     \includegraphics[width=1\textwidth]{figures/M,m,df surfmaps SBOS.jpg}
-    \caption[Surface maps of $M_{ag}$, $m$ and $d_f$, negative defocus]{Surface maps of $M_{ag}$, $m$ and $d_f$ for $f_\# \in $ [11,16,22],  $f \in $ (0.035,0.200), $l \in$ (0.005,0.15) and $L_{FoV_{obj}}=$ 2cm of a negative defocus setup, with the red isoline representing the points where $s_{min}$ =0.0004 m and the white line showing $S=0.02$.}
+    \caption[Surface maps of $M_{ag}$, $m$ and $d_f$, negative defocus]{Surface maps of $M_{ag}$, $m$ and $d_f$ for $f_\# \in $ [11,16,22],  $f \in $ (0.035,0.200), $l \in$ (0.005,0.15) and $L_{FoV_{obj}}=$ 2cm of a negative defocus setup, with the red isoline representing the points where $s_{min}$ =0.0004 m and the white line showing $S=0.02$}
     \label{fig: M,m and df design surfmap SBOS}
 \end{figure}
 
@@ -181,7 +181,7 @@ follow from Equations \ref{equation: smin} and \ref{equation: Rayleigh Limit}. T
 \begin{figure}[htbp]
     \centering
     \includegraphics[width=1\textwidth]{figures/Speckle size surf map SBOS.jpg}
-    \caption[Surface maps of $\Delta s$, negative defocus]{Surface maps of $\Delta s$ for $f_\# \in $ [11,16,22],  $f \in $ (0.035,0.200), $l \in$ (0.005,0.15) and $L_{FoV_{obj}}=$ 2cm for a negative defocus setup, with the red isoline representing the points where $s_{min}$ =0.0004 m and the white line showing $S=0.02$.}
+    \caption[Surface maps of $\Delta s$, negative defocus]{Surface maps of $\Delta s$ for $f_\# \in $ [11,16,22],  $f \in $ (0.035,0.200), $l \in$ (0.005,0.15) and $L_{FoV_{obj}}=$ 2cm for a negative defocus setup, with the red isoline representing the points where $s_{min}$ =0.0004 m and the white line showing $S=0.02$}
     \label{fig: Delta s design surfmap SBOS}
 \end{figure}
 
@@ -195,7 +195,7 @@ follow from Equations \ref{equation: smin} and \ref{equation: Rayleigh Limit}. T
 \begin{figure}[htbp]
     \centering
     \includegraphics[width=1\textwidth]{figures/Sensitivity and smin BOS surf map.jpg}
-    \caption[Surface maps of $S$ and $s_{min}$, positive defocus]{Surface maps of $S$ and $s_{min}$ for $f_\# \in $ [11,16,22],  $f \in $ (0.035,0.200), $l \in$ (0.005,0.15) and $L_{FoV_{obj}}=$ 2cm of a positive defocus setup, with the red isoline representing the points where $s_{min}$ =0.0004 m and the white line showing $S=0.02$.}
+    \caption[Surface maps of $S$ and $s_{min}$, positive defocus]{Surface maps of $S$ and $s_{min}$ for $f_\# \in $ [11,16,22],  $f \in $ (0.035,0.200), $l \in$ (0.005,0.15) and $L_{FoV_{obj}}=$ 2cm of a positive defocus setup, with the red isoline representing the points where $s_{min}$ =0.0004 m and the white line showing $S=0.02$}
     \label{fig: S and smin surfmap BOS}
 \end{figure}
 
@@ -211,7 +211,7 @@ follow from Equations \ref{equation: smin} and \ref{equation: Rayleigh Limit}. T
 \begin{figure}[htbp]
     \centering
     \includegraphics[width=1\textwidth]{figures/M,m,df surfmaps BOS.jpg}
-    \caption[Surface maps of $M_{ag}$, $m$ and $d_f$, positive defocus]{Surface maps of $M_{ag}$, $m$ and $d_f$ for $f_\# \in $ [11,16,22],  $f \in $ (0.035,0.200), $l \in$ (0.005,0.15) and $L_{FoV_{obj}}=$ 2cm of a positive defocus setup, with the red isoline representing the points where $s_{min}$ =0.0004 m and the white line showing $S=0.02$.}
+    \caption[Surface maps of $M_{ag}$, $m$ and $d_f$, positive defocus]{Surface maps of $M_{ag}$, $m$ and $d_f$ for $f_\# \in $ [11,16,22],  $f \in $ (0.035,0.200), $l \in$ (0.005,0.15) and $L_{FoV_{obj}}=$ 2cm of a positive defocus setup, with the red isoline representing the points where $s_{min}$ =0.0004 m and the white line showing $S=0.02$}
     \label{fig: M,m and df design surfmap BOS}
 \end{figure}
 
@@ -230,7 +230,7 @@ follow from Equations \ref{equation: smin} and \ref{equation: Rayleigh Limit}. T
     \includegraphics[width=\textwidth]{figures/Sensitivity and smin BOS surf map 70mm.jpg}
     \caption{}
   \end{subfigure}
-  \caption[Surface maps for a 7 cm field of view]{Surface maps of $S$ and $s_{min}$ for $f_\# \in $ [11,16,22],  $f \in $ (0.035,0.200), $l \in$ (0.005,0.15) and $L_{FoV_{obj}}=$ 7cm of a negative defocus setup (a) and a positive defocus setup (b), with the red isoline representing the points where $s_{min}$ =0.00035 m and the white line showing $S=0.02$.}
+  \caption[Surface maps for a 7 cm field of view]{Surface maps of $S$ and $s_{min}$ for $f_\# \in $ [11,16,22],  $f \in $ (0.035,0.200), $l \in$ (0.005,0.15) and $L_{FoV_{obj}}=$ 7cm of a negative defocus setup (a) and a positive defocus setup (b), with the red isoline representing the points where $s_{min}$ =0.00035 m and the white line showing $S=0.02$}
   \label{fig: Surface maps altering FoV}
 \end{figure}
 
@@ -238,7 +238,7 @@ follow from Equations \ref{equation: smin} and \ref{equation: Rayleigh Limit}. T
 
 Further trends that can be generally mentioned are the effect on $M_{ag}$, $m$, $d_f$ and $\Delta s$, these can be verified in the Appendix \ref{Appendix: Supplementary Surface Maps}. The bigger field of view leads to smaller optical magnifications, leading to bigger distances and larger optical setups. Additionally, the distances are more homogeneous for the same lens, maintaining a practically constant value for a certain focal length $f$. Consequently, the sensitivity and spatial resolution change less for differences in positioning and the setup performance is more robust to building errors in the experimental setup. That's why a smaller field of view is also better to verify the figures of the methodology presented in this chapter. Furthermore, the speckle sizes are also smaller due to the decrease in magnification.
 
-\par Up until now, the surface maps have been useful to visualize the equations displayed in Section \ref{section: Geometries of a SBOS optical setup}, \ref{section: Sensitivity-Resolution Ratio} and understand better the trends that exist between variables. However, a definitive criterion to choose the best optical setup is still missing. This was done by answering posed on Section \ref{subsection: Surface maps for BOS}, matching the optical and software spatial resolution. The solution is presented in the next section.
+\par Up until now, the surface maps have been useful to visualize the equations displayed in Section \ref{section: Geometries of an SBOS optical setup}, \ref{section: Sensitivity-Resolution Ratio} and understand better the trends that exist between variables. However, a definitive criterion to choose the best optical setup is still missing. This was done by answering posed on Section \ref{subsection: Surface maps for BOS}, matching the optical and software spatial resolution. The solution is presented in the next section.
 
 \section{SR Criterion}
 \label{section: SR criteria}
@@ -271,7 +271,7 @@ Further trends that can be generally mentioned are the effect on $M_{ag}$, $m$, 
 \section{Summary of Design Guidelines}
 \label{section: Summary of Practical Guidelines}
 
-\par Taken together, the geometric analysis of Section \ref{section: Geometries of a SBOS optical setup}, the discussion of Section \ref{section: Sensitivity-Resolution Ratio}, the design space exploration of Section \ref{section: Design Strategy} and the SR design criterion of Section \ref{section: SR criteria} establish a consistent set of guidelines for the design of both BOS and SBOS setups: 
+\par Taken together, the geometric analysis of Section \ref{section: Geometries of an SBOS optical setup}, the discussion of Section \ref{section: Sensitivity-Resolution Ratio}, the design space exploration of Section \ref{section: Design Strategy} and the SR design criterion of Section \ref{section: SR criteria} establish a consistent set of guidelines for the design of both BOS and SBOS setups: 
 
 \begin{itemize}
     \item Higher focal lengths make the SBOS system more robust to positional errors and increase the sensitivity limit for BOS. In case there are geometrical constraints, a lower $f$ can result in a more compact setup.
@@ -282,4 +282,4 @@ Further trends that can be generally mentioned are the effect on $M_{ag}$, $m$, 
     \item If $f$ and $f_\#$ are maximized, the $SR$ criterion can be used to select the setup that gives the best balance between the optical and CC spatial resolution.
 \end{itemize}
 
-\par Taken together, these design guidelines partially answer the first research sub-question posed in Chapter \ref{chapter: introduction}, namely what guidelines for the design of a SBOS setup can help balancing the trade-off between sensitivity and spatial resolution. They were used to select the design point of all the experimental campaigns, balancing sensitivity and spatial resolution for a certain field of view. It is not the whole picture however, as other practical guidelines were noticed throughout the tests and were collected in the Conclusions, Chapter \ref{chapter: Conclusion}. The following chapter describes the resulting experimental setups.
+\par Taken together, these design guidelines partially answer the first research sub-question posed in Chapter \ref{chapter: introduction}, namely what guidelines for the design of an SBOS setup can help balancing the trade-off between sensitivity and spatial resolution. They were used to select the design point of all the experimental campaigns, balancing sensitivity and spatial resolution for a certain field of view. It is not the whole picture however, as other practical guidelines were noticed throughout the tests and were collected in the Conclusions, Chapter \ref{chapter: Conclusion}. The following chapter describes the resulting experimental setups.
