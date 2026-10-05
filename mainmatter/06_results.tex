@@ -147,6 +147,7 @@ The glass displacement's uncertainty budget is summarized in Table \ref{tab: ang
     \centering
     \caption[Uncertainty budget of the measured displacement and sensitivity]{Uncertainty budget for the displacement measured by cross-correlation and sensitivity. The scatter of the vector field is evaluated from the data of Table \ref{tab: angled glass displacement results} and varies per point. For the magnification, DaVis calibration residual was used as its uncertainty which slightly varies per point, so the maximum was taken here. The pixel pitch is common to the whole campaign. The defocus distance was obtained with a metric tape and judged by about $\pm$ 1 mm. The contributions were obtained as explained in Table \ref{tab: angled glass uncertainty}. The bottom rows show the combined uncertainty for $\Delta x$ and $S_\Delta$ together with the formulas used to compute them. Since the values vary per point, its range is presented here but they can be found in Tables \ref{tab: angled glass displacement results} and \ref{tab: sensitivity comparison}, respectively}
     \label{tab: measurement uncertainty}
+    \small
     \begin{tabular}{llrrr}
         \toprule
         Source & Instrument & $a$ & $u$ & Contribution $c_i$ [\%] \\
@@ -422,7 +423,7 @@ The speckle pattern investigation campaign allowed for the study of the speckle 
 
 An under-expanded compressible jet was chosen as the object of study for the implementation of SBOS to a real refractive object. The goal of this experiment was to image the jet at various nozzle pressure ratios ($NPR$), post-process the raw displacement data into a quantitative density field, analyze the jet structure and study the influence of an increase in nozzle pressure. The setup of this experiment was explained in Section \ref{section: Compressible jet experiment}. Figure \ref{fig: compressible jet displacement fields} displays the results of the cross-correlation for the six different gauge pressures set at the wall air tap. The result is shown in pixels but DaVis also makes available the displacement at the focal plane, $ \Delta \xi =\Delta \cdot l_{px}/M_{ag} = \varepsilon \cdot l$. Therefore, the displacement fields are examined first, both to assess the effect of the nozzle pressure ratio on the jet structure and to verify whether the pressures set at the wall air tap are the ones reaching the nozzle.
 
-\subsection{Displacement Fields and $NPR$ Estimation}
+\subsection{Displacement Fields and \texorpdfstring{$NPR$}{NPR} Estimation}
 \label{subsection: Jet Displacement and NPR}
 
 \begin{figure}[htbp]
@@ -674,6 +675,7 @@ The final experiment implemented the SBOS method to image the flow through a lin
     \centering
     \caption[Optical configurations measured on site for the aerospike campaign]{Experimental optical configurations of the aerospike campaign. $l$ is the defocus distance, $l_{eff}$ the effective lever arm, $d_f$ the distance from the camera lens to the in-focus plane, $M_{ag}$ the magnification measured with the calibration plate, $L_{FoV_{obj}}$ the field of view at the model and $\Delta t_{exp}$ is the exposure time with which the images were captured. $S = l_{eff} \cdot M_{ag}$ is the sensitivity, $s_{min}$ the minimum distinguishable feature, $\Delta s$ the speckle size and $NPR$ the nozzle pressure ratio. ``Negative'' and ``Positive'' denote the in-focus plane lying respectively in front of or behind the model, while ``Inside TS'' denotes the focal plane inside the test section}
     \label{tab: aerospike experimental results}
+    \small
     \begin{tabular}{lrrrrrrrrrrl}
         \toprule
         Point & $l$ & $l_{eff}$ & $d_f$ & $M_{ag}$ & $L_{FoV_{obj}}$ & $\Delta t_{exp}$& $S$ & $s_{min}$ & $\Delta s$ & $NPR$ & Defocus \\
@@ -762,7 +764,7 @@ Nevertheless, imaging the flow inside the test section comes with its own limita
     S_2 = \frac{\Delta_2}{\Delta_1} S_1
 \end{equation}
 
-The maximum measured displacement of points 1, 2 and 3 were taken from the Cross-Correlation result and displayed in Table \ref{tab: S ratio}. The sensitivity of point 1 was calculated based on the one of point 3 and vice-versa in the ratio method column. Then, the sensitivity of point 2 was computed based on points 1 and 3. The deviation column shows that this method matches the $S= l \cdot M_{ag}$ formulation for the two defocused points within 5\%, at $-4.4\%$ for point 1 and $+4.8\%$ for point 3. For the point inside the test section, the two estimates differ from each other by $+4.6\%$, which lies between the other two, so the agreement does not degrade when the in-focus plane is moved into the test section. These deviations between the two sensitivity estimates might come from errors in the schlieren object such as $NPR$ fluctuations, that affect $\varepsilon$ and $\Delta_{max}$, or in the magnification and distance measurements. Nevertheless, this small demonstration shows the simplicity and promise of this method, enabling SBOS images to be taken with the refractive object in focus.
+The maximum measured displacements of points 1, 2 and 3 were taken from the cross-correlation result and displayed in Table \ref{tab: S ratio}. The sensitivity of point 1 was calculated based on the one of point 3 and vice-versa in the ratio method column. Then, the sensitivity of point 2 was computed based on points 1 and 3. The deviation column shows that this method matches the $S= l \cdot M_{ag}$ formulation for the two defocused points within 5\%, at $-4.4\%$ for point 1 and $+4.8\%$ for point 3. For the point inside the test section, the two estimates differ from each other by $+4.6\%$, which lies between the other two, so the agreement does not degrade when the in-focus plane is moved into the test section. These deviations between the two sensitivity estimates might come from errors in the schlieren object such as $NPR$ fluctuations, that affect $\varepsilon$ and $\Delta_{max}$, or in the magnification and distance measurements. Nevertheless, this small demonstration shows the simplicity and promise of this method, enabling SBOS images to be taken with the refractive object in focus.
 
 \begin{table}[htbp]
     \centering
@@ -837,6 +839,7 @@ A verification of the density gradient field computation can also be done by com
     \centering
     \caption[Peak density gradients of three repeated acquisitions of the same flow]{Peak density gradients of points 1 to 3. The three points image the same flow condition at three independent moments. For each component, the peak is the maximum value of the field. To avoid the chance of the match being due to an outlier, the average is taken over the 100 highest values. The last row displays the maximum deviation between the three points. All values are in kg m$^{-3}$ mm$^{-1}$}
     \label{tab: aerospike gradient peaks}
+    \small
     \begin{tabular}{lrrrrrr}
         \toprule
         Point & \multicolumn{2}{c}{$\partial \rho / \partial x$} & \multicolumn{2}{c}{$\partial \rho / \partial y$} & \multicolumn{2}{c}{$|\nabla \rho|$} \\
@@ -936,7 +939,7 @@ As before, the peaks of points with the same flow condition were compared to ver
     \end{tabular}
 \end{table}
 
-\subsection{Flow Structure and Effect of $NPR$}
+\subsection{Flow Structure and Effect of \texorpdfstring{$NPR$}{NPR}}
 \label{subsection: Aerospike Flow Structure}
 
 It is possible to once again use the x and y components of the density gradient to briefly interpret the flow's structures. For that, point 8 was selected and its gradients, displayed in Figure \ref{fig: aerospike density gradient point 8}, were carefully analyzed to produce Figure \ref{fig: aerospike flow interpretation point 8}. The same color convention applies, with red for a positive gradient and blue for a negative one. A striking red line of positive gradient next to the exhaust in the x component marks a compression wave. This wave reflects at the ramp into another compression wave signaled by a strong blue line of negative gradient in the y component and goes to the shear layer. In the shear layer, the wave is reflected into expansion fans, marked by a continuous blue zone of negative gradient in the x component. At the tip, a strong blue line of negative gradient in the y component and faint red dots of positive gradient in x mark a compression wave, which is followed below by an expansion wave signaled by a strong red line of positive gradient in y. There was no schlieren image available for comparison with the SBOS result with the same $NPR = 8$, only for $NPR = 7$. Nevertheless, the comparison is valid, as it is possible to see that the structures identified in SBOS match the schlieren image and are only shifted slightly to the left due to the lower $NPR$.
