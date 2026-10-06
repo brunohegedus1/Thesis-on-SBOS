@@ -40,3 +40,6 @@ Final Implementations/Speckle Pattern investigation/I3_2.mat
 
 # MATLAB editor backups
 *.asv
+
+# Figures and MAT files written by the scripts into their own folders
+Final Implementations/**/Figures/
