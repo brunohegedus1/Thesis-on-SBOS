@@ -238,7 +238,7 @@ Faced with the difficulties in creating a satisfactory speckle pattern in the fi
 
 \begin{table}[htbp]
     \centering
-    \caption[Speckle sizes of the speckle pattern investigation]{Speckle sizes measured during the experimental campaign, using the optical configurations of Table \ref{tab: speckle investigation matrix}. $M_{ag_{exp}}$ is the magnification measured with the calibration plate for points 1--13 and 29--31. $\Delta s_{th}$ is the size predicted by the Rayleigh limit and $\Delta s_{exp}$ is the estimated experimental size, reported both by the DaVis function and by the method of Hamarová et al. \cite{Hamarova2016}. The deviation columns give the difference of each measurement from the prediction. The column $u_{tot}$ is the combined standard uncertainty of $\Delta s_{exp}$. Points 1 to 13 vary the aperture and the ground glass distance, whereas points 14 to 28 hold both fixed and sweep the magnification. Points 29 to 31 were obtained with projected speckles, using the parameters of Table \ref{tab: projected speckle matrix}}
+    \caption[Speckle sizes of the speckle pattern investigation]{Speckle sizes measured during the experimental campaign, using the optical configurations of Table \ref{tab: speckle investigation matrix}. $M_{ag_{exp}}$ is the magnification measured with the calibration plate for points 1--13 and 29--31. $\Delta s_{th}$ is the size predicted by the Rayleigh limit, computed with the measured magnification $M_{ag_{exp}}$ and the actual f-stop numbers, and $\Delta s_{exp}$ is the estimated experimental size, reported both by the DaVis function and by the method of Hamarová et al. \cite{Hamarova2016}. The deviation columns give the difference of each measurement from the prediction. The column $u_{tot}$ is the combined standard uncertainty of $\Delta s_{exp}$. Points 1 to 13 vary the aperture and the ground glass distance, whereas points 14 to 28 hold both fixed and sweep the magnification. Points 29 to 31 were obtained with projected speckles, using the parameters of Table \ref{tab: projected speckle matrix}}
     \label{tab: speckle results}
     \begin{tabular}{lrrrrrrrrr}
         \toprule
@@ -247,39 +247,39 @@ Faced with the difficulties in creating a satisfactory speckle pattern in the fi
               & [--] & [mm] & [--] & [px] & $\Delta s_{exp}$ & $\Delta s$ dev. & $u_{tot}$ & $\Delta s_{exp}$ & $\Delta s$ dev. \\
               &      &      &      &      & [px] & [px] & [\%] & [px] & [px] \\
         \midrule
-         1 &  4.00 &  740 & 0.964 &  0.92 &  1.74 &  $+0.82$ &  6.35 &   1.20 &  $+0.28$ \\
-         2 & 11.31 &  740 & 0.964 &  2.59 &  2.73 &  $+0.14$ &  1.50 &   1.48 &  $-1.11$ \\
-         3 & 22.63 &  740 & 0.964 &  5.19 &  3.83 &  $-1.36$ & 11.45 &   2.00 &  $-3.19$ \\
-         4 &  4.00 &  740 & 0.296 &  0.61 &  1.62 &  $+1.02$ &  2.62 &   1.19 &  $+0.59$ \\
-         5 & 11.31 &  740 & 0.296 &  1.71 &  2.71 &  $+1.00$ &  7.11 &   1.56 &  $-0.15$ \\
-         6 & 22.63 &  740 & 0.296 &  3.42 &  3.81 &  $+0.39$ &  4.87 &   2.04 &  $-1.39$ \\
-         7 & 11.31 &  450 & 0.296 &  1.71 &  2.29 &  $+0.58$ &  6.60 &   1.35 &  $-0.36$ \\
-         8 & 11.31 &  280 & 0.296 &  1.71 &  2.45 &  $+0.74$ &  2.87 &   1.40 &  $-0.31$ \\
-         9 & 11.31 &  190 & 0.296 &  1.71 &  2.91 &  $+1.20$ &  2.79 &   1.59 &  $-0.12$ \\
-        10 & 11.31 &  100 & 0.296 &  1.71 &  4.59 &  $+2.88$ &  3.12 & failed &       -- \\
-        11 &  4.00 &  300 & 0.877 &  0.88 &  2.42 &  $+1.54$ &  1.50 &   1.45 &  $+0.57$ \\
-        12 & 11.31 &  300 & 0.877 &  2.49 &  2.98 &  $+0.49$ &  1.50 &   1.67 &  $-0.82$ \\
-        13 & 22.63 &  300 & 0.877 &  4.97 &  4.15 &  $-0.83$ &  1.55 &   2.41 &  $-2.56$ \\
+          1 &  4.00 &  740 & 0.964 &  0.93 &  1.74 &   $+0.81$ &  6.35 &   1.20 &   $+0.27$ \\
+          2 & 11.31 &  740 & 0.964 &  2.64 &  2.73 &   $+0.09$ &  1.50 &   1.48 &   $-1.16$ \\
+          3 & 22.63 &  740 & 0.964 &  5.28 &  3.83 &   $-1.45$ & 11.45 &   2.00 &   $-3.28$ \\
+          4 &  4.00 &  740 & 0.296 &  0.62 &  1.62 &   $+1.00$ &  2.62 &   1.19 &   $+0.57$ \\
+          5 & 11.31 &  740 & 0.296 &  1.74 &  2.71 &   $+0.97$ &  7.11 &   1.56 &   $-0.18$ \\
+          6 & 22.63 &  740 & 0.296 &  3.48 &  3.81 &   $+0.33$ &  4.87 &   2.04 &   $-1.44$ \\
+          7 & 11.31 &  450 & 0.296 &  1.74 &  2.29 &   $+0.55$ &  6.60 &   1.35 &   $-0.39$ \\
+          8 & 11.31 &  280 & 0.296 &  1.74 &  2.45 &   $+0.71$ &  2.87 &   1.40 &   $-0.34$ \\
+          9 & 11.31 &  190 & 0.296 &  1.74 &  2.91 &   $+1.17$ &  2.79 &   1.59 &   $-0.15$ \\
+        10 & 11.31 &  100 & 0.296 &  1.74 &  4.59 &   $+2.85$ &  3.12 & failed &        -- \\
+        11 &  4.00 &  300 & 0.877 &  0.89 &  2.42 &   $+1.53$ &  1.50 &   1.45 &   $+0.56$ \\
+        12 & 11.31 &  300 & 0.877 &  2.52 &  2.98 &   $+0.46$ &  1.50 &   1.67 &   $-0.85$ \\
+        13 & 22.63 &  300 & 0.877 &  5.04 &  4.15 &   $-0.89$ &  1.55 &   2.41 &   $-2.63$ \\
         \midrule
-        14 & 22.63 &  300 & 1.000 &  5.37 &  3.05 &  $-2.33$ &  1.52 &   1.81 &  $-3.57$ \\
-        15 & 22.63 &  300 & 0.909 &  5.13 &  3.14 &  $-1.99$ &  1.50 &   1.76 &  $-3.38$ \\
-        16 & 22.63 &  300 & 0.800 &  4.84 &  3.26 &  $-1.58$ &  1.50 &   1.86 &  $-2.98$ \\
-        17 & 22.63 &  300 & 0.667 &  4.48 &  2.66 &  $-1.81$ &  6.43 &   1.60 &  $-2.88$ \\
-        18 & 22.63 &  300 & 0.571 &  4.22 &  2.80 &  $-1.42$ &  4.78 &   1.65 &  $-2.57$ \\
-        19 & 22.63 &  300 & 0.500 &  4.03 &  2.39 &  $-1.64$ &  2.80 &   1.47 &  $-2.56$ \\
-        20 & 22.63 &  300 & 0.400 &  3.76 &  3.60 &  $-0.16$ &  2.39 &   1.68 &  $-2.08$ \\
-        21 & 22.63 &  300 & 0.333 &  3.58 &  2.16 &  $-1.42$ &  4.13 &   1.42 &  $-2.16$ \\
-        22 & 22.63 &  300 & 0.286 &  3.46 &  2.38 &  $-1.07$ &  3.39 &   1.48 &  $-1.97$ \\
-        23 & 22.63 &  300 & 0.222 &  3.28 &  2.53 &  $-0.76$ &  4.66 &   1.59 &  $-1.70$ \\
-        24 & 22.63 &  300 & 0.167 &  3.13 &  2.88 &  $-0.25$ &  3.33 &   1.74 &  $-1.39$ \\
-        25 & 22.63 &  300 & 0.118 &  3.00 &  3.06 &  $+0.06$ &  3.42 &   1.91 &  $-1.09$ \\
-        26 & 22.63 &  300 & 0.074 &  2.89 &  2.72 &  $-0.17$ &  3.05 &   1.65 &  $-1.23$ \\
-        27 & 22.63 &  300 & 0.054 &  2.83 &  2.76 &  $-0.07$ &  1.82 &   1.71 &  $-1.12$ \\
-        28 & 22.63 &  300 & 0.035 &  2.78 &  3.09 &  $+0.31$ &  5.47 &   1.87 &  $-0.91$ \\
+        14 & 22.63 &  300 & 1.000 &  5.37 &  3.05 &   $-2.33$ &  1.52 &   1.81 &   $-3.57$ \\
+        15 & 22.63 &  300 & 0.909 &  5.13 &  3.14 &   $-1.99$ &  1.50 &   1.76 &   $-3.38$ \\
+        16 & 22.63 &  300 & 0.800 &  4.84 &  3.26 &   $-1.58$ &  1.50 &   1.86 &   $-2.98$ \\
+        17 & 22.63 &  300 & 0.667 &  4.48 &  2.66 &   $-1.81$ &  6.43 &   1.60 &   $-2.88$ \\
+        18 & 22.63 &  300 & 0.571 &  4.22 &  2.80 &   $-1.42$ &  4.78 &   1.65 &   $-2.57$ \\
+        19 & 22.63 &  300 & 0.500 &  4.03 &  2.39 &   $-1.64$ &  2.80 &   1.47 &   $-2.56$ \\
+        20 & 22.63 &  300 & 0.400 &  3.76 &  3.60 &   $-0.16$ &  2.39 &   1.68 &   $-2.08$ \\
+        21 & 22.63 &  300 & 0.333 &  3.58 &  2.16 &   $-1.42$ &  4.13 &   1.42 &   $-2.16$ \\
+        22 & 22.63 &  300 & 0.286 &  3.46 &  2.38 &   $-1.07$ &  3.39 &   1.48 &   $-1.97$ \\
+        23 & 22.63 &  300 & 0.222 &  3.28 &  2.53 &   $-0.76$ &  4.66 &   1.59 &   $-1.70$ \\
+        24 & 22.63 &  300 & 0.167 &  3.13 &  2.88 &   $-0.25$ &  3.33 &   1.74 &   $-1.39$ \\
+        25 & 22.63 &  300 & 0.118 &  3.00 &  3.06 &   $+0.06$ &  3.42 &   1.91 &   $-1.09$ \\
+        26 & 22.63 &  300 & 0.074 &  2.89 &  2.72 &   $-0.17$ &  3.05 &   1.65 &   $-1.23$ \\
+        27 & 22.63 &  300 & 0.054 &  2.83 &  2.76 &   $-0.07$ &  1.82 &   1.71 &   $-1.12$ \\
+        28 & 22.63 &  300 & 0.035 &  2.78 &  3.09 &   $+0.31$ &  5.47 &   1.87 &   $-0.91$ \\
         \midrule
-        29 &  4.00 &  300 & 0.457 &  0.67 &  1.59 &  $+0.92$ &  1.54 &   1.22 &  $+0.55$ \\
-        30 & 11.31 &  300 & 0.457 &  1.90 &  2.21 &  $+0.31$ &  1.80 &   1.44 &  $-0.46$ \\
-        31 & 22.63 &  300 & 0.457 &  3.81 &  3.61 &  $-0.20$ &  2.08 &   2.09 &  $-1.72$ \\
+        29 &  4.00 &  300 & 0.457 &  0.69 &  1.59 &   $+0.90$ &  1.54 &   1.22 &   $+0.53$ \\
+        30 & 11.31 &  300 & 0.457 &  1.96 &  2.21 &   $+0.25$ &  1.80 &   1.44 &   $-0.52$ \\
+        31 & 22.63 &  300 & 0.457 &  3.92 &  3.61 &   $-0.31$ &  2.08 &   2.09 &   $-1.83$ \\
         \bottomrule
     \end{tabular}
 \end{table}
@@ -296,7 +296,7 @@ Table \ref{tab: speckle results} and Figure \ref{fig: speckle size per point} sh
     \label{fig: speckle size per point}
 \end{figure}
 
-Regarding the Rayleigh limit reproduction, it is possible to see that the results are much closer to the predicted values than the ones presented previously in Table \ref{tab: angled glass speckle results}. The deviations now span from 0.06 px to a maximum of 2.88 px, instead of 9.59 to 22.30 px from before. Nevertheless, the relative error is still large overall, with the worst results at the points with subpixel speckles and close to 5 px. The deviation also exceeds the post-processing uncertainty at nearly every point, which reached a maximum of 11.45\% in Table \ref{tab: speckle size uncertainty}. Regardless, the data obtained provides a better fit to the Rayleigh diffraction prediction, showing that the equation can be used as a rough preliminary estimator of the speckle size. The results also allow for the identification of useful trends and comparisons in speckle production, as will be shown.
+Regarding the Rayleigh limit reproduction, it is possible to see that the results are much closer to the predicted values than the ones presented previously in Table \ref{tab: angled glass speckle results}. The deviations now span from 0.06 px to a maximum of 2.85 px, instead of 9.59 to 22.30 px from before. Nevertheless, the relative error is still large overall, with the worst results at the points with subpixel speckles and close to 5 px. The deviation also exceeds the post-processing uncertainty at nearly every point, which reached a maximum of 11.45\% in Table \ref{tab: speckle size uncertainty}. Regardless, the data obtained provides a better fit to the Rayleigh diffraction prediction, showing that the equation can be used as a rough preliminary estimator of the speckle size. The results also allow for the identification of useful trends and comparisons in speckle production, as will be shown.
 
 Points 29 to 31 of Table \ref{tab: speckle results} were obtained with projected speckles. Compared to directed speckles, the projected speckles show a similar deviation to theory and an overall smaller speckle size, which is hinted by Figure \ref{fig: speckle f-number sweep}. The results are too similar to the directed speckle approach to discriminate which method to use based on speckle size. Therefore, the trade-off on how to create the speckle pattern depends more on practical considerations than on its speckle characteristics. Projected speckles might be preferable in applications where only one optical access is available; where powerful lasers are being used that could damage the camera or when the double-pass method of Meier \& Rösgen \cite{Meier&Roesgen2013} needs to be used for increased sensitivity. Directed speckles, on the other hand, provide more intensity, which allows for lower exposures, and might be preferable when a see-through optical access is available.
 
@@ -688,10 +688,10 @@ The final experiment implemented the SBOS method to image the flow through a lin
          5 &  55 & 160 & 1038.0 & 0.239 & 67.90 & 480 & 38.2 & 0.701 & 3.52 & 10 & Negative \\
          6 &  55 & 160 & 1038.0 & 0.239 & 67.90 & 480 & 38.2 & 0.701 & 3.52 & 12 & Negative \\
          7 &  55 & 160 & 1038.0 & 0.239 & 67.90 & 480 & 38.2 & 0.701 & 3.52 & 14 & Negative \\
-         8 & $-15$ & -- & 1107.5 & 0.220 & 68.88 & 480 & -- & -- & 2.32 &  8 & Inside TS \\
-         9 & $-15$ & -- & 1107.5 & 0.220 & 68.88 & 480 & -- & -- & 2.32 & 10 & Inside TS \\
-        10 & $-15$ & -- & 1107.5 & 0.220 & 68.88 & 480 & -- & -- & 2.32 & 12 & Inside TS \\
-        11 & $-15$ & -- & 1107.5 & 0.220 & 68.88 & 480 & -- & -- & 2.32 & 14 & Inside TS \\
+         8 & $-45$ & -- & 1107.5 & 0.220 & 68.88 & 480 & -- & -- & 2.32 &  8 & Inside TS \\
+         9 & $-45$ & -- & 1107.5 & 0.220 & 68.88 & 480 & -- & -- & 2.32 & 10 & Inside TS \\
+        10 & $-45$ & -- & 1107.5 & 0.220 & 68.88 & 480 & -- & -- & 2.32 & 12 & Inside TS \\
+        11 & $-45$ & -- & 1107.5 & 0.220 & 68.88 & 480 & -- & -- & 2.32 & 14 & Inside TS \\
         \bottomrule
     \end{tabular}
 \end{table}
@@ -784,7 +784,7 @@ The maximum measured displacements of points 1, 2 and 3 were taken from the cros
 \subsection{Nozzle Flow against Static Freestream Flow}
 \label{subsection: Aerospike Gradient Verification}
 
-Now that the sensitivity of point 2 is known, the density gradient field can be obtained by assuming a 2D planar flow and applying Equation \ref{equation: In-plane displacement}. In this case, an effective lever arm was calculated by dividing the Sensitivity of Table \ref{tab: S ratio} with point 2's optical magnification, $l_{eff} = S/M_{ag} = 126.29$ mm. It is notable that this is different from the $l_{eff} = l + G+W/2$ previously used, which makes it evident that the $S = l_{eff} \cdot M_{ag}$ model breaks when the focus is inside the test section. The points imaged with the freestream flow show the same behavior, with the ratio method returning 123.5 mm against a geometric 90 mm. The two recovered values are close to one another, but the setups differ in more than the defocus distance and each estimate carries a scatter of the same order as the gap between them, so no relation to the test section geometry can be established from these measurements. What the model that replaces $S = l_{eff} M_{ag}$ should be remains an open question.
+Now that the sensitivity of point 2 is known, the density gradient field can be obtained by assuming a 2D planar flow and applying Equation \ref{equation: In-plane displacement}. In this case, an effective lever arm was calculated by dividing the Sensitivity of Table \ref{tab: S ratio} with point 2's optical magnification, $l_{eff} = S/M_{ag} = 126.29$ mm. It is notable that this is different from the $l_{eff} = l + G+W/2$ previously used, which makes it evident that the $S = l_{eff} \cdot M_{ag}$ model breaks when the focus is inside the test section. The points imaged with the freestream flow show the same behavior, with the ratio method returning 123.5 mm against a geometric 60 mm. The two recovered values are close to one another, but the setups differ in more than the defocus distance and each estimate carries a scatter of the same order as the gap between them, so no relation to the test section geometry can be established from these measurements. What the model that replaces $S = l_{eff} M_{ag}$ should be remains an open question.
 
 The density gradient fields were then obtained using Equation \ref{equation: In-plane displacement}. Figure \ref{fig: aerospike density gradient fields} shows the x component of the gradient on \ref{fig: aerospike density gradient x} and the y component on \ref{fig: aerospike density gradient y}. As in Figure \ref{fig: dataset f density gradients}, the color scale displays a positive gradient in red and a negative one in blue, and the sign is stated alongside each color below. The information of the two pictures allowed the identification of compression and expansion waves in the flow, which were marked in Figure \ref{fig: aerospike flow interpretation}. A very clear red line of positive gradient next to the exhaust in the x component signals a compression wave that reflects into another wave of the same type marked by a blue line of negative gradient in the y component. The compression wave hits the shear layer and becomes an expansion fan, hinted by the blue region of negative gradient in the x component. A pocket of positive gradient in red in the y component, on the right of the negative blue region, hints that the expansion fan reflects into waves of the same type when it hits the ramp. Next, a faintly red region of weakly positive gradient emerges both in the y and x components, indicating that the expansion waves reflect at the shear layer into very weak compression waves, until they reach another expansion fan at the truncation lip, marked by a homogeneous red region of positive gradient in the y component. It seems that the waves behave as predicted by the theory displayed in Chapter \ref{chapter: Theory}, reflecting into waves of the same type at the ramp and shifting their type when interacting with the shear layer. This interpretation demonstrates the capacity of SBOS to produce images with enough resolution and sensitivity to qualitatively interpret the flow structure at hand.
 
