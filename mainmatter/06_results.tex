@@ -420,7 +420,9 @@ The speckle pattern investigation campaign allowed for the study of the speckle 
 \section{Compressible Jet Experiment Results}
 \label{section: Compressible Jet Experiment Results}
 
-An under-expanded compressible jet was chosen as the object of study for the implementation of SBOS to a real refractive object. The goal of this experiment was to image the jet at various nozzle pressure ratios ($NPR$), post-process the raw displacement data into a quantitative density field, analyze the jet structure and study the influence of an increase in nozzle pressure. The setup of this experiment was explained in Section \ref{section: Compressible jet experiment}. Figure \ref{fig: compressible jet displacement fields} displays the results of the cross-correlation for the six different gauge pressures set at the wall air tap. The result is shown in pixels but DaVis also makes available the displacement at the focal plane, $ \Delta \xi =\Delta \cdot l_{px}/M_{ag} = \varepsilon \cdot l$. Therefore, the displacement fields are examined first, both to assess the effect of the nozzle pressure ratio on the jet structure and to verify whether the pressures set at the wall air tap are the ones reaching the nozzle.
+An under-expanded compressible jet was chosen as the object of study for the implementation of SBOS to a real refractive object. The goal of this experiment was to image the jet at various nozzle pressure ratios ($NPR$), post-process the raw displacement data into a quantitative density field, analyze the jet structure and study the influence of an increase in nozzle pressure. The setup of this experiment was explained in Section \ref{section: Compressible jet experiment}. Figure \ref{fig: compressible jet displacement fields} displays the results of the cross-correlation for the six different gauge pressures set at the wall air tap. The result is shown in pixels but DaVis also makes available the displacement at the focal plane, $ \Delta \xi =\Delta \cdot l_{px}/M_{ag} = \varepsilon \cdot l$. The displacement fields are examined first to assess the effect of the nozzle pressure ratio on the jet structure. Eventually, it was found a mismatch between the imposed pressure and actual one, and the analysis of the structured helped calculating the true nozzle pressure.
+
+%Therefore, the displacement fields are examined first, both to assess the effect of the nozzle pressure ratio on the jet structure and to verify whether the pressures set at the wall air tap are the ones reaching the nozzle.
 
 \subsection{Displacement Fields and \texorpdfstring{$NPR$}{NPR} Estimation}
 \label{subsection: Jet Displacement and NPR}
@@ -497,7 +499,7 @@ The strategy envisioned to better estimate the nozzle pressure ratio builds on t
     \end{tabular}
 \end{table}
 
-The $NPR$ estimates displayed in Table \ref{tab: compressible jet NPR estimates} better fit the theory but also mean that the pressure losses in the line were extremely high. The nozzle pressure ratios range from 2 to 4, exactly the range where an ``X'' shaped shock cell would be expected. Moreover, the shock cell lengths of datasets e and f are nearly equal, although their $NPR$ estimates differ by 0.53, the largest step of the sweep; this is also where the fit of Figure \ref{fig: shock cell lengths} deviates most. A question arises, however, when the estimate of total pressure is compared with the one at the air tap gauge, as a loss of 47 to 56\% cannot be explained with friction losses alone. These other sources of loss were probably choke points in the line, at quick disconnect joints or at a non-fully pressed air gun trigger. Another way to verify these estimates is through comparison with literature data by computing the density gradient field, Figure \ref{fig: dataset f density gradients}, measuring the shock cell length and relating them to the $NPR$ through the literature relationships of Section \ref{section: Compressible Jet Theory}.
+The $NPR$ estimates displayed in Table \ref{tab: compressible jet NPR estimates} better fit the theory but also mean that the pressure losses in the line were extremely high. The nozzle pressure ratios range from 2 to 4, exactly the range where an ``X'' shaped shock cell would be expected. Moreover, the shock cell lengths of datasets e and f are nearly equal, although their $NPR$ estimates differ by 0.53, the largest step of the sweep; this is also where the fit of Figure \ref{fig: shock cell lengths} deviates most. A question arises, however, when the estimate of total pressure is compared with the one at the air tap gauge, as a loss of 47 to 56\% cannot be explained with friction losses alone. These other sources of loss could be probably choke points in the line, at quick disconnect joints, damage in the used lab air gun or at a non-fully pressed air gun trigger. Another way to verify these estimates is through comparison with literature data by computing the density gradient field, Figure \ref{fig: dataset f density gradients}, measuring the shock cell length and relating them to the $NPR$ through the literature relationships of Section \ref{section: Compressible Jet Theory}.
 
 \begin{figure}[htbp]
     \centering
@@ -859,21 +861,21 @@ Points 4--11 imaged the aerospike nozzle influenced by an external Mach 2 flow c
 
 \begin{figure}[htbp]
     \centering
-    \begin{subfigure}[b]{0.34\textwidth}
+    \begin{subfigure}[b]{0.39\textwidth}
         \centering
-        \includegraphics[width=1.2\textwidth]{figures/aerospike displacement point 5.jpg}
+        \includegraphics[width=1\textwidth]{figures/aerospike displacement point 5.jpg}
         \caption{SBOS, point 5}
         \label{fig: aerospike displacement point 5}
     \end{subfigure}
     \hfill
     \begin{subfigure}[b]{0.34\textwidth}
         \centering
-        \includegraphics[width=1.1\textwidth]{figures/aerospike displacement point 9.jpg}
+        \includegraphics[width=1\textwidth]{figures/aerospike displacement point 9.jpg}
         \caption{SBOS, point 9}
         \label{fig: aerospike displacement point 9}
     \end{subfigure}
     \hfill
-    \begin{subfigure}[b]{0.27\textwidth}
+    \begin{subfigure}[b]{0.23\textwidth}
         \centering
         \includegraphics[width=\textwidth]{figures/aerospike schlieren NPR10.png}
         \caption{schlieren, credit to Gupta \cite{Gupta2026}}
