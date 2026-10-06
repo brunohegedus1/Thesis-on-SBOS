@@ -5,10 +5,10 @@
 %   displacement.
 %
 %   Input files (relative to this script):
-%       ../data/angled_glass_experimental.csv
+%       data/angled_glass_experimental.csv
 %           Points, sheet_ref, campaign, f#, f, l, df, S, M, type,
 %           delta (px), StdDev (px)
-%       ../data/angled_glass_errors.csv
+%       data/angled_glass_errors.csv
 %           Points, sheet_ref, df/S/M/delta errors in %
 %
 %   Numbering. Points 1-20 follow the tables in Chapter 5. The sheet_ref
@@ -60,14 +60,33 @@ clear; close all; clc
 
 %% Configuration
 scriptDir   = fileparts(mfilename('fullpath'));
-dataDir     = fullfile(scriptDir, '..', 'data');
-campaign    = 'slider-sweep';   % 'slider-sweep' (points 10-20) or 'setup-matrix' (1-9)
+dataDir     = fullfile(scriptDir, 'data');          % the CSVs sit in this folder
+campaign    = 'setup-matrix';   % 'slider-sweep' (points 10-20) or 'setup-matrix' (1-9)
 focalLength = 0.200;            % [m] lens to plot; use 0.105 for the short lens
 groupBy     = 'defocus';        % 'defocus' or 'fstop'
 errorSource = 'scatter';        % 'scatter' or 'bias'
-saveFigure  = false;
-outFile     = fullfile(scriptDir, ...
-              sprintf('sensitivity_%s_f%03.0fmm.pdf', campaign, focalLength*1e3));
+saveFigure  = true;
+outFormat   = 'jpg';            % 'jpg' (raster) or 'pdf' (vector)
+
+% Text size on the page. The figure is drawn at the size it occupies in the
+% report and every label is set to fontSize, so the exported file needs no
+% rescaling by LaTeX and its letters print at exactly fontSize points.
+% textWidth is the class text width (a4paper, hscale = 0.75, so
+% 0.75*210 = 157.5 mm) and widthFrac the subfigure width used in Chapter 6,
+% where both panels sit in 0.49\textwidth boxes.
+fontSize    = 8;                % pt, all text in the figure
+textWidth   = 15.75;            % cm, \textwidth of the report class
+widthFrac   = 0.49;             % fraction of \textwidth the panel occupies
+figW        = widthFrac*textWidth;
+figH        = 6.00;             % cm, free to choose, the panels sit side by side
+printDpi    = 600;              % raster resolution of the exported jpg
+
+% File names as they are included in the report.
+switch campaign
+    case 'slider-sweep', baseName = 'S vs l slider experiment';
+    otherwise,           baseName = 'S vs l experimental';
+end
+outFile     = fullfile(scriptDir, sprintf('%s.%s', baseName, outFormat));
 
 %% Load and merge
 expData = loadCsv(fullfile(dataDir, 'angled_glass_experimental.csv'));
@@ -140,16 +159,20 @@ end
 
 %% Axes ranges, chosen per campaign so each fills the frame
 switch campaign
+    % Tick spacing is wider than the data would allow, because at 8 pt on a
+    % panel 7.7 cm wide the former labels collided: eleven labels left about
+    % 7 mm each for text roughly 8.5 mm long.
     case 'slider-sweep'
-        xLim = [-0.06 0.06];  xTick = -0.05:0.01:0.05;
-        yLim = [0 0.045];     yTick = 0:0.005:0.045;
+        xLim = [-0.06 0.06];  xTick = -0.05:0.025:0.05;
+        yLim = [0 0.045];     yTick = 0:0.01:0.04;
     otherwise
-        xLim = [-0.20 0.25];  xTick = -0.20:0.05:0.25;
+        xLim = [-0.20 0.25];  xTick = -0.20:0.10:0.20;
         yLim = [0 0.14];      yTick = 0:0.02:0.14;
 end
 
 %% Plot
-figure('Color', 'w', 'Position', [100 100 780 440]);
+figure('Color', 'w', 'Units', 'centimeters', ...
+       'Position', [4 4 figW figH], 'PaperPositionMode', 'auto');
 hold on; grid on; box on
 
 xline(0, '-', 'Color', [0.75 0.75 0.75], 'HandleVisibility', 'off');
@@ -159,35 +182,72 @@ for k = 1:numel(keys)
     m = inGroup(keys(k));
     if ~any(m), continue; end
 
+    % Marker, bar and cap sizes are in points, so they do not shrink with
+    % the figure. They are set for the printed panel size, where the former
+    % values, chosen for a figure about three times wider, covered the data.
     h(k) = errorbar(lSigned(m), T.S(m), sErrAbs(m), 'o', ...
                     'LineStyle',       'none', ...
                     'Color',           [0.15 0.15 0.15], ...  % bars
                     'MarkerFaceColor', colours{k}, ...
                     'MarkerEdgeColor', colours{k}, ...
-                    'MarkerSize',      6, ...
-                    'LineWidth',       0.9, ...
-                    'CapSize',         6, ...
+                    'MarkerSize',      2.8, ...
+                    'LineWidth',       0.8, ...
+                    'CapSize',         3, ...
                     'DisplayName',     labels{k});
 end
 h = h(isgraphics(h));
 
 xlabel('l [m]');
 ylabel('S [m]');
-title({sprintf('Sensitivity for f = %g mm  (%s)', focalLength*1e3, campaign), barLabel});
+% Titles as they appear in the thesis figures. barLabel is still printed
+% to the console so the error bar choice stays traceable.
+switch campaign
+    case 'slider-sweep'
+        % Shorter than the former "(linear slider sweep)": at 8 pt on a
+        % panel 7.7 cm wide the longer title ran past the axes.
+        figTitle = sprintf('Sensitivity for f= %gmm, slider sweep', focalLength*1e3);
+    otherwise
+        figTitle = sprintf('Sensitivity comparison for f= %gmm', focalLength*1e3);
+end
+title(figTitle);
+fprintf('%s\n', barLabel);
 
-xlim(xLim);  xticks(xTick);
+xlim(xLim);  xticks(xTick);  xtickangle(0);   % keep labels horizontal
 ylim(yLim);  yticks(yTick);
 ytickformat('%.4f');
 
-legend(h, 'Location', 'southoutside', 'Orientation', 'horizontal', 'Box', 'off');
-set(gca, 'FontSize', 10, 'GridAlpha', 0.15, 'Layer', 'top');
-set(get(gca, 'Title'), 'FontSize', 11);
+% The defocus labels are long, so they are stacked; the f-number labels are
+% short enough to share one row. Side by side, the defocus pair is about
+% 9 cm wide and would run off a panel of 7.7 cm.
+switch lower(groupBy)
+    case 'defocus', legCols = 1;
+    otherwise,      legCols = numel(h);
+end
+legend(h, 'Location', 'southoutside', 'NumColumns', legCols, 'Box', 'off');
+% One size for every letter in the figure. MATLAB draws axis labels and the
+% title larger than the axes font size by default, so both multipliers are
+% set to 1 before the font size is applied to all text objects.
+set(gca, 'FontSize', fontSize, 'GridAlpha', 0.15, 'Layer', 'top', ...
+         'LabelFontSizeMultiplier', 1, 'TitleFontSizeMultiplier', 1);
+ax = gca;
+ax.Toolbar.Visible = 'off';        % keep the axes toolbar out of exported images
+set(get(gca, 'Title'), 'FontWeight', 'bold');
+set(findall(gcf, '-property', 'FontSize'), 'FontSize', fontSize);
 
 hold off
 
 if saveFigure
-    exportgraphics(gcf, outFile, 'ContentType', 'vector');
-    fprintf('Saved %s\n', outFile);
+    % PRINT, not EXPORTGRAPHICS: the latter crops the margins, which makes
+    % the file narrower than the panel. LaTeX would then stretch it back to
+    % 0.49\textwidth and the letters would print larger than fontSize.
+    if strcmpi(outFormat, 'pdf')
+        set(gcf, 'PaperUnits', 'centimeters', 'PaperSize', [figW figH], ...
+                 'PaperPosition', [0 0 figW figH]);
+        print(gcf, outFile, '-dpdf', '-vector');
+    else
+        print(gcf, outFile, '-djpeg95', sprintf('-r%d', printDpi));
+    end
+    fprintf('Saved %s  (%.2f x %.2f cm, %d pt text)\n', outFile, figW, figH, fontSize);
 end
 
 %% Helpers

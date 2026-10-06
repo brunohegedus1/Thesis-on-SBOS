@@ -1,6 +1,55 @@
-# LaTeX × TU Delft - Report/Thesis Template
+# Thesis on SBOS
 
-This template aims to simplify and improve the (Xe)LaTeX report/thesis template by Delft University of Technology with the following three main design principles:
+MSc thesis of Bruno Muzy Hegedüs, "Implementation of Laser-Speckled
+Background Oriented Schlieren to Wind Tunnel Experiments". The repository
+holds the LaTeX source of the report, its figures, and the MATLAB code that
+produces the results. The sections on the template, further down, come with
+the TU Delft class the report is built on.
+
+## Report source
+
+Chapters sit in `mainmatter/`, appendices in `appendix/`, the front matter in
+`frontmatter/` and every figure in `figures/`. `report.tex` inputs them all
+and `tudelft-report.cls` is the document class. Build with
+`latexmk -xelatex report.tex`.
+
+## MATLAB implementations
+
+`Final Implementations/` holds the MATLAB code behind the results, one folder
+per experiment:
+
+| Folder | What it produces |
+|---|---|
+| `Methodology` | the design space exploration of Chapter 4 and the surface maps of Appendix C |
+| `Angled glass experiment` | sensitivity against defocus distance, Figure 6.1 |
+| `Speckle Pattern investigation` | speckle size per point and its uncertainty, Tables 6.7 and 6.8 |
+| `Compressible jet experiment` | displacement fields, density and density gradient fields, shock cell lengths |
+| `Aerospike experiment` | density gradient fields and speckle size of the aerospike runs |
+
+`Final Implementations/README.md` lists every script, what it does, the data
+it reads and what was left out of the collection.
+
+### Measurement data
+
+The DaVis exports are not in this repository. They run from 30 to 160 MB per
+file and 7.4 GB in total, past the 100 MB per file that GitHub accepts, so
+`.gitignore` keeps these out and they live on the local disk only:
+
+* `Compressible jet experiment/CC results/` and `BOS_data/`
+* `Aerospike experiment/Aerospike Data/` and `Aerospike Speckle Data/`
+* `Speckle Pattern investigation/I*.csv`, `I*_2.txt`, `I3_2.mat` and `Exp1/`
+
+What is tracked is every script plus the small files the plotting scripts
+read: the sweep outputs of Chapter 4, the angled glass measurements, the
+speckle size tables, the digitised Emden and Panda curves and the extracted
+centrelines, 0.8 MB together. Those scripts therefore run from a fresh clone.
+The ones that read a raw export need the data put back next to them, at the
+paths listed above.
+
+## Report template
+
+This template aims
+ to simplify and improve the (Xe)LaTeX report/thesis template by Delft University of Technology with the following three main design principles:
 
 * **Simplicity First:** A class file that has been reduced by nearly 70% to simplify customization;
 * **Effortless:** A careful selection of common packages to get started immediately;

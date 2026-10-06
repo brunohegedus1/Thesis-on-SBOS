@@ -25,3 +25,18 @@ texput.*
 .DS_Store
 Thumbs.db
 desktop.ini
+
+# Measurement data of Final Implementations. The exports run from 30 to 160 MB
+# per file and 7.4 GB in total, past GitHub's 100 MB file limit, so they stay
+# on the local disk. See 'Final Implementations/README.md' for the layout.
+Final Implementations/Compressible jet experiment/CC results/
+Final Implementations/Compressible jet experiment/BOS_data/
+Final Implementations/Aerospike experiment/Aerospike Data/
+Final Implementations/Aerospike experiment/Aerospike Speckle Data/
+Final Implementations/Speckle Pattern investigation/Exp1/
+Final Implementations/Speckle Pattern investigation/I*.csv
+Final Implementations/Speckle Pattern investigation/I*_2.txt
+Final Implementations/Speckle Pattern investigation/I3_2.mat
+
+# MATLAB editor backups
+*.asv
