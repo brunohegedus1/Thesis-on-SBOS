@@ -6,16 +6,16 @@ This thesis investigated the implementation of Laser-Speckled Background Oriente
 \section{Practical Guidelines for the Design of an SBOS Setup}
 \label{section: practical Guidelines for the Design of SBOS}
 
-The first research sub-question intended to discover what should be the practical guidelines for designing an SBOS setup. Chapter \ref{chapter: methodology} partially answered this question by summarizing the design guidelines resulting from the analysis of the design space surface maps. These recommendations survived the implementation in real experimental setups. However, further recommendations were collected throughout the duration of the thesis and can now be presented as a whole to aid the implementation of this technique by other researchers.
+The first research sub-question intended to discover what should be the practical guidelines for designing an SBOS setup, including its optical configuration and speckle generation. Chapter \ref{chapter: methodology} partially answered this question by summarizing the design guidelines resulting from the analysis of the design space surface maps. These recommendations held when implemented in the experimental setups. However, further recommendations were collected throughout the duration of the thesis and can now be presented as a whole to aid the implementation of this technique by other researchers.
 
 Regarding the \textbf{optical setup}:
 
 \begin{itemize}
-    \item The equations collected here and the surface maps constructed by solving them display the main trends of an SBOS optical setup. These serve as useful tools for preliminary design, as shown by their use in the four experimental campaigns.
+    \item The equations of Chapter \ref{chapter: methodology} and the surface maps constructed by solving them display the main trends of an SBOS optical setup. These serve as useful tools for preliminary design, as shown by their use in the four experimental campaigns.
 
-    \item A negative defocus configuration is preferable to positive defocus. It provides a higher magnification for the same defocus distance, this way improving the Sensitivity-Resolution trade-off presented in Equation \ref{equation: S over smin}.
+    \item Where the density gradients are moderate, a negative defocus configuration is preferable to positive defocus. It provides a higher magnification for the same defocus distance, this way improving the sensitivity-resolution trade-off presented in Equation \ref{equation: S over smin}. Where the gradients are strong enough to blur the pattern to decorrelation, the in-focus plane should instead be moved into the test section, as discussed below.
 
-    \item A higher $f_\#$ is preferable as it makes a better sensitivity-resolution trade-off easier to achieve. However, the smaller aperture might reduce contrast and require larger exposure times, which increase motion blur. SBOS uses a laser directly pointed at the camera, which produces high luminous contrast, allowing exposure times of a few hundred microseconds with a 0.5 mW laser.
+    \item A higher $f_\#$ is preferable as it makes a better sensitivity-resolution trade-off easier to achieve. The f-stop is, however, bounded by the speckle size, which grows with it: keeping the speckle within 2--5 pixels confines the achievable $S/s_{min}$ to a fixed interval (Chapter \ref{chapter: methodology}). Moreover, the smaller aperture might reduce contrast and require larger exposure times, which increase motion blur. Directed SBOS uses a laser pointed at the camera, which produces high luminous contrast, allowing exposure times of a few hundred microseconds with a 0.5 mW laser.
 
     \item A longer focal length tends to make the setup more robust. A longer $f$ widens the spacing between isolines in the design space, so the performance parameters become less sensitive to positioning errors during assembly. It also raises the sensitivity ceiling of a positive defocus setup, given by Equation \ref{equation: BOS Sensitivity limit}. A moderately shorter lens can be adopted when the physical size of the setup is constrained, at little cost in sensitivity and spatial resolution.
 
@@ -27,11 +27,11 @@ Regarding the \textbf{optical setup}:
 Regarding the \textbf{speckle generator}:
 
 \begin{itemize}
-    \item A low power laser is sufficient for SBOS measurements. The 0.5 mW class 2 continuous laser used in this work produced a pattern of adequate contrast and speckle size. The high luminous contrast also permitted short exposure times.
+    \item A low power laser is sufficient for SBOS measurements. The 0.5 mW class 2 continuous laser used in this work produced a pattern of adequate contrast and speckle size.
 
-    \item The diffuser and the beam should be sized to fill the field of view. The diffuser should be large enough to cover the desired object field of view, and the beam should be expanded to illuminate it. A beam that is too narrow becomes diffraction limited at the diffuser rather than at the lens pupil, which enlarges the speckle and removes its dependence on the aperture. This was probably the cause of the oversized speckles of the first campaign, where a diffuser of 1.27 cm was used with an unexpanded beam, as it was discussed in Section \ref{subsection: Speckle Beam Diameter}.
+    \item The diffuser and the beam should be sized to fill the field of view. The diffuser should be large enough to cover the desired object field of view, and the beam should be expanded to illuminate it. A beam that is too narrow becomes diffraction limited at the diffuser rather than at the lens pupil, which enlarges the speckle and removes its dependence on the aperture. This was probably the cause of the oversized speckles of the first campaign, where the beam, although collimated to fill the diffuser, was limited to its 1.27 cm diameter, as it was discussed in Section \ref{subsection: Speckle Beam Diameter}.
 
-    \item Ideally for CC the speckle size should stay between 2--5 pixels. This value comes from the literature review of Chapter \ref{chapter: LiteratureReview} and is the optimal size to avoid peak locking and not degrading the three-point Gaussian fit. Nevertheless, a larger speckle size can be used, given that a corresponding larger interrogation window is used, thus degrading the spatial resolution.
+    \item Ideally, for cross-correlation, the speckle size should stay between 2--5 pixels. This value comes from the literature review of Chapter \ref{chapter: LiteratureReview} and is the optimal size to avoid peak locking and not degrading the three-point Gaussian fit. Nevertheless, a larger speckle size can be used, given that a corresponding larger interrogation window is used, thus degrading the spatial resolution.
 
     \item The f-stop can be used to tune the speckle size. Section \ref{subsection: Speckle Aperture and Magnification} showed that measured speckle size followed the aperture as expected, while the optical magnification sweep produced almost no change. With a compound camera lens the aperture appears to be the only reliable handle on the speckle size.
 
@@ -41,16 +41,16 @@ Regarding the \textbf{speckle generator}:
 
 \end{itemize}
 
-Regarding the \textbf{refractive object:}
+Regarding the \textbf{refractive object}:
 
 \begin{itemize}
-    \item The strength of the density gradients can lead to excessive blur that must be counteracted with a smaller defocus. In a flow with strong gradients and considerable turbulence, the defocused configurations blurred the speckle pattern to the point of decorrelation. Consequently, the resulting displacement fields were dominated by noise, as shown in Figure \ref{fig: aerospike displacement points 1-3}. Moving the in-focus plane closer to the test section, or even inside of it, proved effective in reducing the blur and made it possible to image the flow.
+    \item The strength of the density gradients can lead to excessive blur that must be counteracted with a smaller defocus. In a flow with strong gradients and considerable turbulence, the defocused configurations blurred the speckle pattern to the point of decorrelation. Consequently, the resulting displacement fields were dominated by noise, as shown in Figure \ref{fig: aerospike displacement points 1-3}. Moving the in-focus plane closer to the test section, or even inside of it, proved effective in reducing the blur and made it possible to image the flow. In that case, the sensitivity no longer follows $S = l_{eff} M_{ag}$ and must be recovered from a second measurement of the same flow through the $S$ ratio method (Section \ref{section: In-focus SBOS}).
 
     \item The thickness of the test section should be taken into account when designing the setup. The design methodology presented in Chapter \ref{chapter: methodology} was limited to an infinitely thin test section to define the spatial resolution and sensitivity. However, the thick wind-tunnel test section increased the effective defocus distance, which worsened considerably the $s_{min}$ figure.
 
 \end{itemize}
 
-The guidelines presented in this section give a concise set of recommendations on how to design an SBOS experimental setup. They summarize all that has been learned throughout this thesis on the design aspect of the method. With them, an optimal optical configuration and speckle generation arrangement can be reached for various applications. The next section will address how SBOS compares with the different optical density measurement techniques tested for this work.
+The guidelines presented in this section give a concise set of recommendations on how to design an SBOS experimental setup. They summarize what has been learned throughout this thesis on the design aspect of the method. With them, a suitable optical configuration and speckle generation arrangement can be reached for various applications. The next section will address how SBOS compares with the other optical density measurement techniques considered in this work.
 
 \section{SBOS Compared to Other Techniques}
 \label{section: SBOS versus other techniques}
