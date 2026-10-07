@@ -527,21 +527,21 @@ In the middle plot of Figure \ref{fig: dataset f density gradients}, correspondi
     \begin{subfigure}[b]{0.32\textwidth}
         \centering
         \includegraphics[width=\textwidth]{figures/centerline density gradient dataset a.png}
-        \caption{Dataset a, with respective $NPR = 2.088$ and $L_s = 2.13$ mm}
+        \caption{Dataset a, with respective $NPR = 2.088$, $L_s = 2.13$ mm and $L_{s,avg} = 1.85$ mm}
         \label{fig: centerline density gradient dataset a}
     \end{subfigure}
     \hfill
     \begin{subfigure}[b]{0.32\textwidth}
         \centering
         \includegraphics[width=\textwidth]{figures/centerline density gradient dataset b.png}
-        \caption{Dataset b, with respective $NPR = 2.353$ and $L_s = 3.14$ mm}
+        \caption{Dataset b, with respective $NPR = 2.353$, $L_s = 3.14$ mm and $L_{s,avg} = 2.66$ mm}
         \label{fig: centerline density gradient dataset b}
     \end{subfigure}
     \hfill
     \begin{subfigure}[b]{0.32\textwidth}
         \centering
         \includegraphics[width=\textwidth]{figures/centerline density gradient dataset c.png}
-        \caption{Dataset c, with respective $NPR = 2.613$ and $L_s = 3.90$ mm}
+        \caption{Dataset c, with respective $NPR = 2.613$, $L_s = 3.90$ mm and $L_{s,avg} = 3.36$ mm}
         \label{fig: centerline density gradient dataset c}
     \end{subfigure}
 
@@ -550,28 +550,28 @@ In the middle plot of Figure \ref{fig: dataset f density gradients}, correspondi
     \begin{subfigure}[b]{0.32\textwidth}
         \centering
         \includegraphics[width=\textwidth]{figures/centerline density gradient dataset d.png}
-        \caption{Dataset d, with respective $NPR = 3.032$ and $L_s = 4.48$ mm}
+        \caption{Dataset d, with respective $NPR = 3.032$, $L_s = 4.48$ mm and $L_{s,avg} = 3.91$ mm}
         \label{fig: centerline density gradient dataset d}
     \end{subfigure}
     \hfill
     \begin{subfigure}[b]{0.32\textwidth}
         \centering
         \includegraphics[width=\textwidth]{figures/centerline density gradient dataset e.png}
-        \caption{Dataset e, with respective $NPR = 3.344$ and $L_s = 4.95$ mm}
+        \caption{Dataset e, with respective $NPR = 3.344$, $L_s = 4.95$ mm and $L_{s,avg} = 4.52$ mm}
         \label{fig: centerline density gradient dataset e}
     \end{subfigure}
     \hfill
     \begin{subfigure}[b]{0.32\textwidth}
         \centering
         \includegraphics[width=\textwidth]{figures/centerline density gradient dataset f.png}
-        \caption{Dataset f, with respective $NPR = 3.875$ and $L_s = 5.00$ mm}
+        \caption{Dataset f, with respective $NPR = 3.875$, $L_s = 5.00$ mm and $L_{s,avg} = 4.81$ mm}
         \label{fig: centerline density gradient dataset f}
     \end{subfigure}
-    \caption[Centerline density gradients of the compressible jet across the $NPR$ sweep]{Centerline density gradient in the s direction for datasets a to f, obtained assuming a planar field. The light blue line is the gradient at the axis row $n = 0$ and the dark blue line its mean over $|n| \leq 0.25$ mm. Red upward triangles mark the compression peaks, black downward triangles the expansion valleys, green circles the density minima and orange squares the density maxima detected along the centerline. The dashed orange line marks the end of the first shock cell, $L_s$}
+    \caption[Centerline density gradients of the compressible jet across the $NPR$ sweep]{Centerline density gradient in the s direction for datasets a to f, obtained assuming a planar field. The light blue line is the gradient at the axis row $n = 0$ and the dark blue line its mean over $|n| \leq 0.25$ mm. Red upward triangles mark the compression peaks, black downward triangles the expansion valleys, green circles the density minima and orange squares the density maxima detected along the centerline. The dashed orange line marks the end of the first shock cell, $L_s$. The subcaptions also give $L_{s,avg}$, the average length of the cells after the first, which is not marked in the plots}
     \label{fig: centerline density gradients}
 \end{figure}
 
-The six plots in Figure \ref{fig: centerline density gradients} allow the identification of important marks in the shock cell structure. The periodicity and dissipation effects are clear: each cell is marked by an expansion valley and a compression peak and its amplitude decreases until atmospheric conditions are reached. The density maxima and minima are also distinguishable as the points where the gradient is zero. The first shock cell length $L_s$ is measured from the nozzle exit to the first density maximum, and the following cells from one maximum to the next. $L_s$ is given in each plot caption, and the average of the following cells, $L_{s,avg}$, is used in Figure \ref{fig: shock cell lengths}. The data confirms the previous qualitative visual evaluations regarding the shock cell sizes, as it shows that $L_s$ increases monotonically with $NPR$, meaning that the shock cells stretch further at increasing nozzle pressure ratios. It is also notable that more cells are present at higher pressures. Now that a more realistic estimate of the $NPR$ and $L_s$/$L_{s,avg}$ have been achieved, it is possible to correlate both quantities using the formats of Equations \ref{equation: Emden Formula} and \ref{equation: Lazarus-Hartmann Formula} to compare with Emden's and Hartmann-Lazarus' formulation respectively \cite{Powell2010, Emden1899, Hartmann1941}. Since the $NPR$ was itself estimated from the same images, this comparison checks the consistency of the $NPR$ estimate with literature data.
+The six plots in Figure \ref{fig: centerline density gradients} allow the identification of important marks in the shock cell structure. The periodicity and dissipation effects are clear: each cell is marked by an expansion valley and a compression peak and its amplitude decreases until atmospheric conditions are reached. The density maxima and minima are also distinguishable as the points where the gradient is zero. The first shock cell length $L_s$ is measured from the nozzle exit to the first density maximum, and the following cells from one maximum to the next. Both $L_s$ and the average of the following cells, $L_{s,avg}$, are given in each plot caption, and the two are correlated in Figure \ref{fig: shock cell lengths}. The data confirms the previous qualitative visual evaluations regarding the shock cell sizes, as it shows that $L_s$ increases monotonically with $NPR$, meaning that the shock cells stretch further at increasing nozzle pressure ratios. It is also notable that more cells are present at higher pressures. Now that a more realistic estimate of the $NPR$ and $L_s$/$L_{s,avg}$ have been achieved, it is possible to correlate both quantities using the formats of Equations \ref{equation: Emden Formula} and \ref{equation: Lazarus-Hartmann Formula} to compare with Emden's and Hartmann-Lazarus' formulation respectively \cite{Powell2010, Emden1899, Hartmann1941}. Since the $NPR$ was itself estimated from the same images, this comparison checks the consistency of the $NPR$ estimate with literature data.
 
 
 The fitted curves using Emden's and Hartmann-Lazarus' formulations are displayed together with the literature solutions in Figure \ref{fig: shock cell lengths}. The obtained values for the constants are: $k = 1.05$ for the Emden format, and $k = 0.894$ and $b = 0.28$ for the Hartmann-Lazarus format. The first $k$ obtained closely matches the value of 1.06 obtained by Hartmann and Lazarus \cite{Hartmann1941} for the cells after the first. However, it does differ from the estimates from Emden \cite{Emden1899}. This deviation might be due to the different way in which he defined $L_s$ as the weighted averaged shock cell length, while the same methodology of Hartmann and Lazarus was used here, where all cell lengths after the first were averaged. It might be also due to differences in the nozzle shape itself. For the first cell, $b = 0.28$ agrees with their $b = 0.30$, while the slope of 0.894 is about 9\% below their 0.98, so the measured $L_s$ lies slightly below their first-cell curve. The average cell lengths $L_{s,avg}$, in turn, follow the Hartmann-Lazarus average closely and lie above Emden's weighted average formulation. Despite the difference to Emden's equation, the data follows closely both of Hartmann-Lazarus' results, which indicates that the $NPR$ estimates and $L_s$ sizes are consistent with the literature.
