@@ -142,7 +142,7 @@ function R = bos_pipeline(D, opts)
     end
     Ub = U - bgU;  Vb = V - bgV;
 
-    % %% ---------------- STEP 2: centerline detection --------------------
+    %% ---------------- STEP 2: centerline detection --------------------
     if opts.centerlineDetection
         cen = local_centerline(Ub, Vb, x, y, opts.centerMethod, opts);
         okc = ~isnan(cen);

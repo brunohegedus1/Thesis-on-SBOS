@@ -73,7 +73,7 @@ l0 = 30;
 %
 %     l_eff = W/2 + l0
 
-W_MODE = 4.4;
+W_MODE = 4.4; %Overwrites local estimation
 W_FALLBACK = 4.0;     % used where the automatic estimate fails
 W_CAP_FRAC = 0.6;     % never let the auto estimate exceed this fraction of
                       % the crop diameter -- beyond that it is measuring the
