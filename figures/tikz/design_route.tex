@@ -1,0 +1,96 @@
+% Design route for an SBOS setup (Section 7.6).
+% Requires \usetikzlibrary{positioning, shapes.geometric, arrows.meta, calc}.
+\begin{figure}[htbp]
+\centering
+\hyphenpenalty=10000
+\begin{tikzpicture}[
+    node distance = 6mm and 6mm,
+    font = \small,
+    >= {Stealth[length=2.2mm]},
+    base/.style = {draw, thick, align=flush center, inner sep=5pt, text width=#1},
+    base/.default = 82mm,
+    io/.style = {base, rounded corners=6pt, fill=blue!8},
+    proc/.style = {base, fill=gray!8},
+    branch/.style = {base=54mm, fill=gray!8},
+    decision/.style = {draw, thick, diamond, aspect=2.6, align=center,
+                       inner sep=1pt, fill=orange!12, text width=38mm},
+    note/.style = {align=left, font=\footnotesize\itshape, text=black!80},
+    line/.style = {->, thick},
+    lbl/.style = {font=\footnotesize, inner sep=1.5pt},
+]
+
+% --- Main column -----------------------------------------------------------
+\node[io] (req) {%
+    \textbf{1. Requirements}\\[2pt]
+    $L_{FoV_{obj}}$ from the object, $L_{sens}$ from the camera\\
+    Target $SR = L_{FoV_{obj}}/s_{min}$ from the smallest feature\\
+    Minimum $S$ from the expected deflection};
+
+\node[proc, below=of req] (optics) {%
+    \textbf{2. Optical design (surface maps)}\\[2pt]
+    Highest $f$ the setup size allows\\
+    Highest $f_\#$ with predicted $\Delta s = 2$--$5$ px\\
+    $SR$ isoline gives $l$, $m$ and $d_f$; check $S$\\
+    Negative defocus at low $l$\\
+    Windowed test section: $l_{eff} = l + G + W/2$};
+
+\node[proc, below=of optics] (speckle) {%
+    \textbf{3. Speckle generator}\\[2pt]
+    Diffuser and expanded beam cover $L_{FoV_{obj}}$\\
+    Beam wide enough for the lens pupil to limit $\Delta s$};
+
+\node[proc, below=of speckle] (calib) {%
+    \textbf{4. Assembly and calibration}\\[2pt]
+    Measure $M_{ag}$ with a calibration target at the in-focus plane\\
+    Measure $\Delta s$ from the reference image};
+
+\node[proc, below=of calib] (acq) {%
+    \textbf{5. Defocused acquisition}\\[2pt]
+    $S_1 = l_{eff}\, M_{ag}$, peak displacement $\Delta_1$};
+
+\node[decision, below=6mm of acq] (dec) {%
+    Does blur decorrelate\\ the pattern?};
+
+% --- Branches --------------------------------------------------------------
+\node[branch, anchor=north] (keep) at ($(dec.south)+(-32mm,-9mm)$) {%
+    \textbf{Keep the defocused setup}\\[2pt]
+    $S = S_1$};
+
+\node[branch, anchor=north] (inf) at ($(dec.south)+(32mm,-9mm)$) {%
+    \textbf{Focus inside the test section}\\[2pt]
+    Same flow condition, sharper field\\
+    $S_2 = (\Delta_2/\Delta_1)\, S_1$ ($S$ ratio method)};
+
+\node[io, below=30mm of dec] (out) {%
+    \textbf{6. Quantification and verification}\\[2pt]
+    Uncertainty budget: cross-correlation scatter and $l$\\
+    Independent reference: predicted displacement,\\
+    literature data, a second configuration or schlieren};
+
+% --- Arrows ----------------------------------------------------------------
+\draw[line] (req) -- (optics);
+\draw[line] (optics) -- (speckle);
+\draw[line] (speckle) -- (calib);
+\draw[line] (calib) -- (acq);
+\draw[line] (acq) -- (dec);
+
+\draw[line] (dec.west) -| node[lbl, left, pos=0.75] {No} (keep.north);
+\draw[line] (dec.east) -| node[lbl, right, pos=0.75] {Yes} (inf.north);
+
+\draw[line] (keep.south) |- ($(out.north)+(-10mm,4mm)$) -- ++(0,-4mm);
+\draw[line] (inf.south) |- ($(out.north)+(10mm,4mm)$) -- ++(0,-4mm);
+
+% Feedback: f-stop couples speckle size and the S/s_min trade-off
+\draw[line, dashed] (calib.east) -- ++(6mm,0) |- (optics.east)
+    node[pos=0.25, right, note, text width=24mm]
+    {Measured $\Delta s$ outside \mbox{2--5 px}: adjust $f_\#$; distances unchanged, $s_{min}$ and $SR$ shift};
+
+% Reuse of the defocused acquisition by the S ratio method
+\draw[line, dashed] (acq.east) -- ($(acq.east)+(23mm,0)$) |- (inf.east)
+    node[pos=0.3, right, note, text width=20mm]
+    {$\Delta_1$ and $S_1$ reused as reference};
+
+\end{tikzpicture}
+\caption[Design route for an SBOS setup]{Design route for an SBOS setup. Steps 1 to 4 follow the design space exploration of Chapter \ref{chapter: methodology}. The dashed arrows mark the f-stop adjustment after the speckle size is measured and the reuse of the defocused acquisition as reference for the $S$ ratio method}
+\label{fig: SBOS design route}
+\end{figure}
