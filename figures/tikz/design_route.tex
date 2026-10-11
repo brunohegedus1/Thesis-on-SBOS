@@ -23,16 +23,15 @@
 \node[io] (req) {%
     \textbf{1. Requirements}\\[2pt]
     $L_{FoV_{obj}}$ from the object, $L_{sens}$ from the camera\\
-    Target $SR = L_{FoV_{obj}}/s_{min}$ from the smallest feature\\
-    Minimum $S$ from the expected deflection};
+    Target $SR = L_{FoV_{obj}}/s_{min}$ from the smallest feature};
 
 \node[proc, below=of req] (optics) {%
     \textbf{2. Optical design (surface maps)}\\[2pt]
-    Highest $f$ the setup size allows\\
-    Highest $f_\#$ with predicted $\Delta s = 2$--$5$ px\\
-    $SR$ isoline gives $l$, $m$ and $d_f$; check $S$\\
-    Negative defocus at low $l$\\
-    Windowed test section: $l_{eff} = l + G + W/2$};
+    Prefer the negative defocus position\\
+    High $f$ is desirable\\
+    High $f_\#$, constrained by the predicted speckle size\\
+    $SR$ isoline gives $l$, $m$ and $d_f$\\
+    Calculate $l_{eff}$ or adjust the maps to include it};
 
 \node[proc, below=of optics] (speckle) {%
     \textbf{3. Speckle generator}\\[2pt]
@@ -57,7 +56,7 @@
     $S = S_1$};
 
 \node[branch, anchor=north] (inf) at ($(dec.south)+(32mm,-9mm)$) {%
-    \textbf{Focus inside the test section}\\[2pt]
+    \textbf{Refocus inside the test section}\\[2pt]
     Same flow condition, sharper field\\
     $S_2 = (\Delta_2/\Delta_1)\, S_1$ ($S$ ratio method)};
 
@@ -91,6 +90,6 @@
     {$\Delta_1$ and $S_1$ reused as reference};
 
 \end{tikzpicture}
-\caption[Design route for an SBOS setup]{Design route for an SBOS setup. Steps 1 to 4 follow the design space exploration of Chapter \ref{chapter: methodology}. The dashed arrows mark the f-stop adjustment after the speckle size is measured and the reuse of the defocused acquisition as reference for the $S$ ratio method}
+\caption[Design route for an SBOS setup]{Design route for an SBOS setup. Steps 1 and 2 follow the design space exploration of Chapter \ref{chapter: methodology}. The in-focus position is chosen in step 2 and changed after step 5 only if blur decorrelates the pattern. The dashed arrows mark the f-stop adjustment after the speckle size is measured and the reuse of the defocused acquisition as reference for the $S$ ratio method}
 \label{fig: SBOS design route}
 \end{figure}
