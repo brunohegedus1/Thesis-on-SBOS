@@ -35,13 +35,13 @@
 \node[proc, below=of optics] (speckle) {%
     \textbf{3. Speckle generator}\\[2pt]
     Diffuser and expanded beam cover $L_{FoV_{obj}}$\\
-    Beam wide enough for the lens pupil to limit $\Delta s$\\
-    check $l_{eff}$ (it could also be included earlier)};
+    Beam wide enough for the lens pupil to limit $\Delta s$};
 
 \node[proc, below=of speckle] (calib) {%
     \textbf{4. Assembly and calibration}\\[2pt]
     Measure $M_{ag}$ with a calibration target at the in-focus plane\\
-    Measure $\Delta s$ from the reference image};
+    Measure $\Delta s$ from the reference image\\
+    check $l_{eff}$};
 
 \node[proc, below=of calib] (acq) {%
     \textbf{5. Defocused acquisition}\\[2pt]
