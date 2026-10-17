@@ -97,19 +97,19 @@ This section addressed the validity and bounds of the conclusions by revisiting 
 
 \section{Systematic Implementation of SBOS}
 \label{section: systematic implementation}
-The main research question asked how SBOS can be systematically implemented to study compressible flows in a laboratory and wind tunnel setting.  In order to reply it, a flow diagram summarizing the key moments in developing such systems is provided in Figure \ref{fig: SBOS design route}.
+The main research question asked how SBOS can be systematically implemented to study compressible flows in a laboratory and wind tunnel setting.  To answer it, a flow diagram summarizing the key moments in developing such systems is provided in Figure \ref{fig: SBOS design route}.
 
 \input{figures/tikz/design_route}
 
-In the flow diagram, the requirements are: the desired field of view of the object $L_{FoV_{obj}}$, the lens sensor dimension $L_{sens}$ and the SR criteria described by Section \ref{section: SR criteria} that gives the smallest distinguishable feature $s_{min}$.
+In the flow diagram, the requirements are: the desired field of view of the object $L_{FoV_{obj}}$, the camera sensor dimension $L_{sens}$ and the SR criteria described by Section \ref{section: SR criteria} that gives the smallest distinguishable feature $s_{min}$.
 
-The optical design uses the surface maps presented in Section \ref{subsection: Surface Maps for SBOS}. The same section discussed the recommendations of the second flow chart block. Negative defocus increases the sensitivity $S$ and resolution trade-off. High f-stop $f_\#$ also allows for sharper images at higher sensitivity. And High camera focal length $f$ increases the system robustness to deviations in the defocus distance $l$. Then, the optical distances $l$, $m$ and $d_f$, described in Section \ref{subsection: standard BOS geometry} are defined by the SR criteria.
+The optical design uses the surface maps presented in Section \ref{subsection: Surface Maps for SBOS}. The same section discussed the recommendations of the second flow chart block. Negative defocus improves the sensitivity-resolution trade-off. High f-stop $f_\#$ also allows for sharper images at higher sensitivity. A long focal length $f$ also increases the system robustness to deviations in the defocus distance $l$. Then, the optical distances $l$, $m$ and $d_f$, described in Section \ref{subsection: standard BOS geometry} are defined by the SR criteria.
 
 The speckle generator follows the recommendations of Section \ref{section: Speckle Pattern Experiment Results}. The diffuser should be selected to fill the observed field of view and the optics of the speckle generator should expand the beam to fill the diffuser.
 
 When assembling the setup, the optical magnification $M_{ag}$ can be obtained through calibration and used to obtain real values of the SBOS optical setup. The effective lever arm $l_{eff}$ takes into account the thickness of the test section and should be used to check the real performance parameters. After predicting some of the parameters based on a few assumptions (for example, thin test section), the real values might slightly differ (such as the average speckle size $\Delta s$, sensitivity $S$ and minimum distinguishable feature $s_{min}$). This makes clear that to reach the wanted setup a few iterations might be required.
 
-The acquisition happens on the fifth step, where a displacement $\Delta$ is measured through the cross-correlation of the reference and flow images. In case the resolution of the displacement field is not satisfactory (for example due to decorrelation), the focus can be placed inside the test for another acquisition with sharper resolution. The, the S-ratio method described in Section \ref{section: In-focus SBOS} can be used to compute the sensitivity and retrieve the flow density gradients. Finally, the results must be post-processed and verified.
+The acquisition happens on the fifth step, where a displacement $\Delta$ is measured through the cross-correlation of the reference and flow images. In case the resolution of the displacement field is not satisfactory (for example due to decorrelation), the focus can be placed inside the test section for another acquisition with sharper resolution. Then, the $S$ ratio method described in Section \ref{section: In-focus SBOS} can be used to compute the sensitivity and retrieve the flow density gradients. Finally, the results must be post-processed and verified.
 
 \FloatBarrier
 
