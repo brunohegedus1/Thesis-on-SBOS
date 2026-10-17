@@ -41,7 +41,7 @@
     \textbf{4. Assembly and calibration}\\[2pt]
     Measure $M_{ag}$ with a calibration target at the in-focus plane\\
     Measure $\Delta s$ from the reference image\\
-    check $l_{eff}$};
+    Check $l_{eff}$};
 
 \node[proc, below=of calib] (acq) {%
     \textbf{5. Defocused acquisition}\\[2pt]
@@ -61,10 +61,9 @@
     $S_2 = (\Delta_2/\Delta_1)\, S_1$ ($S$ ratio method)};
 
 \node[io, below=30mm of dec] (out) {%
-    \textbf{6. Post-Process and Verification}\\[2pt]
-    Treat the resulting pictures\\
-    to obtain the displacements\\
-    and judge critically your results};
+    \textbf{6. Post-processing and verification}\\[2pt]
+    Convert displacements into density gradients\\
+    Verify against an independent reference};
 
 % --- Arrows ----------------------------------------------------------------
 \draw[line] (req) -- (optics);
@@ -82,7 +81,7 @@
 % Feedback: f-stop couples speckle size and the S/s_min trade-off
 \draw[line, dashed] (calib.east) -- ++(6mm,0) |- (optics.east)
     node[pos=0.25, right, note, text width=24mm]
-    {Adjust $l,f, f_\#$ if speckles are outside 2--5 px or other parameter could be improved};
+    {Adjust $l,f, f_\#$ if speckles are outside 2--5 px or other parameters need improvement};
 
 % Reuse of the defocused acquisition by the S ratio method
 \draw[line, dashed] (acq.east) -- ($(acq.east)+(23mm,0)$) |- (inf.east)
@@ -90,6 +89,6 @@
     {$\Delta_1$ and $S_1$ reused as reference};
 
 \end{tikzpicture}
-\caption[Design route for an SBOS setup]{Design route for an SBOS setup. Steps 1 and 2 follow the design space exploration of Chapter \ref{chapter: methodology}. The in-focus position is chosen in step 2 and changed after step 5 only if blur decorrelates the pattern. The dashed arrows mark the f-stop adjustment after the speckle size is measured and the reuse of the defocused acquisition as reference for the $S$ ratio method}
+\caption[Design route for an SBOS setup]{Design route for an SBOS setup. Steps 1 and 2 follow the design space exploration of Chapter \ref{chapter: methodology}. The in-focus position is chosen in step 2 and changed after step 5 only if blur decorrelates the pattern. The dashed arrows mark the adjustment of the optical parameters after assembly and the reuse of the defocused acquisition as reference for the $S$ ratio method}
 \label{fig: SBOS design route}
 \end{figure}
